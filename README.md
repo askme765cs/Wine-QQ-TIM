@@ -15,6 +15,7 @@
 >Exec="..path/qq.sh"%u #..path为sh文件路径  
 >Icon=../path/QQ.jpg #QQ图标文件  
 >Name[fr_FR]=QQ  
+
 4.将QQ.desktop复制到～/local/usr/applications目录下  
 
 5.现在可通过菜单来启动QQ
