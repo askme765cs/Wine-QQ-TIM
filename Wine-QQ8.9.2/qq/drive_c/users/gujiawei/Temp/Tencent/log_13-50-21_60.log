@@ -1,0 +1,29 @@
+[60][77][13:50:21.966]Support Winhttp
+[60][94][13:50:21.994]CWinHttpFile::Close
+[60][94][13:50:22.245]WinHttpQueryHeaders file size:8792
+[60][94][13:50:22.245]CWinHttpFile::Open return: 1
+[60][94][13:50:22.251]AsyncCallback WINHTTP_CALLBACK_STATUS_HANDLE_CLOSING
+[60][94][13:50:22.352]CWinHttpFile::Close
+[60][77][13:50:22.352]CWinHttpFile::Close
+[60][94][13:50:22.353] CHttpDownloadImp::WorkThread success POST MSG_DOWNLOAD_COMPLETE, ERR = 0.
+[60][77][13:50:22.353]CWinHttpFile::Close
+[60][77][13:50:43.166]CHttpDownloadImp::Download, url=http://c.gj.qq.com/fcgi-bin/querysrc?id=10004&guid=p1VLVhqCVMGaRNZyxgOWRMkuVKLrNZCAHgyhKOFf4GPoooF2rAONn4HWqNNZiMgV&ver=100068&optype=1&inst=4&opfrom=0&error=0&parent=QQ8.9.2.exe&jp=2&wow=1&groupid=0&src=0, destPath=C:\users\gujiawei\Application Data\Tencent\QQ\STemp\SetupEx0\8E84vR.v8t
+[60][77][13:50:43.166]Support Winhttp
+[60][176][13:50:43.187]CWinHttpFile::Close
+[60][176][13:50:43.472]WinHttpQueryHeaders file size:0
+[60][176][13:50:43.472]CWinHttpFile::Open return: 1
+[60][176][13:50:43.476]AsyncCallback WINHTTP_CALLBACK_STATUS_HANDLE_CLOSING
+[60][176][13:50:43.581]CWinHttpFile::Close
+[60][176][13:50:43.583] CHttpDownloadImp::WorkThread success POST MSG_DOWNLOAD_COMPLETE, ERR = 6.
+[60][77][13:50:43.746]CWinHttpFile::Close
+[60][77][13:50:43.747]CWinHttpFile::Close
+[60][362][13:51:19.351]CHttpDownloadImp::Download, url=http://c.gj.qq.com/fcgi-bin/querysrc?id=10004&guid=CQEjCF9zN8bQFkXTJMVfhaMJdW6CArER43QM/WawNAc8dawV9N3NaFAAdRFXANnt&ver=100068&optype=3&inst=4&opfrom=4&error=0&parent=QQ8.9.2.exe&jp=2&wow=1&groupid=0&src=0, destPath=C:\windows\system32\tyM5VL1Ij8623.xml
+[60][362][13:51:19.352]Support Winhttp
+[60][371][13:51:19.398]CWinHttpFile::Close
+[60][371][13:51:24.527]WinHttpQueryHeaders file size:0
+[60][371][13:51:24.527]CWinHttpFile::Open return: 1
+[60][372][13:51:24.529]AsyncCallback WINHTTP_CALLBACK_STATUS_HANDLE_CLOSING
+[60][371][13:51:24.630]CWinHttpFile::Close
+[60][371][13:51:24.631] CHttpDownloadImp::WorkThread success POST MSG_DOWNLOAD_COMPLETE, ERR = 6.
+[60][362][13:51:25.072]CWinHttpFile::Close
+[60][362][13:51:25.073]CWinHttpFile::Close

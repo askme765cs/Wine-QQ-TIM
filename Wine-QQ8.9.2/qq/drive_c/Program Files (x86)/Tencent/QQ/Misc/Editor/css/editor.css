@@ -1,0 +1,223 @@
+/* #compose_toolbtn */
+.qmEditorBase {width:100%;height:100%;-webkit-user-select:none;/*border-collapse:collapse;border-right:1px solid #c3c3c3;border-top:1px solid #9a9a9a;border-left:1px solid #9a9a9a;*/}/*leezyli 2014.3.18 19:27*/
+.qmEditorBaseStandalone {background:#edeeee;};
+.qmEditorBaseBd {/*border-top:1px solid #c3c3c3;*/position:relative;}
+.qmEditorToolBar {border-bottom:none;}
+.qmEditorToolbarDivBase {height:100%;height:27px;cursor:default;}
+.qmEditorToolbarDivEmbed {padding:7px 15px 0px 15px;}
+.qmEditorToolBarDivStandalone {padding:7px 2px 0px 10px;border-bottom:1px solid #d7d7d7;}
+.qmEditorToolBarItem {float:left;font-size:1px;margin:0px 5px 0 0;}
+.settingDiv_div .qmEditorToolBarItem{line-height:17px;}
+.qmEditorToolBarItemRight{float:right;font-size:1px;margin:0 5px;*margin:1px 3px 0;}
+.qmEditorContentEmbed {padding:0 0px 3px 15px;}/* leezyli 2014.3.18 19:58*/
+.qmEditorContentStandalone {padding:10px 10px 3px 10px;} /*编辑模式 leezyli 2014.3.18 19:24*/
+.qmEditorText {height:100%;border:none;margin:0;padding:0 4px;font:normal 14px "lucida Grande",Verdana;line-height:160%;word-break:break-all;white-space:pre-wrap;word-wrap:break-word;zoom:1;width:99%;}
+.qmEditorDivEditArea {display:block;height:100%;overflow:auto;padding:1px 4px;font:normal 14px "lucida Grande",Verdana;background:#fff;line-height:160%;word-break:break-all;white-space:pre-wrap;word-wrap:break-word;border-top:1px solid #d4d4d4;}
+.qmEditorTitleBoxEmbed {position:absolute;left:16px;right:16px;width:auto;height:30px;z-index:0;border-top:1px solid #d7d7d7;border-bottom: 1px dashed #d9dadc; padding-left: 2px;}/*leezyli 2014.3.21 10:19*/
+.qmEditorTitleBoxEmbed_rd {position:absolute;left:16px;right:16px;width:auto;height:30px;z-index:0;border-bottom: 1px dashed #d9dadc; padding-left: 2px;}
+.qmEditorTitleBoxEmbedNoTitle{display:none;}
+.qmEditorTitleBoxStandalone {position:absolute;left:16px;right:16px;width:auto;height:30px;z-index:0;border-bottom: 1px dashed #d9dadc;}
+.qmEidtorTitlePlaceHolder {font-size: 16px; font-family:Microsoft YaHei; color:#000000; cursor:text; width: 100%; padding-left: 2px; margin-top:3px; border:0px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;}/*leezyli 2014.3.18 19:25*/
+.qmEditorIfrmEditAreaEmbed {display:block;width:100%;height:100%;padding-top:35px;margin-bottom:1px;background:#fff;}/*leezyli 2014.3.18 19:25*/
+.qmEditorIfrmEditAreaEmbedNoTitle {display:block;width:100%;height:100%;padding-top:10px;margin-bottom:1px;background:#fff;}
+.qmEditorIfrmEditAreaStandalone {display:block;width:100%;height:100%;padding-top:35px;margin-bottom:1px;background:#fff;box-shadow:0px 0px 3px 2px #d7d7d7;};
+.qmEditorTBExternItem {}
+
+a.qmEditorFontFormat:focus {background-position: -688px 0;}
+a.qmEditorScreenSnap:focus {background-position: -248px 0;}
+a.qmEditorPhoto:focus {background-position: -56px 0;}
+a.qmEditorUndo:focus {background-position: -520px 0;}
+input.qmEditorIcon:focus{
+    background: url('../images/Toolbar_h.png') no-repeat;border:none;
+}
+div.qmEditorBold input.qmEditorIcon:focus{background-position: -80px 0;}
+div.qmEditorItalic input.qmEditorIcon:focus{background-position: -103px 0;}
+div.qmEditorUnderline input.qmEditorIcon:focus{background-position: -126px 0;}
+div.qmEditorForeColor input.qmEditorIcon:focus{background-position: -57px 0;}
+div.qmEditorBackColor input.qmEditorIcon:focus{background-position: -149px 0;}
+div.qmEditorAlignMode input.qmEditorIcon:focus{background-position: -331px 0;}
+div.qmEditorSerial input.qmEditorIcon:focus{background-position: -229px 0;}
+div.qmEditorCreateLink input.qmEditorIcon:focus{background-position: 0 0;}
+div.qmEditorIndent input.qmEditorIcon:focus{background-position: -183px 0;}
+div.qmEditorOutdent input.qmEditorIcon:focus{background-position: -206px 0;}
+
+div.qmEditorComboBtnContainer:focus{
+    outline: 1px solid #1583dd;
+    border: 1px solid #9ec2df;
+}
+div:focus { outline: none; }
+/* combo btn style */
+.qmEditorComboBtnContainer{
+    border: 1px solid #CCCCCC;
+    background: #ffffff;
+    border-radius: 1px;
+}
+.qmEditorComboBoxContainer, .qmEditorComboBtnContainer:hover{
+    outline: 1px solid #1583dd;
+    border: 1px solid #9ec2df;
+}
+.qmEditorComboBtnBox{
+    /*width: 60px;*/
+    height: 18px;
+    font-size: 12px;
+    line-height: 18px;
+    padding-left: 5px;
+    padding-right:5px;
+    font-family: Microsoft YaHei;
+    vertical-align: middle;
+    display: inline-block!important;
+    /*overflow-x:auto;*/
+}
+.qmEditorComboBtnFontSize{
+    width: 20px!important;
+}
+.qmEditorComboBtnBox.qmEditorComboBtnFontSize{
+    padding-right:0px;
+}
+.qmEditorComboBtnIcon{
+    width: 20px;
+    height: 18px;
+    display: inline-block!important;
+    background: url(../images/newicon/arrow.png) no-repeat center center;
+    vertical-align: middle;
+}
+/* comm btn icon */
+.qmEditorMenuIcon {width:24px;height:17px;text-align:center;padding:1px;border:none;overflow:hidden;}
+.qmEditorBtnIcon {height:21px;border:none;}
+.qmEditorBtnIconOver {background: url('../images/Toolbar_h.png') no-repeat;border:none;}
+.qmEditorBtnIconCheck {background: url('../images/Toolbar_d.png') no-repeat;border:none;}
+.qmEditorBtnA, .qmEditorFormatting {padding:2px 0 3px 8px;color:#039;font:normal 12px "lucida Grande",Verdana;cursor:pointer;white-space:nowrap;-moz-user-select:none}
+/* btn icon */
+.qmEditorIcon {background: url('../images/Toolbar_n.png') no-repeat;border:none;width:21px;height:21px;}
+.qmEditorSeparate .qmEditorIcon {background:none;}
+.qmEditorBold .qmEditorIcon {background-position: -103px 0;}
+.qmEditorBold.qmEditorBtnIconOver {background-position: -80px 0;}
+.qmEditorBold.qmEditorBtnIconCheck {background-position: -80px 0;}
+.qmEditorItalic .qmEditorIcon {background-position: -126px 0;}
+.qmEditorItalic.qmEditorBtnIconOver {background-position: -103px 0;}
+.qmEditorItalic.qmEditorBtnIconCheck {background-position: -103px 0;}
+.qmEditorUnderline .qmEditorIcon {background-position: -149px 0;}
+.qmEditorUnderline.qmEditorBtnIconOver {background-position: -126px 0;}
+.qmEditorUnderline.qmEditorBtnIconCheck {background-position: -126px 0;}
+.qmEditorForeColor .qmEditorIcon {background-position: -80px 0;}
+.qmEditorForeColor.qmEditorBtnIconOver {background-position: -57px 0;}
+.qmEditorForeColor.qmEditorBtnIconCheck {background-position: -57px 0;}
+.qmEditorBackColor .qmEditorIcon {background-position: -172px 0;}
+.qmEditorBackColor.qmEditorBtnIconOver {background-position: -149px 0;}
+.qmEditorBackColor.qmEditorBtnIconCheck {background-position: -149px 0;}
+.qmEditorAlignMode .qmEditorIcon {background-position: -400px 0;}
+.qmEditorAlignMode.qmEditorBtnIconOver {background-position: -331px 0;}
+.qmEditorAlignMode.qmEditorBtnIconCheck {background-position: -331px 0;}
+.qmEditorSerial .qmEditorIcon {background-position: -252px 0;}
+.qmEditorSerial.qmEditorBtnIconOver {background-position: -229px 0;}
+.qmEditorSerial.qmEditorBtnIconCheck {background-position: -229px 0;}
+.qmEditorformatblock{width:20px;}
+.qmEditorformatblock .qmEditorIcon {background-position:-572px 1px;width:16px;}
+.qmEditorCreateLink .qmEditorIcon {background-position: 0 0;}
+.qmEditorCreateLink.qmEditorBtnIconOver {background-position: 0 0;}
+.qmEditorCreateLink.qmEditorBtnIconCheck {background-position: 0 0;}
+.qmEditorJustifyLeft .qmEditorIcon {background-position: -457px 0;}
+.qmEditorJustifyCenter .qmEditorIcon {background-position: -377px 0;}
+.qmEditorJustifyRight .qmEditorIcon {background-position: -434px 0;}
+.qmEditorInsertorDeredlist .qmEditorIcon {background-position: -23px 0;}
+.qmEditorInsertunorDeredlist .qmEditorIcon {background-position: -286px 0;}
+.qmEditorIndent .qmEditorIcon {background-position: -206px 0;}
+.qmEditorIndent.qmEditorBtnIconOver {background-position: -183px 0;}
+.qmEditorIndent.qmEditorBtnIconCheck {background-position: -183px 0;}
+.qmEditorOutdent .qmEditorIcon {background-position: -229px 0;}
+.qmEditorOutdent.qmEditorBtnIconOver {background-position: -206px 0;}
+.qmEditorOutdent.qmEditorBtnIconCheck {background-position: -206px 0;}
+/* btn icon mode */
+.qmEditorBtnIconSeparate {width:1px;}
+.qmEditorBtnIconBold {width:21px;}
+.qmEditorBtnIconItalic {width:21px;}
+.qmEditorBtnIconUnderline {width:21px;}
+.qmEditorBtnIconForeColor {width:21px;}
+.qmEditorBtnIconBackColor .qmEditorIcon {width:32px!important;}
+.qmEditorBtnIconAlignMode .qmEditorIcon {width:32px!important;}
+.qmEditorBtnIconSerial .qmEditorIcon {width:32px!important;}
+.qmEditorBtnIconIndent {width:21px;}
+.qmEditorBtnIconCreateLink {width:21px;}
+.qmEditorBtnIconPhoto {width:24px;}
+.qmEditorScreenSnap {width:24px;}
+.qmEditorBtnIconMo {width:24px;}
+/* btn icon + text mode */
+.qmEditorBtnText { width:16px;border-width:0px;height:14px;margin:2px 10px 0 0;padding:1px 0; }
+.qmEditorBtnText .qmEditorIcon {font-size:12px;cursor:pointer;margin-right:5px;}
+/* menu */
+.qmEditorMenuBorder {border:1px outset;* border:2px outset;position:absolute;z-index:99;background:white;padding:2px;font-size:1px;}
+.qmEditorMenuItem, .qmEditorMenuItemOver, .qmEditorMenuItemCheck, .qmEditorMenuItemDisabled {width:130px;height:16px;line-height:16px;padding:2px;cursor:default;font:normal 12px "lucida Grande",Verdana;}
+.qmEditorMenuItem, .qmEditorMenuItem, .qmEditorMenuItemDisabled {padding:3px;}
+.qmEditorMenuItemOver {border:1px solid #000080;background:#FFEEC2;color:#036;}
+.qmEditorMenuItemCheck {border:1px solid #9a9afb;}
+.qmEditorMenuItemDisabled {color:gray;}
+.qmEditorMenuColor {width:10px;*width:12px;height:10px;*height:12px;font-size:1px;border:1px solid #a6a6a6;}
+.qmEditorMenuPanel {font-size:12px;padding:3px;}
+.qmEditorCLNameDef {color:gray;}
+.qmEditorCLNameMdf {color:black;}
+.qmEditorFormatting {text-decoration:none;color:gray;}
+.qmEditorFormatBtn {float:left;padding:2px 0 3px 5px;* padding:1px 0 3px 5px;}
+.qmEditorLinkDiv {padding-bottom:5px;}
+.qmEditorLinkBtn {margin-left:3px;}
+.qmEditorLinkButton {text-align:right;}
+/* menu item */
+.qmEditorMenuStatusItem {padding:3px 10px 3px 0;cursor:pointer;}
+.qmEditorMenuIconStatusItem {padding:0px 10px 0px 0;cursor:pointer;}
+.qmEditorMenuIconStatusItem .qmEditorIcon {cursor:pointer;}
+
+/*Opera*/
+@media all and (-webkit-min-device-pixel-ratio:10000), not all and (-webkit-min-device-pixel-ratio:0) {
+	head~body #QMEditorArea {margin-bottom:28px;}
+}
+/*menu arrow*/
+.qmpanel_shadow .arrow {position:absolute;top:-4px;width:11px;height:11px;overflow:hidden; border:1px solid #bababa; background:#FFFFFF;/*border-width:0 5px 11px;border-style:dashed dashed solid;border-color:transparent transparent #BABABA;*/
+	clip:rect(-3px, 10px, 10px, -3px);
+	-moz-box-shadow:0 0 3px rgba(0,0,0,0.15);-webkit-box-shadow:0 0 3px rgba(0,0,0,0.15);-o-box-shadow:0 0 3px rgba(0,0,0,0.15);box-shadow:0 0 3px rgba(0,0,0,0.15);
+	-moz-transform:rotate(45deg);-webkit-transform:rotate(45deg);-o-transform:rotate(45deg);transform:rotate(45deg);
+	top:-10px\9;clip:rect(-3px 100px 100px -3px)\9;
+	filter:progid:DXImageTransform.Microsoft.Matrix(Dx=-2, Dy=12, M11=0.7,M12=0.7,M21=-0.7,M22=0.7);}
+@media screen and (-webkit-min-device-pixel-ratio:0) {.qmpanel_shadow .arrow{clip:rect(-3px, 10px, 10px, -3px);}}
+/* btn close */
+.qmpanel_shadow .btn_close {position:absolute;z-index:3;right:8px;top:8px;width:13px;height:13px;overflow:hidden;vertical-align:middle;background:url(../images/newicon/mail.png) no-repeat scroll -96px -19px;
+	-moz-border-radius:2px;-webkit-border-radius:2px;-o-border-radius:2px;border-radius:2px;}
+.qmpanel_shadow .btn_close:hover {background-position:-107px -19px;background-color:#999;}
+.qmpanel_shadow .btn_close:active {opacity:0.6;filter:alpha(opacity=60);}
+
+/*mo*/
+.qmEditorMoOuter {}
+.qmEditorMoPadding {padding:6px 6px 2px;}
+.qmEditorMoLoading {float:left;font:normal 12px Verdana;display:none;padding-top:8px;color:gray;}
+.qmEditorMoPageCntr {font-size:12px;color:#000;cursor:default;padding:1px 5px 1px 0;}
+.qmEditorMoPage {margin-top:7px;color:#000;border:none;background:transparent;margin-right:2px;filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffff', endColorstr='#ffffff');}
+.qmEditorMoTurnPage {border:none;width:50px;height:18px;background:#fff;cursor:pointer;text-align:center;filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffff', endColorstr='#ffffff');}
+.qmEditorMoTurnPage:active,.qmEditorMoPage:active{background:#fff;filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffff', endColorstr='#ffffff');}
+.qmEditorMoPreview {background:#fff;position:absolute;left:0;top:0;border:1px solid #004B97;text-align:center;overflow:hidden;}
+.qmEditorToolLoading {text-align:center;padding:36px 0;}
+
+.compose_toolbtn {position:relative;margin:0px 6px 0 0;display:inline-block;white-space:nowrap;}
+.compose_toolbtn_text {background: url('../images/ToolbarExt.png') no-repeat;display:inline-block;width:54px;height:24px;}
+
+/*leezyli*/
+.qmEditorFontFormat {background-position: -744px 0;}
+.qmEditorFontFormat_hover {background-position: -688px 0;}
+.qmEditorFontFormat_active {background-position: -632px 0;}
+.compose_toolbtn_text.qmEditorFontFormat { margin-left:0px; }
+.compose_toolbtn_text.qmEditorSeparate {background: none; width:1px; border-left: 1px solid #d7d7d7;}
+
+.qmEditorMo:link {background:url('../images/mo_n.png') no-repeat;}
+.qmEditorMo:hover {background:url('../images/mo_h.png') no-repeat;}
+.qmEditorMo:active {background:url('../images/mo_d.png') no-repeat;}
+
+.qmEditorScreenSnap:link {background-position: -328px 0;}
+.qmEditorScreenSnap:hover {background-position: -248px 0;}
+.qmEditorScreenSnap:active {background-position: -168px 0;}
+.compose_toolbtn_text.qmEditorScreenSnap { width:78px; height:24px; }
+
+.qmEditorPhoto:link {background-position: -112px 0;}
+.qmEditorPhoto:hover {background-position: -56px 0;}
+.qmEditorPhoto:active {background-position: 0 0;}
+
+.qmEditorUndo:link {background-position: -576px 0;}
+.qmEditorUndo:hover {background-position: -520px 0;}
+.qmEditorUndo:active {background-position: -464px 0;}
+.qmEditorUndo_disable {background-position: -408px 0; cursor:default;}

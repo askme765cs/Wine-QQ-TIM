@@ -1,0 +1,148 @@
+<script language="javascript">
+
+function GetFileName(linkObj)
+{
+	if ("undefined" != typeof(linkObj.filename))
+	{
+		return linkObj.filename;
+	}
+	else if ("undefined" != typeof(linkObj.FILENAME))
+	{
+		return linkObj.FILENAME;
+	}
+	else if ("undefined" != typeof(linkObj.FileName))
+	{
+		return linkObj.FileName;
+	}
+	else if ("undefined" != typeof(linkObj.fileName))
+	{
+		return linkObj.fileName;
+	}
+	else if ("undefined" != typeof(linkObj.Filename))
+	{
+		return linkObj.Filename;
+	}
+	else
+	{
+		return "";
+	}
+}
+
+function AddLink(Url,Info,Location, strCookie, CID, strFileName)
+{	
+    if (Url != "")
+    {
+        try
+        {
+            var QQRightClick = new ActiveXObject("QQMiniDL.RightClick.1");
+    
+            try
+            {
+                QQRightClick.SendUrl4(Url,Location,Info,strCookie,0,CID,"","",strFileName);
+            }
+            catch(e)
+            {
+               QQRightClick.SendUrl2(Url, Location, Info, strCookie, 0, CID);
+            }
+        }
+        catch(e)
+        {
+        }
+    }
+}
+
+function OnContextMenu()
+{
+    var srcEvent = external.menuArguments.event;
+    var EventElement;
+
+    var CID = 22003
+    var theCID = external.menuArguments.document.getElementById("qqdl_cid");
+    if (theCID != null)
+    {
+        CID = theCID.value;
+    }
+
+    if(typeof(srcEvent.clientX) == "undefined")
+    {
+        EventElement = external.menuArguments.document.elementFromPoint ( srcEvent.pointerX, srcEvent.pointerY );
+    }
+    else
+    {
+        EventElement = external.menuArguments.document.elementFromPoint ( srcEvent.clientX, srcEvent.clientY );
+    }
+
+    var strLocation = external.menuArguments.location; // 引用页
+
+    var srcAnchor;
+
+    if (srcEvent.type == "MenuExtAnchor")
+    {
+        srcAnchor = EventElement;
+
+        do
+        { 
+            srcAnchor=srcAnchor.parentElement;
+        }
+        while(typeof(srcAnchor)=="HTMLAnchorElement");
+
+        AddLink(srcAnchor.href,srcAnchor.innerText,strLocation, external.menuArguments.document.cookie, CID, GetFileName(srcAnchor));
+    }
+    else if (srcEvent.type == "MenuExtImage")
+    {
+        if (typeof(EventElement) == "HTMLAreaElement")
+        {
+            AddLink(EventElement.href,EventElement.Alt,strLocation, external.menuArguments.document.cookie, CID, GetFileName(EventElement));
+        }
+        else 
+        {
+            var srcImage = EventElement;
+            var srcAnchor = srcImage.parentElement;
+            do
+            { 
+                srcAnchor=srcAnchor.parentElement;
+                if (typeof(srcAnchor) == "undefined")
+                {
+                	AddLink(srcImage.href, srcImage.Alt, strLocation, external.menuArguments.document.cookie, CID, GetFileName(srcImage));
+                	return;
+                }
+            }while(typeof(srcAnchor) == "HTMLAnchorElement");
+
+            AddLink(srcAnchor.href,srcImage.Alt,strLocation, external.menuArguments.document.cookie, CID, GetFileName(srcAnchor));
+        }
+    }	
+    else if (srcEvent.type == "MenuExtUnknown")
+    {
+        srcAnchor = EventElement;
+        if(srcAnchor != null && srcAnchor.tagName != null && srcAnchor.tagName.toLowerCase() == "a")
+        {
+            AddLink(srcAnchor.href,srcAnchor.innerText,strLocation, external.menuArguments.document.cookie, CID, GetFileName(srcAnchor));
+        }
+        else
+        {
+            while(srcAnchor != null && srcAnchor.tagName != null && srcAnchor.tagName.toLowerCase() != "a")
+            {
+                srcAnchor = srcAnchor.parentElement;
+                if(srcAnchor != null && srcAnchor.tagName != null && srcAnchor.tagName.toLowerCase() == "a")
+                {
+                    AddLink(srcAnchor.href,srcAnchor.innerText,strLocation, external.menuArguments.document.cookie, CID, GetFileName(srcAnchor));
+                    return;
+                }
+            }
+
+            if(EventElement != null && EventElement.tagName != null)
+            {
+                AddLink(EventElement.href,EventElement.innerText,strLocation, external.menuArguments.document.cookie,CID, GetFileName(EventElement));
+            }
+            else
+            {
+                alert("无法识别的超级链接信息");
+            }
+        }
+    }
+}
+
+OnContextMenu();
+
+</script>
+

@@ -1,0 +1,5 @@
+﻿<theme-config PackPreview="preview.png" PackName="竹韵" PackMinVer="3487" PackVersion="2.0" PackID="FA59D7">
+	<backgroundlist>
+		<background mainfile="main.jpg" bkgstyle="toprightstretch" color="ff000000"/>
+	</backgroundlist>
+</theme-config>

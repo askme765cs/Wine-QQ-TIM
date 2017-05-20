@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<tpc version="1.0.0">
+	<file-systems>
+		<file-system name="sysroot:" path=""/>
+		<file-system name="@this:" path="MedalWall"/>
+		<file-system name="@thisxtml:" path="@this:Xtml"/>
+		<file-system name="@thisres:" path="@this:Res"/>
+		<file-system name="sysres:" path="@this:Res"/>
+		<file-system name="sysxtml:" path="@this:Xtml"/>
+		<file-system name="systheme:" path="@this:Res"/>
+	</file-systems>
+	
+	<core-configs>
+		<core-config file="@this:common.xml"/>
+		<!--<core-config file="@this:Config.Camera.xml"/>-->
+	</core-configs>
+	
+	<gf-config file="@this:gf-config.xml"/>
+	<i18n-config file="@this:I18N\Config.xml"/>
+</tpc>

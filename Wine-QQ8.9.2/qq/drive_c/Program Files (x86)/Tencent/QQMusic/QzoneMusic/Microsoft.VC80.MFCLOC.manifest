@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<!-- Copyright © 1981-2001 Microsoft Corporation -->
+<assembly xmlns="urn:schemas-microsoft-com:asm.v1" manifestVersion="1.0">
+    <noInheritable/>
+    <assemblyIdentity type="win32" name="Microsoft.VC80.MFCLOC" version="8.0.50727.4053" processorArchitecture="x86" publicKeyToken="1fc8b3b9a1e18e3b"/>
+    <file name="mfc80CHS.dll" hash="8db04669cde95d8330a1e0a80c0b540bc15d4ea1" hashalg="SHA1"/>
+    <file name="mfc80CHT.dll" hash="20deef239d4e83755e8df04016a5268c8b73a10b" hashalg="SHA1"/>
+    <file name="mfc80DEU.dll" hash="8cd4af170ed5780193cabea33dad05b9362d4677" hashalg="SHA1"/>
+    <file name="mfc80ENU.dll" hash="2cd4807c7b40a166c9eaaa75dae7e2d61957e3e5" hashalg="SHA1"/>
+    <file name="mfc80ESP.dll" hash="194ce7e794affc14a2901381124fa3602db796dc" hashalg="SHA1"/>
+    <file name="mfc80FRA.dll" hash="d0c9d96473b8443777ce9a3bbe2014051c8e2b11" hashalg="SHA1"/>
+    <file name="mfc80ITA.dll" hash="b82d1805ff373eb6f6b3f71946c152bcfa2e50b9" hashalg="SHA1"/>
+    <file name="mfc80JPN.dll" hash="2b7c03ac0b038dcc8a3e359d027b05751bc7dd8e" hashalg="SHA1"/>
+    <file name="mfc80KOR.dll" hash="8c80464423eda646206d228aa6e9fafbf0527db6" hashalg="SHA1"/>
+</assembly>

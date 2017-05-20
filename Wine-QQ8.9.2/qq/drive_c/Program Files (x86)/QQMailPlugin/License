@@ -1,0 +1,137 @@
+Licenses 
+
+The product uses three .dll documents which are subjected to the following Open Source Licenses. The three .dll documents are: mozcret19.dll, nspr4.dll, plc4.dll. You may obtain copies of the documents from http://releases.mozilla.org/pub/mozilla.org/xulrunner/releases/1.9.0.11/runtimes/. Please check the specific document you intend to use to decide which License should be applied.   
+
+
+Netscape Public License Version1.1
+
+ * The contents of this file are subject to the Netscape Public License Version1.1
+ *  (the "License"); you may not use this file except in compliance with
+ * the License. You may obtain a copy of the License at
+ * http://www.mozilla.org/MPL/NPL-1.0.html
+ *
+ * Software distributed under the License is distributed on an "AS IS" basis,
+ * WITHOUT WARRANTY OF ANY KIND, either express or implied. See the License
+ * for the specific language governing rights and limitations under the
+ * License.
+ *
+	* The Original Code is mozilla.org code is Mozilla Communicator client code, 
+	* released March 31, 1998
+ *
+ * The Initial Developer of the Original Code is
+ * Netscape Communications Corporation.
+ * Portions created by Netscape are Copyright (C) 1998-1999 
+ * Netscape Communications Corporation. All Rights Reserved.
+ *
+ * Contributor(s):
+ *
+ * Alternatively, the contents of this file may be used under the
+ * terms of the _____ license (the "[___] License"), in which case
+	*the provisions of [______] License are applicable  instead of
+	*hose above. If you wish to allow use of your version of this
+	*file only under the terms of the [____] License and not to allow
+	*others to use your version of this file under the NPL, indicate
+	*your decision by deleting the provisions above and replace  them
+	*with the notice and other provisions required by the [___]
+	*License. If you do not delete the provisions above, a recipient
+	*may use your version of this file under either the NPL or the
+	* [___] License."
+
+
+	MPL 1.1/GPL 2.0/LGPL 2.1
+ *
+ * The contents of this file are subject to the Mozilla Public License Version
+ * 1.1 (the "License"); you may not use this file except in compliance with
+ * the License. You may obtain a copy of the License at
+ * http://www.mozilla.org/MPL/
+ *
+ * Software distributed under the License is distributed on an "AS IS" basis,
+ * WITHOUT WARRANTY OF ANY KIND, either express or implied. See the License
+ * for the specific language governing rights and limitations under the
+ * License.
+ *
+ * The Original Code is mozilla.org code.
+ *
+ * The Initial Developer of the Original Code is
+ * Netscape Communications Corporation.
+ * Portions created by the Initial Developer are Copyright (C) 1998
+ * the Initial Developer. All Rights Reserved.
+ *
+ * Contributor(s):
+ *
+ * Alternatively, the contents of this file may be used under the terms of
+ * either the GNU General Public License Version 2 or later (the "GPL"), or
+ * the GNU Lesser General Public License Version 2.1 or later (the "LGPL"),
+ * in which case the provisions of the GPL or the LGPL are applicable instead
+ * of those above. If you wish to allow use of your version of this file only
+ * under the terms of either the GPL or the LGPL, and not to allow others to
+ * use your version of this file under the terms of the MPL, indicate your
+ * decision by deleting the provisions above and replace them with the notice
+ * and other provisions required by the GPL or the LGPL. If you do not delete
+ * the provisions above, a recipient may use your version of this file under
+ * the terms of any one of the MPL, the GPL or the LGPL.
+ *
+
+Joint Apple-Mozilla License
+*
+* Copyright ?2004, Apple Computer, Inc. and The Mozilla Foundation. 
+ * All rights reserved.
+ * 
+ * Redistribution and use in source and binary forms, with or without
+ * modification, are permitted provided that the following conditions are
+ * met:
+ * 
+ * 1. Redistributions of source code must retain the above copyright
+ * notice, this list of conditions and the following disclaimer.
+ * 2. Redistributions in binary form must reproduce the above copyright
+ * notice, this list of conditions and the following disclaimer in the
+ * documentation and/or other materials provided with the distribution.
+ * 3. Neither the names of Apple Computer, Inc. ("Apple") or The Mozilla
+ * Foundation ("Mozilla") nor the names of their contributors may be used
+ * to endorse or promote products derived from this software without
+ * specific prior written permission.
+ * 
+ * THIS SOFTWARE IS PROVIDED BY APPLE, MOZILLA AND THEIR CONTRIBUTORS "AS
+ * IS" AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED
+ * TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A
+ * PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL APPLE, MOZILLA OR
+ * THEIR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL,
+ * SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED
+ * TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR
+ * PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF
+ * LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING
+ * NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS
+ * SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+ *
+ * Revision 1 (March 4, 2004):
+ * Initial proposal.
+ *
+ * Revision 2 (March 10, 2004):
+ * All calls into script were made asynchronous.  Results are
+ * provided via the NPScriptResultFunctionPtr callback.
+ *
+ * Revision 3 (March 10, 2004):
+ * Corrected comments to not refer to class retain/release FunctionPtrs.
+ *
+ * Revision 4 (March 11, 2004):
+ * Added additional convenience NPN_SetExceptionWithUTF8().
+ * Changed NPHasPropertyFunctionPtr and NPHasMethodFunctionPtr to take NPClass
+ * pointers instead of NPObject pointers.
+ * Added NPIsValidIdentifier().
+ *
+ * Revision 5 (March 17, 2004):
+ * Added context parameter to result callbacks from ScriptObject functions.
+ *
+ * Revision 6 (March 29, 2004):
+ * Renamed functions implemented by user agent to NPN_*.  Removed _ from
+ * type names.
+ * Renamed "JavaScript" types to "Script".
+ *
+ * Revision 7 (April 21, 2004):
+ * NPIdentifier becomes a void*, was int32_t
+ * Remove NP_IsValidIdentifier, renamed NP_IdentifierFromUTF8 to NP_GetIdentifier
+ * Added NPVariant and modified functions to use this new type.
+ *
+ * Revision 8 (July 9, 2004):
+ * Updated to joint Apple-Mozilla license.
+ 

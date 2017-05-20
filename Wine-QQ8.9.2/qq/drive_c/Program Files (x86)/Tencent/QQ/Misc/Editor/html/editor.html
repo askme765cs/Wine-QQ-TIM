@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=gb18030"/>
+    <title> MyCollectionEditor </title>
+    <link rel="stylesheet" type="text/css" href="../css/editor.css" />
+    <link rel="stylesheet" type="text/css" href="css/comm.css" />
+    <script>
+        document.write('<script type="text/javascript" src="../release/editor.js"></', 'script>');
+    </script>
+
+    <script type="text/javascript" src="../release/editor_menu.js"></script>
+
+    <style>
+        html, body { overflow:hidden; }
+    </style>
+
+    <script type="text/javascript">
+
+        window.onload = function()
+        {
+            QMEditorAdapter.gbIsFF && (document.domain = "qq.com");
+
+            function _parseArgs(_asUrl) {
+                var _oParams = {}, _nIndex = _asUrl.indexOf('?');
+                if ( _nIndex > -1 ) {
+                    var _asParams = _asUrl.substr(_nIndex+1),
+                            _aParamsList= _asParams ? _asParams.split('&') : null;
+                    if ( _aParamsList != null ) {
+                        for (var i in _aParamsList) {
+                            var _asParamsTuple = _aParamsList[i].split('=');
+                            _oParams[_asParamsTuple[0]] = _asParamsTuple[1];
+                        }
+                    }
+                }
+                return _oParams;
+            }
+
+            var _oArgs = _parseArgs(location.href), _bEmbed = Number(_oArgs["embed"]), _bGrp = Number(_oArgs["grp"]);
+            window.Editor = QMEditor.createEditor({
+                editorId      : "editor",
+                tbExternId	  : _bEmbed?"QMEditorToolBarPlusAreaEmbed":"QMEditorToolBarPlusAreaStandalone",
+                editorAreaId  : "QMEditorArea",
+                editorAreaWin : window,
+                isOpenEditBar : false,
+                nAutoRisizeMinHeight : 200,
+                funclist      : QMEditor.CONST.FUNCLIST.ORIGINAL,
+                isNoEditScroll: false
+            });
+
+            if ( _bEmbed ) {
+                Editor.initialize( {
+                    frameClass: _bGrp?"qmEditorIfrmEditAreaEmbedNoTitle":"qmEditorIfrmEditAreaEmbed",
+                    frameEditorBaseClass: "qmEditorBase",
+                    frameEditClass: "qmEditorContentEmbed",
+                    frameTitleClass: _bGrp?"qmEditorTitleBoxEmbedNoTitle":"qmEditorTitleBoxEmbed_rd",
+                    frameTitleStyle: "-webkit-user-select:none;",
+                    frameToolbarClass: "qmEditorToolbarDivBase qmEditorToolbarDivEmbed",
+                    frameBodyPadding: "padding:2px 8px 0px 5px;",
+                    asAccessKey: "",
+                    anTabIndex: 0,
+                    abBkgIframe: 1
+                });
+            } else {
+                window.Editor.initialize({
+                    frameClass: "qmEditorIfrmEditAreaStandalone",
+                    frameEditorBaseClass: "qmEditorBase qmEditorBaseStandalone",
+                    frameEditClass: "qmEditorContentStandalone",
+                    frameTitleClass: "qmEditorToolbarDivBase qmEditorTitleBoxStandalone",
+                    frameTitleStyle: "",
+                    frameToolbarClass: "qmEditorToolbarDivBase qmEditorToolBarDivStandalone",
+                    frameBodyPadding: "padding:2px 3px 0 8px;",
+                    asAccessKey: "",
+                    anTabIndex: 0
+                });
+            }
+
+        };
+        QReplaceBkgHTMLImgTag = function(jsonArray) {
+            window.Editor.replaceBkgHTMLImgTag(jsonArray);
+        };
+        QGetBkgHTMLData = function() {
+            return window.Editor.getBkgHTMLData();
+        };
+        QLoadBkgHTMLData = function(_asContent) {
+            window.Editor.loadBkgHTMLData(_asContent);
+        };
+        QLoadBkgHTMLDataByURL = function(_asURL) {
+            window.Editor.loadBkgHTMLDataByURL(_asURL);
+        };
+        QUpdateHTMLImgTag = function(jsonArray) {
+            window.Editor.updateHTMLImgTag(jsonArray);
+        };
+        QGetHTMLTitle = function() {
+            return window.Editor.getEditTitle();
+        };
+        QGetHTMLContent = function() {
+            return window.Editor.getHTMLContent();
+        };
+        QGetHTMLData = function() {
+            return window.Editor.getHTMLData();
+        };
+        QLoadHTMLData = function(_asTitle, _asContent) {
+            window.Editor.loadHTMLData(_asTitle, _asContent);
+        };
+        QLoadHTMLDataByURL = function(_asTitle, _asContentURL) {
+            window.Editor.loadHTMLDataByURL(_asTitle, _asContentURL);
+        };
+        QResetEditedHTML = function() {
+            window.Editor.resetEditedHTML();
+        };
+        QSetAutoScaleImage = function(_asAutoScaleImage) {
+            window.Editor.setAutoScaleImage(_asAutoScaleImage);
+        };
+        QSetContentEditable = function(_bContentEditable) {
+            window.Editor.setContentEditable(_bContentEditable);
+        };
+        QWebCtrlSizeChange = function() {
+            window.Editor.doWebCtrlSizeChange();
+        };
+        QExecCmdOnMenu = function(_sCmd) {
+            _sCmd = _sCmd.toLowerCase();
+            window.Editor._oMenuAdaptor.execCmd(_sCmd);
+        };
+        QInsertDropImgs = function(_jsonImageList) {
+            window.Editor.insertDropImgs(_jsonImageList);
+        };
+        QActiveTopWnd = function() {
+            window.Editor.resetEditedHTML();
+        };
+        QTopWndNcActivate = function() {
+            window.Editor.notifyEventObserver("TopWndNcActivate");
+        };
+        QSetFocus = function() {
+            window.Editor.setFocus();
+        };
+        QHasEditData = function() {
+            return window.Editor.hasEditData();
+        };
+        QSetClientSize = function(_nWidth, _nHeight) {
+            window.Editor.setClientSize(_nWidth, _nHeight);
+        };
+        QGetCacheImageByUrl = function(_asUrl) {
+            window.Editor.getCacheImageByUrl(_asUrl);
+        };
+        QMarkKeyWordOnHTML = function(_asKeyWord, _asErase) {
+            var _bErase = parseInt(_asErase);
+            window.Editor.markKeyWordOnHtml(_asKeyWord, _bErase);
+        };
+    </script>
+</head>
+
+<body style="height:100%;overflow:hidden;">
+
+<div class="editor_body">
+    <div style="height:30px;margin:0 15px 0 15px;padding-top:5px;display: none;">
+        <span id="QMEditorToolBarPlusAreaEmbed" style="display:block;"></span>
+    </div>
+    <div style="height:30px;background:#edeeee;padding:5px 0 0 5px;border-bottom:1px solid #d7d7d7;display: none;">
+        <span id="QMEditorToolBarPlusAreaStandalone" style="display:block;"></span>
+    </div>
+    <div class="editor_area" id="QMEditorArea">
+    </div>
+</div>
+</body>
+</html>

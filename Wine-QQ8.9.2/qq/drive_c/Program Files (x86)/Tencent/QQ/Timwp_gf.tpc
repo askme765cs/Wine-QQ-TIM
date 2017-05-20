@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<tpc version="1.0.0">
+	<file-systems>
+		<file-system name="@this:" path=""/>
+		<file-system name="@thisdata:" path="Resource.8.9.2.20760\Data"/>
+		<file-system name="@thisres:" path="Resource.8.9.2.20760\Res"/>
+		<file-system name="@thistheme:" path="Resource.8.9.2.20760\Themes\Default"/>
+		<file-system name="@thisxtml:" path="Resource.8.9.2.20760\Xtml"/>
+		<file-system name="sysres:" path="@thisres:AppFramework"/>
+		<file-system name="sysxtml:" path="@thisxtml:AppFramework"/>
+		<file-system name="systheme:" path="@thistheme:AppFramework"/>
+	</file-systems>
+	<core-configs>
+		<core-config file="common.xml"/>
+		<core-config file="Timwp.xml"/>
+		<core-config file="config.xml"/>
+	</core-configs>
+	<gf-config file="gf-config.xml"/>
+	<i18n-config file="I18N\config.xml"/>
+</tpc>

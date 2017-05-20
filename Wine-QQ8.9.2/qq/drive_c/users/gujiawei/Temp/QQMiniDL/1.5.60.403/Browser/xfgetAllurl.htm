@@ -1,0 +1,75 @@
+<script language = "javascript">
+
+function GetFileName(linkObj)
+{
+	if ("undefined" != typeof(linkObj.filename))
+	{
+		return linkObj.filename;
+	}
+	else if ("undefined" != typeof(linkObj.FILENAME))
+	{
+		return linkObj.FILENAME;
+	}
+	else if ("undefined" != typeof(linkObj.FileName))
+	{
+		return linkObj.FileName;
+	}
+	else if ("undefined" != typeof(linkObj.fileName))
+	{
+		return linkObj.fileName;
+	}
+	else if ("undefined" != typeof(linkObj.Filename))
+	{
+		return linkObj.Filename;
+	}
+	else
+	{
+		return "";
+	}
+}
+
+function OnContextMenu()
+{
+    try
+    {
+        var QQRightClick = new ActiveXObject("QQMiniDL.RightClick.1");
+ 
+        var links = external.menuArguments.document.links;
+        var images = external.menuArguments.document.images;
+
+        QQRightClick.AddCmnInfo(external.menuArguments.document.cookie);
+
+        try
+        {
+            for (var i = 0; i < links.length; ++i)
+            {
+                QQRightClick.AddTask3(links[i].href, external.menuArguments.document.url, links[i].innerText, 0, GetFileName(links[i]));
+            }
+
+            for (var j = 0; j < images.length; ++j)
+            {
+                QQRightClick.AddTask3(images[j].src, external.menuArguments.document.url, images[j].innerText, 0, GetFileName(images[j]));
+            }
+        }
+        catch(e)
+        {
+            for (var i = 0; i < links.length; ++i)
+            {
+                QQRightClick.AddTask(links[i].href, external.menuArguments.document.url, links[i].innerText);
+            }
+
+            for (var j = 0; j < images.length; ++j)
+            {
+                QQRightClick.AddTask(images[j].src, external.menuArguments.document.url, images[j].innerText);
+            }
+        }
+        QQRightClick.SendMultiTask();
+    }
+    catch(e)
+    {
+    }
+}
+
+OnContextMenu();
+
+</script>

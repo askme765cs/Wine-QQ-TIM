@@ -1,0 +1,184 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312">
+<title>微端大厅</title>
+<style>
+body, h1, h2, h3, h4, h5, h6, hr, p, pre, dl, dt, dd, ul, ol, li, th, td, form, fieldset, legend, button, input, textarea{margin:0;padding:0;}h1, h2, h3, h4, h5, h6, button, input, select, textarea{font-size:100%;}em, i{font-style:normal;}li{list-style:none;}img{border:0;}table{border-collapse:collapse;border-spacing:0;}u,ins {text-decoration:none;}:focus{outline:none;}
+
+body {font:12px/1.5 Microsoft Yahei,tahoma,arial;word-break:break-all;word-wrap:break-word;background:#3ba8d2 url(http://ossweb-img.qq.com/images/qqgame/appdir/webhall/header_bg_cloud.png) repeat-x;color:#000;-webkit-text-size-adjust:none;_height:100%;}
+a {text-decoration:none;color:#000;cursor:pointer;}
+a:hover {text-decoration:underline;}
+
+html {overflow:hidden;}
+.header {position:relative;height:65px;overflow:hidden;*zoom:1;background:url(./res/header_bk.png) no-repeat;}
+.u_face, .u_info, .nav_tab {position:absolute;}
+.u_face {top:7px;left:14px;}
+.u_info {top:10px;left:69px;}
+.nav_tab {top:0;left:315px;min-width:340px;_width:340px;}
+
+.u_face img {display:block;width:40px;height:40px;margin:2px 0 0 2px;}
+.u_face .fix {position:absolute;top:0;left:0;width:44px;height:44px;background:url(http://ossweb-img.qq.com/images/qqgame/appdir/webhall/header_sprt.png) -69px -66px no-repeat;}
+.u_info {padding-top:5px;min-width:140px;_width:140px;}
+.u_name {font-weight:normal;margin-right:6px;}
+.u_ico {padding-top:3px;}
+.u_name_div {display:inline-block;width:75px;}
+.u_name_div {width:75px; white-space:nowrap; word-break:keep-all; overflow:hidden; text-overflow:ellipsis;}
+
+.nav_tab ul {overflow:hidden;*zoom:1;}
+.nav_tab li {float:left;text-align:center;}
+.nav_tab li a {display:block;width:68px;height:65px;position:relative;}
+.nav_tab li.on a, .nav_tab li a:hover {background:url(http://ossweb-img.qq.com/images/qqgame/appdir/webhall/header_sprt.png) 0 -66px no-repeat;text-decoration:none;}
+.nav_tab .tit {position:absolute;width:100%;margin-top:47px;left:0;top:0;cursor:pointer;}
+.nav_tab .ico {display:block;height:50px;background:url(http://ossweb-img.qq.com/images/qqgame/appdir/webhall/ico_home.png) no-repeat;cursor:pointer;}
+.tab_lib  .ico {background-image:url(http://ossweb-img.qq.com/images/qqgame/appdir/webhall/ico_lib.png);}
+.tab_shop .ico {background-image:url(http://ossweb-img.qq.com/images/qqgame/appdir/webhall/ico_shop.png);}
+.tab_vip  .ico {background-image:url(http://ossweb-img.qq.com/images/qqgame/appdir/webhall/ico_vip.png);}
+.tab_tga  .ico {background-image:url(http://ossweb-img.qq.com/images/qqgame/appdir/webhall/ico_tga.png);}
+.tab_3366 .ico {background-image:url(http://ossweb-img.qq.com/images/qqgame/appdir/webhall/ico_3366.png);}
+.tab_mobi .ico {background-image:url(http://ossweb-img.qq.com/images/qqgame/appdir/webhall/mobile.png);}
+.tab_baby .ico {background-image:url(http://ossweb-img.qq.com/images/qqgame/appdir/webhall/baobao.png);}
+.u_ico_box img {vertical-align:middle;}
+.vip_info_link img {vertical-align:middle;margin-bottom:2px;margin-left:2px;}
+.plat_society {vertical-align:middle;margin-top:2px;cursor:pointer;}
+.plat_society_tit {vertical-align:middle;margin-right:6px;}
+</style>
+</head>
+<script type="text/javascript">window.external.CallClient("top_css_load_end");</script>
+<body onselectstart="return false" onpaste="return false" oncopy="return false;" oncut="return false;" oncontextmenu="return false;">
+<div class="header">
+	<div class="user_info" >
+    	<div class="div_portrait" >
+			<iframe class="u_face" id="portrait" frameborder="no" border="0" 
+				marginwidth="0" marginheight="0" scrolling="no" 
+				allowtransparency="yes" src="http://qqgame.qq.com/appdir/webhall/cloudhall/portrait.shtml"
+				/>
+			</iframe>
+		</div>
+		<div class="u_info">
+				<div class="u_name_div"><a class="u_name" ></a></div>
+				<a href="" target="_blank" class="vip_info_link blueIcon"><img class="grade lvl_img" /></a>
+				<a href="" target="_blank" class="vip_info_link yearIcon"><img class="grade nianicon" /></a>
+				<a href="" target="_blank" class="vip_info_link actionIcon"><img class="grade act_icon" /></a>
+			
+			<p class="u_ico" >
+				<div class="u_ico_box"> 
+					<span class="plat_society">
+						<img src="http://ossweb-img.qq.com/images/qqgame/appdir/webhall/missionicon.png"/>
+						<span class="plat_society_tit">任务</span>
+					</span>
+					<span class="plat_society">
+						<img src="http://ossweb-img.qq.com/images/qqgame/appdir/webhall/myitems.png"/>
+						<span class="plat_society_tit">背包</span>
+					</span>
+					<span class="plat_society">
+						<img src="http://ossweb-img.qq.com/images/qqgame/appdir/webhall/shop.png"/>
+						<span class="plat_society_tit">兑换商城</span>
+					</span>
+				</div>
+			</p>
+        </div>
+    </div>
+    <!--//-->
+	<div class="nav_tab">
+    	<ul class="top_tab">
+        	<li class="on"><a href="#" class="tab_home" hidefocus="true"><span class="tit">主页</span><i class="ico"></i></a></li>
+        	<li><a href="#" class="tab_lib" hidefocus="true"><span class="tit">游戏库</span><i class="ico"></i></a></li>
+			<li><a href="#" class="tab_mobi" hidefocus="true"><span class="tit">手机游戏</span><i class="ico"></i></a></li>
+        	<li><a href="#" class="tab_shop" hidefocus="true"><span class="tit">游戏商城</span><i class="ico"></i></a></li>
+        	<li><a href="#" class="tab_vip" hidefocus="true"><span class="tit">蓝钻贵族</span><i class="ico"></i></a></li>
+        	<li><a href="#" class="tab_tga" hidefocus="true"><span class="tit">比赛专区</span><i class="ico"></i></a></li>
+        	<li><a href="#" class="tab_3366" hidefocus="true"><span class="tit">小游戏</span><i class="ico"></i></a></li>
+			<li><a href="#" class="tab_baby" hidefocus="true"><span class="tit">宠物宝宝</span><i class="ico"></i></a></li>
+        </ul>
+    </div>
+    <!--//-->
+</div>
+<script type="text/javascript">window.external.CallClient("top_doc_load_end");</script>
+<!--[if lte IE 6]>
+<script type="text/javascript">
+     try{document.execCommand("BackgroundImageCache", false, true);}catch(e){}
+</script>
+<![endif]-->
+
+<script type="text/javascript" src="js/jquery-1.4.2.min.js"></script>
+<script type="text/javascript" src="js/head.js"></script>
+<script type="text/javascript">
+
+function SetHead(headUrl)
+{
+    headUrl += "?n=";
+	headUrl += Math.random();  // 防止缓存
+	$('#portrait').attr("src",headUrl); 
+}
+
+
+$(document).bind("contextmenu", function(e) { 
+return false; 
+});
+
+function SetNick(nick)
+{
+	$(".u_name").text(nick);
+}
+
+function ChangeTab(tabname)
+{
+	switch(tabname)
+	{
+		case 'tab_home':
+		case 'tab_lib':
+		case 'tab_shop':
+		case 'tab_vip':
+		case 'tab_tga':
+		case 'tab_3366':
+			$('.top_tab li').removeClass('on');
+			$('.' + tabname).parent('li').addClass('on');
+	}
+}
+
+$(document).ready(function()
+{
+	$('.header').dblclick(function(e){
+		if(e.srcElement.className == 'header')
+		{
+			window.external.CallClient("OnTopWebDbClick");
+		}
+	})
+	.mousedown(function(e){
+		if(e.which == 3
+		    && e.srcElement.className == 'header')
+		{	
+			var Pt = e.screenX + ',' + e.screenY;
+			window.external.CallClient("OnTopRClick", Pt);
+		}
+	});
+
+	$('.top_tab li').mousedown(function(e){
+		if(e.which == 3)
+		{
+			return;
+		}
+	
+		if($(this).find('a').attr('class') != 'tab_shop')
+		{
+			$('.top_tab li').removeClass('on');
+			$(this).addClass('on');
+		}
+		window.external.CallClient("OnTopTabClicked", $(this).find('a').attr('class'));
+		
+	});
+		
+	$('.u_name').click(function(e){
+		window.external.CallClient("UpdateConfirm");
+	});
+	
+	$('.plat_society').click(function(e){
+		window.external.CallClient("UpdateConfirm");
+	});	
+});
+</script>
+</body>
+<script type="text/javascript">window.external.CallClient("top_js_load_end");</script>
+</html>
+<!--[if !IE]>|xGv00|f1c7bd0a48887af1336326c083ffdf01<![endif]-->

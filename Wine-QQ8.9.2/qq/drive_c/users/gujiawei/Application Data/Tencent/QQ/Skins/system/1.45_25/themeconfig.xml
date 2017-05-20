@@ -1,0 +1,5 @@
+﻿<theme-config PackPreview="preview.png" PackName="雨中旋律" PackMinVer="3487" PackVersion="2.0" PackID="2EE0D8">
+	<backgroundlist>
+		<background mainfile="main.jpg" bkgstyle="toprightstretch" color="ff000000"/>
+	</backgroundlist>
+</theme-config>

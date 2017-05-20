@@ -1,0 +1,16 @@
+{
+    "port": 443,
+    "ip_list": {
+        "ip_count": 5,
+        "ip1": "180.153.110.164",
+        "ip2": "111.161.55.206",
+        "ip3": "119.147.3.48",
+        "ip4": "222.73.78.34",
+        "ip5": "222.73.79.117"
+    },
+    "domain_list": {
+        "domain_count": 2,
+        "domain1": "qqgame-update1.qq.com",
+        "domain2": "qqgame-update2.qq.com"
+    }
+}

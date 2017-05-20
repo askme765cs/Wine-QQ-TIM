@@ -1,0 +1,39 @@
+[60][92][13:50:22.077]Support Winhttp
+[60][99][13:50:22.091]CWinHttpFile::Close
+[60][99][13:50:22.222]WinHttpQueryHeaders file size:2208
+[60][99][13:50:22.222]CWinHttpFile::Open return: 1
+[60][99][13:50:22.222]AsyncCallback WINHTTP_CALLBACK_STATUS_HANDLE_CLOSING
+[60][99][13:50:22.323]CWinHttpFile::Close
+[60][99][13:50:22.323] CHttpDownloadImp::WorkThread success POST MSG_DOWNLOAD_COMPLETE, ERR = 0.
+[60][92][13:50:22.324]CWinHttpFile::Close
+[60][92][13:50:22.324]CWinHttpFile::Close
+[60][92][13:50:22.563]CHttpDownloadImp::Download, url=http://dldir1.qq.com/invc/tt/QB/TxDL_2016_12_29.dll, destPath=C:\users\gujiawei\Application Data\XAAF1.DLL
+[60][92][13:50:22.565]Support Winhttp
+[60][111][13:50:22.591]CWinHttpFile::Close
+[60][111][13:50:23.153]WinHttpQueryHeaders file size:1444872
+[60][111][13:50:23.153]CWinHttpFile::Open return: 1
+[60][111][13:50:41.050]AsyncCallback WINHTTP_CALLBACK_STATUS_HANDLE_CLOSING
+[60][111][13:50:41.151]CWinHttpFile::Close
+[60][111][13:50:41.152] CHttpDownloadImp::WorkThread success POST MSG_DOWNLOAD_COMPLETE, ERR = 0.
+[60][92][13:50:41.152]CWinHttpFile::Close
+[60][92][13:50:41.152]CWinHttpFile::Close
+[60][92][13:50:41.248]CHttpDownloadImp::Download, url=http://c.gj.qq.com/fcgi-bin/querysrc?id=78461&guid=6ToGSf5YHDSAvGsLCSfuza3elO8A%2B42I4vLX5QxZ3DyDcdmkAde17Q6eIpehpEqt&ver=100068&optype=1&inst=13&opfrom=0&error=0&parent=QQ8.9.2.exe&jp=2&wow=1&groupid=13&src=0, destPath=C:\windows\system32\t6J1QKaOjnmF1Tz.774
+[60][92][13:50:41.248]Support Winhttp
+[60][165][13:50:41.260]CWinHttpFile::Close
+[60][165][13:50:41.429]WinHttpQueryHeaders file size:0
+[60][165][13:50:41.429]CWinHttpFile::Open return: 1
+[60][166][13:50:41.432]AsyncCallback WINHTTP_CALLBACK_STATUS_HANDLE_CLOSING
+[60][165][13:50:41.533]CWinHttpFile::Close
+[60][165][13:50:41.536] CHttpDownloadImp::WorkThread success POST MSG_DOWNLOAD_COMPLETE, ERR = 6.
+[60][92][13:50:41.852]CWinHttpFile::Close
+[60][92][13:50:41.852]CWinHttpFile::Close
+[60][365][13:51:19.403]CHttpDownloadImp::Download, url=http://c.gj.qq.com/fcgi-bin/querysrc?id=78461&guid=CQEjCF9zN8bQFkXTJMVfhaMJdW6CArER43QM/WawNAc8dawV9N3NaFAAdRFXANnt&ver=100068&optype=5&inst=13&opfrom=5&error=0&parent=QQ8.9.2.exe&jp=2&wow=1&groupid=13&src=0, destPath=C:\users\gujiawei\Application Data\6yg7s1DG58cbly
+[60][365][13:51:19.403]Support Winhttp
+[60][373][13:51:19.434]CWinHttpFile::Close
+[60][373][13:51:20.142]WinHttpQueryHeaders file size:0
+[60][373][13:51:20.142]CWinHttpFile::Open return: 1
+[60][373][13:51:20.143]AsyncCallback WINHTTP_CALLBACK_STATUS_HANDLE_CLOSING
+[60][373][13:51:20.244]CWinHttpFile::Close
+[60][373][13:51:20.284] CHttpDownloadImp::WorkThread success POST MSG_DOWNLOAD_COMPLETE, ERR = 6.
+[60][365][13:51:20.446]CWinHttpFile::Close
+[60][365][13:51:20.446]CWinHttpFile::Close

@@ -1,0 +1,145 @@
+﻿<Root>
+    <Global>
+    </Global>
+    <Movie>
+        <Detail>
+            <Info>
+                <MetaList>
+                    <Movie.ID/>
+                </MetaList>
+                <App id="1" des="电影信息" name="com.tencent.movieticket" view="MovieDetailView" disptype="1"/>
+            </Info>
+        </Detail>
+        <BookingResult>
+            <Info>
+                <MetaList>
+                    <Movie.Name/>
+                    <Cinema.Name/>
+                </MetaList>
+                <App id="1" des="购票信息" name="com.tencent.movieticket" view="BookingInfoEmbeddedView" disptype="1"/>
+            </Info>
+        </BookingResult>
+        <QQMovie>
+            <Info>
+                <MetaList>
+                    <Ticket.Movie/>
+                </MetaList>
+                <App id="1" des="购票信息" name="com.tencent.movieticket" view="BookingInfoView" disptype="1"/>
+            </Info>
+        </QQMovie>
+        <Booking>
+            <Info>
+                <MetaList>
+                    <ShoppingMall.Name/>
+                </MetaList>
+                <App id="1" des="[ShoppingMall.Name]附近影院" name="com.tencent.movieticket" view="CinemaListView" disptype="4"/>
+            </Info>
+            <Info>
+                <MetaList>
+                    <Cinema.Name/>
+                </MetaList>
+                <ExMetaList>
+                    <Time/>
+                </ExMetaList>
+                <App id="1" des="[Cinema.Name]购票" name="com.tencent.movieticket" view="CinemaMovieListView" disptype="4"/>        
+            </Info>
+            <Info>
+                <MetaList>
+                    <Movie.Name/>
+                </MetaList>
+                <ExMetaList>
+                    <Time/>
+                </ExMetaList>
+                <App id="1" des="[Movie.Name]购票" name="com.tencent.movieticket" view="MovieListView" disptype="4"/>        
+            </Info>
+        </Booking>
+        <New>
+            <Info>
+                <MetaList>
+                    <City.ID/>
+                </MetaList>
+                <ExMetaList>
+                    <Time/>
+                </ExMetaList>
+                <App id="1" des="正在热映电影" name="com.tencent.movieticket" view="NewMovieListView" disptype="4"/>        
+            </Info>
+        </New>
+    </Movie>
+    <Location>
+		<Search>
+			<Info>
+				<MetaList>
+					<ShoppingMall.Name/>
+					<Location.Name/>
+				</MetaList>
+				<App id="2" des="查看[ShoppingMall.Name||Location.Name]位置" name="com.tencent.map" view="LocationSearch" disptype="4"/>
+			</Info>
+		</Search>
+		<Search.Cinema>
+			<Info>
+				<MetaList>
+					<ShoppingMall.Name/>
+				</MetaList>
+				<App id="1" des="[ShoppingMall.Name]附近影院" name="com.tencent.movieticket" view="CinemaListView" disptype="4"/>
+			</Info>
+		</Search.Cinema>
+		<Search.Hotel>
+			<Info>
+				<MetaList>
+					<ShoppingMall.Name/>
+					<Location.Name/>
+				</MetaList>
+				<App id="2" des="[ShoppingMall.Name||Location.Name]附近酒店" name="com.tencent.map" view="NearHotelSearch" disptype="4"/>
+			</Info>
+		</Search.Hotel>
+		<Search.Restaurant>
+			<Info>
+				<MetaList>
+					<ShoppingMall.Name/>
+					<Location.Name/>
+				</MetaList>
+				<App id="2" des="[ShoppingMall.Name||Location.Name]附近餐饮" name="" view="NearRestaurantSearch" disptype="4"/>
+			</Info>
+		</Search.Restaurant>
+		<Detail>
+            <Info>
+                <MetaList>
+                    <Cinema.Name/>
+                    <ShoppingMall.Name/>
+                    <Location.Name/>
+                </MetaList>
+                <App id="2" des="地理位置" name="com.tencent.map" view="LocationDetail" disptype="1"/>
+            </Info>
+        </Detail>
+    </Location>
+    <Catering>
+        <Where>
+            <Info>
+                <MetaList>
+                    <City.ID/>
+                    <Dishes.Name/>
+                </MetaList>
+                <App id="1" des="订餐" name="" view="CateringNearView" disptype="4"/>
+            </Info>
+        </Where>
+        <What>
+            <Info>
+                <MetaList>
+                    <City.ID/>
+                </MetaList>
+                <App id="1" des="订餐" name="" view="CateringTypeView" disptype="4"/>
+            </Info>
+        </What>
+        <Booking>
+            <Info>
+                <MetaList>
+                    <City.ID/>
+                    <ShoppingMall.Name/>
+					<Location.Name/>
+                    <Dishes.Name/>
+                </MetaList>
+                <App id="1" des="订餐" name="" view="CateringBookingView" disptype="4"/>
+            </Info>
+        </Booking>
+    </Catering>
+</Root>

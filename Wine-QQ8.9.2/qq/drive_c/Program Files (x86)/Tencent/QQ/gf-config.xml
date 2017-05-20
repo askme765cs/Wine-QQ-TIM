@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<gf-config>
+	<typedefs>
+		<typedef file="@this:TypeDef\\BasicTypeDef.xml" type="基础"/>
+		<typedef file="@this:TypeDef\\ExtraTypeDef.xml" type="系统"/>
+		<typedef file="@this:TypeDef\\AFTypeDef.xml" type="AF"/>
+		<typedef file="@this:TypeDef\\AppTypeDef.xml" type="应用"/>
+		<typedef file="@this:TypeDef\\ManualTypeDef.xml" type="手动"/>
+	</typedefs>
+	<themes>
+		<theme file="systheme:Config\\Theme.xml"/>
+	</themes>
+	<configs>
+		<config file="@thistheme:Config\\Config.xml"/>
+		<config file="@thistheme:Config\\LoginUIConfig.xml"/>
+		<config file="@thistheme:Config\\AppCtrlConfig.xml"/>
+		<config file="@thistheme:Config\\ConfigCenterConfig.xml"/>
+		<config file="@thistheme:Config\\TaskTrayConfig.xml"/>
+		<config file="@thistheme:Config\\FingerFrameConfig.xml"/>
+    <config file="systheme:Config\\AppFrameworkConfig.xml"/>
+    <config file="systheme:Config\\ConfigCenterConfig.xml"/>
+    <config file="systheme:Config\\GFConfigAgent.xml"/>
+    <config file="systheme:Config\\RichGeneralAbilityConfig.xml" />
+	</configs>
+	<windows>
+		<xtml window="MainPanel" file="@thisxtml:MainFrame\MainPanel.xml|MainPanel"/>
+		<xtml window="MainMenu" file="@thisxtml:MainMenu\MainMenu.xml|MainMenu"/>
+	</windows>
+</gf-config>

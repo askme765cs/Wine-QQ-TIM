@@ -1,0 +1,327 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312">
+<title>微端大厅</title>
+<style>
+body, h1, h2, h3, h4, h5, h6, hr, p, pre, dl, dt, dd, ul, ol, li, th, td, form, fieldset, legend, button, input, textarea{margin:0;padding:0;}h1, h2, h3, h4, h5, h6, button, input, select, textarea{font-size:100%;}em, i{font-style:normal;}li{list-style:none;}img{border:0;}table{border-collapse:collapse;border-spacing:0;}u,ins {text-decoration:none;}:focus{outline:none;}
+
+body {font:12px/1.5 Microsoft Yahei,tahoma,arial;word-break:break-all;word-wrap:break-word;background:#e8f3f9;color:#000;-webkit-text-size-adjust:none;}
+a {text-decoration:none;color:#082e40;}
+a:hover {text-decoration:underline;}
+
+/** Ico Star **/
+.ico_star, .ico_star i {display:inline-block;width:60px;height:20px;background:url(http://qqgameplatcdn.qq.com/appdirgame/images/ico_star_sprt.png) repeat-x;vertical-align:-10px;*vertical-align:-4px;_vertical-align:-6px;text-align:left;}
+.ico_star i {width:0;background-position:0 -21px;vertical-align:baseline;}
+.ico_star .st_01 {width:6px;}
+.ico_star .st_02 {width:12px;}
+.ico_star .st_03 {width:18px;}
+.ico_star .st_04 {width:24px;}
+.ico_star .st_05 {width:30px;}
+.ico_star .st_06 {width:36px;}
+.ico_star .st_07 {width:42px;}
+.ico_star .st_08 {width:48px;}
+.ico_star .st_09 {width:54px;}
+.ico_star .st_10 {width:60px;}
+
+
+/* Online */
+
+.g_online {display:block;color:#4c819d;line-height:1;}
+.jQ_onlineNow {color:#000000;}
+.g_online .ico {background:url(http://ossweb-img.qq.com/images/qqgame/appdir/webhall/left_sprt.png) -139px -34px no-repeat;width:8px;height:9px;display:inline-block;font-size:0;margin-right:2px;*vertical-align:1px;}
+
+.ico_set, .ico_boy, .ico_set .fix, .ico_boy .fix {display:inline-block;height:22px;}
+.ico_set, .ico_boy{float:left;padding-left:6px;}
+.ico_set .fix, .ico_boy .fix {padding-right:6px;}
+.ico_set:hover, .ico_boy:hover, .ico_set:hover .fix, .ico_boy:hover .fix {background:url(http://ossweb-img.qq.com/images/qqgame/appdir/webhall/left_sprt.png) -247px -34px no-repeat;}
+.ico_set:hover .fix, .ico_boy:hover .fix {background-position:right -34px;}
+
+.ico_set .ico, .ico_boy .ico {display:block;_float:left;background:url(http://ossweb-img.qq.com/images/qqgame/appdir/webhall/left_sprt.png) -164px -34px no-repeat;width:15px;height:15px;line-height:200em;overflow:hidden;vertical-align:-3px;margin-top:3px;cursor:pointer;}
+.ico_boy .ico {background-position:-148px -34px;}
+.ico_boy em {color:#1e759e;}
+
+.no_game {cursor:pointer}
+
+
+/* Main */
+.leftside {width:313px;background:#e8f3f9;position:relative;}
+.search {position:relative;background:url(http://ossweb-img.qq.com/images/qqgame/appdir/webhall/left_sprt.png) no-repeat;height:23px;padding-top:4px;z-index:3;}
+.sch_form {padding:0 5px 0 10px;height:21px;overflow:hidden;*zoom:1;}
+.sch_form input.inp {float:left;background:#fff;border:none;padding:2px 0;width:277px;font-family:"Microsoft Yahei";color:#969696;height:17px;line-height:17px;}
+.sch_form input.on {color:#000;}
+.sch_form .btn {float:right;background:url(http://ossweb-img.qq.com/images/qqgame/appdir/webhall/left_sprt.png) -73px -34px no-repeat;width:14px;height:14px;border:none;cursor:pointer;width:21px;height:20px;line-height:200em;overflow:hidden;}
+.sch_form .btn:hover {background-position:-95px -34px;}
+.sch_form .btn:active {background-position:-117px -34px;}
+
+/* Layer */
+.sch_lay {position:absolute;z-index:3;width:309px;margin:2px 0 0 2px;}
+.sch_lay .lay_bd {border:1px solid #2e8ed4;border-bottom:none;background:#fff;padding:1px 1px 0;}
+.sch_lay .lay_ft {display:block;background:url(http://ossweb-img.qq.com/images/qqgame/appdir/webhall/left_sprt.png) 0 -28px no-repeat;height:5px;font-size:0;margin-top:-3px;}
+.sch_lay dl {position:relative;z-index:1;}
+.sch_lay dt {background:url(http://ossweb-img.qq.com/images/qqgame/appdir/webhall/left_bg.png) 0 -118px repeat-x;height:24px;line-height:24px;color:#808080;padding:0 8px;}
+.sch_lay dd a {display:block;height:24px;line-height:24px;padding:0 5px;color:#000;}
+.sch_lay dd a:hover, .sch_lay dd.on a {background:url(http://ossweb-img.qq.com/images/qqgame/appdir/webhall/left_bg.png) 0 -93px repeat-x;color:#fff;text-decoration:none;}
+.sch_lay dd img {width:16px;height:16px;vertical-align:-3px;margin-right:1px;}
+.sch_lay .sch_for dt {background:none;}
+.sch_lay .sch_for dd a {padding-left:2px;}
+
+/* My Game */
+.my_game {background:url(http://ossweb-img.qq.com/images/qqgame/appdir/webhall/left_bg.png) 0 -143px repeat-x;}
+.my_game .hd {height:24px;overflow:hidden;*zoom:1;padding:0 10px;}
+.my_game .tit_h2 {float:left;font-weight:normal;line-height:24px;}
+.my_game .tit_h2 strong {font-weight:normal;}
+.my_game .hd_r {float:right;padding-top:1px;}
+.my_list {width:313px;}
+.no_game {text-align:center;color:#5d6163;padding-top:5px;}
+.no_game i {display:block;background:url(http://ossweb-img.qq.com/images/qqgame/appdir/webhall/tips_lib.png) no-repeat;width:234px;height:79px;margin:0 auto 5px;}
+.loading {text-align:center;color:#5d6163;padding-top:5px;}
+.NetDisconnect {text-align:center;color:#5d6163;padding-top:5px;}
+
+/* PP List */
+.pp_lst {overflow:hidden;*zoom:1;padding:2px 0 0 6px;}
+.pp_lst li {float:left;width:74px;height:105px;text-align:center;}
+.pp_lst a.a {display:block;width:72px;height:98px;margin:0 auto;padding:3px 0 0;}
+.pp_lst a.a:hover {text-decoration:none;background:url(http://ossweb-img.qq.com/images/qqgame/appdir/webhall/left_sprt.png) 0 -34px no-repeat;}
+.pp_lst a.a:active {background:none;}
+.pp_lst .g_ico, .pp_lst img {display:block;width:66px;height:67px;margin:0 auto;cursor:pointer;}
+.pp_lst .g_ico {margin-bottom:2px;}
+.pp_lst .g_tit {font-weight:normal;line-height:14px;height:14px;overflow:hidden;}
+
+.leftside .ft_fix {background:url(http://ossweb-img.qq.com/images/qqgame/appdir/webhall/ft_fix.png) repeat-x;width:313px;height:22px;display:block;position:absolute;bottom:0;_bottom:-1px;_background:none;_filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='http://ossweb-img.qq.com/images/qqgame/appdir/webhall/ft_fix.png',sizingMethod='crop');
+}
+
+/* Recom */
+.recom_list {height:242px;overflow:hidden;background:#edf5f9;}
+
+/* Tab */
+.tab_cate {background:url(http://ossweb-img.qq.com/images/qqgame/appdir/webhall/left_bg.png) repeat-x;height:33px;}
+.tab_cate ul {overflow:hidden;*zoom:1;padding-left:2px;}
+.tab_cate li {float:left;}
+.tab_cate li a, .tab_cate li span {float:left;padding-left:6px;line-height:33px;color:#5f7986;cursor:pointer;}
+.tab_cate li span {padding:0 6px 0 0;}
+.tab_cate li a:hover, .tab_cate li a:hover span, .tab_cate li.on a, .tab_cate li.on a span {background:url(http://ossweb-img.qq.com/images/qqgame/appdir/webhall/left_bg.png) 0 -34px no-repeat;color:#082e40;text-decoration:none;}
+.tab_cate li a:hover span, .tab_cate li.on a span {background-position:right -34px;}
+
+.recom_game .bd {height:273px;overflow:hidden;*zoom:1;}
+.tab_cnt {width:9999em;}
+.cnt_tab {float:left;width:313px;height:273px;}
+
+/* PT List */
+.pt_lst {overflow:hidden;*zoom:1;padding:6px 0 0 9px}
+.pt_lst li {float:left;width:149px;height:81px;}
+.pt_lst a.a {display:block;overflow:hidden;*zoom:1;width:143px;height:70px;padding:4px 0 0 6px;}
+.pt_lst a.a:hover {background:url(http://ossweb-img.qq.com/images/qqgame/appdir/webhall/left_sprt.png) -73px -61px no-repeat;text-decoration:none;}
+.pt_lst a.a:active {background:none;}
+.pt_lst .g_ico {float:left;width:70px;height:67px;cursor:pointer;}
+.pt_lst .g_ico img {display:block;width:66px;height:67px;}
+.pt_lst .g_tit {font-weight:normal;line-height:18px;height:18px;overflow:hidden;}
+.pt_lst .g_cate, .pt_lst .g_online {color:#757d7f;}
+/*.pt_lst .g_cate {display:none;}*/
+
+/* Sub Cate */
+.sub_bar {overflow:hidden;*zoom:1;border-top:1px solid #c6d9e6;height:30px;line-height:30px;padding:0 12px 0 14px;}
+.sub_cate {float:left;}
+.sub_cate a {display:inline-block;padding-right:20px;}
+.sub_more {float:right;}
+
+.foot_bar {overflow:hidden;*zoom:1;height:24px;line-height:24px;background:url(http://ossweb-img.qq.com/images/qqgame/appdir/webhall/left_bg.png) 0 -68px repeat-x;padding:0 8px;_padding-top:4px;_height:20px;}
+.foot_bar .g_online {display:inline;}
+.foot_bar a:hover .g_online {color:#0057e9;}
+
+/* For iFrame */
+html,body{overflow:hidden;height:100%;}
+.iFrame_Main{height:100%;}
+.iFrame_Body{position:absolute;left:0;top:27px;bottom:330px;width:100%;overflow:hidden;}
+.iFrame_Foot{position:absolute;left:0;bottom:0;height:330px;width:100%;} 
+.iFrame_Scroll{position:absolute;top:24px;left:0;bottom:0;width:100%;overflow:hidden;min-height:120px;_height:120px;}
+
+
+/* jScrollPane */
+.jspContainer {overflow:hidden;position:relative;}
+.jspPane {position:absolute;}
+.jspVerticalBar {position:absolute;top:0;right:0;width:9px;height:100%;z-index:2;background:url(http://ossweb-img.qq.com/images/qqgame/appdir/webhall/sprt_scroll.png) -9px 0 repeat-y;}
+.jspCapTop, .jspCapBottom {position:absolute;width:9px;height:4px;top:0;left:0;background:url(http://ossweb-img.qq.com/images/qqgame/appdir/webhall/sprt_scroll.png) no-repeat;font-size:0;display:none;}
+.jspCapBottom {background-position:0 -5px;top:auto;bottom:0;}
+.jspTrack {position:relative;}
+.jspDrag {background:url(http://ossweb-img.qq.com/images/qqgame/appdir/webhall/sprt_scroll.png) -27px 0 repeat-y;position:relative;top:0;left:0;cursor:pointer;}
+.jspDragTop, .jspDragBottom {position:absolute;width:9px;height:4px;font-size:0;background:url(http://ossweb-img.qq.com/images/qqgame/appdir/webhall/sprt_scroll.png) -18px 0 no-repeat;}
+.jspDragBottom {bottom:0;background-position:-18px -5px;}
+.jspHover {background-position:-45px 0;}
+.jspHover .jspDragTop {background-position:-36px 0;}
+.jspHover .jspDragBottom {background-position:-36px -5px;}
+.jspActive {background-position:-63px 0;}
+.jspActive .jspDragTop {background-position:-54px 0;}
+.jspActive .jspDragBottom {background-position:-54px -5px;}
+
+</style>
+</head>
+<script type="text/javascript">window.external.CallClient("left_css_load_end");</script>
+<body>
+	<div class="cnt_tab jQ_cntTab_tmpl" id="recom_info_tmpl" style="display:none">
+		<div class="recom_list">
+			<ul class="pt_lst" id="id_pt_lst">
+				<li class="cls_li_bd_item" id="id_li_bd_item">
+					<a href="#" class="a" hidefocus="true">
+						<span class="g_ico">
+							<img class="g_imgPath" src="">
+						</span>
+						<h3 class="g_tit">&nbsp </h3>
+						<span class="g_cate">牌类</span>
+						<span class="g_online"><i class="ico" style="display:none"></i><em class="g_appOnline"></em>
+						</span>
+						<span class="ico_star"> <i class="st_09"></i>
+						</span>
+					</a>
+				</li>
+			</ul>
+		</div>
+		<div class="sub_bar">
+			<span class="sub_cate">
+				<a href="#" hidefocus="true">欢乐专区</a>
+				<a href="#" hidefocus="true">蓝钻专区</a>
+				<a href="#" hidefocus="true">欢乐点滴</a>
+			</span>
+			<span class="sub_more">
+				<a href="#" hidefocus="true">
+					更多游戏
+					<i>&gt;&gt;</i>
+				</a>
+			</span>
+		</div>
+	</div>
+	<div class="my_list_tmpl" style="display:none">
+		<ul class="pp_lst_tmpl">
+			<li class="gameItem tmpl">
+				<a href="#" class="a" hidefocus="true">
+					<span class="g_ico"><img class="appIcon" src=""></span>
+					<h3 class="g_tit">欢乐斗地主</h3>
+					<span class="g_online"><i class="ico" style="display:none"></i><em></em></span>
+				</a>
+			</li>
+			<li class="add">
+				<a href="#" class="a" hidefocus="true">
+					<span class="g_ico"><img src="http://ossweb-img.qq.com/images/qqgame/appdir/webhall/ico_add.png"></span>
+					<h3 class="g_tit">添加游戏</h3>
+				</a>
+			</li>
+		</ul>
+	</div>
+<div class="leftside iFrame_Main">
+	<div class="search iFrame_Head">
+    	<i class="tp"></i>
+    	<div class="sch_form">
+        	<input type="text" value="查找游戏（例如“欢乐斗地主”）" class="jQ_schInput inp" id="jQ_schInput">
+            <a href="javascript:void(0);" class="btn" id="jQ_schButton" hidefocus="true"><span>查找</span></a>
+        </div>
+       	<div class="sch_lay jQ_schLay" style="display:none;">
+        	<div class="lay_bd">
+                <dl class="sch_for">
+            		<dd class="on"><a href="#"><img src=""></a></dd>
+                	<dd><a href="#"><img src=""></a></dd>
+                	<dd><a href="#"><img src=""></a></dd>
+                	<dd><a href="#"><img src=""></a></dd>
+                </dl>
+            </div>
+            <span class="lay_ft"></span>
+        </div>
+    </div>
+	<div class="my_game iFrame_Body" onselectstart="return false" onpaste="return false" oncopy="return false;" oncut="return false;" oncontextmenu="return false;">
+    	<div class="hd">
+        	<h2 class="tit_h2">
+            	<strong>我的游戏</strong>(<span class="myGameCount">0</span>)
+            </h2>
+            <span class="hd_r">
+            	<a href="#" class="ico_set" hidefocus="true" title="编辑"><span class="fix"><i class="ico">编辑</i></span></a>
+            	<a href="#" class="ico_boy" hidefocus="true" title="游戏好友"><span class="fix"><i class="ico">游戏好友</i><em></em></span></a>
+            </span>
+        </div>
+        <div class="bd iFrame_Scroll jQ_jScroll">
+        	<div class="my_list">
+                <div class="no_game" style="display:none">
+                	<i></i>
+                    <p>请点击顶部“游戏库”添加您喜欢的游戏。</p>
+                </div>
+				<div class="loading"><br/><br/><br/><!--img src=""--><br>加载中...</br></div>
+				<div class="NetDisconnect" style="display:none">
+					<br/><br/><br/>
+					<a href="#"><img src="http://ossweb-img.qq.com/images/qqgame/appdir/webhall/NetDisconnect.png"></a>
+					</img>
+				</div>
+				
+            </div>
+        </div>
+        <span class="ft_fix"></span>
+    </div>
+    <!--//-->
+    <div class="recom_game iFrame_Foot" onselectstart="return false" onpaste="return false" oncopy="return false;" oncut="return false;" oncontextmenu="return false;">
+    	<div class="tab_cate">
+        	<ul class="jQ_tabCate"> 
+            	<li class="on"><a href="javascript:;" hidefocus="true"><span>最热游戏</span></a></li>
+            	<li><a href="javascript:;" hidefocus="true"><span>棋牌游戏</span></a></li>
+            	<li><a href="javascript:;" hidefocus="true"><span>休闲竞技</span></a></li>
+            	<li><a href="javascript:;" hidefocus="true"><span>角色扮演</span></a></li>
+            	<li><a href="javascript:;" hidefocus="true"><span>其他游戏</span></a></li>
+            </ul>
+        </div>
+        <div class="bd" id="tab_body">
+        	<div class="tab_cnt jQ_tabCnt">
+
+            </div>
+        </div>
+        <!--//-->
+        <div class="foot_bar">
+            <a href="#"><span class="g_online"><i class="ico"></i><em class="jQ_onlineNow">3205201</em></span></a>
+        </div>
+    </div>
+    <!--//-->
+</div>
+<!--[if lte IE 6]>
+<script type="text/javascript">
+     try{document.execCommand("BackgroundImageCache", false, true);}catch(e){}
+</script>
+<![endif]-->
+<script type="text/javascript">window.external.CallClient("left_doc_load_end");</script>
+<script type="text/javascript" src="js/jquery-1.4.2.min.js"></script>
+<script type="text/javascript" src="js/jquery.jscroll.min.js"></script>
+<script type="text/javascript" src="js/search_v1.js"></script>
+<script type="text/javascript" src="js/left.js"></script>
+
+<script type="text/javascript" src="http://qqgameappcdn.qq.com/appdirgame/Recommend.js"></script>
+<script type="text/javascript" src="http://qqgameappcdn.qq.com/appdirgame/js/searchD.js"></script>
+<script type="text/javascript">
+$(function() {
+	//自定义滚动条
+	$('.jQ_jScroll').jScrollPane({
+		hideFocus:true,
+		autoReinitialise:true,
+		verticalDragMinHeight:60
+	});
+	
+	//选项卡
+	$('.jQ_tabCate li').removeClass('on').eq(0).addClass('on');
+	$('.jQ_cntTab').hide().eq(0).show();
+	$('.jQ_tabCate li').mouseover(function(){
+		var liOld = $($('.jQ_tabCate li')).index($('.jQ_tabCate li.on'));
+		var liNow = $($('.jQ_tabCate li')).index($(this));
+		$('.jQ_tabCate li').removeClass('on').eq(liNow).addClass('on');
+		$('.jQ_cntTab').hide().eq(liNow).show();
+	});
+
+	//动态设置iFrame_Body的高度
+	(function(){
+		var domBody = $(".iFrame_Body");
+		var domScroll = $(".iFrame_Scroll")
+		function setIframeBodyHeight(){
+			var height = $("body").height() - 27 - 330;
+			domBody.height(height);
+			domScroll.height(height-24);
+		}
+		$(window).bind("resize",setIframeBodyHeight);
+		setIframeBodyHeight();
+	})();
+});
+</script>
+<script type="text/javascript">window.external.CallClient("left_js_load_end");</script>
+</body>
+</html><!--[if !IE]>|xGv00|802696781b63566182423bea13bdd011<![endif]-->
