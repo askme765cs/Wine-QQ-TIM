@@ -59,4 +59,5 @@
 >Icon=../path/QQ.jpg  
 >#QQ图标文件  
 >Name[fr_FR]=QQ  
+
 *此安装方法参考了[Wine安装最新版QQ(8.9.2)的简单教程](http://www.ubuntukylin.com/ukylin/forum.php?mod=viewthread&tid=30511)， 对文中的方法进行了完善。*
