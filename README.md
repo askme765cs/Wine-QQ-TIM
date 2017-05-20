@@ -30,7 +30,7 @@
 
 4.打开终端执行：winecfg
 
-点击上方的“函数库”那一栏，并点击把光标移动到“新增库函数顶替”下方的方框里，分别输入*ntoskrnl.exe回车，*riched20回车，*txplatform.exe回车。然后在点击下方新出现的*ntoskrnl.exe和*txplatform.exe，点击编辑，选择“停用”。
+点击上方的“函数库”那一栏，并点击把光标移动到“新增库函数顶替”下方的方框里，分别输入\*ntoskrnl.exe回车，\*riched20回车，\*txplatform.exe回车。然后在点击下方新出现的\*ntoskrnl.exe和\*txplatform.exe，点击编辑，选择“停用”。
 
 说明：这里，如果不替换riched20的话则安装好QQ后无法输入用户名，不停用txplatform.exe则WineQQ无法完整退出，导致关掉重开后提示QQ文件被占用，禁用ntoskrnl.exe是为了规避可能出现QQ无法启动的bug
 
