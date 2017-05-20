@@ -1,0 +1,23 @@
+[Desktop Entry]
+Comment[zh_CN]=Wine-QQ管理器
+Comment=winetricks
+Encoding=UTF-8
+Exec="/opt/QQ8.9.2/Wine-QQ-Tool.sh"%u 
+#指定可执行文件路径
+GenericName[zh_CN]=
+GenericName=
+Icon=/opt/QQ8.9.2/Wine-QQ-Tool.png
+#指定图标文件
+MimeType=
+Name[zh_CN]=Wine-QQ管理器
+Name=Wine-QQ-Tool
+Path=
+StartupNotify=true
+Terminal=false
+TerminalOptions=
+Type=Application
+X-DBUS-ServiceName=
+X-DBUS-StartupType=
+X-KDE-SubstituteUID=false
+X-KDE-Username=
+Categories=Utility;
