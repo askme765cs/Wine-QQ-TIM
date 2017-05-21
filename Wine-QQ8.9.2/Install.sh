@@ -8,6 +8,6 @@ cp  icon/Wine-QQ-Tool.png  /opt/QQ8.9.2/Wine-QQ-Tool.png
 cp QQ.desktop /usr/share/applications/QQ.desktop
 cp Wine-QQ-Tool.desktop /usr/share/applications/Wine-QQ-Tool.desktop
 chmod 744 /usr/share/applications/QQ.desktop /usr/share/applications/Wine-QQ-Tool.desktop
-sudo chown "$USER":users -R /opt/QQ8.9.2
+sudo chown -R "$SUDO_USER":users  /opt/QQ8.9.2
 chmod -R 755 /opt/QQ8.9.2
 echo "安装完成" 

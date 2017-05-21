@@ -6,7 +6,7 @@ Exec="/opt/QQ8.9.2/qq.sh"%u
 #..path为文件夹所在路径
 GenericName[zh_CN]=
 GenericName=
-Icon=/opt/QQ8.9.2/QQ.png
+Icon=/opt/QQ8.9.2/qq.png
 #指定QQ图标文件
 MimeType=
 Name[zh_CN]=腾讯QQ
