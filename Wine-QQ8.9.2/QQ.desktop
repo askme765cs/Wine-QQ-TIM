@@ -10,7 +10,7 @@ Icon=/opt/QQ8.9.2/QQ.png
 #指定QQ图标文件
 MimeType=
 Name[zh_CN]=腾讯QQ
-Name=QQ 8.9.2
+Name=QQ
 Path=
 StartupNotify=true
 Terminal=false

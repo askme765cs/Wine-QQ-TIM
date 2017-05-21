@@ -7,7 +7,6 @@ cp  icon/QQ.png /opt/QQ8.9.2/qq.png
 cp  icon/Wine-QQ-Tool.png  /opt/QQ8.9.2/Wine-QQ-Tool.png
 cp QQ.desktop /usr/share/applications/QQ.desktop
 cp Wine-QQ-Tool.desktop /usr/share/applications/Wine-QQ-Tool.desktop
-chmod -R 
 chmod 744 /usr/share/applications/QQ.desktop /usr/share/applications/Wine-QQ-Tool.desktop
 sudo chown "$USER":users -R /opt/QQ8.9.2
 chmod -R 755 /opt/QQ8.9.2
