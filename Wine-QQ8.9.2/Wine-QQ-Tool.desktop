@@ -2,7 +2,7 @@
 Comment[zh_CN]=Wine-QQ管理器
 Comment=winetricks
 Encoding=UTF-8
-Exec="/opt/QQ8.9.2/Wine-QQ-Tool.sh"%u 
+Exec=/opt/QQ8.9.2/Wine-QQ-Tool.sh
 #指定可执行文件路径
 GenericName[zh_CN]=
 GenericName=
@@ -20,4 +20,4 @@ X-DBUS-ServiceName=
 X-DBUS-StartupType=
 X-KDE-SubstituteUID=false
 X-KDE-Username=
-Categories=Utility;
+Categories=Network;

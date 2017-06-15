@@ -2,7 +2,7 @@
 Comment[zh_CN]=腾讯QQ 8.9.2
 Comment=Wine-QQ 8.9.2
 Encoding=UTF-8
-Exec="/opt/QQ8.9.2/qq.sh"%u 
+Exec=/opt/QQ8.9.2/qq.sh
 #..path为文件夹所在路径
 GenericName[zh_CN]=
 GenericName=
@@ -20,3 +20,4 @@ X-DBUS-ServiceName=
 X-DBUS-StartupType=
 X-KDE-SubstituteUID=false
 X-KDE-Username=
+Categories=Network;
