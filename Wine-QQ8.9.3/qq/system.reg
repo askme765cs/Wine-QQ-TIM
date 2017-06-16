@@ -28731,9 +28731,9 @@ WINE REGISTRY Version 2
 #time=1d2e63f539afc0c
 @="PSFactoryBuffer"
 
-[Software\\Classes\\Wow6432Node\\CLSID\\{192751BF-2639-487D-B97E-67EFFFC62822}\\InProcServer32] 1497576280
-#time=1d2e63f539afd4c
-@="C:\\Program Files (x86)\\Tencent\\QQ\\Bin\\TXPFProxy.dll"
+[Software\\Classes\\Wow6432Node\\CLSID\\{192751BF-2639-487D-B97E-67EFFFC62822}\\InProcServer32] 1497592972
+#time=1d2e66630c93334
+@="C:\\Program Files (x86)\\Tencent\\QQ\\Bin\\txpfproxy.dll"
 "ThreadingModel"="Both"
 
 [Software\\Classes\\Wow6432Node\\CLSID\\{1A34F5C1-4A5A-46DC-B644-1F4567E7A676}] 1497576249
@@ -37338,9 +37338,9 @@ WINE REGISTRY Version 2
 #time=1d2e63f539b385c
 @="{00020424-0000-0000-C000-000000000046}"
 
-[Software\\Classes\\Wow6432Node\\Interface\\{04AD9AE4-F179-4A7B-A640-0CB8EA74A071}\\ProxyStubClsid32] 1497576280
-#time=1d2e63f539b3ac8
-@="{00020424-0000-0000-C000-000000000046}"
+[Software\\Classes\\Wow6432Node\\Interface\\{04AD9AE4-F179-4A7B-A640-0CB8EA74A071}\\ProxyStubClsid32] 1497592972
+#time=1d2e66630c912f0
+@="{192751BF-2639-487D-B97E-67EFFFC62822}"
 
 [Software\\Classes\\Wow6432Node\\Interface\\{04AD9AE4-F179-4A7B-A640-0CB8EA74A071}\\TypeLib] 1497576280
 #time=1d2e63f53980f56
@@ -38068,9 +38068,9 @@ WINE REGISTRY Version 2
 #time=1d2e63f539ac624
 @="{00020424-0000-0000-C000-000000000046}"
 
-[Software\\Classes\\Wow6432Node\\Interface\\{192751BF-2639-487D-B97E-67EFFFC62822}\\ProxyStubClsid32] 1497576280
-#time=1d2e63f539ac9e4
-@="{00020424-0000-0000-C000-000000000046}"
+[Software\\Classes\\Wow6432Node\\Interface\\{192751BF-2639-487D-B97E-67EFFFC62822}\\ProxyStubClsid32] 1497592972
+#time=1d2e66630c8cd22
+@="{192751BF-2639-487D-B97E-67EFFFC62822}"
 
 [Software\\Classes\\Wow6432Node\\Interface\\{192751BF-2639-487D-B97E-67EFFFC62822}\\TypeLib] 1497576280
 #time=1d2e63f53982c20
@@ -38880,9 +38880,9 @@ WINE REGISTRY Version 2
 #time=1d2e63f5308f7da
 @="{00020424-0000-0000-C000-000000000046}"
 
-[Software\\Classes\\Wow6432Node\\Interface\\{2C1C620B-C89D-4085-B0BC-088E28C62E39}\\ProxyStubClsid32] 1497576280
-#time=1d2e63f539afb30
-@="{00020424-0000-0000-C000-000000000046}"
+[Software\\Classes\\Wow6432Node\\Interface\\{2C1C620B-C89D-4085-B0BC-088E28C62E39}\\ProxyStubClsid32] 1497592972
+#time=1d2e66630c8e76c
+@="{192751BF-2639-487D-B97E-67EFFFC62822}"
 
 [Software\\Classes\\Wow6432Node\\Interface\\{2C1C620B-C89D-4085-B0BC-088E28C62E39}\\TypeLib] 1497576280
 #time=1d2e63f539afd4c
@@ -38901,9 +38901,9 @@ WINE REGISTRY Version 2
 #time=1d2e63f539b0d0a
 @="{00020424-0000-0000-C000-000000000046}"
 
-[Software\\Classes\\Wow6432Node\\Interface\\{2C3F29CA-F983-4897-A545-2221773BC5A6}\\ProxyStubClsid32] 1497576280
-#time=1d2e63f539b0ed6
-@="{00020424-0000-0000-C000-000000000046}"
+[Software\\Classes\\Wow6432Node\\Interface\\{2C3F29CA-F983-4897-A545-2221773BC5A6}\\ProxyStubClsid32] 1497592972
+#time=1d2e66630c90a08
+@="{192751BF-2639-487D-B97E-67EFFFC62822}"
 
 [Software\\Classes\\Wow6432Node\\Interface\\{2C3F29CA-F983-4897-A545-2221773BC5A6}\\TypeLib] 1497576280
 #time=1d2e63f539804de
@@ -43508,9 +43508,9 @@ WINE REGISTRY Version 2
 #time=1d2e63f539b5e0e
 @="{00020424-0000-0000-C000-000000000046}"
 
-[Software\\Classes\\Wow6432Node\\Interface\\{40CBD107-7733-4280-B059-19ED37D1AA20}\\ProxyStubClsid32] 1497576280
-#time=1d2e63f539b6052
-@="{00020424-0000-0000-C000-000000000046}"
+[Software\\Classes\\Wow6432Node\\Interface\\{40CBD107-7733-4280-B059-19ED37D1AA20}\\ProxyStubClsid32] 1497592972
+#time=1d2e66630c8efdc
+@="{192751BF-2639-487D-B97E-67EFFFC62822}"
 
 [Software\\Classes\\Wow6432Node\\Interface\\{40CBD107-7733-4280-B059-19ED37D1AA20}\\TypeLib] 1497576280
 #time=1d2e63f53981410
@@ -43695,9 +43695,9 @@ WINE REGISTRY Version 2
 #time=1d2e63f539b72c2
 @="{00020424-0000-0000-C000-000000000046}"
 
-[Software\\Classes\\Wow6432Node\\Interface\\{45B22163-C1A9-483D-9657-0B6E8CA607C9}\\ProxyStubClsid32] 1497576280
-#time=1d2e63f539b74ca
-@="{00020424-0000-0000-C000-000000000046}"
+[Software\\Classes\\Wow6432Node\\Interface\\{45B22163-C1A9-483D-9657-0B6E8CA607C9}\\ProxyStubClsid32] 1497592972
+#time=1d2e66630c8f810
+@="{192751BF-2639-487D-B97E-67EFFFC62822}"
 
 [Software\\Classes\\Wow6432Node\\Interface\\{45B22163-C1A9-483D-9657-0B6E8CA607C9}\\TypeLib] 1497576280
 #time=1d2e63f539818f2
@@ -46758,9 +46758,9 @@ WINE REGISTRY Version 2
 #time=1d2e63f539b2268
 @="{00020424-0000-0000-C000-000000000046}"
 
-[Software\\Classes\\Wow6432Node\\Interface\\{993196BC-CCB2-440A-9F92-4B39E1F5AF53}\\ProxyStubClsid32] 1497576280
-#time=1d2e63f539b24ac
-@="{00020424-0000-0000-C000-000000000046}"
+[Software\\Classes\\Wow6432Node\\Interface\\{993196BC-CCB2-440A-9F92-4B39E1F5AF53}\\ProxyStubClsid32] 1497592972
+#time=1d2e66630c900b2
+@="{192751BF-2639-487D-B97E-67EFFFC62822}"
 
 [Software\\Classes\\Wow6432Node\\Interface\\{993196BC-CCB2-440A-9F92-4B39E1F5AF53}\\TypeLib] 1497576280
 #time=1d2e63f53980a06
@@ -51274,8 +51274,8 @@ WINE REGISTRY Version 2
 #time=1d2e63f38def5d0
 "Installation Directory"="C:\\windows\\system32\\wbem"
 
-[Software\\Microsoft\\Windows\\CurrentVersion] 1497576249
-#time=1d2e63f412ef4e2
+[Software\\Microsoft\\Windows\\CurrentVersion] 1497593072
+#time=1d2e6666c31b540
 "CommonFilesDir"="C:\\Program Files\\Common Files"
 "CommonFilesDir (x86)"="C:\\Program Files (x86)\\Common Files"
 "FirstInstallDateTime"=hex:21,81,7c,23
@@ -52065,11 +52065,9 @@ WINE REGISTRY Version 2
 "CommonPictures"=str(2):"%ALLUSERSPROFILE%\\Pictures"
 "CommonVideo"=str(2):"%ALLUSERSPROFILE%\\Videos"
 
-[Software\\Microsoft\\Windows\\CurrentVersion\\Fonts] 1497576212
-#time=1d2e63f2ab301c2
+[Software\\Microsoft\\Windows\\CurrentVersion\\Fonts] 1497593027
+#time=1d2e66651a78b00
 "@Droid Sans Fallback (TrueType)"="Z:\\usr\\share\\fonts\\TTF\\DroidSansFallbackFull.ttf"
-"@\x6587\x6cc9\x9a7f\x5fae\x7c73\x9ed1 (TrueType)"="Z:\\home\\gujiawei\\.fonts\\wqy-microhei.ttc"
-"@\x6587\x6cc9\x9a7f\x7b49\x5bbd\x5fae\x7c73\x9ed1 (TrueType)"="Z:\\home\\gujiawei\\.fonts\\wqy-microhei.ttc"
 "@\x65b9\x6b63\x4e66\x5b8b_GBK (TrueType)"="Z:\\usr\\share\\fonts\\wps-office\\FZSSK.TTF"
 "@\x65b9\x6b63\x4eff\x5b8b_GBK (TrueType)"="Z:\\usr\\share\\fonts\\wps-office\\FZFSK.TTF"
 "@\x65b9\x6b63\x59da\x4f53_GBK (TrueType)"="Z:\\usr\\share\\fonts\\wps-office\\FZYTK.TTF"
@@ -52437,8 +52435,6 @@ WINE REGISTRY Version 2
 "Wingdings 2 (TrueType)"="Z:\\home\\gujiawei\\.fonts\\WINGDNG2.TTF"
 "Wingdings 3 (TrueType)"="Z:\\home\\gujiawei\\.fonts\\WINGDNG3.TTF"
 "Z003-MediumItalic (TrueType)"="Z:\\usr\\share\\fonts\\OTF\\Z003-MediumItalic.otf"
-"\x6587\x6cc9\x9a7f\x5fae\x7c73\x9ed1 (TrueType)"="Z:\\home\\gujiawei\\.fonts\\wqy-microhei.ttc"
-"\x6587\x6cc9\x9a7f\x7b49\x5bbd\x5fae\x7c73\x9ed1 (TrueType)"="Z:\\home\\gujiawei\\.fonts\\wqy-microhei.ttc"
 "\x65b9\x6b63\x4e66\x5b8b_GBK (TrueType)"="Z:\\usr\\share\\fonts\\wps-office\\FZSSK.TTF"
 "\x65b9\x6b63\x4eff\x5b8b_GBK (TrueType)"="Z:\\usr\\share\\fonts\\wps-office\\FZFSK.TTF"
 "\x65b9\x6b63\x59da\x4f53_GBK (TrueType)"="Z:\\usr\\share\\fonts\\wps-office\\FZYTK.TTF"
@@ -54585,6 +54581,43 @@ WINE REGISTRY Version 2
 "MinLevel"=dword:00012000
 "RecommendedLevel"=dword:00012000
 
+[Software\\Microsoft\\Windows\\CurrentVersion\\MMDevices\\Audio\\Capture\\{25DA76D0-033C-4235-9002-19F48894AC6F}] 1497593072
+#time=1d2e6666c3219ae
+"DeviceState"=dword:00000001
+
+[Software\\Microsoft\\Windows\\CurrentVersion\\MMDevices\\Audio\\Capture\\{25DA76D0-033C-4235-9002-19F48894AC6F}\\Properties] 1497593072
+#time=1d2e6666c32543c
+"{026E516E-B814-414B-83CD-856D6FEF4822},2"="Pulseaudio"
+"{1DA5D803-D492-4EDD-8C23-E0C0FFEE7F0E},0"=dword:00000004
+"{233164C8-1B2C-4C7D-BC68-B671687A2567},1"="{25DA76D0-033C-4235-9002-19F48894AC6F}"
+"{A45C254E-DF1C-4EFD-8020-67D146A850E0},14"="Pulseaudio"
+"{A45C254E-DF1C-4EFD-8020-67D146A850E0},2"="Pulseaudio"
+"{E4870E26-3CC5-4CD2-BA46-CA0A9A70ED04},3"=hex:fe,ff,02,00,44,ac,00,00,20,62,\
+  05,00,08,00,20,00,16,00,20,00,03,00,00,00,03,00,00,00,00,00,10,00,80,00,00,\
+  aa,00,38,9b,71
+"{F19F064D-082C-4E27-BC73-6882A1BB8E4C},0"=hex:fe,ff,02,00,44,ac,00,00,20,62,\
+  05,00,08,00,20,00,16,00,20,00,03,00,00,00,03,00,00,00,00,00,10,00,80,00,00,\
+  aa,00,38,9b,71
+
+[Software\\Microsoft\\Windows\\CurrentVersion\\MMDevices\\Audio\\Render\\{FD47D9CC-4218-4135-9CE2-0C195C87405B}] 1497593072
+#time=1d2e6666c31c800
+"DeviceState"=dword:00000001
+
+[Software\\Microsoft\\Windows\\CurrentVersion\\MMDevices\\Audio\\Render\\{FD47D9CC-4218-4135-9CE2-0C195C87405B}\\Properties] 1497593072
+#time=1d2e6666c321274
+"{026E516E-B814-414B-83CD-856D6FEF4822},2"="Pulseaudio"
+"{1DA5D803-D492-4EDD-8C23-E0C0FFEE7F0E},0"=dword:00000001
+"{1DA5D803-D492-4EDD-8C23-E0C0FFEE7F0E},3"=dword:00000003
+"{233164C8-1B2C-4C7D-BC68-B671687A2567},1"="{FD47D9CC-4218-4135-9CE2-0C195C87405B}"
+"{A45C254E-DF1C-4EFD-8020-67D146A850E0},14"="Pulseaudio"
+"{A45C254E-DF1C-4EFD-8020-67D146A850E0},2"="Pulseaudio"
+"{E4870E26-3CC5-4CD2-BA46-CA0A9A70ED04},3"=hex:fe,ff,02,00,44,ac,00,00,20,62,\
+  05,00,08,00,20,00,16,00,20,00,03,00,00,00,03,00,00,00,00,00,10,00,80,00,00,\
+  aa,00,38,9b,71
+"{F19F064D-082C-4E27-BC73-6882A1BB8E4C},0"=hex:fe,ff,02,00,44,ac,00,00,20,62,\
+  05,00,08,00,20,00,16,00,20,00,03,00,00,00,03,00,00,00,00,00,10,00,80,00,00,\
+  aa,00,38,9b,71
+
 [Software\\Microsoft\\Windows\\CurrentVersion\\Policies\\System] 1497576235
 #time=1d2e63f38db13e8
 "EnableLUA"=dword:00000000
@@ -56626,15 +56659,15 @@ WINE REGISTRY Version 2
 [Software\\Microsoft\\Windows\\CurrentVersion\\Winlogon] 1497576235
 #time=1d2e63f38db449e
 
-[Software\\Microsoft\\Windows NT\\CurrentVersion] 1497576236
-#time=1d2e63f3915284e
-"CSDVersion"="Service Pack 1"
-"CurrentBuildNumber"="7601"
+[Software\\Microsoft\\Windows NT\\CurrentVersion] 1497593019
+#time=1d2e6664cb7a6ca
+"CSDVersion"="Service Pack 2"
+"CurrentBuildNumber"="3790"
 "CurrentType"="Uniprocessor Free"
-"CurrentVersion"="6.1"
+"CurrentVersion"="5.2"
 "InstallDate"=dword:4be5019a
 "ProductId"="12345-oem-0000001-54321"
-"ProductName"="Microsoft Windows 7"
+"ProductName"="Microsoft Windows XP"
 "RegisteredOrganization"=""
 "RegisteredOwner"=""
 "SystemRoot"="C:\\windows"
@@ -56662,11 +56695,9 @@ WINE REGISTRY Version 2
 [Software\\Microsoft\\Windows NT\\CurrentVersion\\FontMapper] 1497576235
 #time=1d2e63f38db78a6
 
-[Software\\Microsoft\\Windows NT\\CurrentVersion\\Fonts] 1497576378
-#time=1d2e63f8df9e0c0
+[Software\\Microsoft\\Windows NT\\CurrentVersion\\Fonts] 1497593027
+#time=1d2e66651a78a24
 "@Droid Sans Fallback (TrueType)"="Z:\\usr\\share\\fonts\\TTF\\DroidSansFallbackFull.ttf"
-"@\x6587\x6cc9\x9a7f\x5fae\x7c73\x9ed1 (TrueType)"="Z:\\home\\gujiawei\\.fonts\\wqy-microhei.ttc"
-"@\x6587\x6cc9\x9a7f\x7b49\x5bbd\x5fae\x7c73\x9ed1 (TrueType)"="Z:\\home\\gujiawei\\.fonts\\wqy-microhei.ttc"
 "@\x65b9\x6b63\x4e66\x5b8b_GBK (TrueType)"="Z:\\usr\\share\\fonts\\wps-office\\FZSSK.TTF"
 "@\x65b9\x6b63\x4eff\x5b8b_GBK (TrueType)"="Z:\\usr\\share\\fonts\\wps-office\\FZFSK.TTF"
 "@\x65b9\x6b63\x59da\x4f53_GBK (TrueType)"="Z:\\usr\\share\\fonts\\wps-office\\FZYTK.TTF"
@@ -57035,8 +57066,6 @@ WINE REGISTRY Version 2
 "Wingdings 2 (TrueType)"="Z:\\home\\gujiawei\\.fonts\\WINGDNG2.TTF"
 "Wingdings 3 (TrueType)"="Z:\\home\\gujiawei\\.fonts\\WINGDNG3.TTF"
 "Z003-MediumItalic (TrueType)"="Z:\\usr\\share\\fonts\\OTF\\Z003-MediumItalic.otf"
-"\x6587\x6cc9\x9a7f\x5fae\x7c73\x9ed1 (TrueType)"="Z:\\home\\gujiawei\\.fonts\\wqy-microhei.ttc"
-"\x6587\x6cc9\x9a7f\x7b49\x5bbd\x5fae\x7c73\x9ed1 (TrueType)"="Z:\\home\\gujiawei\\.fonts\\wqy-microhei.ttc"
 "\x65b9\x6b63\x4e66\x5b8b_GBK (TrueType)"="Z:\\usr\\share\\fonts\\wps-office\\FZSSK.TTF"
 "\x65b9\x6b63\x4eff\x5b8b_GBK (TrueType)"="Z:\\usr\\share\\fonts\\wps-office\\FZFSK.TTF"
 "\x65b9\x6b63\x59da\x4f53_GBK (TrueType)"="Z:\\usr\\share\\fonts\\wps-office\\FZYTK.TTF"
@@ -62999,15 +63028,15 @@ WINE REGISTRY Version 2
 [Software\\Wow6432Node\\Microsoft\\Windows\\CurrentVersion\\Winlogon] 1497576249
 #time=1d2e63f410bc0d0
 
-[Software\\Wow6432Node\\Microsoft\\Windows NT\\CurrentVersion] 1497576249
-#time=1d2e63f412a31c8
-"CSDVersion"="Service Pack 1"
-"CurrentBuildNumber"="7601"
+[Software\\Wow6432Node\\Microsoft\\Windows NT\\CurrentVersion] 1497593019
+#time=1d2e6664cb7b7dc
+"CSDVersion"="Service Pack 2"
+"CurrentBuildNumber"="3790"
 "CurrentType"="Uniprocessor Free"
-"CurrentVersion"="6.1"
+"CurrentVersion"="5.2"
 "InstallDate"=dword:4be5019a
 "ProductId"="12345-oem-0000001-54321"
-"ProductName"="Microsoft Windows 7"
+"ProductName"="Microsoft Windows XP"
 "RegisteredOrganization"=""
 "RegisteredOwner"=""
 "SystemRoot"="C:\\windows"
@@ -63280,6 +63309,15 @@ WINE REGISTRY Version 2
 #time=1d2e63f636fb988
 "BitmapValue1"=dword:00016620
 "BitmapValue2"=dword:0005f6b8
+
+[Software\\Wow6432Node\\Tencent\\PlatForm_Type_List] 1497593069
+#time=1d2e6666a53ff58
+"LastLoginType"=dword:00000001
+
+[Software\\Wow6432Node\\Tencent\\PlatForm_Type_List\\1] 1497593069
+#time=1d2e6666a5401ce
+"TypeName"="QQ8.9.3"
+"TypePath"="C:\\Program Files (x86)\\Tencent\\QQ\\Bin\\QQ.exe"
 
 [Software\\Wow6432Node\\Tencent\\PlatForm_Type_List\\3] 1497576279
 #time=1d2e63f52973064
@@ -63730,15 +63768,14 @@ WINE REGISTRY Version 2
 #time=1d2e63f38df24e2
 "List"=str(7):"TDI\0"
 
-[System\\CurrentControlSet\\Control\\Session Manager] 1497576282
-#time=1d2e63f546ec42e
+[System\\CurrentControlSet\\Control\\Session Manager] 1497592969
+#time=1d2e6662e9b2248
 "CriticalSectionTimeout"=dword:00278d00
 "GlobalFlag"=dword:00000000
 "HeapDeCommitFreeBlockThreshold"=dword:00000000
 "HeapDeCommitTotalFreeThreshold"=dword:00000000
 "HeapSegmentCommit"=dword:00000000
 "HeapSegmentReserve"=dword:00000000
-"PendingFileRenameOperations"=str(7):"\\??\\C:\\users\\Public\\s4cZB9.Lf7\0\0\\??\\C:\\users\\gujiawei\\Application Data\\Tencent\\QQ\\STemp\\SetupEx0\\a55b40.dll\0\0\\??\\C:\\users\\gujiawei\\Temp\\TXSSO_20170616_92439\\TXSSO\\I18N\\\0\0\\??\\C:\\users\\gujiawei\\Temp\\TXSSO_20170616_92439\\TXSSO\\\0\0\\??\\C:\\users\\gujiawei\\Temp\\TXSSO_20170616_92439\\\0\0"
 
 [System\\CurrentControlSet\\Control\\Session Manager\\Environment] 1497576236
 #time=1d2e63f390f3c86
@@ -63774,9 +63811,9 @@ WINE REGISTRY Version 2
 [System\\CurrentControlSet\\Control\\VMM32Files] 1497576235
 #time=1d2e63f38df3a2c
 
-[System\\CurrentControlSet\\Control\\Windows] 1497576236
-#time=1d2e63f390f3556
-"CSDVersion"=dword:00000100
+[System\\CurrentControlSet\\Control\\Windows] 1497593019
+#time=1d2e6664cb7c1d2
+"CSDVersion"=dword:00000200
 
 [System\\CurrentControlSet\\Hardware Profiles\\Current\\Software\\Fonts] 1497576235
 #time=1d2e63f38dd54d2
@@ -63891,8 +63928,8 @@ WINE REGISTRY Version 2
 "Type"=dword:00000001
 "WOW64"=dword:00000001
 
-[System\\CurrentControlSet\\Services\\QPCore] 1497576290
-#time=1d2e63f597879a6
+[System\\CurrentControlSet\\Services\\QPCore] 1497593028
+#time=1d2e66651c723e8
 "DependOnService"=str(7):"RPCSS\0"
 "Description"="\x817e\x8baf\x5b89\x5168\x670d\x52a1"
 "DisplayName"="QPCore Service"
@@ -63906,7 +63943,9 @@ WINE REGISTRY Version 2
 "Start"=dword:00000002
 "Type"=dword:00000010
 "WOW64"=dword:00000001
+"{6970596B-87AC-48de-893E-B9436C58CEA4}"=dword:00000000
 "{6970596B-87AC-48de-893E-B9436C58CEB5}"=dword:00000001
+"{6970596B-87AC-48de-893E-B9436C58CEC6}"=dword:00000000
 
 [System\\CurrentControlSet\\Services\\QPCore\\ProductInfo] 1497576287
 #time=1d2e63f57afe7da

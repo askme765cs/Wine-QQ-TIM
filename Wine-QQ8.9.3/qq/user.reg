@@ -184,6 +184,77 @@ WINE REGISTRY Version 2
 #time=1d2e63f2b0520ce
 "1"="e0010804"
 
+[Software\\Microsoft\\ActiveMovie\\devenum\\{33D9A760-90C8-11D0-BD43-00A0C911CE86}\\cvid] 1497593072
+#time=1d2e6666c4f7ae4
+"CLSID"="{D76E2820-1563-11CF-AC98-00AA004C0FA9}"
+"FccHandler"="cvid"
+"FriendlyName"=""
+
+[Software\\Microsoft\\ActiveMovie\\devenum\\{33D9A760-90C8-11D0-BD43-00A0C911CE86}\\mrle] 1497593072
+#time=1d2e6666c4f5122
+"CLSID"="{D76E2820-1563-11CF-AC98-00AA004C0FA9}"
+"FccHandler"="mrle"
+"FriendlyName"=""
+
+[Software\\Microsoft\\ActiveMovie\\devenum\\{33D9A760-90C8-11D0-BD43-00A0C911CE86}\\msvc] 1497593072
+#time=1d2e6666c4f663a
+"CLSID"="{D76E2820-1563-11CF-AC98-00AA004C0FA9}"
+"FccHandler"="msvc"
+"FriendlyName"=""
+
+[Software\\Microsoft\\ActiveMovie\\devenum\\{33D9A762-90C8-11D0-BD43-00A0C911CE86}\\Pulseaudio] 1497593072
+#time=1d2e6666c32e97e
+"CLSID"="{E30629D2-27E5-11CE-875D-00608CB78066}"
+"FilterData"=hex:02,00,00,00,00,00,80,00,01,00,00,00,00,00,00,00,30,70,69,33,\
+  08,00,00,00,01,00,00,00,01,00,00,00,00,00,00,00,01,00,00,00,3c,00,00,00,30,\
+  74,79,33,00,00,00,00,4c,00,00,00,5c,00,00,00,00,00,00,00,00,00,00,00,00,00,\
+  00,00,00,00,00,00,61,75,64,73,00,00,10,00,80,00,00,aa,00,38,9b,71,01,00,00,\
+  00,00,00,10,00,80,00,00,aa,00,38,9b,71
+"FriendlyName"="Pulseaudio"
+"WaveInID"=dword:00000000
+
+[Software\\Microsoft\\ActiveMovie\\devenum\\{4EFE2452-168A-11D1-BC76-00C04FB9453B}\\Midi Through Port-0] 1497593072
+#time=1d2e6666c3b87f0
+"CLSID"="{07B65360-C445-11CE-AFDE-00AA006C14F4}"
+"FilterData"=hex:02,00,00,00,00,00,80,00,01,00,00,00,00,00,00,00,30,70,69,33,\
+  02,00,00,00,01,00,00,00,01,00,00,00,00,00,00,00,01,00,00,00,3c,00,00,00,30,\
+  74,79,33,00,00,00,00,4c,00,00,00,5c,00,00,00,00,00,00,00,00,00,00,00,00,00,\
+  00,00,00,00,00,00,6d,69,64,73,00,00,10,00,80,00,00,aa,00,38,9b,71,8e,eb,36,\
+  e4,4f,52,ce,11,9f,53,00,20,af,0b,a7,70
+"FriendlyName"="Midi Through Port-0"
+
+[Software\\Microsoft\\ActiveMovie\\devenum\\{860BB310-5D01-11D0-BD3B-00A0C911CE86}\\video0] 1497593072
+#time=1d2e6666c4f2936
+"CLSID"="{1B544C22-FD0B-11CE-8C63-00AA0044B51E}"
+"FilterData"=hex:02,00,00,00,00,00,80,00,01,00,00,00,00,00,00,00,30,70,69,33,\
+  02,00,00,00,01,00,00,00,01,00,00,00,00,00,00,00,01,00,00,00,3c,00,00,00,30,\
+  74,79,33,00,00,00,00,4c,00,00,00,5c,00,00,00,00,00,00,00,00,00,00,00,00,00,\
+  00,00,00,00,00,00,76,69,64,73,00,00,10,00,80,00,00,aa,00,38,9b,71,8e,eb,36,\
+  e4,4f,52,ce,11,9f,53,00,20,af,0b,a7,70
+"FriendlyName"="Lenovo EasyCamera"
+"VFWIndex"=dword:00000000
+
+[Software\\Microsoft\\ActiveMovie\\devenum\\{E0F158E1-CB04-11D0-BD4E-00A0C911CE86}\\DirectSound\xff1aPulseaudio] 1497593072
+#time=1d2e6666c32c9da
+"CLSID"="{79376820-07D0-11CF-A24D-0020AFD79767}"
+"FilterData"=hex:02,00,00,00,00,00,80,00,01,00,00,00,00,00,00,00,30,70,69,33,\
+  02,00,00,00,01,00,00,00,01,00,00,00,00,00,00,00,01,00,00,00,3c,00,00,00,30,\
+  74,79,33,00,00,00,00,4c,00,00,00,5c,00,00,00,00,00,00,00,00,00,00,00,00,00,\
+  00,00,00,00,00,00,61,75,64,73,00,00,10,00,80,00,00,aa,00,38,9b,71,01,00,00,\
+  00,00,00,10,00,80,00,00,aa,00,38,9b,71
+"FriendlyName"="DirectSound\xff1aPulseaudio"
+
+[Software\\Microsoft\\ActiveMovie\\devenum\\{E0F158E1-CB04-11D0-BD4E-00A0C911CE86}\\Pulseaudio] 1497593072
+#time=1d2e6666c32b238
+"CLSID"="{E30629D1-27E5-11CE-875D-00608CB78066}"
+"FilterData"=hex:02,00,00,00,00,00,80,00,01,00,00,00,00,00,00,00,30,70,69,33,\
+  02,00,00,00,01,00,00,00,01,00,00,00,00,00,00,00,01,00,00,00,3c,00,00,00,30,\
+  74,79,33,00,00,00,00,4c,00,00,00,5c,00,00,00,00,00,00,00,00,00,00,00,00,00,\
+  00,00,00,00,00,00,61,75,64,73,00,00,10,00,80,00,00,aa,00,38,9b,71,01,00,00,\
+  00,00,00,10,00,80,00,00,aa,00,38,9b,71
+"FriendlyName"="Pulseaudio"
+"WaveOutID"=dword:00000000
+
 [Software\\Microsoft\\BSDDir] 1497576281
 #time=1d2e63f544c4836
 
@@ -289,6 +360,10 @@ WINE REGISTRY Version 2
 "20038DA37BEE9BE4DBBC5A33EE828162"=""
 "79BDB9BB742C02F47B01B876566F1750"=""
 
+[Software\\Microsoft\\Internet Explorer\\BrowserMachineCode] 1497593061
+#time=1d2e66665b11170
+"MachineGuid"="c261f2de2f01c91750e63b37df9d19e1"
+
 [Software\\Microsoft\\Internet Explorer\\Main] 1497576235
 #time=1d2e63f38c97df4
 "Search Page"="http://www.google.com"
@@ -351,6 +426,19 @@ WINE REGISTRY Version 2
 
 [Software\\Microsoft\\SystemCertificates\\Trust\\CTLs] 1497576252
 #time=1d2e63f42827f1c
+
+[Software\\Microsoft\\Windows\\CurrentVersion\\Explorer\\Advanced] 1497593077
+#time=1d2e6666f3e8678
+
+[Software\\Microsoft\\Windows\\CurrentVersion\\Explorer\\ComDlg32\\LastVisitedMRU] 1497593089
+#time=1d2e666764632f4
+"a"=hex:51,00,51,00,2e,00,65,00,78,00,65,00,00,00,43,00,3a,00,5c,00,75,00,73,\
+  00,65,00,72,00,73,00,5c,00,67,00,75,00,6a,00,69,00,61,00,77,00,65,00,69,00,\
+  5c,00,11,62,84,76,fe,56,47,72,5c,00,0f,61,27,59,29,52,ce,98,49,51,d8,9a,05,\
+  6e,bd,5b,4f,5c,4c,68,62,97,c1,58,b8,7e,20,00,2c,7b,34,00,75,98,2d,00,5a,00,\
+  4f,00,4c,00,4c,68,62,97,c1,58,b8,7e,5f,00,66,00,69,00,6c,00,65,00,73,00,00,\
+  00
+"MRUList"="a"
 
 [Software\\Microsoft\\Windows\\CurrentVersion\\Explorer\\Shell Folders] 1497576217
 #time=1d2e63f2e309c24
@@ -418,8 +506,9 @@ WINE REGISTRY Version 2
 [Software\\Microsoft\\Windows\\CurrentVersion\\Ext\\Stats\\{ED4CA2E5-0EEA-44C1-AD7E-74A07A7507A4}\\iexplore\\AllowedDomains\\*] 1497576279
 #time=1d2e63f529744f0
 
-[Software\\Microsoft\\Windows\\CurrentVersion\\Internet Settings] 1497576234
-#time=1d2e63f3836d7d8
+[Software\\Microsoft\\Windows\\CurrentVersion\\Internet Settings] 1497593061
+#time=1d2e66665b49534
+"ProxyEnable"=dword:00000000
 "User Agent"="Mozilla/4.0 (compatible; MSIE 8.0; Win32)"
 
 [Software\\Microsoft\\Windows\\CurrentVersion\\Internet Settings\\ZoneMap] 1497576234
@@ -660,10 +749,19 @@ WINE REGISTRY Version 2
 #time=1d2e63f42703514
 "State"=dword:00023c00
 
+[Software\\Tencent] 1497593090
+#time=1d2e66676cbacd6
+"DelayMinutes"=dword:0000000a
+
 [Software\\Tencent\\bugReport\\QQ] 1497576295
 #time=1d2e63f5c22c3e6
 "ExcDir"="users"
 "InstallDir"="C:\\Program Files (x86)\\Tencent\\QQ\\"
+
+[Software\\Tencent\\bugReport\\QQExternal] 1497593043
+#time=1d2e6665b3bb0c4
+"uin"=dword:c4aeb2ac
+"version"=dword:0000683e
 
 [Software\\Tencent\\bugReport\\QQProtect] 1497576285
 #time=1d2e63f568dc3cc
@@ -674,23 +772,54 @@ WINE REGISTRY Version 2
 "ExcDir"="userinfo"
 "InstallDir"="C:\\Program Files (x86)\\Tencent\\QQ\\bin"
 
-[Software\\Tencent\\QQ] 1497576280
-#time=1d2e63f534f7cd2
+[Software\\Tencent\\MiniBrowser] 1497593065
+#time=1d2e666681ffffc
+"urlListHash"="Dxxx~n:"
 
-[Software\\Tencent\\QQ2009] 1497576294
-#time=1d2e63f5b9bb428
+[Software\\Tencent\\PlatForm_Type_List] 1497593069
+#time=1d2e6666a53f7d8
+"LastLoginType"=dword:00000001
+
+[Software\\Tencent\\PlatForm_Type_List\\1] 1497593069
+#time=1d2e6666a53fb66
+"TypeName"="QQ8.9.3"
+"TypePath"="C:\\Program Files (x86)\\Tencent\\QQ\\Bin\\QQ.exe"
+
+[Software\\Tencent\\Plugin\\VAS\\-995183956] 1497593062
+#time=1d2e666663f4260
+"PushMayKnow"=dword:00000000
+"PushSystemMsg"=dword:00000000
+
+[Software\\Tencent\\QQ] 1497593073
+#time=1d2e6666d01d310
+"RDOShareDelete"=dword:00000001
+
+[Software\\Tencent\\QQ2009] 1497593109
+#time=1d2e6668237705a
 "AndroidConn"=dword:00000001
 "nUpdateType"=dword:00000001
 "SPContext_F"=dword:00000000
 "SPContext_P"=""
 
-[Software\\Tencent\\QQProtect] 1497576290
-#time=1d2e63f5976fb6c
-"SPS"=hex:39,11,5d,4d,dc,3a,92,67,b1,6f,4d,9b,f6,a1,de,6e
+[Software\\Tencent\\QQ2009\\QQPerf\\916004260\\4063738517] 1497593109
+#time=1d2e66682377ee2
+"dwExitEnd"=dword:004bd282
 
-[Software\\Tencent\\Report] 1497576296
-#time=1d2e63f5d1e9310
-"134239437"=dword:00000004
+[Software\\Tencent\\QQProtect] 1497593029
+#time=1d2e66652ab7192
+"SPS"=hex:bf,44,5d,4d,dc,3a,92,67,b1,6f,4d,9b,f6,a1,de,6e
+
+[Software\\Tencent\\Report] 1497593092
+#time=1d2e666780be890
+"134238361"=dword:00000001
+"134239437"=dword:00000008
+"2003"=dword:00000002
+"2008"=dword:00000001
+"2009"=dword:00000001
+"2020"=dword:00000001
+"3008"=dword:00000002
+"3011"=dword:00000002
+"4010"=dword:00000001
 
 [Software\\Tencent\\TodayDo] 1497576253
 #time=1d2e63f433b7558
@@ -707,16 +836,168 @@ WINE REGISTRY Version 2
 "*riched20"="native,builtin"
 "*txplatform.exe"=""
 
-[Software\\Wine\\Fonts] 1497576379
-#time=1d2e63f8e3e674a
+[Software\\Wine\\Drivers\\winepulse.drv] 1497593072
+#time=1d2e6666c32bf3a
+
+[Software\\Wine\\FileOpenAssociations\\.chm] 1497592969
+#time=1d2e6662f24f1b2
+"AppName"="hh"
+"DesktopFile"="/home/gujiawei/.local/share/applications/wine-extension-chm.desktop"
+"MimeType"="application/vnd.ms-htmlhelp"
+"OpenWithIcon"="A35F_hh.0"
+"ProgID"="chm.file"
+
+[Software\\Wine\\FileOpenAssociations\\.eif] 1497592969
+#time=1d2e6662f29e88e
+"AppName"="Program Files"
+"DesktopFile"="/home/gujiawei/.local/share/applications/wine-extension-eif.desktop"
+"MimeType"="text/x-eiffel"
+"OpenWithIcon"="CCAD_Program Files.0"
+"ProgID"="EMOTION.File"
+
+[Software\\Wine\\FileOpenAssociations\\.eip] 1497592969
+#time=1d2e6662f2ec700
+"AppName"="Program Files"
+"DesktopFile"="/home/gujiawei/.local/share/applications/wine-extension-eip.desktop"
+"MimeType"="application/x-wine-extension-eip"
+"OpenWithIcon"="CCAD_Program Files.0"
+"ProgID"="EMOTION.Package"
+
+[Software\\Wine\\FileOpenAssociations\\.gif] 1497592970
+#time=1d2e6662f3f76c2
+"AppName"="Wine Internet Explorer"
+"DesktopFile"="/home/gujiawei/.local/share/applications/wine-extension-gif.desktop"
+"MimeType"="image/gif"
+"OpenWithIcon"="7596_iexplore.0"
+"ProgID"="giffile"
+
+[Software\\Wine\\FileOpenAssociations\\.hlp] 1497592970
+#time=1d2e6662f4d2db2
+"AppName"="winhlp32"
+"DesktopFile"="/home/gujiawei/.local/share/applications/wine-extension-hlp.desktop"
+"MimeType"="application/winhlp"
+"OpenWithIcon"="4137_winhlp32.0"
+"ProgID"="hlpfile"
+
+[Software\\Wine\\FileOpenAssociations\\.htm] 1497592970
+#time=1d2e6662f53282a
+"AppName"="winebrowser"
+"DesktopFile"="/home/gujiawei/.local/share/applications/wine-extension-htm.desktop"
+"MimeType"="text/html"
+"OpenWithIcon"="7765_winebrowser.0"
+"ProgID"="htmlfile"
+
+[Software\\Wine\\FileOpenAssociations\\.ini] 1497592970
+#time=1d2e6662f64942a
+"AppName"="notepad"
+"DesktopFile"="/home/gujiawei/.local/share/applications/wine-extension-ini.desktop"
+"MimeType"="application/x-wine-extension-ini"
+"OpenWithIcon"="1E64_notepad.0"
+"ProgID"="inifile"
+
+[Software\\Wine\\FileOpenAssociations\\.jfif] 1497592970
+#time=1d2e6662f708d98
+"AppName"="Wine Internet Explorer"
+"DesktopFile"="/home/gujiawei/.local/share/applications/wine-extension-jfif.desktop"
+"MimeType"="image/jpeg"
+"OpenWithIcon"="7596_iexplore.0"
+"ProgID"="pjpegfile"
+
+[Software\\Wine\\FileOpenAssociations\\.jpe] 1497592970
+#time=1d2e6662f7c8436
+"AppName"="Wine Internet Explorer"
+"DesktopFile"="/home/gujiawei/.local/share/applications/wine-extension-jpe.desktop"
+"MimeType"="image/jpeg"
+"OpenWithIcon"="7596_iexplore.0"
+"ProgID"="jpegfile"
+
+[Software\\Wine\\FileOpenAssociations\\.kipx] 1497592970
+#time=1d2e6662fa0b040
+"AppName"="Program Files"
+"DesktopFile"="/home/gujiawei/.local/share/applications/wine-extension-kipx.desktop"
+"MimeType"="application/x-wine-extension-kipx"
+"OpenWithIcon"="CCAD_Program Files.0"
+"ProgID"="KIPX.File"
+
+[Software\\Wine\\FileOpenAssociations\\.msp] 1497592970
+#time=1d2e6662fab622e
+"AppName"="Wine Installer"
+"DesktopFile"="/home/gujiawei/.local/share/applications/wine-extension-msp.desktop"
+"MimeType"="application/x-wine-extension-msp"
+"OpenWithIcon"="2402_msiexec.0"
+"ProgID"="Msi.Patch"
+
+[Software\\Wine\\FileOpenAssociations\\.pdf] 1497592970
+#time=1d2e6662fb2e788
+"AppName"="winebrowser"
+"DesktopFile"="/home/gujiawei/.local/share/applications/wine-extension-pdf.desktop"
+"MimeType"="application/pdf"
+"OpenWithIcon"="7765_winebrowser.0"
+"ProgID"="pdffile"
+
+[Software\\Wine\\FileOpenAssociations\\.png] 1497592970
+#time=1d2e6662fbd5f2e
+"AppName"="Wine Internet Explorer"
+"DesktopFile"="/home/gujiawei/.local/share/applications/wine-extension-png.desktop"
+"MimeType"="image/png"
+"OpenWithIcon"="7596_iexplore.0"
+"ProgID"="pngfile"
+
+[Software\\Wine\\FileOpenAssociations\\.rtf] 1497592970
+#time=1d2e6662fc7174e
+"AppName"="wordpad"
+"DesktopFile"="/home/gujiawei/.local/share/applications/wine-extension-rtf.desktop"
+"MimeType"="application/wps-office.doc"
+"OpenWithIcon"="97C1_wordpad.0"
+"ProgID"="rtffile"
+
+[Software\\Wine\\FileOpenAssociations\\.txt] 1497592971
+#time=1d2e6662fd250be
+"AppName"="notepad"
+"DesktopFile"="/home/gujiawei/.local/share/applications/wine-extension-txt.desktop"
+"MimeType"="text/plain"
+"OpenWithIcon"="1E64_notepad.0"
+"ProgID"="txtfile"
+
+[Software\\Wine\\FileOpenAssociations\\.url] 1497592971
+#time=1d2e6662fda2d02
+"AppName"="rundll32"
+"DesktopFile"="/home/gujiawei/.local/share/applications/wine-extension-url.desktop"
+"MimeType"="application/x-mswinurl"
+"OpenWithIcon"="1CD8_rundll32.0"
+"ProgID"="InternetShortcut"
+
+[Software\\Wine\\FileOpenAssociations\\.vbs] 1497592971
+#time=1d2e6662fdb8166
+"AppName"="A Wine application"
+"DesktopFile"="/home/gujiawei/.local/share/applications/wine-extension-vbs.desktop"
+"MimeType"="application/x-wine-extension-vbs"
+"ProgID"="VBSFile"
+
+[Software\\Wine\\FileOpenAssociations\\.wri] 1497592971
+#time=1d2e6662fe5c2fc
+"AppName"="wordpad"
+"DesktopFile"="/home/gujiawei/.local/share/applications/wine-extension-wri.desktop"
+"MimeType"="application/x-mswrite"
+"OpenWithIcon"="97C1_wordpad.0"
+"ProgID"="wrifile"
+
+[Software\\Wine\\FileOpenAssociations\\.xml] 1497592971
+#time=1d2e6662fedd622
+"AppName"="winebrowser"
+"DesktopFile"="/home/gujiawei/.local/share/applications/wine-extension-xml.desktop"
+"MimeType"="application/xml"
+"OpenWithIcon"="7765_winebrowser.0"
+"ProgID"="xmlfile"
+
+[Software\\Wine\\Fonts] 1497593027
+#time=1d2e66651a2cb92
 "Codepages"="936,936"
 "LogPixels"=dword:00000060
 
-[Software\\Wine\\Fonts\\External Fonts] 1497576212
-#time=1d2e63f2ab30398
+[Software\\Wine\\Fonts\\External Fonts] 1497593027
+#time=1d2e66651a78bd2
 "@Droid Sans Fallback (TrueType)"="Z:\\usr\\share\\fonts\\TTF\\DroidSansFallbackFull.ttf"
-"@\x6587\x6cc9\x9a7f\x5fae\x7c73\x9ed1 (TrueType)"="Z:\\home\\gujiawei\\.fonts\\wqy-microhei.ttc"
-"@\x6587\x6cc9\x9a7f\x7b49\x5bbd\x5fae\x7c73\x9ed1 (TrueType)"="Z:\\home\\gujiawei\\.fonts\\wqy-microhei.ttc"
 "@\x65b9\x6b63\x4e66\x5b8b_GBK (TrueType)"="Z:\\usr\\share\\fonts\\wps-office\\FZSSK.TTF"
 "@\x65b9\x6b63\x4eff\x5b8b_GBK (TrueType)"="Z:\\usr\\share\\fonts\\wps-office\\FZFSK.TTF"
 "@\x65b9\x6b63\x59da\x4f53_GBK (TrueType)"="Z:\\usr\\share\\fonts\\wps-office\\FZYTK.TTF"
@@ -1080,8 +1361,6 @@ WINE REGISTRY Version 2
 "Wingdings 2 (TrueType)"="Z:\\home\\gujiawei\\.fonts\\WINGDNG2.TTF"
 "Wingdings 3 (TrueType)"="Z:\\home\\gujiawei\\.fonts\\WINGDNG3.TTF"
 "Z003-MediumItalic (TrueType)"="Z:\\usr\\share\\fonts\\OTF\\Z003-MediumItalic.otf"
-"\x6587\x6cc9\x9a7f\x5fae\x7c73\x9ed1 (TrueType)"="Z:\\home\\gujiawei\\.fonts\\wqy-microhei.ttc"
-"\x6587\x6cc9\x9a7f\x7b49\x5bbd\x5fae\x7c73\x9ed1 (TrueType)"="Z:\\home\\gujiawei\\.fonts\\wqy-microhei.ttc"
 "\x65b9\x6b63\x4e66\x5b8b_GBK (TrueType)"="Z:\\usr\\share\\fonts\\wps-office\\FZSSK.TTF"
 "\x65b9\x6b63\x4eff\x5b8b_GBK (TrueType)"="Z:\\usr\\share\\fonts\\wps-office\\FZFSK.TTF"
 "\x65b9\x6b63\x59da\x4f53_GBK (TrueType)"="Z:\\usr\\share\\fonts\\wps-office\\FZYTK.TTF"
@@ -1109,3 +1388,6 @@ WINE REGISTRY Version 2
 "SimHei"="WenQuanYi Micro Hei"
 "SimKai"="WenQuanYi Micro Hei"
 "SimSun"="WenQuanYi Micro Hei"
+
+[Software\\Wine\\MenuFiles] 1497592971
+#time=1d2e6662ff43724
