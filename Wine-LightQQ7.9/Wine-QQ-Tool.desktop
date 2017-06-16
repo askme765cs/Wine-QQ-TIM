@@ -10,7 +10,7 @@ Icon=/opt/QQLight7.9/Wine-QQ-Tool.png
 #指定图标文件
 MimeType=
 Name[zh_CN]=Wine-QQ轻聊版管理器
-Name=Wine-QQ-Tool
+Name=Wine-QQLight-Tool
 Path=
 StartupNotify=true
 Terminal=false
