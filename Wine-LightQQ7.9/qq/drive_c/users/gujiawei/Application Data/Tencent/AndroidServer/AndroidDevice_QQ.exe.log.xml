@@ -1,0 +1,21 @@
+10:09:11:133,0x00000030 =============================================
+10:09:11:133,0x00000030 Log at: 2017-06-16 10:09:11:133, compiled: Oct  9 2015 15:21:56
+10:09:11:133,0x00000030 PID: 0078, Exe: C:\Program Files (x86)\Tencent\QQLite\Bin\QQ.exe
+10:09:11:133,0x00000030 CTaskMgr::RunProc begin Thread Name is AndroidDeviceImpl
+10:09:11:146,0x00000014 CTaskMgr::Start() OK, Thread Name is AndroidDeviceImpl
+10:09:11:150,0x00000030 InitializeAndroidDevice Begin!bStrictAndroid=0
+10:09:11:162,0x00000030 InitializeAndroidDevice End!
+10:09:11:163,0x00000030 CMonitorImpl::StartMonitor() Start
+10:09:11:181,0x00000030 CMonitorImpl::StartMonitor() End
+10:09:11:181,0x00000030 CUsbDeviceMonitor::USBDeviceChangeStart
+10:09:11:182,0x00000030 CUsbDeviceMonitor::USBDeviceChangeEnd
+10:10:25:685,0x00000014 CAndroidDeviceImpl::StopUsbDeviceMonitor, nRefCount=1
+10:10:25:686,0x00000030 CMonitorImpl::StopMonitor Start.....
+10:10:25:686,0x0000003C CMonitorImpl::ListenerThreadProc2 End
+10:10:25:691,0x00000030 CMonitorImpl::StopMonitor End.....
+10:10:25:691,0x00000014 CTaskMgr::Stop, Thread Name is AndroidDeviceImpl
+10:10:25:691,0x00000030 CAndroidDeviceInfo::UnInit
+10:10:25:692,0x00000030 CTaskMgr::RunProc m_bExitMessageLoop = TRUE, break MesasgeLoop
+10:10:25:693,0x00000030 CTaskMgr::RunProc end,Thread Name is AndroidDeviceImpl
+10:10:25:871,0x0000004F DestroyNetworkMgr(), Ref=0
+10:10:25:872,0x0000004F Log finished

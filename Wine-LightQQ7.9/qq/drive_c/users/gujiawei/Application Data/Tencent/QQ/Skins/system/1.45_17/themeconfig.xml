@@ -1,0 +1,5 @@
+﻿<theme-config PackPreview="preview.png" PackName="都市夜景" PackMinVer="3487" PackVersion="2.0" PackID="7649EA">
+	<backgroundlist>
+		<background mainfile="main.jpg" bkgstyle="toprightstretch" color="ff000000"/>
+	</backgroundlist>
+</theme-config>

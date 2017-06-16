@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<tpc version="1.0.0">
+  <core-configs>
+    <core-config file="common.xml"/>
+  </core-configs>
+  <i18n-config file="I18N\QQProtectConfig.xml"/>
+</tpc>

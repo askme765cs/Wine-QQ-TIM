@@ -1,0 +1,23 @@
+[Desktop Entry]
+Comment[zh_CN]=腾讯QQ轻聊版 7.9
+Comment=Wine-QQLight 7.9
+Encoding=UTF-8
+Exec=/opt/QQLight7.9/qq.sh
+#..path为文件夹所在路径
+GenericName[zh_CN]=
+GenericName=
+Icon=/opt/QQLight7.9/qq.png
+#指定QQ图标文件
+MimeType=
+Name[zh_CN]=腾讯QQ轻聊版
+Name=QQ
+Path=
+StartupNotify=true
+Terminal=false
+TerminalOptions=
+Type=Application
+X-DBUS-ServiceName=
+X-DBUS-StartupType=
+X-KDE-SubstituteUID=false
+X-KDE-Username=
+Categories=Network;

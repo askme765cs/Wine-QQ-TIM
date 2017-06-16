@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Theme>
+  <TG name="TextColor" comment="文字颜色分类">
+    <TV name="Reverse" value="0xFFFFFF" type="color" comment="反色"/>
+  </TG>
+  
+  <TG name="Color" comment="边框颜色">
+    <TV name="MaskColor" value="0xFF00FF" type="color" comment="图片屏蔽色，透明色"/>
+    <TV name="Background" value="0xFFFFFF" type="color" comment="控件底色"/>
+  </TG>
+  
+  <TG name="BorderColor">
+    <TV name="Normal" value="0xC3CFE2" type="color" comment="普通状态的边框颜色"/>
+  </TG>
+  
+  <TG name="Font">
+    <TV name="Normal" type="rich">
+      <!-- 默认字体 -->
+      <Value>
+        <Font height="9"/>
+      </Value>
+    </TV>
+  </TG>
+  
+  <TG name="ContactTipsFont">
+    <TV name="Normal" type="rich">
+      <!-- 默认字体 -->
+      <Value>
+        <Font height="9">
+        </Font>
+      </Value>
+    </TV>
+    <TV name="Bold" type="rich">
+      <!-- 粗体 -->
+      <Value>
+        <Font weight="600">
+        </Font>
+      </Value>
+    </TV>
+  </TG>
+</Theme>

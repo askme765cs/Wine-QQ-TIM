@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<i18n>
+  <!-- 默认的语言,以主程序的优?-->
+	<locale id="2052" />
+  <!-- 语言文字列表 -->
+	<StringBundle>
+    <configfile name="StringBundle.xml"/>
+	<configfile name="GFStringBundle.xml"/>
+	</StringBundle>
+</i18n>

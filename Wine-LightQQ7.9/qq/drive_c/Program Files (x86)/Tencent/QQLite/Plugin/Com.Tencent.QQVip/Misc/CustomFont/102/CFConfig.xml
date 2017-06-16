@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>  
+      <CFConfigInfo Ver = "1" UpdateSign = "1" CFID = "10" CFName = "七彩字体" CFPreviewName = "2014_preview" CF_Cx = "20" CF_Cy = "27" CFType = "Tpye_NoBkg"/>                                                                 
+      <CFBackgroundList nFrame = "3" nElapse = "700" CycNum = "10">
+        <Frame Pic0 = ""/>
+        <Frame Pic0 = ""/>
+        <Frame Pic0 = ""/>
+      </CFBackgroundList>
+      <CFList nFrame = "3"  nElapse = "700" CycNum = "10" CycPos = "1"> 
+          <Frame FontType = "微软雅黑" CFSize = "12" IsBold = "1" CFPostion0 = "2_7 " COLORREF0 = "FC0305" COLORREF1 = "060782" COLORREF2 = "E26A0F" COLORREF3 = "63AA57" COLORREF4 = "E26A0F" COLORREF5 = "63AA57" COLORREF6 ="FF0000"  COLORREF7 = "983158"  COLORREF8 = "B6102F"  COLORREF9 = "E69123"/>
+          <Frame FontType = "微软雅黑" CFSize = "12" IsBold = "1" CFPostion0 = "2_7 " COLORREF0 = "140a90" COLORREF1 = "990066" COLORREF2 = "D53231 " COLORREF3 = "339900" COLORREF4 = "3300CC" COLORREF5 = "330066" COLORREF6 ="FE2221"  COLORREF7 = "FE2221"  COLORREF8 = "CC6633"  COLORREF9 = "F8822B"/>/>
+          <Frame FontType = "微软雅黑" CFSize = "12" IsBold = "1" CFPostion0 = "2_7 " COLORREF0 = "1454E9" COLORREF1 = "FE1212" COLORREF2 = "FC9005 " COLORREF3 = "326AEA" COLORREF4 = "04AE00" COLORREF5 = "FF0033" COLORREF6 ="40A011"  COLORREF7 = "FF0000"  COLORREF8 = "1454E9"  COLORREF9 = "FD4D78"/>/>
+      </CFList>
+</root>
+

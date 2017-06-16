@@ -1,0 +1,28 @@
+10:09:09:612,0x00000075 =============================================
+10:09:09:612,0x00000075 Log at: 2017-06-16 10:09:09:612, compiled: Oct  9 2015 15:18:21
+10:09:09:612,0x00000075 PID: 0078, Exe: C:\Program Files (x86)\Tencent\QQLite\Bin\QQ.exe
+10:09:09:612,0x00000075 CTaskMgr::RunProc begin Thread Name is SDKClient_AndroidAssist
+10:09:09:615,0x000001D8 CTaskMgr::Start() OK, Thread Name is SDKClient_AndroidAssist
+10:09:09:616,0x000001D8 CAndroidAssist::InitEnv Enable AndroidServer 1
+10:09:09:702,0x00000075 CSdkNetworkHelper::PostKeyVauleProtocalPackage
+10:09:09:970,0x0000006C CSdkNetworkHelper::OnNetworkResponse m_dwDisableServerSession
+10:09:09:970,0x00000075 CAndroidAssist::OnUpdateConfig cstrChannleID = ;
+10:09:11:019,0x000001D8 CAndroidAssist::Initialize Start!!m_bBugReportInited=1
+10:09:11:032,0x00000191 TID = 00000401, NAME = CSdkClientReportHelperThread
+10:09:11:032,0x00000191 Thread Enter CSdkClientReportHelperThread
+10:09:11:112,0x00000014 CTaskMgr::RunProc begin Thread Name is DeviceMonitor
+10:09:11:120,0x000001D8 CTaskMgr::Start() OK, Thread Name is DeviceMonitor
+10:09:26:049,0x00000191 Thread Leave CSdkClientReportHelperThread
+10:10:25:685,0x0000004F CTaskMgr::Stop, Thread Name is DeviceMonitor
+10:10:25:696,0x00000014 CTaskMgr::RunProc m_bExitMessageLoop = TRUE, break MesasgeLoop
+10:10:25:697,0x00000014 CTaskMgr::RunProc end,Thread Name is DeviceMonitor
+10:10:25:700,0x00000075 Not StopDock SCCID_QQ=1345250873,m_uID=1345250873,m_bIsStartDock=0
+10:10:25:700,0x0000004F CTaskMgr::Stop, Thread Name is SDKClient_AndroidAssist
+10:10:25:709,0x00000075 CTaskMgr::RunProc m_bExitMessageLoop = TRUE, break MesasgeLoop
+10:10:25:710,0x00000075 CTaskMgr::RunProc end,Thread Name is SDKClient_AndroidAssist
+10:10:25:713,0x0000004F CAndroidAssist::UnInitialize Start
+10:10:25:720,0x0000004F CAndroidAssist::UnInitialize Finish
+10:10:25:720,0x0000004F CIpcClientMgr::SetAdbConnectCallback NULL? 0
+10:10:25:871,0x0000004F Performance Counts =      0.493 ms, StopThread 
+10:10:25:885,0x0000004F CIpcClientMgr::SetAdbConnectCallback NULL? 0
+10:10:27:096,0x0000004F Log finished

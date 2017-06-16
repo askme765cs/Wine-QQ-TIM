@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>  
+      <CFConfigInfo Ver = "1" UpdateSign = "1" CFID = "2005" CFName = "小熊字体" CFPreviewName = "2005_Preview" CF_Cx = "29" CF_Cy = "26" CFType = "Tpye_Normal"/>                                                                 
+      <CFBackgroundList nFrame = "3" nElapse = "700" CycNum = "1">
+          <Frame Pic0 = "xiaoxiong17a.png" />
+          <Frame Pic0 = "xiaoxiong17b.png" />
+          <Frame Pic0 = "xiaoxiong17c.png" />
+      </CFBackgroundList>
+      <CFList nFrame = "3"  nElapse = "700" CycNum = "1" CycPos = "1">
+          <Frame FontType = "微软雅黑" CFSize = "12" IsBold = "1" CFPostion0 = "6_4" COLORREF0 = "155000" />
+          <Frame FontType = "微软雅黑" CFSize = "12" IsBold = "1" CFPostion0 = "6_4" COLORREF0 = "000000" />
+          <Frame FontType = "微软雅黑" CFSize = "12" IsBold = "1" CFPostion0 = "6_4" COLORREF0 = "155000" />
+      </CFList>
+</root>

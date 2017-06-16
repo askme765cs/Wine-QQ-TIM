@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<tpc>
+  <file-systems> 
+    <file-system name="sysres:" path="Res"/>
+    <file-system name="@thisres:" path="Res"/>
+    <file-system name="@thisxtml:" path="Xtml"/>
+	<file-system name="@thistheme:" path="Res"/>
+  </file-systems>
+  <core-configs>
+      <core-config file="common.xml"/>
+  </core-configs>
+  <gf-config file="gf-config.xml"/>
+  <i18n-config file="I18N\Config.xml"/>
+</tpc>

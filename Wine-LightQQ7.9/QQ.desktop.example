@@ -1,0 +1,23 @@
+[Desktop Entry]
+Comment[zh_CN]=腾讯QQ
+Comment=腾讯QQ
+Encoding=UTF-8
+Exec="..path/qq.sh"%u 
+#..path为文件夹所在路径
+GenericName[zh_CN]=
+GenericName=
+Icon=..path//icon/QQ.png
+#指定QQ图标文件
+MimeType=
+Name[zh_CN]=QQ
+Name=QQ
+Name[fr_FR]=QQ
+Path=
+StartupNotify=true
+Terminal=false
+TerminalOptions=
+Type=Application
+X-DBUS-ServiceName=
+X-DBUS-StartupType=
+X-KDE-SubstituteUID=false
+X-KDE-Username=

@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<StringBundle ver="100">
+	<String id="Title_Common_WndTitle">QQ安全中心</String>
+	<String id="Title_Common_PromptTitle">统一安全验证</String>
+	<String id="Option_Common_OtherType">其它方式</String>
+	<String id="Button_Common_OK">确定</String>
+	<String id="Button_Common_Cancel">取消</String>
+	<String id="Button_Common_ReInput">重新验证</String>
+	<String id="Button_Common_NextStep">下一步</String>
+	<String id="Button_Common_PreStep">上一步</String>
+	<String id="Common_SelectTypePrompt">请选择验证方式:</String>
+	<String id="Common_Include">包括</String>
+	<String id="Link_Common_RequestPGSetting">&lt;Title=&quot;立即设置&quot;,Url=&quot;http://ptlogin2.qq.com/unisecverify?ptlang=$LANG$&amp;clientuin=$UIN$&amp;clientkey=$KEY$&quot;&gt;</String>
+	<String id="Link_Common_IngredientSetting">&lt;Title=&quot;取消验证&quot;,Url=&quot;http://ptlogin2.qq.com/unisecverify_qq_set?ptlang=$LANG$&amp;clientuin=$UIN$&amp;clientkey=$KEY$&quot;&gt;</String>
+	<String id="Link_Common_Help">&lt;Title=&quot;帮助&quot;,Url=&quot;http://ptlogin2.qq.com/unisecverify_qq_help?ptlang=$LANG$&amp;clientuin=$UIN$&amp;clientkey=$KEY$&quot;&gt;</String>
+
+	<String id="PwdGuardCard_Name">密保卡</String>
+	<String id="PwdGuardCard_Title">密保卡验证</String>
+	<String id="PwdGuardCard_ClickToSetting">&lt;Title=&quot;点此设置&quot;,Url=&quot;http://ptlogin2.qq.com/im_mibaoka_shezhi?ptlang=$LANG$&amp;clientuin=$UIN$&amp;clientkey=$KEY$&quot;&gt;</String>
+	<String id="PwdGuardCard_StateText">带有矩阵数字的卡片，&lt;Title=&quot;查看详情&quot;,Url=&quot;http://ptlogin2.qq.com/im_mb_help?ptlang=$LANG$&amp;clientuin=$UIN$&amp;clientkey=$KEY$&quot;&gt;</String>
+	<String id="PwdGuardCard_LocPrompt">密保卡坐标:</String>
+	<String id="PwdGuardCard_NumPrompt">对应的数字:</String>
+	<String id="Link_PwdGuardCard_Setting">&lt;Title=&quot;设置密保卡&quot;,Url=&quot;http://ptlogin2.qq.com/immibaoka?ptlang=$LANG$&amp;clientuin=$UIN$&amp;clientkey=$KEY$&quot;&gt;</String>
+	<String id="PwdGuardCard_FocusPrompt">请对照密保卡填写坐标对应数字</String>
+	<String id="PwdGuardCard_NotRemind">不再提醒</String>
+	<String id="PwdGuardCard_RemindText">您的密保卡使用次数已经超过安全次数上限，请您及时更换密保卡。</String>
+	<String id="Tip_PwdGuardCard_InputInvalid">请输入坐标对应的2位数字</String>
+	<String id="PwdGuardCard_VerifyFail">无法通过密保卡验证</String>
+	<String id="PwdGuardCard_VerifySuccess">密保卡验证成功</String>
+	<String id="PwdGuardCard_Loading">下载中...</String>
+	<String id="PwdGuardCard_CardNumPrompt">密保卡序列号:</String>
+	<String id="Link_PwdGuardCard_ViewFailDetail">&lt;Title=&quot;查看详情&quot;,Url=&quot;http://ptlogin2.qq.com/unisecverify_qq_help_mbk?ptlang=$LANG$&amp;clientuin=$UIN$&amp;clientkey=$KEY$&quot;&gt;</String>
+	<String id="PwdGuardCard_PicFail">密保卡坐标图片下载失败，请重试。</String>
+	<String id="PwdGuardCard_strBtnCancelText">换验证方式</String>
+	<String id="PwdGuardCard_strBtnOKText">完成</String>
+
+	<String id="SMS_Name">密保手机</String>
+	<String id="SMS_Title">密保手机验证</String>
+	<String id="SMS_ClickToSetting">&lt;Title=&quot;点此设置&quot;,Url=&quot;http://ptlogin2.qq.com/im_phone_shezhi?ptlang=$LANG$&amp;clientuin=$UIN$&amp;clientkey=$KEY$&quot;&gt;</String>
+	<String id="SMS_StateText"></String>
+	<String id="SMS_MobileNumPrompt">您的密保手机号是: $MOBILE_NUM$</String>
+	<String id="SMS_MobileNumPrompt_1">密保手机号码:</String>
+	<String id="SMS_InputPrompt">请输入您收到的验证码回复:</String>
+	<String id="SMS_InputEditDefaultText">请输入8位数字验证码</String>
+	<String id="SMS_MarkupText">验证码是您发送短信后，收到的8位数字回复。</String>
+	<String id="SMS_OperatePrompt">请用该手机编辑短信内容"GTQQ号码"，发送到$ACCESS_NUM$。</String>
+	<String id="SMS_OperatePrompt_1">请用该手机编辑短信内容"GT$UIN$"，发送到$ACCESS_NUM$。</String>
+	<String id="SMS_OperatePrompt_2">请用该手机编辑短信"$SMS$"发送到$ACCESS_NUM$，将收到的8位验证码填入下框中:</String>
+	<String id="Tip_SMS_InputInvalid">请输入8位数字验证码</String>
+	<String id="Link_SMS_Setting"></String>
+	<String id="SMS_VerifyFail">无法通过密保手机验证</String>
+	<String id="Link_SMS_ViewFailDetail">&lt;Title=&quot;查看详情&quot;,Url=&quot;http://ptlogin2.qq.com/unisecverify_qq_help_phoe?ptlang=$LANG$&amp;clientuin=$UIN$&amp;clientkey=$KEY$&quot;&gt;</String>
+	<String id="SMS_Step1">第一步：请使用密保手机($MOBILE_NUM$)</String>
+	<String id="SMS_Step2">第二步：编辑短信$SMS$</String>
+	<String id="SMS_Step3">第三步：发送到$ACCESS_NUM$以获取验证码  &lt;link config="RSLinkTextHandNode" label="lblNoResponseLink"&gt;没有收到验证码&lt;/link&gt;</String>
+	<String id="SMS_InputEditDefaultText2">请输入8位短信验证码</String>
+	<String id="SMS_NoResponse_URL">http://ptlogin2.qq.com/unisecverify_qq_phone_noresponse?clientuin=$UIN$&amp;clientkey=$KEY$&amp;keyindex=$KEY_INDEX$ </String>
+	<String id="SMS_strBtnCancelText">换验证方式</String>
+	<String id="SMS_strBtnOKText">完成</String>
+
+	<String id="MobileToken_Name">手机令牌</String>
+	<String id="MobileToken_Title">手机令牌验证</String>
+	<String id="MobileToken_ClickToSetting"></String>
+	<String id="MobileToken_StateText"></String>
+	<String id="MobileToken_InputPrompt">请您对照您手机上的手机令牌软件，按照显示的数字输入:</String>
+	<String id="MobileToken_InputPrompt1">请您运行手机上的手机令牌软件，将手机屏幕上显示的6位动态密码填入下框中:</String>
+	<String id="MobileToken_InputEditDefaultText">请输入6位数字动态密码</String>
+	<String id="Tip_MobileToken_InputInvalid">请输入6位数字动态密码</String>
+	<String id="Link_MobileToken_Setting"></String>
+	<String id="MobileToken_ServerTimePrompt">当前服务器时间:</String>
+	<String id="MobileToken_ServerTime">$YEAR$年$MONTH$月$DAY$日 $HOUR$:$MINUTE$:$SECOND$</String>
+	<String id="MobileToken_VerifyFail">无法通过手机令牌验证</String>
+	<String id="Link_MobileToken_ViewFailDetail">&lt;Title=&quot;查看详情&quot;,Url=&quot;http://ptlogin2.qq.com/Unisecverify_qq_help_token?ptlang=$LANG$&amp;clientuin=$UIN$&amp;clientkey=$KEY$&quot;&gt;</String>
+	<String id="MobileToken_Help_Part1">请拿出手机，打开QQ安全中心手机版（手机令牌），将6位动</String>
+	<String id="MobileToken_Help_Part2">态密码填入输入框</String>
+	<String id="MobileToken_Help_URL">http://ptlogin2.qq.com/Unisecverify_qq_help_token?clientuin=$UIN$&amp;clientkey=$KEY$&amp;keyindex=$KEY_INDEX$</String>
+	<String id="MobileToken_strBtnCancelText">换验证方式</String>
+	<String id="MobileToken_strBtnOKText">完成</String>
+
+	<String id="QQToken_Name">QQ令牌</String>
+	<String id="QQToken_InputEditDefaultText">请输入$COUNT$位数字动态密码</String>
+	<String id="Link_QQToken_Setting">&lt;Title=&quot;设置QQ令牌&quot;,Url=&quot;http://ptlogin2.qq.com/unisecverify_qq_set_qqlp?ptlang=$LANG$&amp;clientuin=$UIN$&amp;clientkey=$KEY$&quot;&gt;</String>
+	<String id="Tip_QQToken_InputInvalid">请输入$COUNT$位数字动态密码</String>
+	<String id="QQToken_VerifyFail">无法通过QQ令牌验证</String>
+	<String id="Link_QQToken_ViewFailDetail">&lt;Title=&quot;查看详情&quot;,Url=&quot;http://ptlogin2.qq.com/Unisecverify_qq_help_qqlp?ptlang=$LANG$&amp;clientuin=$UIN$&amp;clientkey=$KEY$&quot;&gt;</String>
+	<String id="QQToken_Help">请输入QQ令牌上的$COUNT$位数字动态密码</String>
+	<String id="QQToken_Help_URL">http://ptlogin2.qq.com/Unisecverify_qq_help_qqlp?clientuin=$UIN$&amp;clientkey=$KEY$&amp;keyindex=$KEY_INDEX$</String>
+	<String id="QQToken_strBtnCancelText">换验证方式</String>
+	<String id="QQToken_strBtnOKText">完成</String>
+
+	<String id="QRCode_Name">安全扫一扫</String>
+	<String id="QRCode_Loading">正在为您下载二维码</String>
+	<String id="QRCode_Help">请使用QQ安全中心手机版扫描二维码</String>
+	<String id="QRCode_Help_URL">http://ptlogin2.qq.com/unisecverify_qq_qr_help?clientuin=$UIN$&amp;clientkey=$KEY$&amp;keyindex=$KEY_INDEX$</String>
+	<String id="QRCode_Download_Failed">下载二维码失败，请重新下载。</String>
+	<String id="QRCode_Cancel_Verify">您已拒绝验证，请您取消本次操作。</String>
+	<String id="QRCode_Verify_Expired">验证请求已过期，请您返回重试。</String>
+	<String id="QRCode_Pic_Expired">二维码已失效，请下载新的二维码。</String>
+	<String id="QRCode_Too_Many_Request">系统繁忙，请重试。</String>
+	<String id="QRCode_strBtnCancelText">换验证方式</String>
+	<String id="QRCode_strBtnOKText">完成</String>
+
+	<String id="OneClick_Name">一键验证</String>
+	<String id="OneClick_Help">请拿出手机，打开QQ安全中心手机版，通过登录请求</String>
+	<String id="OneClick_Help_URL">http://ptlogin2.qq.com/unisecverify_qq_oneclick_help?clientuin=$UIN$&amp;clientkey=$KEY$&amp;keyindex=$KEY_INDEX$</String>
+	<String id="OneClick_Cancel_Verify">您已拒绝验证，请您取消本次操作。</String>
+	<String id="OneClick_Verify_Expired">验证请求已过期，请您返回重试。</String>
+	<String id="OneClick_Too_Many_Request">系统繁忙，请重试。</String>
+	<String id="OneClick_Pic_Expired">验证请求已过期，请再次发起请求。</String>
+	<String id="OneClick_strBtnCancelText">换验证方式</String>
+	<String id="OneClick_strBtnOKText">完成</String>
+
+	<String id="IngredientSelector_TextPrompt_Part1_Content">您在</String>
+	<String id="IngredientSelector_TextPrompt_Part2_Content">$LAST_LOGIN_LOCATION$</String>
+	<String id="IngredientSelector_TextPrompt_Part3_Content">登录</String>
+	<String id="IngredientSelector_TextPrompt_Part4_Tooltip">$LAST_LOGIN_LOCATION$与您实际地点不一致？点击更正ip信息</String>
+	<String id="IngredientSelector_TextPrompt_Part4_URL">http://ptlogin2.qq.com/unisecverify_qq_iperror?clientuin=$UIN$&amp;clientkey=$KEY$&amp;keyindex=$KEY_INDEX$</String>
+	<String id="IngredientSelector_TextPrompt_Part5_Content">，需要验证密保。  </String>
+	<String id="IngredientSelector_TextPrompt_Part6_Content">关闭保护</String>
+	<String id="IngredientSelector_TextPrompt_Part6_URL">http://ptlogin2.qq.com/unisecverify_qq_set</String>
+	<String id="IngredientSelector_QRCode_URL">http://ptlogin2.qq.com/unisecverify_qq_qr?clientuin=$UIN$&amp;clientkey=$KEY$&amp;keyindex=$KEY_INDEX$</String>
+	<String id="IngredientSelector_OneClick_URL">http://ptlogin2.qq.com/unisecverify_qq_oneclick?clientuin=$UIN$&amp;clientkey=$KEY$&amp;keyindex=$KEY_INDEX$</String>
+	<String id="IngredientSelector_strBtnCancelText">上一步</String>
+	<String id="IngredientSelector_strBtnOKText">完成</String>
+	<String id="IngredientSelector_EX_strBtnCancelText">上一步</String>
+	<String id="IngredientSelector_EX_strBtnOKText">完成</String>
+
+	<String id="Ingredient_strBtnCancelText">上一步</String>
+	<String id="Ingredient_strBtnOKText">完成</String>
+	<String id="Common_Help_Tooltip">查看帮助</String>
+</StringBundle>
