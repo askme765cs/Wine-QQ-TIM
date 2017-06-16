@@ -14,3 +14,6 @@
 给你最稳定优化的配置和高效便捷的体验  
 
 *安装使用说明详见[wiki](https://github.com/askme765cs/Wine-QQ/wiki)*
+
+
+Important： 请使用Wine2.0.1 稳定版本（已经测试通过），使用开发版本的Wine可能会造成崩溃。
