@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>  
+      <CFConfigInfo Ver = "1" UpdateSign = "1" CFID = "4" CFName = "企鹅文字" CFPreviewName = "2010_Preview" CF_Cx = "22" CF_Cy = "27" CFType = "Tpye_Normal"/>                                                                 
+      <CFBackgroundList nFrame = "1" nElapse = "700" CycNum = "1">
+          <Frame Pic0 = "qie17a.png"/>
+          <Frame Pic0 = "qie17b.png"/>
+      </CFBackgroundList>
+      <CFList nFrame = "1"  nElapse = "700" CycNum = "1" CycPos = "1">
+          <Frame FontType = "微软雅黑" CFSize = "9" IsBold = "1" CFPostion0 = "5_8" COLORREF0 = "000000" />
+          <Frame FontType = "微软雅黑" CFSize = "9" IsBold = "1" CFPostion0 = "5_8" COLORREF0 = "000000" />
+      </CFList>
+</root>
+
+
+   

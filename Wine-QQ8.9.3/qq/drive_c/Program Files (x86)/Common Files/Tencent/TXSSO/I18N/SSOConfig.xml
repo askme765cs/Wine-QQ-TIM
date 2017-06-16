@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<i18n>
+  <!-- 默认的语言,以主程序的优先 -->
+	<locale id="2052" />
+  <!-- 语言文字列表 -->
+	<StringBundle>
+		<configfile name="SSOStringBundle.xml"/>
+	</StringBundle>
+  <!-- 地区信息，目前只需要一个, SSOPlatform不需要地区信息 -->
+	<!--Location2>
+		<configfile name="LocList.xml"/>
+	</Location2-->
+</i18n>

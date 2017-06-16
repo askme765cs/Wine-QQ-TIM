@@ -1,0 +1,76 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title></title>
+<style type="text/css"> 
+/* 全局属性 */
+html,body { overflow:hidden;}
+body { text-align:left; font-family:"Tahoma"; font-size:12px; background:#fff; color:#000; margin:0; padding:0;}
+div,form,img,ul,ol,li,dl,dt,dd ,p{ margin:0; padding:0; border:0;}
+h1,h2,h3,h4,h5,h6 { margin:0; padding:0;}
+ul,ol { list-style:none;}
+/* 链接 */
+a,a:visited { color:#1670eb; text-decoration:none;}
+a:hover,a:active { color:#1670eb; text-decoration:underline;}
+/* 其他属性 */
+.clear { clear:both;}
+/* 布局区块 */
+.tip_box { width:274px; height:163px; padding:1px; background:#fff; overflow:hidden;}
+.tip { background:#ffffff url(img/tips_bg.gif) repeat-x; width:274px; height:163px; overflow:hidden;}
+.tip .part1 { height:139px; width:274px; overflow:hidden; cursor:default;}
+.tip .part1 .l { float:left; width:80px; padding:2px 0 0 3px;}
+.tip .part1 .l img { background:#ffffff; padding:1px; border:1px solid #78bee2;}
+.tip .part1 .r { float:left; width:186px; padding-left:5px;}
+.tip .part1 .r h3 { height:19px; line-height:19px; font-size:12px; font-weight:400; text-align:left; color:#0e3755; overflow:hidden; white-space:nowrap; text-overflow:ellipsis; -o-text-overflow:ellipsis; width:181px; margin-bottom:2px; color:#1670eb;}
+.tip .part1 .r p { line-height:19px;}
+.tip .part1 .r p.s1 img { vertical-align:middle; margin-right:3px;}
+.tip .part1 .r p.intro { line-height:18px;}
+*html .tip .part1 .r p.s1 { margin:2px 0 1px 0;}
+.tip .part2 { width:274px; text-align:right; height:24px; line-height:24px; background:#bde7fe;}
+.tip .part2 span { margin-right:7px;}
+</style>
+<script language="javascript">
+function CRM_loadQQUinNName(uin, name){
+	var _name = name || uin;
+	if(document.getElementById("crm_qquin")){
+		document.getElementById("crm_qquin").innerHTML = uin;
+	}
+	if(document.getElementById("crm_name")){
+		document.getElementById("crm_name").innerHTML = _name;
+	}
+	if(document.getElementById("crm_title")){
+		document.getElementById("crm_title").title = _name + '(' + uin + ')';
+	}
+}
+</script>
+</head>
+<body>
+<div class="tip_box">
+    <div class="tip">
+        <div class="part1">
+            <div class="l"><img src="img/tips_def.jpg" height="128" width="76" alt="" /></div>
+            <div class="r">
+                <h3><a id="crm_title" href="crmlink://crm_showcorpinfo" title="-" target="_self"><span id="crm_name">-</span>(<span id="crm_qquin">-</span>)</a></h3>
+                <P style="line-height:18px;"></P>
+                <p class="s1">等级: -</p>
+                <p>排名: -<br />回帖数: -<br />接待客户数: -</p>
+            </div>
+            <div class="clear"></div>
+        </div>
+        <div class="part2"><span></span></div>
+    </div>
+</div>
+<script type="text/javascript"> 
+document.onkeydown = function(){
+    if(event.keyCode==116) {
+        event.keyCode=0;
+        event.returnValue = false;
+    }
+}
+document.oncontextmenu = function() {event.returnValue = false;}
+document.onselectstart = function() {event.returnValue = false;}
+</script>
+</body>
+</html>
+

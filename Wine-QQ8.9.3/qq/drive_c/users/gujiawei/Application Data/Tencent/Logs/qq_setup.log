@@ -1,0 +1,60 @@
+[78:79:0616/092410:10834225:INFO:hummer_setup.cpp(43)] Install version : 55.33.0.21149.0
+[78:83:0616/092412:10836179:INFO:item_checker.cpp(70)] config id = 68
+[78:131:0616/092425:10848436:ERROR:fileSecurityHelper.cpp(867)] GetTokenInformation(TokenLinkedToken) failed with 1
+[78:134:0616/092425:10848443:INFO:setup_util.h(69)] install::DisableQQProtect::Run start
+[78:135:0616/092425:10848444:INFO:setup_util.h(69)] install::WaitQQExit::Run start
+[78:135:0616/092425:10848454:INFO:setup_util.h(77)] install::WaitQQExit::Run end, spend 10ms
+[78:134:0616/092425:10848526:INFO:disable_qqprotect.cpp(449)] qd not running
+[78:134:0616/092425:10848526:INFO:setup_util.h(77)] install::DisableQQProtect::Run end, spend 83ms
+[78:80:0616/092425:10848936:INFO:setup_util.h(69)] install::ExtractFiles::Run start
+[78:141:0616/092425:10848936:INFO:setup_util.h(69)] registry::MsiInstall::Run start
+[78:141:0616/092425:10848972:INFO:setup_util.h(77)] registry::MsiInstall::Run end, spend 36ms
+[78:80:0616/092437:10860765:INFO:setup_util.h(77)] install::ExtractFiles::Run end, spend 11829ms
+[78:146:0616/092437:10860767:INFO:setup_util.h(69)] install::InstallQP::Run start
+[78:146:0616/092438:10862417:INFO:setup_util.h(77)] install::InstallQP::Run end, spend 1650ms
+[78:153:0616/092439:10862421:INFO:setup_util.h(69)] registry::RegistryTask::Run start
+[78:157:0616/092439:10862428:INFO:ConfigQQ.cpp(122)] Begin
+[78:157:0616/092439:10862431:INFO:ConfigQQ.cpp(127)] 11:21
+[78:158:0616/092439:10862431:ERROR:intel_repair.cpp(52)] Error: Regedit cannot be opened!
+[78:158:0616/092439:10862431:ERROR:intel_repair.cpp(52)] Error: Regedit cannot be opened!
+[78:153:0616/092439:10862434:INFO:setup_util.h(77)] registry::RegistryTask::Run end, spend 13ms
+[78:80:0616/092439:10862452:ERROR:create_shortcut.cpp(338)] create shortcut link:C:\users\Public\Start Menu\Programs\腾讯软件\QQ\腾讯QQ.lnk failed
+[78:80:0616/092439:10862456:ERROR:create_shortcut.cpp(369)] create shortcut link:C:\users\Public\Start Menu\Programs\腾讯软件\QQ\腾讯QQ.lnk failed
+[78:157:0616/092439:10862459:ERROR:ConfigQQ.cpp(135)] NVAPI error:-2
+[78:157:0616/092439:10862460:ERROR:ConfigQQ.cpp(142)] NVAPI error:-2
+[78:157:0616/092439:10862460:ERROR:ConfigQQ.cpp(148)] NVAPI error:-2
+[78:157:0616/092439:10862460:ERROR:ConfigQQ.cpp(153)] NVAPI error:-2
+[78:157:0616/092439:10862461:ERROR:ConfigQQ.cpp(200)] NVAPI error:-2
+[78:157:0616/092439:10862461:ERROR:ConfigQQ.cpp(207)] NVAPI error:-2
+[78:157:0616/092439:10862461:ERROR:ConfigQQ.cpp(228)] NVAPI error:-2
+[78:157:0616/092439:10862461:ERROR:ConfigQQ.cpp(329)] NVAPI error:-2
+[78:163:0616/092439:10862461:ERROR:fix_taskbar.cpp(42)] open reg key: Software\Classes\Local Settings\Software\Microsoft\Windows\Shell\MuiCache failed
+[78:157:0616/092439:10862461:ERROR:ConfigQQ.cpp(334)] NVAPI error:-2
+[78:157:0616/092439:10862462:ERROR:ConfigQQ.cpp(339)] NVAPI error:-2
+[78:157:0616/092439:10862462:ERROR:ConfigQQ.cpp(344)] NVAPI error:-2
+[78:157:0616/092439:10862462:ERROR:ConfigQQ.cpp(349)] NVAPI error:-2
+[78:157:0616/092439:10862462:INFO:ConfigQQ.cpp(355)] Sucess
+[78:168:0616/092439:10862465:INFO:setup_util.h(69)] install::StartQD::Run start
+[78:168:0616/092439:10862466:ERROR:qd_helper.cpp(343)] 1 MajorVersion:6MinorVersion:1IsWow64:1
+[78:169:0616/092439:10862466:INFO:setup_util.h(69)] registry::RegsvrTask::Run start
+[78:168:0616/092439:10862466:INFO:qq_protect.cpp(133)] GetQQProtectFilePath: C:\Program Files (x86)\Common Files\Tencent\QQProtect\Bin\QQProtect.exe
+[78:168:0616/092439:10862469:INFO:install_start_qd.cpp(120)] qp version: 67307010
+[78:169:0616/092439:10862696:INFO:setup_util.h(77)] registry::RegsvrTask::Run end, spend 229ms
+[78:168:0616/092442:10866130:INFO:install_start_qd.cpp(162)] Installation path: C:\Program Files (x86)\Common Files
+[78:168:0616/092442:10866130:INFO:install_start_qd.cpp(197)] System32 path: C:\windows\system32
+[78:168:0616/092442:10866133:INFO:install_start_qd.cpp(265)] install::StartQD::InstallQD, write reg SYSTEM\CurrentControlSet\Services\QQProtect
+[78:168:0616/092443:10867141:ERROR:qd_helper.cpp(146)] OpenService: 1060
+[78:168:0616/092443:10867147:ERROR:qd_helper.cpp(209)] StartService failed: 2
+[78:168:0616/092443:10867151:ERROR:install_start_qd.cpp(283)] failed to start qd:-2147479551
+[78:168:0616/092443:10867152:ERROR:qd_helper.cpp(820)] reg could not be opened: 2,2
+[78:168:0616/092447:10870983:INFO:qd_helper.cpp(550)] id:  1000001
+[78:168:0616/092447:10870983:INFO:qd_helper.cpp(551)] in:  C:\Program Files (x86)\Tencent\QQ
+[78:168:0616/092447:10870983:INFO:qd_helper.cpp(552)] nor: C:\Program Files (x86)\Tencent\QQ\
+[78:168:0616/092447:10870983:ERROR:qd_helper.cpp(565)] reg subkey could not be opened: 2,0. subkey will be created.
+[78:168:0616/092447:10870984:INFO:qd_helper.cpp(871)] in:  C:\Program Files (x86)\Common Files\Tencent
+[78:168:0616/092447:10870984:INFO:qd_helper.cpp(872)] nor: C:\Program Files (x86)\Common Files\Tencent\
+[78:168:0616/092447:10870984:ERROR:qd_helper.cpp(820)] reg could not be opened: 2,0
+[78:168:0616/092449:10872855:INFO:setup_util.h(77)] install::StartQD::Run end, spend 10390ms
+[78:271:0616/092454:10877567:INFO:move_user_data.cpp(402)] satrt qq: C:\Program Files (x86)\Tencent\QQ\Bin\QQ.exe
+[78:271:0616/092454:10877593:INFO:move_user_data.cpp(411)] shellexec in explorer process file: C:\Program Files (x86)\Tencent\QQ\Bin\QQ.exe failed
+[78:79:0616/092454:10877712:INFO:hummer_setup.cpp(53)] Install Completed , exit code is 0

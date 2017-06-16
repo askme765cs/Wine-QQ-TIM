@@ -1,0 +1,24 @@
+<?xml version="1.0" standalone="no" ?>
+<InstallInfo>
+    <strOldCOMRegPath></strOldCOMRegPath>
+    <strOldCOMTencentdlVersion>0.0.0.0</strOldCOMTencentdlVersion>
+    <strOldCOMDlcoreVersion>0.0.0.0</strOldCOMDlcoreVersion>
+    <strOldCOMTNProxyVersion>0.0.0.0</strOldCOMTNProxyVersion>
+    <strOldCOMExtractVersion>0.0.0.0</strOldCOMExtractVersion>
+    <strOldCOMDownloadProxyPSVersion>0.0.0.0</strOldCOMDownloadProxyPSVersion>
+    <strLocalFilePath>c:\program files (x86)\tencent\qq\bin</strLocalFilePath>
+    <strLocalTencentdlVersion>1.0.135.1</strLocalTencentdlVersion>
+    <strLocalDlcoreVersion>1.9.656.401</strLocalDlcoreVersion>
+    <strLocalTNProxyVersion>2.1.107.0</strLocalTNProxyVersion>
+    <strLocalExtractVersion>1.9.275.400</strLocalExtractVersion>
+    <strLocalDownloadProxyPSVersion>1.0.134.1</strLocalDownloadProxyPSVersion>
+    <strNewCOMRegPath></strNewCOMRegPath>
+    <strNewCOMTencentdlVersion></strNewCOMTencentdlVersion>
+    <strNewCOMDlcoreVersion></strNewCOMDlcoreVersion>
+    <strNewCOMTNProxyVersion></strNewCOMTNProxyVersion>
+    <strNewCOMExtractVersion></strNewCOMExtractVersion>
+    <strNewCOMDownloadProxyPSVersion></strNewCOMDownloadProxyPSVersion>
+    <strInstallerName>No pid option found in CmdLine</strInstallerName>
+    <strInstallDateTime>2017-06-16 09:24:40</strInstallDateTime>
+    <m_oGuid>c261f2de2f01c91750e63b37df9d19e1</m_oGuid>
+</InstallInfo>

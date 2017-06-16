@@ -1,0 +1,1111 @@
+WINE REGISTRY Version 2
+;; All keys relative to \\User\\S-1-5-21-0-0-0-1000
+
+#arch=win64
+
+[AppEvents\\Schemes\\Apps\\Explorer\\Navigating\\.Current] 1497576235
+#time=1d2e63f38df55fc
+@=""
+
+[Console] 1497576282
+#time=1d2e63f54f02406
+"ColorTable00"=dword:00000000
+"ColorTable01"=dword:00800000
+"ColorTable02"=dword:00008000
+"ColorTable03"=dword:00808000
+"ColorTable04"=dword:00000080
+"ColorTable05"=dword:00800080
+"ColorTable06"=dword:00008080
+"ColorTable07"=dword:00c0c0c0
+"ColorTable08"=dword:00808080
+"ColorTable09"=dword:00ff0000
+"ColorTable10"=dword:0000ff00
+"ColorTable11"=dword:00ffff00
+"ColorTable12"=dword:000000ff
+"ColorTable13"=dword:00ff00ff
+"ColorTable14"=dword:0000ffff
+"ColorTable15"=dword:00ffffff
+"CursorSize"=dword:00000019
+"CursorVisible"=dword:00000001
+"EditionMode"=dword:00000000
+"ExitOnDie"=dword:00000001
+"FaceName"="\x65b9\x6b63\x5b8b\x4f53S-\x8d85\x5927\x5b57\x7b26\x96c6(SIP)\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"
+"FontSize"=dword:00100012
+"FontWeight"=dword:00000000
+"HistoryBufferSize"=dword:00000032
+"HistoryNoDup"=dword:00000000
+"InsertMode"=dword:00000001
+"MenuMask"=dword:00000000
+"PopupColors"=dword:000000f5
+"QuickEdit"=dword:00000000
+"ScreenBufferSize"=dword:00190050
+"ScreenColors"=dword:0000000f
+"WindowSize"=dword:00190050
+
+[Control Panel\\Accessibility\\Blind Access] 1497576212
+#time=1d2e63f2ab6278a
+"On"="0"
+
+[Control Panel\\Accessibility\\Keyboard Preference] 1497576212
+#time=1d2e63f2ab5f6a2
+"On"="1"
+
+[Control Panel\\Accessibility\\ShowSounds] 1497576212
+#time=1d2e63f2ab6320c
+"On"="0"
+
+[Control Panel\\Colors] 1497576212
+#time=1d2e63f2b085d7a
+
+[Control Panel\\Desktop] 1497576212
+#time=1d2e63f2ab64508
+"ActiveWndTrackTimeout"=dword:00000000
+"BlockSendInputResets"="0"
+"CaretWidth"=dword:00000001
+"ClickLockTime"=dword:000004b0
+"DoubleClickHeight"="4"
+"DoubleClickWidth"="4"
+"DragFullWindows"="0"
+"DragHeight"="4"
+"DragWidth"="4"
+"FocusBorderHeight"=dword:00000001
+"FocusBorderWidth"=dword:00000001
+"FontSmoothing"="2"
+"FontSmoothingGamma"=dword:00000000
+"FontSmoothingOrientation"=dword:00000001
+"FontSmoothingType"=dword:00000001
+"ForegroundFlashCount"=dword:00000003
+"ForegroundLockTimeout"=dword:00000000
+"IconTitleWrap"="1"
+"LowPowerActive"="0"
+"MenuShowDelay"="400"
+"UserPreferencesMask"=hex:30,00,00,80,10,00,00,00
+"Wallpaper"=""
+"WheelScrollChars"="3"
+"WheelScrollLines"="3"
+
+[Control Panel\\Desktop\\WindowMetrics] 1497576212
+#time=1d2e63f2ab63874
+"BorderWidth"="-15"
+"CaptionHeight"="-270"
+"CaptionWidth"="-270"
+"IconSpacing"="-1125"
+"IconTitleWrap"="1"
+"IconVerticalSpacing"="-1125"
+"MenuHeight"="-270"
+"MenuWidth"="-270"
+"PaddedBorderWidth"="0"
+"ScrollHeight"="-240"
+"ScrollWidth"="-240"
+"SmCaptionHeight"="-225"
+"SmCaptionWidth"="-225"
+
+[Control Panel\\International] 1497576210
+#time=1d2e63f298b883c
+"iCalendarType"="1"
+"iCountry"="86"
+"iCurrDigits"="2"
+"iCurrency"="0"
+"iDate"="2"
+"iDigits"="2"
+"iFirstDayOfWeek"="6"
+"iFirstWeekOfYear"="0"
+"iLDate"="2"
+"iLZero"="0"
+"iMeasure"="0"
+"iNegCurr"="2"
+"iNegNumber"="1"
+"iPaperSize"="9"
+"iTime"="1"
+"iTimePrefix"="1"
+"iTLZero"="0"
+"LC_CTYPE"="00000804"
+"LC_MEASUREMENT"="00000804"
+"LC_MONETARY"="00000804"
+"LC_NUMERIC"="00000804"
+"LC_PAPER"="00000804"
+"LC_TELEPHONE"="00000804"
+"LC_TIME"="00000804"
+"Locale"="00000804"
+"Numshape"="1"
+"s1159"="\x4e0a\x5348"
+"s2359"="\x4e0b\x5348"
+"sCountry"="People's Republic of China"
+"sCurrency"="\xffe5"
+"sDate"="-"
+"sDecimal"="."
+"sGrouping"="3;0"
+"sLanguage"="CHS"
+"sList"=","
+"sLongDate"="yyyy'\x5e74'M'\x6708'd'\x65e5'"
+"sMonDecimalSep"="."
+"sMonGrouping"="3;0"
+"sMonThousandSep"=","
+"sNativeDigits"="0123456789"
+"sNegativeSign"="-"
+"sPositiveSign"=""
+"sShortDate"="yyyy-M-d"
+"sThousand"=","
+"sTime"=":"
+"sTimeFormat"="H:mm:ss"
+"sYearMonth"="yyyy'\x5e74'M'\x6708'"
+
+[Control Panel\\Keyboard] 1497576212
+#time=1d2e63f2ab5f94a
+"KeyboardDelay"="1"
+"KeyboardSpeed"="31"
+
+[Control Panel\\Mouse] 1497576212
+#time=1d2e63f2ab63b94
+"ActiveWindowTracking"=dword:00000000
+"DoubleClickHeight"="4"
+"DoubleClickSpeed"="500"
+"DoubleClickWidth"="4"
+"MouseHoverHeight"="4"
+"MouseHoverTime"="400"
+"MouseHoverWidth"="4"
+"MouseSensitivity"="10"
+"MouseSpeed"="1"
+"MouseThreshold1"="6"
+"MouseThreshold2"="10"
+"SnapToDefaultButton"="0"
+"SwapMouseButtons"="0"
+
+[Control Panel\\Sound] 1497576212
+#time=1d2e63f2ab59a86
+"Beep"="Yes"
+
+[Environment] 1497576217
+#time=1d2e63f2e329696
+"TEMP"="C:\\users\\gujiawei\\Temp"
+"TMP"="C:\\users\\gujiawei\\Temp"
+
+[Keyboard Layout\\Preload] 1497576212
+#time=1d2e63f2b0520ce
+"1"="e0010804"
+
+[Software\\Microsoft\\BSDDir] 1497576281
+#time=1d2e63f544c4836
+
+[Software\\Microsoft\\Installer\\Features\\0298D54E857A88046B6C13BD2B6799E2] 1497576227
+#time=1d2e63f33ecd006
+"wine_mono"=""
+
+[Software\\Microsoft\\Installer\\Features\\20038DA37BEE9BE4DBBC5A33EE828162] 1497576233
+#time=1d2e63f3798467c
+"wine_gecko"=""
+
+[Software\\Microsoft\\Installer\\Features\\79BDB9BB742C02F47B01B876566F1750] 1497576247
+#time=1d2e63f40123632
+"wine_gecko"=""
+
+[Software\\Microsoft\\Installer\\Products\\0298D54E857A88046B6C13BD2B6799E2] 1497576227
+#time=1d2e63f33ed4608
+"AdvertiseFlags"=dword:00000184
+"Assignment"=dword:00000000
+"AuthorizedLUAApp"=dword:00000000
+"Clients"=":"
+"InstanceType"=dword:00000000
+"Language"=dword:00000000
+"PackageCode"="F11E897B43DB52545A0B33657575F956"
+"ProductName"="Wine Mono"
+"Version"=dword:04070000
+
+[Software\\Microsoft\\Installer\\Products\\0298D54E857A88046B6C13BD2B6799E2\\SourceList] 1497576227
+#time=1d2e63f33ed882a
+"LastUsedSource"="n;1;Z:\\home\\gujiawei\\.cache\\wine\\"
+"PackageName"="wine-mono-4.7.0.msi"
+
+[Software\\Microsoft\\Installer\\Products\\0298D54E857A88046B6C13BD2B6799E2\\SourceList\\Media] 1497576227
+#time=1d2e63f33ed90fe
+"1"=";"
+"DiskPrompt"=""
+"MediaPackage"=""
+
+[Software\\Microsoft\\Installer\\Products\\0298D54E857A88046B6C13BD2B6799E2\\SourceList\\Net] 1497576227
+#time=1d2e63f33ed6c00
+"1"=str(2):"Z:\\home\\gujiawei\\.cache\\wine\\"
+
+[Software\\Microsoft\\Installer\\Products\\20038DA37BEE9BE4DBBC5A33EE828162] 1497576233
+#time=1d2e63f37986eae
+"AdvertiseFlags"=dword:00000184
+"Assignment"=dword:00000000
+"AuthorizedLUAApp"=dword:00000000
+"Clients"=":"
+"InstanceType"=dword:00000000
+"Language"=dword:00000000
+"PackageCode"="97B82D3EB3EB6B94791820F1DA58F645"
+"ProductName"="Wine Gecko (64-bit)"
+"Version"=dword:022f0000
+
+[Software\\Microsoft\\Installer\\Products\\20038DA37BEE9BE4DBBC5A33EE828162\\SourceList] 1497576233
+#time=1d2e63f3798a4f0
+"LastUsedSource"="n;1;Z:\\home\\gujiawei\\.cache\\wine\\"
+"PackageName"="wine_gecko-2.47-x86_64.msi"
+
+[Software\\Microsoft\\Installer\\Products\\20038DA37BEE9BE4DBBC5A33EE828162\\SourceList\\Media] 1497576233
+#time=1d2e63f3798acde
+"1"=";"
+"DiskPrompt"=""
+"MediaPackage"=""
+
+[Software\\Microsoft\\Installer\\Products\\20038DA37BEE9BE4DBBC5A33EE828162\\SourceList\\Net] 1497576233
+#time=1d2e63f37988ba0
+"1"=str(2):"Z:\\home\\gujiawei\\.cache\\wine\\"
+
+[Software\\Microsoft\\Installer\\Products\\79BDB9BB742C02F47B01B876566F1750] 1497576247
+#time=1d2e63f401274b2
+"AdvertiseFlags"=dword:00000184
+"Assignment"=dword:00000000
+"AuthorizedLUAApp"=dword:00000000
+"Clients"=":"
+"InstanceType"=dword:00000000
+"Language"=dword:00000000
+"PackageCode"="97B82D3EB3EB6B94791820F1DA58F645"
+"ProductName"="Wine Gecko (32-bit)"
+"Version"=dword:022f0000
+
+[Software\\Microsoft\\Installer\\Products\\79BDB9BB742C02F47B01B876566F1750\\SourceList] 1497576247
+#time=1d2e63f4012abda
+"LastUsedSource"="n;1;Z:\\home\\gujiawei\\.cache\\wine\\"
+"PackageName"="wine_gecko-2.47-x86.msi"
+
+[Software\\Microsoft\\Installer\\Products\\79BDB9BB742C02F47B01B876566F1750\\SourceList\\Media] 1497576247
+#time=1d2e63f4012b4ae
+"1"=";"
+"DiskPrompt"=""
+"MediaPackage"=""
+
+[Software\\Microsoft\\Installer\\Products\\79BDB9BB742C02F47B01B876566F1750\\SourceList\\Net] 1497576247
+#time=1d2e63f4012906e
+"1"=str(2):"Z:\\home\\gujiawei\\.cache\\wine\\"
+
+[Software\\Microsoft\\Installer\\UpgradeCodes\\906426ED5B6CA6842947FEB058F4B65C] 1497576227
+#time=1d2e63f33ed0bd4
+"0298D54E857A88046B6C13BD2B6799E2"=""
+
+[Software\\Microsoft\\Installer\\UpgradeCodes\\ADF909AA16ED9784E920D37B806499E7] 1497576247
+#time=1d2e63f40124f50
+"20038DA37BEE9BE4DBBC5A33EE828162"=""
+"79BDB9BB742C02F47B01B876566F1750"=""
+
+[Software\\Microsoft\\Internet Explorer\\Main] 1497576235
+#time=1d2e63f38c97df4
+"Search Page"="http://www.google.com"
+"Start Page"="http://www.winehq.org"
+
+[Software\\Microsoft\\Internet Explorer\\Main\\FeatureControl] 1497576213
+#time=1d2e63f2b9c98fa
+
+[Software\\Microsoft\\Internet Explorer\\Settings] 1497576235
+#time=1d2e63f38c98498
+"Text Color"="0,0,0"
+
+[Software\\Microsoft\\Internet Mail and News] 1497576281
+#time=1d2e63f5453a536
+
+[Software\\Microsoft\\Protected Storage System Provider] 1497576235
+#time=1d2e63f38df5926
+
+[Software\\Microsoft\\SystemCertificates\\CA\\Certificates] 1497576252
+#time=1d2e63f42824c36
+
+[Software\\Microsoft\\SystemCertificates\\CA\\CRLs] 1497576252
+#time=1d2e63f42824f1a
+
+[Software\\Microsoft\\SystemCertificates\\CA\\CTLs] 1497576252
+#time=1d2e63f428251ea
+
+[Software\\Microsoft\\SystemCertificates\\Disallowed\\Certificates] 1497576252
+#time=1d2e63f42c81bb2
+
+[Software\\Microsoft\\SystemCertificates\\Disallowed\\CRLs] 1497576252
+#time=1d2e63f42c81e0a
+
+[Software\\Microsoft\\SystemCertificates\\Disallowed\\CTLs] 1497576252
+#time=1d2e63f42c8204e
+
+[Software\\Microsoft\\SystemCertificates\\My\\Certificates] 1497576252
+#time=1d2e63f4282634c
+
+[Software\\Microsoft\\SystemCertificates\\My\\CRLs] 1497576252
+#time=1d2e63f42826608
+
+[Software\\Microsoft\\SystemCertificates\\My\\CTLs] 1497576252
+#time=1d2e63f428268b0
+
+[Software\\Microsoft\\SystemCertificates\\Root\\Certificates] 1497576251
+#time=1d2e63f42744ca8
+
+[Software\\Microsoft\\SystemCertificates\\Root\\CRLs] 1497576251
+#time=1d2e63f427450a4
+
+[Software\\Microsoft\\SystemCertificates\\Root\\CTLs] 1497576251
+#time=1d2e63f427455ae
+
+[Software\\Microsoft\\SystemCertificates\\Trust\\Certificates] 1497576252
+#time=1d2e63f428279b8
+
+[Software\\Microsoft\\SystemCertificates\\Trust\\CRLs] 1497576252
+#time=1d2e63f42827c74
+
+[Software\\Microsoft\\SystemCertificates\\Trust\\CTLs] 1497576252
+#time=1d2e63f42827f1c
+
+[Software\\Microsoft\\Windows\\CurrentVersion\\Explorer\\Shell Folders] 1497576217
+#time=1d2e63f2e309c24
+"Administrative Tools"="C:\\users\\gujiawei\\Start Menu\\Programs\\Administrative Tools"
+"AppData"="C:\\users\\gujiawei\\Application Data"
+"Cache"="C:\\users\\gujiawei\\Local Settings\\Temporary Internet Files"
+"Cookies"="C:\\users\\gujiawei\\Cookies"
+"Desktop"="C:\\users\\gujiawei\\\x684c\x9762"
+"Favorites"="C:\\users\\gujiawei\\Favorites"
+"Fonts"="C:\\windows\\Fonts"
+"History"="C:\\users\\gujiawei\\Local Settings\\History"
+"Local AppData"="C:\\users\\gujiawei\\Local Settings\\Application Data"
+"My Music"="C:\\users\\gujiawei\\\x6211\x7684\x97f3\x4e50"
+"My Pictures"="C:\\users\\gujiawei\\\x6211\x7684\x56fe\x7247"
+"My Videos"="C:\\users\\gujiawei\\\x6211\x7684\x89c6\x9891"
+"NetHood"="C:\\users\\gujiawei\\NetHood"
+"Personal"="C:\\users\\gujiawei\\\x6211\x7684\x6587\x6863"
+"PrintHood"="C:\\users\\gujiawei\\PrintHood"
+"Programs"="C:\\users\\gujiawei\\Start Menu\\Programs"
+"Recent"="C:\\users\\gujiawei\\Recent"
+"SendTo"="C:\\users\\gujiawei\\SendTo"
+"Start Menu"="C:\\users\\gujiawei\\Start Menu"
+"StartUp"="C:\\users\\gujiawei\\Start Menu\\Programs\\StartUp"
+"Templates"="C:\\users\\gujiawei\\Templates"
+"{374DE290-123F-4565-9164-39C4925E467B}"="C:\\users\\gujiawei\\Downloads"
+"{4C5C32FF-BB9D-43B0-B5B4-2D72E54EAAA4}"="C:\\users\\gujiawei\\Saved Games"
+"{56784854-C6CB-462B-8169-88E350ACB882}"="C:\\users\\gujiawei\\Contacts"
+"{7D1D3A04-DEBB-4115-95CF-2F29DA2920DA}"="C:\\users\\gujiawei\\Searches"
+"{A520A1A4-1780-4FF6-BD18-167343C5AF16}"="C:\\users\\gujiawei\\AppData\\LocalLow"
+"{BFB9D5E0-C6A9-404C-B2B2-AE6DB6AF4968}"="C:\\users\\gujiawei\\Links"
+
+[Software\\Microsoft\\Windows\\CurrentVersion\\Explorer\\User Shell Folders] 1497576217
+#time=1d2e63f2e309490
+"Administrative Tools"=str(2):"%USERPROFILE%\\Start Menu\\Programs\\Administrative Tools"
+"AppData"=str(2):"%USERPROFILE%\\Application Data"
+"Cache"=str(2):"%USERPROFILE%\\Local Settings\\Temporary Internet Files"
+"Cookies"=str(2):"%USERPROFILE%\\Cookies"
+"Desktop"=str(2):"%USERPROFILE%\\\x684c\x9762"
+"Favorites"=str(2):"%USERPROFILE%\\Favorites"
+"Fonts"=str(2):"C:\\windows\\Fonts"
+"History"=str(2):"%USERPROFILE%\\Local Settings\\History"
+"Local AppData"=str(2):"%USERPROFILE%\\Local Settings\\Application Data"
+"My Music"=str(2):"%USERPROFILE%\\\x6211\x7684\x97f3\x4e50"
+"My Pictures"=str(2):"%USERPROFILE%\\\x6211\x7684\x56fe\x7247"
+"My Videos"=str(2):"%USERPROFILE%\\\x6211\x7684\x89c6\x9891"
+"NetHood"=str(2):"%USERPROFILE%\\NetHood"
+"Personal"=str(2):"%USERPROFILE%\\\x6211\x7684\x6587\x6863"
+"PrintHood"=str(2):"%USERPROFILE%\\PrintHood"
+"Programs"=str(2):"%USERPROFILE%\\Start Menu\\Programs"
+"Recent"=str(2):"%USERPROFILE%\\Recent"
+"SendTo"=str(2):"%USERPROFILE%\\SendTo"
+"Start Menu"=str(2):"%USERPROFILE%\\Start Menu"
+"StartUp"=str(2):"%USERPROFILE%\\Start Menu\\Programs\\StartUp"
+"Templates"=str(2):"%USERPROFILE%\\Templates"
+"{374DE290-123F-4565-9164-39C4925E467B}"=str(2):"%USERPROFILE%\\Downloads"
+"{4C5C32FF-BB9D-43B0-B5B4-2D72E54EAAA4}"=str(2):"%USERPROFILE%\\Saved Games"
+"{56784854-C6CB-462B-8169-88E350ACB882}"=str(2):"%USERPROFILE%\\Contacts"
+"{7D1D3A04-DEBB-4115-95CF-2F29DA2920DA}"=str(2):"%USERPROFILE%\\Searches"
+"{A520A1A4-1780-4FF6-BD18-167343C5AF16}"=str(2):"%USERPROFILE%\\AppData\\LocalLow"
+"{BFB9D5E0-C6A9-404C-B2B2-AE6DB6AF4968}"=str(2):"%USERPROFILE%\\Links"
+
+[Software\\Microsoft\\Windows\\CurrentVersion\\Ext\\Stats\\{98F22D0A-B97F-4AF4-8E4C-A6596C8CDD4C}\\iexplore\\AllowedDomains\\*] 1497576279
+#time=1d2e63f5297682c
+
+[Software\\Microsoft\\Windows\\CurrentVersion\\Ext\\Stats\\{ED4CA2E5-0EEA-44C1-AD7E-74A07A7507A4}\\iexplore\\AllowedDomains\\*] 1497576279
+#time=1d2e63f529744f0
+
+[Software\\Microsoft\\Windows\\CurrentVersion\\Internet Settings] 1497576234
+#time=1d2e63f3836d7d8
+"User Agent"="Mozilla/4.0 (compatible; MSIE 8.0; Win32)"
+
+[Software\\Microsoft\\Windows\\CurrentVersion\\Internet Settings\\ZoneMap] 1497576234
+#time=1d2e63f3836d026
+@=""
+"IntranetName"=dword:00000001
+"ProxyByPass"=dword:00000001
+"UNCAsIntranet"=dword:00000001
+
+[Software\\Microsoft\\Windows\\CurrentVersion\\Internet Settings\\ZoneMap\\Domains] 1497576234
+#time=1d2e63f3836c9dc
+@=""
+
+[Software\\Microsoft\\Windows\\CurrentVersion\\Internet Settings\\ZoneMap\\ProtocolDefaults] 1497576234
+#time=1d2e63f3836c1e4
+@=""
+"@ivt"=dword:00000001
+"file"=dword:00000003
+"ftp"=dword:00000003
+"http"=dword:00000003
+"https"=dword:00000003
+
+[Software\\Microsoft\\Windows\\CurrentVersion\\Internet Settings\\ZoneMap\\Ranges] 1497576234
+#time=1d2e63f3836d184
+@=""
+
+[Software\\Microsoft\\Windows\\CurrentVersion\\Internet Settings\\Zones] 1497576234
+#time=1d2e63f383e91b2
+@=""
+
+[Software\\Microsoft\\Windows\\CurrentVersion\\Internet Settings\\Zones\\0] 1497576234
+#time=1d2e63f3838531a
+@=""
+"1001"=dword:00000000
+"1004"=dword:00000000
+"1200"=dword:00000000
+"1201"=dword:00000001
+"1400"=dword:00000000
+"1402"=dword:00000000
+"1405"=dword:00000000
+"1406"=dword:00000000
+"1407"=dword:00000000
+"1601"=dword:00000000
+"1604"=dword:00000000
+"1605"=dword:00000000
+"1606"=dword:00000000
+"1607"=dword:00000000
+"1608"=dword:00000000
+"1609"=dword:00000001
+"1800"=dword:00000000
+"1802"=dword:00000000
+"1803"=dword:00000000
+"1804"=dword:00000000
+"1805"=dword:00000000
+"1A00"=dword:00000000
+"1A02"=dword:00000000
+"1A03"=dword:00000000
+"1A04"=dword:00000000
+"1A05"=dword:00000000
+"1A06"=dword:00000000
+"1A10"=dword:00000000
+"1C00"=dword:00020000
+"1E05"=dword:00030000
+"CurrentLevel"=dword:00000000
+"Description"="Your computer"
+"DisplayName"="My Computer"
+"Flags"=dword:00000021
+"Icon"="explorer.exe#0100"
+
+[Software\\Microsoft\\Windows\\CurrentVersion\\Internet Settings\\Zones\\1] 1497576234
+#time=1d2e63f383a53f4
+@=""
+"1001"=dword:00000001
+"1004"=dword:00000003
+"1200"=dword:00000000
+"1201"=dword:00000003
+"1400"=dword:00000000
+"1402"=dword:00000000
+"1405"=dword:00000000
+"1406"=dword:00000001
+"1407"=dword:00000000
+"1601"=dword:00000000
+"1604"=dword:00000000
+"1605"=dword:00000000
+"1606"=dword:00000000
+"1607"=dword:00000000
+"1608"=dword:00000000
+"1609"=dword:00000001
+"1800"=dword:00000001
+"1802"=dword:00000000
+"1803"=dword:00000000
+"1804"=dword:00000001
+"1805"=dword:00000000
+"1A00"=dword:00020000
+"1A02"=dword:00000000
+"1A03"=dword:00000000
+"1A04"=dword:00000000
+"1A05"=dword:00000000
+"1A06"=dword:00000000
+"1A10"=dword:00000000
+"1C00"=dword:00020000
+"1E05"=dword:00020000
+"CurrentLevel"=dword:00010500
+"Description"="This zone contains all Web sites that are on your organization's intranet."
+"DisplayName"="Local intranet"
+"Flags"=dword:000000db
+"Icon"="shell32.dll#0018"
+"MinLevel"=dword:00010000
+"RecommendedLevel"=dword:00010500
+
+[Software\\Microsoft\\Windows\\CurrentVersion\\Internet Settings\\Zones\\2] 1497576234
+#time=1d2e63f383c6ca2
+@=""
+"1001"=dword:00000000
+"1004"=dword:00000001
+"1200"=dword:00000000
+"1201"=dword:00000001
+"1400"=dword:00000000
+"1402"=dword:00000000
+"1405"=dword:00000000
+"1406"=dword:00000000
+"1407"=dword:00000000
+"1601"=dword:00000000
+"1604"=dword:00000000
+"1605"=dword:00000000
+"1606"=dword:00000000
+"1607"=dword:00000000
+"1608"=dword:00000000
+"1609"=dword:00000001
+"1800"=dword:00000000
+"1802"=dword:00000000
+"1803"=dword:00000000
+"1804"=dword:00000000
+"1805"=dword:00000000
+"1A00"=dword:00000000
+"1A02"=dword:00000000
+"1A03"=dword:00000000
+"1A04"=dword:00000000
+"1A05"=dword:00000000
+"1A06"=dword:00000000
+"1A10"=dword:00000000
+"1C00"=dword:00030000
+"1E05"=dword:00030000
+"CurrentLevel"=dword:00010000
+"Description"="This zone contains Web sites that you trust not to damage your computer or data."
+"DisplayName"="Trusted sites"
+"Flags"=dword:00000047
+"Icon"="inetcpl.cpl#00004480"
+"MinLevel"=dword:00010000
+"RecommendedLevel"=dword:00010000
+
+[Software\\Microsoft\\Windows\\CurrentVersion\\Internet Settings\\Zones\\3] 1497576234
+#time=1d2e63f383e86ae
+@=""
+"1001"=dword:00000001
+"1004"=dword:00000003
+"1200"=dword:00000000
+"1201"=dword:00000003
+"1400"=dword:00000000
+"1402"=dword:00000000
+"1405"=dword:00000000
+"1406"=dword:00000003
+"1407"=dword:00000000
+"1601"=dword:00000001
+"1604"=dword:00000000
+"1605"=dword:00000000
+"1606"=dword:00000000
+"1607"=dword:00000000
+"1608"=dword:00000000
+"1609"=dword:00000001
+"1800"=dword:00000001
+"1802"=dword:00000000
+"1803"=dword:00000000
+"1804"=dword:00000001
+"1805"=dword:00000001
+"1A00"=dword:00020000
+"1A02"=dword:00000000
+"1A03"=dword:00000000
+"1A04"=dword:00000003
+"1A05"=dword:00000001
+"1A06"=dword:00000000
+"1A10"=dword:00000001
+"1C00"=dword:00010000
+"1E05"=dword:00020000
+"CurrentLevel"=dword:00011000
+"Description"="This zone contains all Web sites you haven't placed in other zones"
+"DisplayName"="Internet"
+"Flags"=dword:00000001
+"Icon"="inetcpl.cpl#001313"
+"MinLevel"=dword:00011000
+"RecommendedLevel"=dword:00011000
+
+[Software\\Microsoft\\Windows\\CurrentVersion\\Internet Settings\\Zones\\4] 1497576234
+#time=1d2e63f3840a862
+@=""
+"1001"=dword:00000003
+"1004"=dword:00000003
+"1200"=dword:00000003
+"1201"=dword:00000003
+"1400"=dword:00000003
+"1402"=dword:00000003
+"1405"=dword:00000003
+"1406"=dword:00000003
+"1407"=dword:00000003
+"1601"=dword:00000001
+"1604"=dword:00000001
+"1605"=dword:00000000
+"1606"=dword:00000003
+"1607"=dword:00000003
+"1608"=dword:00000003
+"1609"=dword:00000001
+"1800"=dword:00000003
+"1802"=dword:00000001
+"1803"=dword:00000003
+"1804"=dword:00000003
+"1805"=dword:00000001
+"1A00"=dword:00010000
+"1A02"=dword:00000003
+"1A03"=dword:00000003
+"1A04"=dword:00000003
+"1A05"=dword:00000003
+"1A06"=dword:00000003
+"1A10"=dword:00000003
+"1C00"=dword:00000000
+"1E05"=dword:00010000
+"CurrentLevel"=dword:00012000
+"Description"="This zone contains Web sites that could potentially damage your computer or data."
+"DisplayName"="Restricted sites"
+"Flags"=dword:00000003
+"Icon"="inetcpl.cpl#00004481"
+"MinLevel"=dword:00012000
+"RecommendedLevel"=dword:00012000
+
+[Software\\Microsoft\\Windows\\CurrentVersion\\Run] 1497576235
+#time=1d2e63f38da7b7c
+
+[Software\\Microsoft\\Windows\\CurrentVersion\\Wintrust\\Trust Providers\\Software Publishing] 1497576251
+#time=1d2e63f42703514
+"State"=dword:00023c00
+
+[Software\\Tencent\\bugReport\\QQ] 1497576295
+#time=1d2e63f5c22c3e6
+"ExcDir"="users"
+"InstallDir"="C:\\Program Files (x86)\\Tencent\\QQ\\"
+
+[Software\\Tencent\\bugReport\\QQProtect] 1497576285
+#time=1d2e63f568dc3cc
+"InstallDir"="C:\\Program Files (x86)\\Common Files\\Tencent\\QQProtect\\Bin\\"
+
+[Software\\Tencent\\bugReport\\QQUrlMgr] 1497576281
+#time=1d2e63f5438c180
+"ExcDir"="userinfo"
+"InstallDir"="C:\\Program Files (x86)\\Tencent\\QQ\\bin"
+
+[Software\\Tencent\\QQ] 1497576280
+#time=1d2e63f534f7cd2
+
+[Software\\Tencent\\QQ2009] 1497576294
+#time=1d2e63f5b9bb428
+"AndroidConn"=dword:00000001
+"nUpdateType"=dword:00000001
+"SPContext_F"=dword:00000000
+"SPContext_P"=""
+
+[Software\\Tencent\\QQProtect] 1497576290
+#time=1d2e63f5976fb6c
+"SPS"=hex:39,11,5d,4d,dc,3a,92,67,b1,6f,4d,9b,f6,a1,de,6e
+
+[Software\\Tencent\\Report] 1497576296
+#time=1d2e63f5d1e9310
+"134239437"=dword:00000004
+
+[Software\\Tencent\\TodayDo] 1497576253
+#time=1d2e63f433b7558
+"RunTaskQQ"=dword:0133c778
+
+[Software\\Wine\\Debug] 1497576235
+#time=1d2e63f38dc3570
+"RelayExclude"="ntdll.RtlEnterCriticalSection;ntdll.RtlTryEnterCriticalSection;ntdll.RtlLeaveCriticalSection;kernel32.48;kernel32.49;kernel32.94;kernel32.95;kernel32.96;kernel32.97;kernel32.98;kernel32.TlsGetValue;kernel32.TlsSetValue;kernel32.FlsGetValue;kernel32.FlsSetValue;kernel32.SetLastError"
+"RelayFromExclude"="winex11.drv;winemac.drv;user32;gdi32;advapi32;kernel32"
+
+[Software\\Wine\\DllOverrides] 1497576490
+#time=1d2e63fd072b904
+"*ntoskrnl.exe"=""
+"*riched20"="native,builtin"
+"*txplatform.exe"=""
+
+[Software\\Wine\\Fonts] 1497576379
+#time=1d2e63f8e3e674a
+"Codepages"="936,936"
+"LogPixels"=dword:00000060
+
+[Software\\Wine\\Fonts\\External Fonts] 1497576212
+#time=1d2e63f2ab30398
+"@Droid Sans Fallback (TrueType)"="Z:\\usr\\share\\fonts\\TTF\\DroidSansFallbackFull.ttf"
+"@\x6587\x6cc9\x9a7f\x5fae\x7c73\x9ed1 (TrueType)"="Z:\\home\\gujiawei\\.fonts\\wqy-microhei.ttc"
+"@\x6587\x6cc9\x9a7f\x7b49\x5bbd\x5fae\x7c73\x9ed1 (TrueType)"="Z:\\home\\gujiawei\\.fonts\\wqy-microhei.ttc"
+"@\x65b9\x6b63\x4e66\x5b8b_GBK (TrueType)"="Z:\\usr\\share\\fonts\\wps-office\\FZSSK.TTF"
+"@\x65b9\x6b63\x4eff\x5b8b_GBK (TrueType)"="Z:\\usr\\share\\fonts\\wps-office\\FZFSK.TTF"
+"@\x65b9\x6b63\x59da\x4f53_GBK (TrueType)"="Z:\\usr\\share\\fonts\\wps-office\\FZYTK.TTF"
+"@\x65b9\x6b63\x5b8b\x4f53S-\x8d85\x5927\x5b57\x7b26\x96c6 (TrueType)"="Z:\\usr\\share\\fonts\\wps-office\\FZSongS_20100603.TTF"
+"@\x65b9\x6b63\x5b8b\x4f53S-\x8d85\x5927\x5b57\x7b26\x96c6(SIP) (TrueType)"="Z:\\usr\\share\\fonts\\wps-office\\FZSongS(SIP)_2010603.TTF"
+"@\x65b9\x6b63\x5c0f\x6807\x5b8b_GBK (TrueType)"="Z:\\usr\\share\\fonts\\wps-office\\FZXBSK.TTF"
+"@\x65b9\x6b63\x6977\x4f53_GBK (TrueType)"="Z:\\usr\\share\\fonts\\wps-office\\FZKTK.TTF"
+"@\x65b9\x6b63\x7ec6\x9ed1\x4e00_GBK (TrueType)"="Z:\\usr\\share\\fonts\\wps-office\\FZXH1K.TTF"
+"@\x65b9\x6b63\x884c\x6977_GBK (TrueType)"="Z:\\usr\\share\\fonts\\wps-office\\FZXKK.TTF"
+"@\x65b9\x6b63\x8d85\x7c97\x9ed1_GBK (TrueType)"="Z:\\usr\\share\\fonts\\wps-office\\FZCCHK.TTF"
+"@\x65b9\x6b63\x96b6\x4e66_GBK (TrueType)"="Z:\\usr\\share\\fonts\\wps-office\\FZLSK.TTF"
+"@\x65b9\x6b63\x9b4f\x7891_GBK (TrueType)"="Z:\\usr\\share\\fonts\\wps-office\\FZWBK.TTF"
+"@\x65b9\x6b63\x9ed1\x4f53_GBK (TrueType)"="Z:\\usr\\share\\fonts\\wps-office\\FZHTK.TTF"
+"AkaashNormal (TrueType)"="Z:\\usr\\share\\fonts\\TTF\\AkaashNormal.ttf"
+"AkrutiMal1 Bold (TrueType)"="Z:\\usr\\share\\fonts\\TTF\\mal1-b.ttf"
+"AkrutiMal1 Normal (TrueType)"="Z:\\usr\\share\\fonts\\TTF\\mal1-n.ttf"
+"AkrutiMal2 Bold (TrueType)"="Z:\\usr\\share\\fonts\\TTF\\mal2-b.ttf"
+"AkrutiMal2 Normal (TrueType)"="Z:\\usr\\share\\fonts\\TTF\\mal2-n.ttf"
+"AkrutiTml1 Bold (TrueType)"="Z:\\usr\\share\\fonts\\TTF\\akruti1b.ttf"
+"AkrutiTml1 Normal (TrueType)"="Z:\\usr\\share\\fonts\\TTF\\akruti1.ttf"
+"AkrutiTml2 Bold (TrueType)"="Z:\\usr\\share\\fonts\\TTF\\akruti2b.ttf"
+"AkrutiTml2 Normal (TrueType)"="Z:\\usr\\share\\fonts\\TTF\\akruti2.ttf"
+"AsanaMathJax_Alphabets-Regular (TrueType)"="Z:\\usr\\share\\fonts\\mathjax\\HTML-CSS\\Asana-Math\\woff\\AsanaMathJax_Alphabets-Regular.woff"
+"AsanaMathJax_Arrows-Regular (TrueType)"="Z:\\usr\\share\\fonts\\mathjax\\HTML-CSS\\Asana-Math\\woff\\AsanaMathJax_Arrows-Regular.woff"
+"AsanaMathJax_DoubleStruck-Regular (TrueType)"="Z:\\usr\\share\\fonts\\mathjax\\HTML-CSS\\Asana-Math\\woff\\AsanaMathJax_DoubleStruck-Regular.woff"
+"AsanaMathJax_Fraktur-Regular (TrueType)"="Z:\\usr\\share\\fonts\\mathjax\\HTML-CSS\\Asana-Math\\woff\\AsanaMathJax_Fraktur-Regular.woff"
+"AsanaMathJax_Latin-Regular (TrueType)"="Z:\\usr\\share\\fonts\\mathjax\\HTML-CSS\\Asana-Math\\woff\\AsanaMathJax_Latin-Regular.woff"
+"AsanaMathJax_Main-Regular (TrueType)"="Z:\\usr\\share\\fonts\\mathjax\\HTML-CSS\\Asana-Math\\woff\\AsanaMathJax_Main-Regular.woff"
+"AsanaMathJax_Marks-Regular (TrueType)"="Z:\\usr\\share\\fonts\\mathjax\\HTML-CSS\\Asana-Math\\woff\\AsanaMathJax_Marks-Regular.woff"
+"AsanaMathJax_Misc-Regular (TrueType)"="Z:\\usr\\share\\fonts\\mathjax\\HTML-CSS\\Asana-Math\\woff\\AsanaMathJax_Misc-Regular.woff"
+"AsanaMathJax_Monospace-Regular (TrueType)"="Z:\\usr\\share\\fonts\\mathjax\\HTML-CSS\\Asana-Math\\woff\\AsanaMathJax_Monospace-Regular.woff"
+"AsanaMathJax_NonUnicode-Regular (TrueType)"="Z:\\usr\\share\\fonts\\mathjax\\HTML-CSS\\Asana-Math\\woff\\AsanaMathJax_NonUnicode-Regular.woff"
+"AsanaMathJax_Normal-Regular (TrueType)"="Z:\\usr\\share\\fonts\\mathjax\\HTML-CSS\\Asana-Math\\woff\\AsanaMathJax_Normal-Regular.woff"
+"AsanaMathJax_Operators-Regular (TrueType)"="Z:\\usr\\share\\fonts\\mathjax\\HTML-CSS\\Asana-Math\\woff\\AsanaMathJax_Operators-Regular.woff"
+"AsanaMathJax_SansSerif-Regular (TrueType)"="Z:\\usr\\share\\fonts\\mathjax\\HTML-CSS\\Asana-Math\\woff\\AsanaMathJax_SansSerif-Regular.woff"
+"AsanaMathJax_Script-Regular (TrueType)"="Z:\\usr\\share\\fonts\\mathjax\\HTML-CSS\\Asana-Math\\woff\\AsanaMathJax_Script-Regular.woff"
+"AsanaMathJax_Shapes-Regular (TrueType)"="Z:\\usr\\share\\fonts\\mathjax\\HTML-CSS\\Asana-Math\\woff\\AsanaMathJax_Shapes-Regular.woff"
+"AsanaMathJax_Size1-Regular (TrueType)"="Z:\\usr\\share\\fonts\\mathjax\\HTML-CSS\\Asana-Math\\woff\\AsanaMathJax_Size1-Regular.woff"
+"AsanaMathJax_Size2-Regular (TrueType)"="Z:\\usr\\share\\fonts\\mathjax\\HTML-CSS\\Asana-Math\\woff\\AsanaMathJax_Size2-Regular.woff"
+"AsanaMathJax_Size3-Regular (TrueType)"="Z:\\usr\\share\\fonts\\mathjax\\HTML-CSS\\Asana-Math\\woff\\AsanaMathJax_Size3-Regular.woff"
+"AsanaMathJax_Size4-Regular (TrueType)"="Z:\\usr\\share\\fonts\\mathjax\\HTML-CSS\\Asana-Math\\woff\\AsanaMathJax_Size4-Regular.woff"
+"AsanaMathJax_Size5-Regular (TrueType)"="Z:\\usr\\share\\fonts\\mathjax\\HTML-CSS\\Asana-Math\\woff\\AsanaMathJax_Size5-Regular.woff"
+"AsanaMathJax_Size6-Regular (TrueType)"="Z:\\usr\\share\\fonts\\mathjax\\HTML-CSS\\Asana-Math\\woff\\AsanaMathJax_Size6-Regular.woff"
+"AsanaMathJax_Symbols-Regular (TrueType)"="Z:\\usr\\share\\fonts\\mathjax\\HTML-CSS\\Asana-Math\\woff\\AsanaMathJax_Symbols-Regular.woff"
+"AsanaMathJax_Variants-Regular (TrueType)"="Z:\\usr\\share\\fonts\\mathjax\\HTML-CSS\\Asana-Math\\woff\\AsanaMathJax_Variants-Regular.woff"
+"Bitstream Vera Sans (TrueType)"="Z:\\usr\\share\\fonts\\TTF\\Vera.ttf"
+"Bitstream Vera Sans Bold (TrueType)"="Z:\\usr\\share\\fonts\\TTF\\VeraBd.ttf"
+"Bitstream Vera Sans Bold Oblique (TrueType)"="Z:\\usr\\share\\fonts\\TTF\\VeraBI.ttf"
+"Bitstream Vera Sans Mono (TrueType)"="Z:\\usr\\share\\fonts\\TTF\\VeraMono.ttf"
+"Bitstream Vera Sans Mono Bold (TrueType)"="Z:\\usr\\share\\fonts\\TTF\\VeraMoBd.ttf"
+"Bitstream Vera Sans Mono Bold Oblique (TrueType)"="Z:\\usr\\share\\fonts\\TTF\\VeraMoBI.ttf"
+"Bitstream Vera Sans Mono Oblique (TrueType)"="Z:\\usr\\share\\fonts\\TTF\\VeraMoIt.ttf"
+"Bitstream Vera Sans Oblique (TrueType)"="Z:\\usr\\share\\fonts\\TTF\\VeraIt.ttf"
+"Bitstream Vera Serif (TrueType)"="Z:\\usr\\share\\fonts\\TTF\\VeraSe.ttf"
+"Bitstream Vera Serif Bold (TrueType)"="Z:\\usr\\share\\fonts\\TTF\\VeraSeBd.ttf"
+"C059-BdIta (TrueType)"="Z:\\usr\\share\\fonts\\OTF\\C059-BdIta.otf"
+"C059-Bold (TrueType)"="Z:\\usr\\share\\fonts\\OTF\\C059-Bold.otf"
+"C059-Italic (TrueType)"="Z:\\usr\\share\\fonts\\OTF\\C059-Italic.otf"
+"C059-Roman (TrueType)"="Z:\\usr\\share\\fonts\\OTF\\C059-Roman.otf"
+"Cantarell Bold (TrueType)"="Z:\\usr\\share\\fonts\\cantarell\\Cantarell-Bold.otf"
+"Cantarell Bold Oblique (TrueType)"="Z:\\usr\\share\\fonts\\cantarell\\Cantarell-BoldOblique.otf"
+"Cantarell Oblique (TrueType)"="Z:\\usr\\share\\fonts\\cantarell\\Cantarell-Oblique.otf"
+"Cantarell Regular (TrueType)"="Z:\\usr\\share\\fonts\\cantarell\\Cantarell-Regular.otf"
+"D050000L (TrueType)"="Z:\\usr\\share\\fonts\\OTF\\D050000L.otf"
+"DejaVu Sans (TrueType)"="Z:\\usr\\share\\fonts\\TTF\\DejaVuSans.ttf"
+"DejaVu Sans Bold (TrueType)"="Z:\\usr\\share\\fonts\\TTF\\DejaVuSans-Bold.ttf"
+"DejaVu Sans Bold Oblique (TrueType)"="Z:\\usr\\share\\fonts\\TTF\\DejaVuSans-BoldOblique.ttf"
+"DejaVu Sans Condensed (TrueType)"="Z:\\usr\\share\\fonts\\TTF\\DejaVuSansCondensed.ttf"
+"DejaVu Sans Condensed Bold (TrueType)"="Z:\\usr\\share\\fonts\\TTF\\DejaVuSansCondensed-Bold.ttf"
+"DejaVu Sans Condensed Bold Oblique (TrueType)"="Z:\\usr\\share\\fonts\\TTF\\DejaVuSansCondensed-BoldOblique.ttf"
+"DejaVu Sans Condensed Oblique (TrueType)"="Z:\\usr\\share\\fonts\\TTF\\DejaVuSansCondensed-Oblique.ttf"
+"DejaVu Sans ExtraLight (TrueType)"="Z:\\usr\\share\\fonts\\TTF\\DejaVuSans-ExtraLight.ttf"
+"DejaVu Sans Mono (TrueType)"="Z:\\usr\\share\\fonts\\TTF\\DejaVuSansMono.ttf"
+"DejaVu Sans Mono Bold (TrueType)"="Z:\\usr\\share\\fonts\\TTF\\DejaVuSansMono-Bold.ttf"
+"DejaVu Sans Mono Bold Oblique (TrueType)"="Z:\\usr\\share\\fonts\\TTF\\DejaVuSansMono-BoldOblique.ttf"
+"DejaVu Sans Mono Oblique (TrueType)"="Z:\\usr\\share\\fonts\\TTF\\DejaVuSansMono-Oblique.ttf"
+"DejaVu Sans Oblique (TrueType)"="Z:\\usr\\share\\fonts\\TTF\\DejaVuSans-Oblique.ttf"
+"DejaVu Serif (TrueType)"="Z:\\usr\\share\\fonts\\TTF\\DejaVuSerif.ttf"
+"DejaVu Serif Bold (TrueType)"="Z:\\usr\\share\\fonts\\TTF\\DejaVuSerif-Bold.ttf"
+"DejaVu Serif Bold Italic (TrueType)"="Z:\\usr\\share\\fonts\\TTF\\DejaVuSerif-BoldItalic.ttf"
+"DejaVu Serif Condensed (TrueType)"="Z:\\usr\\share\\fonts\\TTF\\DejaVuSerifCondensed.ttf"
+"DejaVu Serif Condensed Bold (TrueType)"="Z:\\usr\\share\\fonts\\TTF\\DejaVuSerifCondensed-Bold.ttf"
+"DejaVu Serif Condensed Bold Italic (TrueType)"="Z:\\usr\\share\\fonts\\TTF\\DejaVuSerifCondensed-BoldItalic.ttf"
+"DejaVu Serif Condensed Italic (TrueType)"="Z:\\usr\\share\\fonts\\TTF\\DejaVuSerifCondensed-Italic.ttf"
+"DejaVu Serif Italic (TrueType)"="Z:\\usr\\share\\fonts\\TTF\\DejaVuSerif-Italic.ttf"
+"DejaVuMathTeXGyre-Regular (TrueType)"="Z:\\usr\\share\\fonts\\TTF\\DejaVuMathTeXGyre.ttf"
+"Droid Arabic Kufi (TrueType)"="Z:\\usr\\share\\fonts\\TTF\\DroidKufi-Regular.ttf"
+"Droid Arabic Kufi Bold (TrueType)"="Z:\\usr\\share\\fonts\\TTF\\DroidKufi-Bold.ttf"
+"Droid Arabic Naskh (TrueType)"="Z:\\usr\\share\\fonts\\TTF\\DroidNaskh-Regular.ttf"
+"Droid Arabic Naskh Bold (TrueType)"="Z:\\usr\\share\\fonts\\TTF\\DroidNaskh-Bold.ttf"
+"Droid Naskh Shift Alt (TrueType)"="Z:\\usr\\share\\fonts\\TTF\\DroidNaskh-Regular-SystemUI.ttf"
+"Droid Sans (TrueType)"="Z:\\usr\\share\\fonts\\TTF\\DroidSans.ttf"
+"Droid Sans Arabic (TrueType)"="Z:\\usr\\share\\fonts\\TTF\\DroidSansArabic.ttf"
+"Droid Sans Armenian (TrueType)"="Z:\\usr\\share\\fonts\\TTF\\DroidSansArmenian.ttf"
+"Droid Sans Bold (TrueType)"="Z:\\usr\\share\\fonts\\TTF\\DroidSans-Bold.ttf"
+"Droid Sans Devanagari (TrueType)"="Z:\\usr\\share\\fonts\\TTF\\DroidSansDevanagari-Regular.ttf"
+"Droid Sans Ethiopic (TrueType)"="Z:\\usr\\share\\fonts\\TTF\\DroidSansEthiopic-Regular.ttf"
+"Droid Sans Ethiopic Bold (TrueType)"="Z:\\usr\\share\\fonts\\TTF\\DroidSansEthiopic-Bold.ttf"
+"Droid Sans Fallback (TrueType)"="Z:\\usr\\share\\fonts\\TTF\\DroidSansFallbackFull.ttf"
+"Droid Sans Georgian (TrueType)"="Z:\\usr\\share\\fonts\\TTF\\DroidSansGeorgian.ttf"
+"Droid Sans Hebrew (TrueType)"="Z:\\usr\\share\\fonts\\TTF\\DroidSansHebrew-Regular.ttf"
+"Droid Sans Hebrew Bold (TrueType)"="Z:\\usr\\share\\fonts\\TTF\\DroidSansHebrew-Bold.ttf"
+"Droid Sans Japanese (TrueType)"="Z:\\usr\\share\\fonts\\TTF\\DroidSansJapanese.ttf"
+"Droid Sans Mono (TrueType)"="Z:\\usr\\share\\fonts\\TTF\\DroidSansMono.ttf"
+"Droid Sans Tamil (TrueType)"="Z:\\usr\\share\\fonts\\TTF\\DroidSansTamil-Regular.ttf"
+"Droid Sans Tamil Bold (TrueType)"="Z:\\usr\\share\\fonts\\TTF\\DroidSansTamil-Bold.ttf"
+"Droid Sans Thai (TrueType)"="Z:\\usr\\share\\fonts\\TTF\\DroidSansThai.ttf"
+"Droid Serif (TrueType)"="Z:\\usr\\share\\fonts\\TTF\\DroidSerif-Regular.ttf"
+"Droid Serif Bold (TrueType)"="Z:\\usr\\share\\fonts\\TTF\\DroidSerif-Bold.ttf"
+"Droid Serif Bold Italic (TrueType)"="Z:\\usr\\share\\fonts\\TTF\\DroidSerif-BoldItalic.ttf"
+"Droid Serif Italic (TrueType)"="Z:\\usr\\share\\fonts\\TTF\\DroidSerif-Italic.ttf"
+"East Syriac Adiabene (TrueType)"="Z:\\usr\\share\\fonts\\OTF\\SyrCOMAdiabene.otf"
+"East Syriac Ctesiphon (TrueType)"="Z:\\usr\\share\\fonts\\OTF\\SyrCOMCtesiphon.otf"
+"Estrangelo Antioch (TrueType)"="Z:\\usr\\share\\fonts\\OTF\\SyrCOMAntioch.otf"
+"Estrangelo Edessa (TrueType)"="Z:\\usr\\share\\fonts\\OTF\\SyrCOMEdessa.otf"
+"Estrangelo Midyat (TrueType)"="Z:\\usr\\share\\fonts\\OTF\\SyrCOMMidyat.otf"
+"Estrangelo Nisibin (TrueType)"="Z:\\usr\\share\\fonts\\OTF\\SyrCOMNisibin.otf"
+"Estrangelo Nisibin Outline (TrueType)"="Z:\\usr\\share\\fonts\\OTF\\SyrCOMNisibinOutline.otf"
+"Estrangelo Quenneshrin (TrueType)"="Z:\\usr\\share\\fonts\\OTF\\SyrCOMQenNeshrin.otf"
+"Estrangelo Talada (TrueType)"="Z:\\usr\\share\\fonts\\OTF\\SyrCOMTalada.otf"
+"Estrangelo TurAbdin (TrueType)"="Z:\\usr\\share\\fonts\\OTF\\SyrCOMTurAbdin.otf"
+"Gargi-1.2b (TrueType)"="Z:\\usr\\share\\fonts\\TTF\\Gargi-1.2b.ttf"
+"Goha-Tibeb Zemen (TrueType)"="Z:\\usr\\share\\fonts\\TTF\\GohaTibebZemen.ttf"
+"GurbaniBoliLite (TrueType)"="Z:\\usr\\share\\fonts\\TTF\\gbolilite.ttf"
+"GyrePagellaMathJax_Alphabets-Regular (TrueType)"="Z:\\usr\\share\\fonts\\mathjax\\HTML-CSS\\Gyre-Pagella\\woff\\GyrePagellaMathJax_Alphabets-Regular.woff"
+"GyrePagellaMathJax_Arrows-Regular (TrueType)"="Z:\\usr\\share\\fonts\\mathjax\\HTML-CSS\\Gyre-Pagella\\woff\\GyrePagellaMathJax_Arrows-Regular.woff"
+"GyrePagellaMathJax_Fraktur-Regular (TrueType)"="Z:\\usr\\share\\fonts\\mathjax\\HTML-CSS\\Gyre-Pagella\\woff\\GyrePagellaMathJax_Fraktur-Regular.woff"
+"GyrePagellaMathJax_Latin-Regular (TrueType)"="Z:\\usr\\share\\fonts\\mathjax\\HTML-CSS\\Gyre-Pagella\\woff\\GyrePagellaMathJax_Latin-Regular.woff"
+"GyrePagellaMathJax_Main-Regular (TrueType)"="Z:\\usr\\share\\fonts\\mathjax\\HTML-CSS\\Gyre-Pagella\\woff\\GyrePagellaMathJax_Main-Regular.woff"
+"GyrePagellaMathJax_Marks-Regular (TrueType)"="Z:\\usr\\share\\fonts\\mathjax\\HTML-CSS\\Gyre-Pagella\\woff\\GyrePagellaMathJax_Marks-Regular.woff"
+"GyrePagellaMathJax_Misc-Regular (TrueType)"="Z:\\usr\\share\\fonts\\mathjax\\HTML-CSS\\Gyre-Pagella\\woff\\GyrePagellaMathJax_Misc-Regular.woff"
+"GyrePagellaMathJax_Monospace-Regular (TrueType)"="Z:\\usr\\share\\fonts\\mathjax\\HTML-CSS\\Gyre-Pagella\\woff\\GyrePagellaMathJax_Monospace-Regular.woff"
+"GyrePagellaMathJax_NonUnicode-Regular (TrueType)"="Z:\\usr\\share\\fonts\\mathjax\\HTML-CSS\\Gyre-Pagella\\woff\\GyrePagellaMathJax_NonUnicode-Regular.woff"
+"GyrePagellaMathJax_Normal-Regular (TrueType)"="Z:\\usr\\share\\fonts\\mathjax\\HTML-CSS\\Gyre-Pagella\\woff\\GyrePagellaMathJax_Normal-Regular.woff"
+"GyrePagellaMathJax_Operators-Regular (TrueType)"="Z:\\usr\\share\\fonts\\mathjax\\HTML-CSS\\Gyre-Pagella\\woff\\GyrePagellaMathJax_Operators-Regular.woff"
+"GyrePagellaMathJax_SansSerif-Regular (TrueType)"="Z:\\usr\\share\\fonts\\mathjax\\HTML-CSS\\Gyre-Pagella\\woff\\GyrePagellaMathJax_SansSerif-Regular.woff"
+"GyrePagellaMathJax_Script-Regular (TrueType)"="Z:\\usr\\share\\fonts\\mathjax\\HTML-CSS\\Gyre-Pagella\\woff\\GyrePagellaMathJax_Script-Regular.woff"
+"GyrePagellaMathJax_Shapes-Regular (TrueType)"="Z:\\usr\\share\\fonts\\mathjax\\HTML-CSS\\Gyre-Pagella\\woff\\GyrePagellaMathJax_Shapes-Regular.woff"
+"GyrePagellaMathJax_Size1-Regular (TrueType)"="Z:\\usr\\share\\fonts\\mathjax\\HTML-CSS\\Gyre-Pagella\\woff\\GyrePagellaMathJax_Size1-Regular.woff"
+"GyrePagellaMathJax_Size2-Regular (TrueType)"="Z:\\usr\\share\\fonts\\mathjax\\HTML-CSS\\Gyre-Pagella\\woff\\GyrePagellaMathJax_Size2-Regular.woff"
+"GyrePagellaMathJax_Size3-Regular (TrueType)"="Z:\\usr\\share\\fonts\\mathjax\\HTML-CSS\\Gyre-Pagella\\woff\\GyrePagellaMathJax_Size3-Regular.woff"
+"GyrePagellaMathJax_Size4-Regular (TrueType)"="Z:\\usr\\share\\fonts\\mathjax\\HTML-CSS\\Gyre-Pagella\\woff\\GyrePagellaMathJax_Size4-Regular.woff"
+"GyrePagellaMathJax_Size5-Regular (TrueType)"="Z:\\usr\\share\\fonts\\mathjax\\HTML-CSS\\Gyre-Pagella\\woff\\GyrePagellaMathJax_Size5-Regular.woff"
+"GyrePagellaMathJax_Size6-Regular (TrueType)"="Z:\\usr\\share\\fonts\\mathjax\\HTML-CSS\\Gyre-Pagella\\woff\\GyrePagellaMathJax_Size6-Regular.woff"
+"GyrePagellaMathJax_Symbols-Regular (TrueType)"="Z:\\usr\\share\\fonts\\mathjax\\HTML-CSS\\Gyre-Pagella\\woff\\GyrePagellaMathJax_Symbols-Regular.woff"
+"GyrePagellaMathJax_Variants-Regular (TrueType)"="Z:\\usr\\share\\fonts\\mathjax\\HTML-CSS\\Gyre-Pagella\\woff\\GyrePagellaMathJax_Variants-Regular.woff"
+"GyreTermesMathJax_Alphabets-Regular (TrueType)"="Z:\\usr\\share\\fonts\\mathjax\\HTML-CSS\\Gyre-Termes\\woff\\GyreTermesMathJax_Alphabets-Regular.woff"
+"GyreTermesMathJax_Arrows-Regular (TrueType)"="Z:\\usr\\share\\fonts\\mathjax\\HTML-CSS\\Gyre-Termes\\woff\\GyreTermesMathJax_Arrows-Regular.woff"
+"GyreTermesMathJax_Fraktur-Regular (TrueType)"="Z:\\usr\\share\\fonts\\mathjax\\HTML-CSS\\Gyre-Termes\\woff\\GyreTermesMathJax_Fraktur-Regular.woff"
+"GyreTermesMathJax_Latin-Regular (TrueType)"="Z:\\usr\\share\\fonts\\mathjax\\HTML-CSS\\Gyre-Termes\\woff\\GyreTermesMathJax_Latin-Regular.woff"
+"GyreTermesMathJax_Main-Regular (TrueType)"="Z:\\usr\\share\\fonts\\mathjax\\HTML-CSS\\Gyre-Termes\\woff\\GyreTermesMathJax_Main-Regular.woff"
+"GyreTermesMathJax_Marks-Regular (TrueType)"="Z:\\usr\\share\\fonts\\mathjax\\HTML-CSS\\Gyre-Termes\\woff\\GyreTermesMathJax_Marks-Regular.woff"
+"GyreTermesMathJax_Misc-Regular (TrueType)"="Z:\\usr\\share\\fonts\\mathjax\\HTML-CSS\\Gyre-Termes\\woff\\GyreTermesMathJax_Misc-Regular.woff"
+"GyreTermesMathJax_Monospace-Regular (TrueType)"="Z:\\usr\\share\\fonts\\mathjax\\HTML-CSS\\Gyre-Termes\\woff\\GyreTermesMathJax_Monospace-Regular.woff"
+"GyreTermesMathJax_NonUnicode-Regular (TrueType)"="Z:\\usr\\share\\fonts\\mathjax\\HTML-CSS\\Gyre-Termes\\woff\\GyreTermesMathJax_NonUnicode-Regular.woff"
+"GyreTermesMathJax_Normal-Regular (TrueType)"="Z:\\usr\\share\\fonts\\mathjax\\HTML-CSS\\Gyre-Termes\\woff\\GyreTermesMathJax_Normal-Regular.woff"
+"GyreTermesMathJax_Operators-Regular (TrueType)"="Z:\\usr\\share\\fonts\\mathjax\\HTML-CSS\\Gyre-Termes\\woff\\GyreTermesMathJax_Operators-Regular.woff"
+"GyreTermesMathJax_SansSerif-Regular (TrueType)"="Z:\\usr\\share\\fonts\\mathjax\\HTML-CSS\\Gyre-Termes\\woff\\GyreTermesMathJax_SansSerif-Regular.woff"
+"GyreTermesMathJax_Script-Regular (TrueType)"="Z:\\usr\\share\\fonts\\mathjax\\HTML-CSS\\Gyre-Termes\\woff\\GyreTermesMathJax_Script-Regular.woff"
+"GyreTermesMathJax_Shapes-Regular (TrueType)"="Z:\\usr\\share\\fonts\\mathjax\\HTML-CSS\\Gyre-Termes\\woff\\GyreTermesMathJax_Shapes-Regular.woff"
+"GyreTermesMathJax_Size1-Regular (TrueType)"="Z:\\usr\\share\\fonts\\mathjax\\HTML-CSS\\Gyre-Termes\\woff\\GyreTermesMathJax_Size1-Regular.woff"
+"GyreTermesMathJax_Size2-Regular (TrueType)"="Z:\\usr\\share\\fonts\\mathjax\\HTML-CSS\\Gyre-Termes\\woff\\GyreTermesMathJax_Size2-Regular.woff"
+"GyreTermesMathJax_Size3-Regular (TrueType)"="Z:\\usr\\share\\fonts\\mathjax\\HTML-CSS\\Gyre-Termes\\woff\\GyreTermesMathJax_Size3-Regular.woff"
+"GyreTermesMathJax_Size4-Regular (TrueType)"="Z:\\usr\\share\\fonts\\mathjax\\HTML-CSS\\Gyre-Termes\\woff\\GyreTermesMathJax_Size4-Regular.woff"
+"GyreTermesMathJax_Size5-Regular (TrueType)"="Z:\\usr\\share\\fonts\\mathjax\\HTML-CSS\\Gyre-Termes\\woff\\GyreTermesMathJax_Size5-Regular.woff"
+"GyreTermesMathJax_Size6-Regular (TrueType)"="Z:\\usr\\share\\fonts\\mathjax\\HTML-CSS\\Gyre-Termes\\woff\\GyreTermesMathJax_Size6-Regular.woff"
+"GyreTermesMathJax_Symbols-Regular (TrueType)"="Z:\\usr\\share\\fonts\\mathjax\\HTML-CSS\\Gyre-Termes\\woff\\GyreTermesMathJax_Symbols-Regular.woff"
+"GyreTermesMathJax_Variants-Regular (TrueType)"="Z:\\usr\\share\\fonts\\mathjax\\HTML-CSS\\Gyre-Termes\\woff\\GyreTermesMathJax_Variants-Regular.woff"
+"Inconsolata (TrueType)"="Z:\\usr\\share\\fonts\\TTF\\Inconsolata-Regular.ttf"
+"Inconsolata Bold (TrueType)"="Z:\\usr\\share\\fonts\\TTF\\Inconsolata-Bold.ttf"
+"LatinModernMathJax_Alphabets-Regular (TrueType)"="Z:\\usr\\share\\fonts\\mathjax\\HTML-CSS\\Latin-Modern\\woff\\LatinModernMathJax_Alphabets-Regular.woff"
+"LatinModernMathJax_Arrows-Regular (TrueType)"="Z:\\usr\\share\\fonts\\mathjax\\HTML-CSS\\Latin-Modern\\woff\\LatinModernMathJax_Arrows-Regular.woff"
+"LatinModernMathJax_Fraktur-Regular (TrueType)"="Z:\\usr\\share\\fonts\\mathjax\\HTML-CSS\\Latin-Modern\\woff\\LatinModernMathJax_Fraktur-Regular.woff"
+"LatinModernMathJax_Latin-Regular (TrueType)"="Z:\\usr\\share\\fonts\\mathjax\\HTML-CSS\\Latin-Modern\\woff\\LatinModernMathJax_Latin-Regular.woff"
+"LatinModernMathJax_Main-Regular (TrueType)"="Z:\\usr\\share\\fonts\\mathjax\\HTML-CSS\\Latin-Modern\\woff\\LatinModernMathJax_Main-Regular.woff"
+"LatinModernMathJax_Marks-Regular (TrueType)"="Z:\\usr\\share\\fonts\\mathjax\\HTML-CSS\\Latin-Modern\\woff\\LatinModernMathJax_Marks-Regular.woff"
+"LatinModernMathJax_Misc-Regular (TrueType)"="Z:\\usr\\share\\fonts\\mathjax\\HTML-CSS\\Latin-Modern\\woff\\LatinModernMathJax_Misc-Regular.woff"
+"LatinModernMathJax_Monospace-Regular (TrueType)"="Z:\\usr\\share\\fonts\\mathjax\\HTML-CSS\\Latin-Modern\\woff\\LatinModernMathJax_Monospace-Regular.woff"
+"LatinModernMathJax_NonUnicode-Regular (TrueType)"="Z:\\usr\\share\\fonts\\mathjax\\HTML-CSS\\Latin-Modern\\woff\\LatinModernMathJax_NonUnicode-Regular.woff"
+"LatinModernMathJax_Normal-Regular (TrueType)"="Z:\\usr\\share\\fonts\\mathjax\\HTML-CSS\\Latin-Modern\\woff\\LatinModernMathJax_Normal-Regular.woff"
+"LatinModernMathJax_Operators-Regular (TrueType)"="Z:\\usr\\share\\fonts\\mathjax\\HTML-CSS\\Latin-Modern\\woff\\LatinModernMathJax_Operators-Regular.woff"
+"LatinModernMathJax_SansSerif-Regular (TrueType)"="Z:\\usr\\share\\fonts\\mathjax\\HTML-CSS\\Latin-Modern\\woff\\LatinModernMathJax_SansSerif-Regular.woff"
+"LatinModernMathJax_Script-Regular (TrueType)"="Z:\\usr\\share\\fonts\\mathjax\\HTML-CSS\\Latin-Modern\\woff\\LatinModernMathJax_Script-Regular.woff"
+"LatinModernMathJax_Shapes-Regular (TrueType)"="Z:\\usr\\share\\fonts\\mathjax\\HTML-CSS\\Latin-Modern\\woff\\LatinModernMathJax_Shapes-Regular.woff"
+"LatinModernMathJax_Size1-Regular (TrueType)"="Z:\\usr\\share\\fonts\\mathjax\\HTML-CSS\\Latin-Modern\\woff\\LatinModernMathJax_Size1-Regular.woff"
+"LatinModernMathJax_Size2-Regular (TrueType)"="Z:\\usr\\share\\fonts\\mathjax\\HTML-CSS\\Latin-Modern\\woff\\LatinModernMathJax_Size2-Regular.woff"
+"LatinModernMathJax_Size3-Regular (TrueType)"="Z:\\usr\\share\\fonts\\mathjax\\HTML-CSS\\Latin-Modern\\woff\\LatinModernMathJax_Size3-Regular.woff"
+"LatinModernMathJax_Size4-Regular (TrueType)"="Z:\\usr\\share\\fonts\\mathjax\\HTML-CSS\\Latin-Modern\\woff\\LatinModernMathJax_Size4-Regular.woff"
+"LatinModernMathJax_Size5-Regular (TrueType)"="Z:\\usr\\share\\fonts\\mathjax\\HTML-CSS\\Latin-Modern\\woff\\LatinModernMathJax_Size5-Regular.woff"
+"LatinModernMathJax_Size6-Regular (TrueType)"="Z:\\usr\\share\\fonts\\mathjax\\HTML-CSS\\Latin-Modern\\woff\\LatinModernMathJax_Size6-Regular.woff"
+"LatinModernMathJax_Size7-Regular (TrueType)"="Z:\\usr\\share\\fonts\\mathjax\\HTML-CSS\\Latin-Modern\\woff\\LatinModernMathJax_Size7-Regular.woff"
+"LatinModernMathJax_Symbols-Regular (TrueType)"="Z:\\usr\\share\\fonts\\mathjax\\HTML-CSS\\Latin-Modern\\woff\\LatinModernMathJax_Symbols-Regular.woff"
+"LatinModernMathJax_Variants-Regular (TrueType)"="Z:\\usr\\share\\fonts\\mathjax\\HTML-CSS\\Latin-Modern\\woff\\LatinModernMathJax_Variants-Regular.woff"
+"Liberation Mono (TrueType)"="Z:\\usr\\share\\fonts\\TTF\\LiberationMono-Regular.ttf"
+"Liberation Mono Bold (TrueType)"="Z:\\usr\\share\\fonts\\TTF\\LiberationMono-Bold.ttf"
+"Liberation Mono Bold Italic (TrueType)"="Z:\\usr\\share\\fonts\\TTF\\LiberationMono-BoldItalic.ttf"
+"Liberation Mono Italic (TrueType)"="Z:\\usr\\share\\fonts\\TTF\\LiberationMono-Italic.ttf"
+"Liberation Sans (TrueType)"="Z:\\usr\\share\\fonts\\TTF\\LiberationSans-Regular.ttf"
+"Liberation Sans Bold (TrueType)"="Z:\\usr\\share\\fonts\\TTF\\LiberationSans-Bold.ttf"
+"Liberation Sans Bold Italic (TrueType)"="Z:\\usr\\share\\fonts\\TTF\\LiberationSans-BoldItalic.ttf"
+"Liberation Sans Italic (TrueType)"="Z:\\usr\\share\\fonts\\TTF\\LiberationSans-Italic.ttf"
+"Liberation Serif (TrueType)"="Z:\\usr\\share\\fonts\\TTF\\LiberationSerif-Regular.ttf"
+"Liberation Serif Bold (TrueType)"="Z:\\usr\\share\\fonts\\TTF\\LiberationSerif-Bold.ttf"
+"Liberation Serif Bold Italic (TrueType)"="Z:\\usr\\share\\fonts\\TTF\\LiberationSerif-BoldItalic.ttf"
+"Liberation Serif Italic (TrueType)"="Z:\\usr\\share\\fonts\\TTF\\LiberationSerif-Italic.ttf"
+"Likhan (TrueType)"="Z:\\usr\\share\\fonts\\TTF\\LikhanNormal.ttf"
+"malayalam (TrueType)"="Z:\\usr\\share\\fonts\\TTF\\malayalam.ttf"
+"MalOtf (TrueType)"="Z:\\usr\\share\\fonts\\TTF\\MalOtf.ttf"
+"Marlett (TrueType)"="Z:\\usr\\bin\\..\\share\\wine\\fonts\\marlett.ttf"
+"MathJax_AMS-Regular (TrueType)"="Z:\\usr\\share\\fonts\\mathjax\\HTML-CSS\\TeX\\woff\\MathJax_AMS-Regular.woff"
+"MathJax_Caligraphic-Bold (TrueType)"="Z:\\usr\\share\\fonts\\mathjax\\HTML-CSS\\TeX\\woff\\MathJax_Caligraphic-Bold.woff"
+"MathJax_Caligraphic-Regular (TrueType)"="Z:\\usr\\share\\fonts\\mathjax\\HTML-CSS\\TeX\\woff\\MathJax_Caligraphic-Regular.woff"
+"MathJax_Fraktur-Bold (TrueType)"="Z:\\usr\\share\\fonts\\mathjax\\HTML-CSS\\TeX\\woff\\MathJax_Fraktur-Bold.woff"
+"MathJax_Fraktur-Regular (TrueType)"="Z:\\usr\\share\\fonts\\mathjax\\HTML-CSS\\TeX\\woff\\MathJax_Fraktur-Regular.woff"
+"MathJax_Main-Bold (TrueType)"="Z:\\usr\\share\\fonts\\mathjax\\HTML-CSS\\TeX\\woff\\MathJax_Main-Bold.woff"
+"MathJax_Main-Italic (TrueType)"="Z:\\usr\\share\\fonts\\mathjax\\HTML-CSS\\TeX\\woff\\MathJax_Main-Italic.woff"
+"MathJax_Main-Regular (TrueType)"="Z:\\usr\\share\\fonts\\mathjax\\HTML-CSS\\TeX\\woff\\MathJax_Main-Regular.woff"
+"MathJax_Math-BoldItalic (TrueType)"="Z:\\usr\\share\\fonts\\mathjax\\HTML-CSS\\TeX\\woff\\MathJax_Math-BoldItalic.woff"
+"MathJax_Math-Italic (TrueType)"="Z:\\usr\\share\\fonts\\mathjax\\HTML-CSS\\TeX\\woff\\MathJax_Math-Italic.woff"
+"MathJax_Math-Regular (TrueType)"="Z:\\usr\\share\\fonts\\mathjax\\HTML-CSS\\TeX\\woff\\MathJax_Math-Regular.woff"
+"MathJax_SansSerif-Bold (TrueType)"="Z:\\usr\\share\\fonts\\mathjax\\HTML-CSS\\TeX\\woff\\MathJax_SansSerif-Bold.woff"
+"MathJax_SansSerif-Italic (TrueType)"="Z:\\usr\\share\\fonts\\mathjax\\HTML-CSS\\TeX\\woff\\MathJax_SansSerif-Italic.woff"
+"MathJax_SansSerif-Regular (TrueType)"="Z:\\usr\\share\\fonts\\mathjax\\HTML-CSS\\TeX\\woff\\MathJax_SansSerif-Regular.woff"
+"MathJax_Script-Regular (TrueType)"="Z:\\usr\\share\\fonts\\mathjax\\HTML-CSS\\TeX\\woff\\MathJax_Script-Regular.woff"
+"MathJax_Size1-Regular (TrueType)"="Z:\\usr\\share\\fonts\\mathjax\\HTML-CSS\\TeX\\woff\\MathJax_Size1-Regular.woff"
+"MathJax_Size2-Regular (TrueType)"="Z:\\usr\\share\\fonts\\mathjax\\HTML-CSS\\TeX\\woff\\MathJax_Size2-Regular.woff"
+"MathJax_Size3-Regular (TrueType)"="Z:\\usr\\share\\fonts\\mathjax\\HTML-CSS\\TeX\\woff\\MathJax_Size3-Regular.woff"
+"MathJax_Size4-Regular (TrueType)"="Z:\\usr\\share\\fonts\\mathjax\\HTML-CSS\\TeX\\woff\\MathJax_Size4-Regular.woff"
+"MathJax_Typewriter-Regular (TrueType)"="Z:\\usr\\share\\fonts\\mathjax\\HTML-CSS\\TeX\\woff\\MathJax_Typewriter-Regular.woff"
+"MT Extra (TrueType)"="Z:\\usr\\share\\fonts\\wps-fonts\\mtextra.ttf"
+"Mukti Narrow (TrueType)"="Z:\\usr\\share\\fonts\\TTF\\MuktiNarrow.ttf"
+"Mukti Narrow Bold (TrueType)"="Z:\\usr\\share\\fonts\\TTF\\MuktiNarrowBold.ttf"
+"NeoEulerMathJax_Alphabets-Regular (TrueType)"="Z:\\usr\\share\\fonts\\mathjax\\HTML-CSS\\Neo-Euler\\woff\\NeoEulerMathJax_Alphabets-Regular.woff"
+"NeoEulerMathJax_Arrows-Regular (TrueType)"="Z:\\usr\\share\\fonts\\mathjax\\HTML-CSS\\Neo-Euler\\woff\\NeoEulerMathJax_Arrows-Regular.woff"
+"NeoEulerMathJax_Fraktur-Regular (TrueType)"="Z:\\usr\\share\\fonts\\mathjax\\HTML-CSS\\Neo-Euler\\woff\\NeoEulerMathJax_Fraktur-Regular.woff"
+"NeoEulerMathJax_Main-Regular (TrueType)"="Z:\\usr\\share\\fonts\\mathjax\\HTML-CSS\\Neo-Euler\\woff\\NeoEulerMathJax_Main-Regular.woff"
+"NeoEulerMathJax_Marks-Regular (TrueType)"="Z:\\usr\\share\\fonts\\mathjax\\HTML-CSS\\Neo-Euler\\woff\\NeoEulerMathJax_Marks-Regular.woff"
+"NeoEulerMathJax_NonUnicode-Regular (TrueType)"="Z:\\usr\\share\\fonts\\mathjax\\HTML-CSS\\Neo-Euler\\woff\\NeoEulerMathJax_NonUnicode-Regular.woff"
+"NeoEulerMathJax_Normal-Regular (TrueType)"="Z:\\usr\\share\\fonts\\mathjax\\HTML-CSS\\Neo-Euler\\woff\\NeoEulerMathJax_Normal-Regular.woff"
+"NeoEulerMathJax_Operators-Regular (TrueType)"="Z:\\usr\\share\\fonts\\mathjax\\HTML-CSS\\Neo-Euler\\woff\\NeoEulerMathJax_Operators-Regular.woff"
+"NeoEulerMathJax_Script-Regular (TrueType)"="Z:\\usr\\share\\fonts\\mathjax\\HTML-CSS\\Neo-Euler\\woff\\NeoEulerMathJax_Script-Regular.woff"
+"NeoEulerMathJax_Shapes-Regular (TrueType)"="Z:\\usr\\share\\fonts\\mathjax\\HTML-CSS\\Neo-Euler\\woff\\NeoEulerMathJax_Shapes-Regular.woff"
+"NeoEulerMathJax_Size1-Regular (TrueType)"="Z:\\usr\\share\\fonts\\mathjax\\HTML-CSS\\Neo-Euler\\woff\\NeoEulerMathJax_Size1-Regular.woff"
+"NeoEulerMathJax_Size2-Regular (TrueType)"="Z:\\usr\\share\\fonts\\mathjax\\HTML-CSS\\Neo-Euler\\woff\\NeoEulerMathJax_Size2-Regular.woff"
+"NeoEulerMathJax_Size3-Regular (TrueType)"="Z:\\usr\\share\\fonts\\mathjax\\HTML-CSS\\Neo-Euler\\woff\\NeoEulerMathJax_Size3-Regular.woff"
+"NeoEulerMathJax_Size4-Regular (TrueType)"="Z:\\usr\\share\\fonts\\mathjax\\HTML-CSS\\Neo-Euler\\woff\\NeoEulerMathJax_Size4-Regular.woff"
+"NeoEulerMathJax_Size5-Regular (TrueType)"="Z:\\usr\\share\\fonts\\mathjax\\HTML-CSS\\Neo-Euler\\woff\\NeoEulerMathJax_Size5-Regular.woff"
+"NeoEulerMathJax_Symbols-Regular (TrueType)"="Z:\\usr\\share\\fonts\\mathjax\\HTML-CSS\\Neo-Euler\\woff\\NeoEulerMathJax_Symbols-Regular.woff"
+"NeoEulerMathJax_Variants-Regular (TrueType)"="Z:\\usr\\share\\fonts\\mathjax\\HTML-CSS\\Neo-Euler\\woff\\NeoEulerMathJax_Variants-Regular.woff"
+"NimbusMonoPS-Bold (TrueType)"="Z:\\usr\\share\\fonts\\OTF\\NimbusMonoPS-Bold.otf"
+"NimbusMonoPS-BoldItalic (TrueType)"="Z:\\usr\\share\\fonts\\OTF\\NimbusMonoPS-BoldItalic.otf"
+"NimbusMonoPS-Italic (TrueType)"="Z:\\usr\\share\\fonts\\OTF\\NimbusMonoPS-Italic.otf"
+"NimbusMonoPS-Regular (TrueType)"="Z:\\usr\\share\\fonts\\OTF\\NimbusMonoPS-Regular.otf"
+"NimbusRoman-Bold (TrueType)"="Z:\\usr\\share\\fonts\\OTF\\NimbusRoman-Bold.otf"
+"NimbusRoman-BoldItalic (TrueType)"="Z:\\usr\\share\\fonts\\OTF\\NimbusRoman-BoldItalic.otf"
+"NimbusRoman-Italic (TrueType)"="Z:\\usr\\share\\fonts\\OTF\\NimbusRoman-Italic.otf"
+"NimbusRoman-Regular (TrueType)"="Z:\\usr\\share\\fonts\\OTF\\NimbusRoman-Regular.otf"
+"NimbusSans-Bold (TrueType)"="Z:\\usr\\share\\fonts\\OTF\\NimbusSans-Bold.otf"
+"NimbusSans-BoldOblique (TrueType)"="Z:\\usr\\share\\fonts\\OTF\\NimbusSans-BoldOblique.otf"
+"NimbusSans-Oblique (TrueType)"="Z:\\usr\\share\\fonts\\OTF\\NimbusSans-Oblique.otf"
+"NimbusSans-Regular (TrueType)"="Z:\\usr\\share\\fonts\\OTF\\NimbusSans-Regular.otf"
+"NimbusSansNarrow-Bold (TrueType)"="Z:\\usr\\share\\fonts\\OTF\\NimbusSansNarrow-Bold.otf"
+"NimbusSansNarrow-BoldOblique (TrueType)"="Z:\\usr\\share\\fonts\\OTF\\NimbusSansNarrow-BdOblique.otf"
+"NimbusSansNarrow-Oblique (TrueType)"="Z:\\usr\\share\\fonts\\OTF\\NimbusSansNarrow-Oblique.otf"
+"NimbusSansNarrow-Regular (TrueType)"="Z:\\usr\\share\\fonts\\OTF\\NimbusSansNarrow-Regular.otf"
+"orya (TrueType)"="Z:\\usr\\share\\fonts\\TTF\\oriya.ttf"
+"P052-Bold (TrueType)"="Z:\\usr\\share\\fonts\\OTF\\P052-Bold.otf"
+"P052-BoldItalic (TrueType)"="Z:\\usr\\share\\fonts\\OTF\\P052-BoldItalic.otf"
+"P052-Italic (TrueType)"="Z:\\usr\\share\\fonts\\OTF\\P052-Italic.otf"
+"P052-Roman (TrueType)"="Z:\\usr\\share\\fonts\\OTF\\P052-Roman.otf"
+"padmaa-bold-indictrans (TrueType)"="Z:\\usr\\share\\fonts\\TTF\\padmaa-Bold-0.5.ttf"
+"padmaa-normal-indictrans (TrueType)"="Z:\\usr\\share\\fonts\\TTF\\padmaa-Medium-0.5.ttf"
+"Pothana2000 (TrueType)"="Z:\\usr\\share\\fonts\\TTF\\Pothana2000.ttf"
+"Sagar (TrueType)"="Z:\\usr\\share\\fonts\\TTF\\SagarNormal.ttf"
+"Sampige (TrueType)"="Z:\\usr\\share\\fonts\\TTF\\Sampige.ttf"
+"Serto Batnan (TrueType)"="Z:\\usr\\share\\fonts\\OTF\\SyrCOMBatnan.otf"
+"Serto Batnan Bold (TrueType)"="Z:\\usr\\share\\fonts\\OTF\\SyrCOMBatnanBold.otf"
+"Serto Jerusalem (TrueType)"="Z:\\usr\\share\\fonts\\OTF\\SyrCOMJerusalem.otf"
+"Serto Jerusalem Bold (TrueType)"="Z:\\usr\\share\\fonts\\OTF\\SyrCOMJerusalemBold.otf"
+"Serto Jerusalem Italic (TrueType)"="Z:\\usr\\share\\fonts\\OTF\\SyrCOMJerusalemItalic.otf"
+"Serto Jerusalem Outline (TrueType)"="Z:\\usr\\share\\fonts\\OTF\\SyrCOMJerusalemOutline.otf"
+"Serto Kharput (TrueType)"="Z:\\usr\\share\\fonts\\OTF\\SyrCOMKharput.otf"
+"Serto Malankara (TrueType)"="Z:\\usr\\share\\fonts\\OTF\\SyrCOMMalankara.otf"
+"Serto Mardin (TrueType)"="Z:\\usr\\share\\fonts\\OTF\\SyrCOMMardin.otf"
+"Serto Mardin Bold (TrueType)"="Z:\\usr\\share\\fonts\\OTF\\SyrCOMMardinBold.otf"
+"Serto Urhoy (TrueType)"="Z:\\usr\\share\\fonts\\OTF\\SyrCOMUrhoy.otf"
+"Serto Urhoy Bold (TrueType)"="Z:\\usr\\share\\fonts\\OTF\\SyrCOMUrhoyBold.otf"
+"Standard Symbols PS (TrueType)"="Z:\\usr\\share\\fonts\\OTF\\StandardSymbolsPS.otf"
+"STIXMath-Regular (TrueType)"="Z:\\usr\\share\\fonts\\mathjax\\HTML-CSS\\STIX-Web\\woff\\STIXMathJax_Size4-Regular.woff"
+"STIXMathJax_Alphabets-Bold (TrueType)"="Z:\\usr\\share\\fonts\\mathjax\\HTML-CSS\\STIX-Web\\woff\\STIXMathJax_Alphabets-Bold.woff"
+"STIXMathJax_Alphabets-BoldItalic (TrueType)"="Z:\\usr\\share\\fonts\\mathjax\\HTML-CSS\\STIX-Web\\woff\\STIXMathJax_Alphabets-BoldItalic.woff"
+"STIXMathJax_Alphabets-Italic (TrueType)"="Z:\\usr\\share\\fonts\\mathjax\\HTML-CSS\\STIX-Web\\woff\\STIXMathJax_Alphabets-Italic.woff"
+"STIXMathJax_Alphabets-Regular (TrueType)"="Z:\\usr\\share\\fonts\\mathjax\\HTML-CSS\\STIX-Web\\woff\\STIXMathJax_Alphabets-Regular.woff"
+"STIXMathJax_Arrows-Bold (TrueType)"="Z:\\usr\\share\\fonts\\mathjax\\HTML-CSS\\STIX-Web\\woff\\STIXMathJax_Arrows-Bold.woff"
+"STIXMathJax_Arrows-Regular (TrueType)"="Z:\\usr\\share\\fonts\\mathjax\\HTML-CSS\\STIX-Web\\woff\\STIXMathJax_Arrows-Regular.woff"
+"STIXMathJax_DoubleStruck-Bold (TrueType)"="Z:\\usr\\share\\fonts\\mathjax\\HTML-CSS\\STIX-Web\\woff\\STIXMathJax_DoubleStruck-Bold.woff"
+"STIXMathJax_DoubleStruck-BoldItalic (TrueType)"="Z:\\usr\\share\\fonts\\mathjax\\HTML-CSS\\STIX-Web\\woff\\STIXMathJax_DoubleStruck-BoldItalic.woff"
+"STIXMathJax_DoubleStruck-Italic (TrueType)"="Z:\\usr\\share\\fonts\\mathjax\\HTML-CSS\\STIX-Web\\woff\\STIXMathJax_DoubleStruck-Italic.woff"
+"STIXMathJax_DoubleStruck-Regular (TrueType)"="Z:\\usr\\share\\fonts\\mathjax\\HTML-CSS\\STIX-Web\\woff\\STIXMathJax_DoubleStruck-Regular.woff"
+"STIXMathJax_Fraktur-Bold (TrueType)"="Z:\\usr\\share\\fonts\\mathjax\\HTML-CSS\\STIX-Web\\woff\\STIXMathJax_Fraktur-Bold.woff"
+"STIXMathJax_Fraktur-Regular (TrueType)"="Z:\\usr\\share\\fonts\\mathjax\\HTML-CSS\\STIX-Web\\woff\\STIXMathJax_Fraktur-Regular.woff"
+"STIXMathJax_Latin-Bold (TrueType)"="Z:\\usr\\share\\fonts\\mathjax\\HTML-CSS\\STIX-Web\\woff\\STIXMathJax_Latin-Bold.woff"
+"STIXMathJax_Latin-BoldItalic (TrueType)"="Z:\\usr\\share\\fonts\\mathjax\\HTML-CSS\\STIX-Web\\woff\\STIXMathJax_Latin-BoldItalic.woff"
+"STIXMathJax_Latin-Italic (TrueType)"="Z:\\usr\\share\\fonts\\mathjax\\HTML-CSS\\STIX-Web\\woff\\STIXMathJax_Latin-Italic.woff"
+"STIXMathJax_Latin-Regular (TrueType)"="Z:\\usr\\share\\fonts\\mathjax\\HTML-CSS\\STIX-Web\\woff\\STIXMathJax_Latin-Regular.woff"
+"STIXMathJax_Main-Bold (TrueType)"="Z:\\usr\\share\\fonts\\mathjax\\HTML-CSS\\STIX-Web\\woff\\STIXMathJax_Main-Bold.woff"
+"STIXMathJax_Main-BoldItalic (TrueType)"="Z:\\usr\\share\\fonts\\mathjax\\HTML-CSS\\STIX-Web\\woff\\STIXMathJax_Main-BoldItalic.woff"
+"STIXMathJax_Main-Italic (TrueType)"="Z:\\usr\\share\\fonts\\mathjax\\HTML-CSS\\STIX-Web\\woff\\STIXMathJax_Main-Italic.woff"
+"STIXMathJax_Main-Regular (TrueType)"="Z:\\usr\\share\\fonts\\mathjax\\HTML-CSS\\STIX-Web\\woff\\STIXMathJax_Main-Regular.woff"
+"STIXMathJax_Marks-Bold (TrueType)"="Z:\\usr\\share\\fonts\\mathjax\\HTML-CSS\\STIX-Web\\woff\\STIXMathJax_Marks-Bold.woff"
+"STIXMathJax_Marks-BoldItalic (TrueType)"="Z:\\usr\\share\\fonts\\mathjax\\HTML-CSS\\STIX-Web\\woff\\STIXMathJax_Marks-BoldItalic.woff"
+"STIXMathJax_Marks-Italic (TrueType)"="Z:\\usr\\share\\fonts\\mathjax\\HTML-CSS\\STIX-Web\\woff\\STIXMathJax_Marks-Italic.woff"
+"STIXMathJax_Marks-Regular (TrueType)"="Z:\\usr\\share\\fonts\\mathjax\\HTML-CSS\\STIX-Web\\woff\\STIXMathJax_Marks-Regular.woff"
+"STIXMathJax_Misc-Bold (TrueType)"="Z:\\usr\\share\\fonts\\mathjax\\HTML-CSS\\STIX-Web\\woff\\STIXMathJax_Misc-Bold.woff"
+"STIXMathJax_Misc-BoldItalic (TrueType)"="Z:\\usr\\share\\fonts\\mathjax\\HTML-CSS\\STIX-Web\\woff\\STIXMathJax_Misc-BoldItalic.woff"
+"STIXMathJax_Misc-Italic (TrueType)"="Z:\\usr\\share\\fonts\\mathjax\\HTML-CSS\\STIX-Web\\woff\\STIXMathJax_Misc-Italic.woff"
+"STIXMathJax_Misc-Regular (TrueType)"="Z:\\usr\\share\\fonts\\mathjax\\HTML-CSS\\STIX-Web\\woff\\STIXMathJax_Misc-Regular.woff"
+"STIXMathJax_Monospace-Regular (TrueType)"="Z:\\usr\\share\\fonts\\mathjax\\HTML-CSS\\STIX-Web\\woff\\STIXMathJax_Monospace-Regular.woff"
+"STIXMathJax_Normal-Bold (TrueType)"="Z:\\usr\\share\\fonts\\mathjax\\HTML-CSS\\STIX-Web\\woff\\STIXMathJax_Normal-Bold.woff"
+"STIXMathJax_Normal-BoldItalic (TrueType)"="Z:\\usr\\share\\fonts\\mathjax\\HTML-CSS\\STIX-Web\\woff\\STIXMathJax_Normal-BoldItalic.woff"
+"STIXMathJax_Normal-Italic (TrueType)"="Z:\\usr\\share\\fonts\\mathjax\\HTML-CSS\\STIX-Web\\woff\\STIXMathJax_Normal-Italic.woff"
+"STIXMathJax_Operators-Bold (TrueType)"="Z:\\usr\\share\\fonts\\mathjax\\HTML-CSS\\STIX-Web\\woff\\STIXMathJax_Operators-Bold.woff"
+"STIXMathJax_Operators-Regular (TrueType)"="Z:\\usr\\share\\fonts\\mathjax\\HTML-CSS\\STIX-Web\\woff\\STIXMathJax_Operators-Regular.woff"
+"STIXMathJax_SansSerif-Bold (TrueType)"="Z:\\usr\\share\\fonts\\mathjax\\HTML-CSS\\STIX-Web\\woff\\STIXMathJax_SansSerif-Bold.woff"
+"STIXMathJax_SansSerif-BoldItalic (TrueType)"="Z:\\usr\\share\\fonts\\mathjax\\HTML-CSS\\STIX-Web\\woff\\STIXMathJax_SansSerif-BoldItalic.woff"
+"STIXMathJax_SansSerif-Italic (TrueType)"="Z:\\usr\\share\\fonts\\mathjax\\HTML-CSS\\STIX-Web\\woff\\STIXMathJax_SansSerif-Italic.woff"
+"STIXMathJax_SansSerif-Regular (TrueType)"="Z:\\usr\\share\\fonts\\mathjax\\HTML-CSS\\STIX-Web\\woff\\STIXMathJax_SansSerif-Regular.woff"
+"STIXMathJax_Script-BoldItalic (TrueType)"="Z:\\usr\\share\\fonts\\mathjax\\HTML-CSS\\STIX-Web\\woff\\STIXMathJax_Script-BoldItalic.woff"
+"STIXMathJax_Script-Italic (TrueType)"="Z:\\usr\\share\\fonts\\mathjax\\HTML-CSS\\STIX-Web\\woff\\STIXMathJax_Script-Italic.woff"
+"STIXMathJax_Script-Regular (TrueType)"="Z:\\usr\\share\\fonts\\mathjax\\HTML-CSS\\STIX-Web\\woff\\STIXMathJax_Script-Regular.woff"
+"STIXMathJax_Shapes-Bold (TrueType)"="Z:\\usr\\share\\fonts\\mathjax\\HTML-CSS\\STIX-Web\\woff\\STIXMathJax_Shapes-Bold.woff"
+"STIXMathJax_Shapes-BoldItalic (TrueType)"="Z:\\usr\\share\\fonts\\mathjax\\HTML-CSS\\STIX-Web\\woff\\STIXMathJax_Shapes-BoldItalic.woff"
+"STIXMathJax_Shapes-Regular (TrueType)"="Z:\\usr\\share\\fonts\\mathjax\\HTML-CSS\\STIX-Web\\woff\\STIXMathJax_Shapes-Regular.woff"
+"STIXMathJax_Symbols-Bold (TrueType)"="Z:\\usr\\share\\fonts\\mathjax\\HTML-CSS\\STIX-Web\\woff\\STIXMathJax_Symbols-Bold.woff"
+"STIXMathJax_Symbols-Regular (TrueType)"="Z:\\usr\\share\\fonts\\mathjax\\HTML-CSS\\STIX-Web\\woff\\STIXMathJax_Symbols-Regular.woff"
+"STIXMathJax_Variants-Bold (TrueType)"="Z:\\usr\\share\\fonts\\mathjax\\HTML-CSS\\STIX-Web\\woff\\STIXMathJax_Variants-Bold.woff"
+"STIXMathJax_Variants-BoldItalic (TrueType)"="Z:\\usr\\share\\fonts\\mathjax\\HTML-CSS\\STIX-Web\\woff\\STIXMathJax_Variants-BoldItalic.woff"
+"STIXMathJax_Variants-Italic (TrueType)"="Z:\\usr\\share\\fonts\\mathjax\\HTML-CSS\\STIX-Web\\woff\\STIXMathJax_Variants-Italic.woff"
+"STIXMathJax_Variants-Regular (TrueType)"="Z:\\usr\\share\\fonts\\mathjax\\HTML-CSS\\STIX-Web\\woff\\STIXMathJax_Variants-Regular.woff"
+"Symbol (TrueType)"="Z:\\usr\\share\\fonts\\wps-fonts\\symbol.ttf"
+"Tahoma (TrueType)"="Z:\\usr\\bin\\..\\share\\wine\\fonts\\tahoma.ttf"
+"Tahoma Bold (TrueType)"="Z:\\usr\\bin\\..\\share\\wine\\fonts\\tahomabd.ttf"
+"TAMu_Kadambri Regular (TrueType)"="Z:\\usr\\share\\fonts\\TTF\\TAMu_Kadampari.ttf"
+"TAMu_Kalyani (TrueType)"="Z:\\usr\\share\\fonts\\TTF\\TAMu_Kalyani.ttf"
+"TAMu_Maduram (TrueType)"="Z:\\usr\\share\\fonts\\TTF\\TAMu_Maduram.ttf"
+"TSCu_Comic (TrueType)"="Z:\\usr\\share\\fonts\\TTF\\TSCu_Comic.ttf"
+"TSCu_Paranar (TrueType)"="Z:\\usr\\share\\fonts\\TTF\\TSCu_Paranar.ttf"
+"TSCu_Paranar Bold (TrueType)"="Z:\\usr\\share\\fonts\\TTF\\TSCu_paranarb.ttf"
+"TSCu_Paranar Italic (TrueType)"="Z:\\usr\\share\\fonts\\TTF\\TSCu_paranari.ttf"
+"TSCu_Times (TrueType)"="Z:\\usr\\share\\fonts\\TTF\\TSCu_Times.ttf"
+"URWBookman-Demi (TrueType)"="Z:\\usr\\share\\fonts\\OTF\\URWBookman-Demi.otf"
+"URWBookman-DemiItalic (TrueType)"="Z:\\usr\\share\\fonts\\OTF\\URWBookman-DemiItalic.otf"
+"URWBookman-Light (TrueType)"="Z:\\usr\\share\\fonts\\OTF\\URWBookman-Light.otf"
+"URWBookman-LightItalic (TrueType)"="Z:\\usr\\share\\fonts\\OTF\\URWBookman-LightItalic.otf"
+"URWGothic-Book (TrueType)"="Z:\\usr\\share\\fonts\\OTF\\URWGothic-Book.otf"
+"URWGothic-BookOblique (TrueType)"="Z:\\usr\\share\\fonts\\OTF\\URWGothic-BookOblique.otf"
+"URWGothic-Demi (TrueType)"="Z:\\usr\\share\\fonts\\OTF\\URWGothic-Demi.otf"
+"URWGothic-DemiOblique (TrueType)"="Z:\\usr\\share\\fonts\\OTF\\URWGothic-DemiOblique.otf"
+"Webdings (TrueType)"="Z:\\usr\\share\\fonts\\wps-fonts\\WEBDINGS.TTF"
+"Wingdings (TrueType)"="Z:\\home\\gujiawei\\.fonts\\wingding.ttf"
+"Wingdings 2 (TrueType)"="Z:\\home\\gujiawei\\.fonts\\WINGDNG2.TTF"
+"Wingdings 3 (TrueType)"="Z:\\home\\gujiawei\\.fonts\\WINGDNG3.TTF"
+"Z003-MediumItalic (TrueType)"="Z:\\usr\\share\\fonts\\OTF\\Z003-MediumItalic.otf"
+"\x6587\x6cc9\x9a7f\x5fae\x7c73\x9ed1 (TrueType)"="Z:\\home\\gujiawei\\.fonts\\wqy-microhei.ttc"
+"\x6587\x6cc9\x9a7f\x7b49\x5bbd\x5fae\x7c73\x9ed1 (TrueType)"="Z:\\home\\gujiawei\\.fonts\\wqy-microhei.ttc"
+"\x65b9\x6b63\x4e66\x5b8b_GBK (TrueType)"="Z:\\usr\\share\\fonts\\wps-office\\FZSSK.TTF"
+"\x65b9\x6b63\x4eff\x5b8b_GBK (TrueType)"="Z:\\usr\\share\\fonts\\wps-office\\FZFSK.TTF"
+"\x65b9\x6b63\x59da\x4f53_GBK (TrueType)"="Z:\\usr\\share\\fonts\\wps-office\\FZYTK.TTF"
+"\x65b9\x6b63\x5b8b\x4f53S-\x8d85\x5927\x5b57\x7b26\x96c6 (TrueType)"="Z:\\usr\\share\\fonts\\wps-office\\FZSongS_20100603.TTF"
+"\x65b9\x6b63\x5b8b\x4f53S-\x8d85\x5927\x5b57\x7b26\x96c6(SIP) (TrueType)"="Z:\\usr\\share\\fonts\\wps-office\\FZSongS(SIP)_2010603.TTF"
+"\x65b9\x6b63\x5c0f\x6807\x5b8b_GBK (TrueType)"="Z:\\usr\\share\\fonts\\wps-office\\FZXBSK.TTF"
+"\x65b9\x6b63\x6977\x4f53_GBK (TrueType)"="Z:\\usr\\share\\fonts\\wps-office\\FZKTK.TTF"
+"\x65b9\x6b63\x7ec6\x9ed1\x4e00_GBK (TrueType)"="Z:\\usr\\share\\fonts\\wps-office\\FZXH1K.TTF"
+"\x65b9\x6b63\x884c\x6977_GBK (TrueType)"="Z:\\usr\\share\\fonts\\wps-office\\FZXKK.TTF"
+"\x65b9\x6b63\x8d85\x7c97\x9ed1_GBK (TrueType)"="Z:\\usr\\share\\fonts\\wps-office\\FZCCHK.TTF"
+"\x65b9\x6b63\x96b6\x4e66_GBK (TrueType)"="Z:\\usr\\share\\fonts\\wps-office\\FZLSK.TTF"
+"\x65b9\x6b63\x9b4f\x7891_GBK (TrueType)"="Z:\\usr\\share\\fonts\\wps-office\\FZWBK.TTF"
+"\x65b9\x6b63\x9ed1\x4f53_GBK (TrueType)"="Z:\\usr\\share\\fonts\\wps-office\\FZHTK.TTF"
+
+[Software\\Wine\\Fonts\\Replacements] 1497576381
+#time=1d2e63f8fab2ce4
+"DFKai-SB"="WenQuanYi Micro Hei"
+"FangSong"="WenQuanYi Micro Hei"
+"KaiTi"="WenQuanYi Micro Hei"
+"Microsoft JhengHei"="WenQuanYi Micro Hei"
+"Microsoft YaHei"="WenQuanYi Micro Hei"
+"MingLiU"="WenQuanYi Micro Hei"
+"NSimSun"="WenQuanYi Micro Hei"
+"PMingLiU"="WenQuanYi Micro Hei"
+"SimHei"="WenQuanYi Micro Hei"
+"SimKai"="WenQuanYi Micro Hei"
+"SimSun"="WenQuanYi Micro Hei"

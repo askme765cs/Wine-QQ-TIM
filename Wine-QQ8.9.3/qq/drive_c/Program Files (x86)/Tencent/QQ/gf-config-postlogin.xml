@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<gf-config>
+	<configs>
+		<config file="systheme:Config\\CustomFaceMgrConfig.xml"/>
+		<config file="systheme:Config\\CameraConfig.xml"/>
+		<config file="@thistheme:Config\\ChatFrameConfig.xml"/>
+		<config file="@thistheme:Config\\ContactInfoFrameConfig.xml"/>
+		<config file="@thistheme:Config\\ContactMgrConfig.xml"/>
+		<config file="@thistheme:Config\\AddGroupFrameConfig.xml"/>
+		<config file="@thistheme:Config\\MainMenuFrameConfig.xml"/>
+		<config file="@thistheme:Config\\ConfigCenterConfig.xml"/>
+		<config file="@thistheme:Config\\ContactTipsConfig.xml"/>
+		<config file="@thistheme:Config\\GroupSettingConfig.xml"/>
+		<config file="@thistheme:Config\\MainPanelConfig.xml"/>
+		<config file="@thistheme:Config\\MsgMgrConfig.xml"/>
+		<config file="@thistheme:Config\\InformationBoxConfig.xml"/>
+		<config file="@thistheme:Config\\AppBoxConfig.xml"/>
+		<config file="@thistheme:Config\\GroupConfigFrameConfig.xml"/>
+		<config file="@thistheme:Config\\GroupAppConfig.xml"/>
+		<config file="@thistheme:Config\\GroupAllianceConfig.xml"/>
+		<config file="@thistheme:Config\\ObjectMsgConfig.xml"/>
+	</configs>
+</gf-config>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<BugreportSelfExceptionDefine>
+    <Exception code="0xE0000000" type="EXCEPITON_TXBR_FILE_BROKEN">
+        <Config>
+            <RE>
+                <FLAG>1</FLAG>
+                <MSG>程序文件被破坏，无法继续使用，请您下载最新版本重新进行完整安装。</MSG>
+                <CHKMSG>关闭程序该窗口时跳转到下载网页</CHKMSG>
+                <LINK>http://im.qq.com</LINK>
+            </RE>
+        </Config>
+    </Exception>
+    <Exception code="0xE0000001" type="EXCEPITON_TXBR_OS_ERROR">
+        <Config>
+            <RE>
+                <FLAG>1</FLAG>
+                <MSG>您的Windows系统缺少必要的安全补丁，导致QQ程序无法正常运行，请扫描系统漏洞并安装所有Windows系统更新补丁后再使用QQ程序。</MSG>
+            </RE>
+        </Config>
+    </Exception>
+</BugreportSelfExceptionDefine>

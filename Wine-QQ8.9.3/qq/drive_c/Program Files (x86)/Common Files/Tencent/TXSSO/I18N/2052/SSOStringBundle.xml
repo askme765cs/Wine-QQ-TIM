@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<StringBundle version="1.0">
+  <String id="CloseWindow">
+    关闭
+  </String>
+  <String id="LoginPanel_TimeOut">
+    登录超时，请检查您的网络或者本机防火墙设置。
+  </String>
+  <String id="LoginFail_DetailInfo">
+    尊敬的用户，由于您使用的$CON$版本太旧，将不能继续使用了，请您下载并安装最新的$CON$版本。
+  </String>
+  <String id="TitlePrompt">
+    提示
+  </String>
+  <String id="LoginPanel_PwdGuardPrompt">
+    为保护您的帐号安全，登录前需要进行身份验证。
+  </String>
+  <String id="CF_TEMPSESSION_EXCEPTION">
+    需要验证的原因:
+  </String>
+  <String id="CF_TEMPSESSION_CODE">
+    验证字符:
+  </String>
+  <String id="SYS_MESSAGEBOX_CANCEL">
+    取消
+  </String>
+  <String id="SYS_MESSAGEBOX_OK">
+    确定
+  </String>
+  <String id="CF_TEMPSESSION_CODE_NEXT">
+    看不清，换一张
+  </String>
+  <String id="SSO_PG_or_VC_TimeOut">
+    输入图片验证码或登录密保超时，请重试
+  </String>
+  <String id="SSO_Internal_Error_Please_Reinstall">
+    登录遇到内部错误，请重新安装[$CON$]或退出[$CON$]重试
+  </String>
+  <String id="Input_VerifyCode_Tips">
+    以下验证码字符不区分大小写，请输入
+  </String>
+  <String id="SSO_You_Should_Enter_Pwd_To_Continue">
+    为了您的帐号安全，需要您重新输入密码进行身份验证继续登录
+  </String>
+  <String id="SSO_VerifyPic_Error">
+    没有通过验证
+  </String>
+  <String id="SSO_VerifyPic_FileError">
+    验证码图片文件处理错误，请稍后再试。
+  </String>
+  <String id="SSO_Failed_By_Same_Call">
+    您的登录操作过于频繁，请稍后再试。
+  </String>
+  <String id="SSO_Failed_SendPacket">
+    网络连接被断开，请稍后再试。
+  </String>
+  <String id="SSO_Failed_SvrPacket_Error">
+    服务器返回的数据错误，请稍后再试。
+  </String>
+  <String id="SSO_Failed_SelectServer">
+    选择登录服务器发生异常，请稍后再试。
+  </String>
+  <String id="SSO_Failed_ServerOverload">
+    目前网络看上去不太稳定，无法登录，请稍后再试。
+  </String>
+  <String id="SSO_Failed_PingResult_Error">
+    选择登录服务器时程序内部异常，请稍后再试。
+  </String>
+  <String id="SSO_Failed_PicVeryfyResult_Error">
+    服务器返回的验证码数据错误，请稍后再试。
+  </String>
+  <String id="SSO_Failed_ChkPwdResult_Error">
+    服务器返回的登录信息错误，请稍后再试。
+  </String>
+  <String id="SSO_Failed_UserAccount_Error">
+    您输入的帐号不存在，请确认后重新输入。
+  </String>
+  <String id="SSO_Failed_Account_Uin_Bind_Change">
+    您的帐号绑定关系已改变，请重新登录。
+  </String>
+  <String id="SSO_Failed_Openid_ServerReturnError">
+    Openid服务器返回错误，请重试。
+  </String>
+  <String id="SSO_Failed_NeedQRLogin">
+    请使用手机扫二维码登录
+  </String>
+
+  <String id="QR_Fail_Network">
+    网络连接失败
+  </String>
+  <String id="QR_Fail_Select_Server">
+    二维码加载失败
+  </String> 
+  <String id="QR_Fail_Fetch_Pic">
+    二维码加载失败
+  </String> 
+  <String id="QR_Fail_Other">
+    二维码加载失败
+  </String> 
+  <String id="QR_Fail_Decode">
+    服务器返回的数据错误
+  </String>
+  <String id="QR_Fail_QR_Timeout">
+    二维码已失效
+  </String> 
+  <String id="QR_Fail_Validate_QR">
+    二维码验证失败
+  </String>
+  <String id="QR_Fetch_Pic_Svr_Reply_Error">
+    二维码加载失败
+  </String>
+  <String id="QR_Validate_QR_Svr_Reply_Error">
+    二维码验证失败
+  </String>  
+  <String id="QR_Fail_Not_DH_Key">
+    二维码加载失败
+  </String> 
+  <String id="QR_User_Input">
+	请用手机扫描二维码登录
+  </String> 
+  <String id="QR_Wait_Confirm">
+    扫描成功，请在手机上确认登录
+  </String> 
+  <String id="QR_Device_Lock_Prompt">
+    你已开启登录设备保护，需使用&lt;TITLE="QQ手机版",URL="http://im.qq.com/mobileqq/2013/"&gt;扫描二维码
+  </String> 
+  <String id="QR_Device_Lost_Prompt">
+    你还可选择以下密保方式临时登录。&lt;TITLE="手机丢失？",URL="https://aq.qq.com/cn2/manage/mobile/change_mobile_select"&gt;
+  </String> 
+  <String id="QR_Device_Lock_Need_QR">
+    你已开启登录设备保护，请点击右下角图标进行二维码登录
+  </String>
+  <String id="QR_Device_Lock_OneClick">
+    你已开启设备锁，请打开&lt;TITLE="QQ手机版",URL="http://im.qq.com/mobileqq/"&gt;，通过登录请求。
+  </String>
+  <String id="QR_Device_Lock_OneClick_Retry">
+    如果收不到登录请求，请&lt;TITLE="重试", URL="OnQRRefresh"&gt;。
+  </String>
+  
+  <!-- 二维码密保相关错误提示语 -->
+  <String id="PwdGuard_Fail_Other">
+    系统繁忙，请重试。
+  </String> 
+  <String id="PwdGuard_Fail_Network">
+    网络超时
+  </String> 
+  <String id="PwdGuard_Fail_Msg_Token_Expire">
+    密保已过期
+  </String>
+  <String id="PwdGuard_Fail_Decode">
+    服务器返回的数据错误
+  </String>
+  <String id="PwdGuard_Fail_Cancel">
+    取消验证
+  </String>
+  <String id="PwdGuard_Fail_Svr_Reply_Error">
+    系统繁忙，请重试。
+  </String>
+  <String id="PwdGuard_Fail_Sms_Timeout">
+    短信验证失败，请稍等片刻再点击或者重新发送短信验证
+  </String>
+
+
+  <!-- DH加密错误提示语 -->
+  <String id="SSO_DHError_Default">
+    headtxt=QQ安全中心
+    title=登录失败
+    txt1=此次登录无法通过安全检测，为了防止您的密码、聊天记录等信息泄露，建议联系网络管理员处理或更换网络环境后登录。
+    bt1=确定,1
+    headlogo=shield_normal
+  </String>
+  <String id="SSO_DHErrorText_Default">
+此次登录无法通过安全检测，为了防止您的密码、聊天记录等信息泄露，建议联系网络管理员处理或更换网络环境后登录。
+  </String>
+  <String id="SSO_DHError_0xBA">
+    headtxt=QQ安全中心
+    title=帐号存在异常
+    txt1=为了您的帐号安全，本次登录需输验证码。
+    txt3=需要验证的原因可能是:
+    btfoc=2
+    bt1=取消,2
+    bt2=确定,2
+    headlogo=shield_normal
+    excptxt=·您本次登录地与常登录地不符$$·您的网络有危及QQ用户安全的行为
+  </String>
+  <!--- Note -->
+</StringBundle>

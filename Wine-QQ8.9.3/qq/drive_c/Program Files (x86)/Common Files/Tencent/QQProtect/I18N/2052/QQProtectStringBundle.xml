@@ -1,0 +1,394 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<StringBundle version="1.0">
+	<String id="InjectRecord">
+		今日共检测到
+	</String>
+	<String id="InjectRecordCont1">
+		次注入QQ的行为，其中有
+	</String>
+	<String id="InjectRecordCont2">
+		次危险注入，已被成功拦截。
+	</String>
+	<String id="ProtectWndTitle">
+		完整性检查
+	</String>
+	<String id="ProtectWndWording">
+		恶意程序正在试图破坏QQ安全运行，已经被成功拦截。
+	</String>
+	<String id="ProtectWndWording2">
+		拦截到恶意程序注入，建议立即清除。
+	</String>
+	<String id="ReportWording1">
+		此程序注入是安全的，
+	</String>
+	<String id="ReportWording2">
+		我要报告
+	</String>
+	<String id="GotoSafePage">
+		如果您有任何疑问，请&lt;link config="RSLinkTextHandNode" label="SafePage"&gt;点击这里&lt;/link&gt;。
+	</String>
+	<String id="EvilFileLocation">
+		
+	</String>
+	<String id="InjectFileLocation">
+		注入程序的文件位置:
+	</String>
+	<String id="Close">
+		关闭
+	</String>
+	<String id="Retry">
+		重试
+	</String>
+	<String id="NoMoreRemind">
+		对此文件不再提醒
+	</String>
+	<String id="WindowTitleName">
+		QQ安全中心
+	</String>
+	<String id="StatusCheck">
+		什么是QQ完整性检查？
+	</String>
+	<String id="EventDetail">
+		事件描述
+	</String>
+	<String id="InjectTime">
+		时间
+	</String>
+	<String id="ProgramName">
+		程序名称
+	</String>
+	<String id="UnknowInject">
+		检测到未知的程序正在注入QQ
+	</String>
+	<String id="SafeInject">
+		检测到信任的程序正在注入QQ
+	</String>
+	<String id="EvilInject">
+		检测到危险的程序正在注入QQ
+	</String>
+	<String id="TipContent">
+		QQ完整性检查模块实时保护QQ不被非法的外挂软件篡改和劫持，阻止恶意程序对QQ的攻击。&lt;link config="RSLinkTextHandNode" label="MoreInfo"&gt;更多详情&lt;/link&gt;
+	</String>
+	<String id="MsgBoxTitle">
+		提示
+	</String>
+	<String id="QQNotExist">
+		QQ软件运行出错，请重新下载并安装QQ。
+	</String>
+	<String id="BtnOK">
+		确定
+	</String>
+	<String id="BtnCancel">
+		取消
+	</String>
+	<String id="BtnYes">
+		是
+	</String>
+	<String id="BtnNo">
+		否
+	</String>
+	<String id="BtnContinue">
+		继续
+	</String>
+	<String id="BtnIgnore">
+		忽略
+	</String>
+	<String id="BtnRetry">
+		重试
+	</String>
+	<String id="BtnReDownload">
+		重新下载
+	</String>
+  <String id="BtnClose">
+    关闭
+  </String>
+	<String id="RecvMesgError">
+		接收消息包失败。
+	</String>
+	<String id="DriverNotOK">
+		当前QQ运行环境发生异常，请重新下载并安装QQ。
+	</String>
+	<String id="LogWinTitle">
+		QQ安全防护
+	</String>
+	<String id="ClearLog">
+		清空日志
+	</String>
+	<String id="RemindEduWording">
+		您可以通过QQ主界面底部的安全图标进入安全防护界面查看拦截记录或恢复默认设置。
+	</String>
+	<String id="RemindEduWndTitle">
+		提示
+	</String>
+	<String id="ResetTitle">
+		注入防护
+	</String>
+	<String id="ResetSuccess">
+		操作成功，重置已生效。
+	</String>
+	<String id="ResetFail">
+		操作失败，请稍后重试。
+	</String>
+	<String id="InjectWndTitle">
+		注入防护
+	</String>
+	<String id="InitComonFail">
+		初始化失败：0x00008801。请重新下载并安装QQ http://im.qq.com
+	</String>
+	<String id="CoreCenterFail">
+		初始化失败：0x00008802。请重新下载并安装QQ http://im.qq.com
+	</String>
+	<String id="PlatformFail">
+		初始化失败：0x00008803。请重新下载并安装QQ http://im.qq.com
+	</String>
+	<String id="I18nFail">
+		初始化失败：0x00008804。请重新下载并安装QQ http://im.qq.com
+	</String>
+	<String id="FileSysFail">
+		初始化失败：0x00008805。请重新下载并安装QQ http://im.qq.com
+	</String>
+	<String id="GFConfigFail">
+		初始化失败：0x00008806。请重新下载并安装QQ http://im.qq.com
+	</String>
+	<String id="CoreConfigFail">
+		初始化失败：0x00008807。请重新下载并安装QQ http://im.qq.com
+	</String>
+	<String id="DriverFail">
+		错误码：0x00008808。
+	</String>
+	<String id="QPCfgFileFail">
+		错误码：0x00008809。
+	</String>
+	<String id="QPDLLFail">
+		错误码：0x0000880A。
+	</String>
+	<String id="StartQQFail">
+		错误码：0x0000880B。
+	</String>
+	<String id="QPQQEXELost">
+		错误码：0x0000880C。
+	</String>
+	<String id="QPDLLLost">
+		错误码：0x0000880D。
+	</String>
+	<String id="QPSYSLost">
+		错误码：0x0000880E。
+	</String>
+	<String id="DriverStartDeny">
+		错误码：0x0000880F。
+	</String>
+  <String id="DriverFileLost" >
+    错误码：0x00008810。
+  </String>
+  <String id = "DriverFileOfDirBinLost">
+    错误码：0x00008811。 
+  </String>
+  <String id ="DriverFileCopyFromBin">
+    错误码：0x00008812。
+  </String>
+  <String id="UnknowError">
+    错误码：0x00008813.
+  </String>
+	<String id="ViDatErrorWording">
+		错误码：0x00008814。
+	</String>
+  <String id="LostRTPackage">
+    错误码：0x00008815。
+  </String>
+  
+  <String id="QQProtectDllFail">
+    错误码：0x00008817。
+  </String>
+  <String id="QQProtectEngineDllFail">
+    错误码：0x00008818。
+  </String>
+  <String id="QPDriverKernelInitFail">
+    错误码：0x00008819。
+  </String>
+  <String id="QPLogicKernelInitFail">
+    错误码：0x0000881A。
+  </String>
+  <String id="QPAddExePathFail">
+    错误码：0x0000881B。
+  </String>
+  <String id="DefaultErrWording">
+    未知错误码
+  </String>
+
+	<String id="MsgBoxMainText">
+		检测到您的QQ安全组件异常。为了您的QQ帐号安全，请重新安装“&lt;link config="RSLinkTextHandNode" label="QQDownloadLabel"&gt;QQ软件&lt;/link&gt;”
+	</String>
+	<String id="MsgBoxLinkText">		
+    &lt;link config="RSLinkTextHandNode" label="HelpLabel"&gt;查看帮助&lt;/link&gt;或&lt;link config="RSLinkTextHandNode" label="FeedbackLabel"&gt;反馈问题&lt;/link&gt;
+	</String>
+  <String id="MsgBoxLostRTPackageMainText">
+    QQ无法正常使用，请尝试安装VC运行库解决。
+  </String>
+  <String id="MsgBoxLostRTPakageLinkText">
+    &lt;link config="RSLinkTextHandNode" label="LostRTPackageKfHelpLabel"&gt;查看帮助&lt;/link&gt;或&lt;link config="RSLinkTextHandNode" label="FeedbackLabel"&gt;反馈问题&lt;/link&gt;
+  </String>
+	<String id="ScanQQResult_Hint">
+		当前使用的QQ软件完整性遭到破坏，无法继续使用。
+
+建议您立即使用专业的杀毒软件清理本机木马病毒，之后再重新安装QQ软件。
+	</String>
+	<String id="ScanQQResult_Title">
+		QQ安全中心
+	</String>
+	<String id="InjectIntro">
+		什么是&lt;link config="RSLinkTextHandNode" label="ErrorHelpPage"&gt;注入QQ&lt;/link&gt;。
+	</String>
+	<String id="HasChoose">
+		记住我的选择
+	</String>
+	<String id="Agree">
+		允许
+	</String>
+	<String id="Disagree">
+		拒绝
+	</String>
+	<String id="MsgTipTitle">
+		QQ安全中心
+	</String>
+	<String id="ContinueUseQQ">
+		继续使用
+	</String>
+	<String id="MsgTipWording">
+		您可以通过QQ主界面底部的安全图标进入安全防护界面查看拦截记录或恢复默认设置。
+	</String>
+	<String id="EixtQQ">
+		退出QQ
+	</String>
+	<String id="QQDownloadandFeedBack">
+		QQ软件&lt;link config="RSLinkTextHandNode" label="ScanResultDownloadUrl"&gt;下载&lt;/link&gt;，点此&lt;link config="RSLinkTextHandNode" label="ScanResultFeedBack"&gt;反馈建议&lt;/link&gt;。
+	</String>
+	<String id="FeedBackBlack">
+		反馈误报
+	</String>
+	<String id="FeedBackGray">
+		反馈建议
+	</String>
+	<String id="Help">
+		获得帮助
+	</String>
+	<String id="Category">
+		文件：
+	</String>
+	<String id="Description">
+		危害：
+	</String>
+  <String id="Description1">
+    描述：
+  </String>
+	<String id="FilePath">
+		文件：
+	</String>
+	<String id="FirstLineBlackWording1">
+    发现木马正在盗取QQ密码，请立即使用管家清除！
+  </String>
+	<String id="FirstLineBlackWording2">
+    发现$Category$，已成功拦截。
+  </String>
+	<String id="UserChooseWording">
+    发现$Category$正在执行注入QQ操作
+  </String>
+	<String id="PCMgrScan">
+		安全体检
+	</String>
+	<String id="PCMgrKilling">
+		管家查杀
+	</String>
+  <String id="DownloadPCMgr">
+    下载管家
+  </String>
+	<String id="PCMgrInstalling">
+		等待安装完成
+	</String>
+	<String id="BatchingProcessWording1">
+		对之后
+	</String>
+	<String id="BatchingProcessWording2">
+		个文件不再提醒
+	</String>
+	<String id="FeekbackIEWndTitle">
+		反馈误报和建议
+	</String>
+	<String id="NoMoreRemind2">
+		不再提醒
+	</String>
+	<String id="DownloadingRepairTool_Title">
+		软件恢复中，请稍等…
+	</String>
+	<String id="DownloadingRepairTool_Status">
+		正在下载修复工具包…
+	</String>
+	<String id="ScanQQResult_Wording_Btn_RepairQQ">
+		快速修复(推荐)
+	</String>
+	<String id="ScanQQResult_Wording_Btn_ReInstallQQ">
+		重新下载安装
+	</String>
+	<String id="ScanQQResult_Wording_QQInfected">
+		您的QQ软件遭到破坏，无法继续使用
+	</String>
+	<String id="ScanQQResult_Wording_ReInstallQQ">
+		您的电脑可能感染了木马病毒。建议您使用专业杀毒软件清理电脑后，重新安装QQ软件。
+	</String>
+	<String id="ScanQQResult_Wording_RepairQQ">
+		您的电脑可能感染了木马病毒。建议您修复QQ软件后，立即使用专业的杀毒软件清理您的电脑。
+	</String>
+	<String id="DownloadRepairTool_Failed">
+		下载失败。点此&lt;link config="RSLinkTextHandNode" label="FeedbackLabel"&gt;反馈问题&lt;/link&gt;
+	</String>
+	<String id="CancelDownloadingRepairTool_Confirm">
+		你还未修复完成，确认关闭窗口并退出QQ？
+	</String>
+  <String id="ViewSource">
+    打开文件夹
+  </String>
+  <String id="DefaultFileType">
+    危险程序
+  </String>
+  <String id="DefaultFileDescription">
+    注入QQ程序，威胁QQ使用安全。
+  </String>
+  <String id="SafeAIODefaultCategory">
+    未知程序
+  </String>
+  <String id="SafeAIODefaultDescription">
+    此程序注入QQ，未经QQ安全中心检验，您可以点击反馈告诉我们。
+  </String>
+  <String id="CanNotOpenFolder">
+    打开文件夹失败，文件可能已不存在。
+  </String>
+  <String id="UsePCMgrWording">
+    请您使用电脑管家彻底查杀
+  </String>
+  <String id="DownloadPCMgrWording">
+    请您下载&lt;link config="RSLinkTextHandNode" label="PCMgrMainPage"&gt;电脑管家&lt;/link&gt;彻底查杀
+  </String>
+  <String id="TrojanFile">
+    木马文件：
+  </String>
+  <String id="TrojanPath">
+    文件路径：
+  </String>
+  <String id="TrojanTipCaption">
+    发现盗号木马
+  </String>
+  <String id="TraojanTipTextTitle">
+    发现木马正在盗取QQ密码，请立即使用管家清除！
+  </String>
+  <String id="TrojanTipCheckBox">
+    对此木马不再提醒
+  </String>
+  <String id="PCMgrTip">
+    电脑管家可清除此木马
+  </String>
+  <String id="DefaultUserChooseCategory">
+    未知程序
+  </String>
+  <String id="DefaultUserChooseDescription">
+    此程序注入QQ，未经QQ安全中心检验。
+  </String>
+</StringBundle>

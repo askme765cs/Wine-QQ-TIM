@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<gf-config>
+  <typedefs>
+    <typedef file="@this:TypeDef\BasicTypeDef.xml" type="基础"/>
+    <typedef file="@this:TypeDef\ExtraTypeDef.xml" type="系统"/>
+  </typedefs>
+  <themes>
+    <theme file="systheme:Config\Theme.xml"/>
+  </themes>
+  <configs>
+    <config file="systheme:Config\GFConfigAgent.xml"/>
+    <config file="@thistheme:ConfigAgent.xml"/>
+    <config file="@thistheme:Config\Config.xml"/>
+  </configs>
+</gf-config>
