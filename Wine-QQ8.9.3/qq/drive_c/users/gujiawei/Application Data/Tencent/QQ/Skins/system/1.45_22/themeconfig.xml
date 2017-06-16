@@ -1,0 +1,5 @@
+﻿<theme-config PackPreview="preview.png" PackName="欣欣向荣" PackMinVer="3487" PackVersion="2.0" PackID="AF89F7">
+	<backgroundlist>
+		<background mainfile="main.jpg" bkgstyle="toprightstretch" color="ff000000"/>
+	</backgroundlist>
+</theme-config>

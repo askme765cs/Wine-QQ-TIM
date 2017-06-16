@@ -1,0 +1,242 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<StringBundle version="1.0">
+	<String id="AppName">
+		服务名称
+	</String>
+	<String id="SYS_MESSAGEBOX_IGNORE">
+		忽略
+	</String>
+	<String id="SYS_MESSAGEBOX_HELP">
+		帮助
+	</String>
+	<String id="SYS_MESSAGEBOX_CONTINUE">
+		继续
+	</String>
+	<String id="HotKey_DoubleCtrl">
+		双击 Ctrl 键
+	</String>
+	<String id="SYS_MESSAGEBOX_RETRY">
+		重试
+	</String>
+	<String id="HotKey_NoSet">
+		无
+	</String>
+	<String id="Error">
+		错误
+	</String>
+	<String id="SYS_MESSAGEBOX_ABORT">
+		终止
+	</String>	
+	<String id="Version">
+		版本
+	</String>
+	<String id="HotKey_DoubleShift">
+		双击 Shift 键
+	</String>
+	<String id="SYS_MESSAGEBOX_CANCEL">
+		取消
+	</String>
+	<String id="Close">
+		关闭
+	</String>
+	<String id="HotKey_DoubleAlt">
+		双击 Alt 键	</String>
+  <String id="IE_Refresh">
+    刷新
+  </String>
+	<String id="IE_RetryText">
+		您可以点击 $REFRESH$ 或稍后再试。
+	</String>
+	<String id="Empty_Menu">
+		(空)
+	</String>
+	<String id="SYS_MESSAGEBOX_OK">
+		确定
+	</String>
+	<String id="SYS_MESSAGEBOX_CANCEL">
+		取消
+	</String>
+	<String id="SYS_MESSAGEBOX_RETRY">
+		重试
+	</String>
+	<String id="SYS_MESSAGEBOX_YES">
+		是
+	</String>
+	<String id="SYS_MESSAGEBOX_NO">
+		否
+	</String>
+	<String id="SYS_MESSAGEBOX_ABORT">
+		终止
+	</String>
+	<String id="SYS_MESSAGEBOX_IGNORE">
+		忽略
+	</String>
+	<String id="SYS_MESSAGEBOX_CONTINUE">
+		继续
+	</String>
+	<String id="SYS_MESSAGEBOX_HELP">
+		帮助
+	</String>
+	<String id="Sunday_Simple">
+		日
+	</String>
+	<String id="Monday_Simple">
+		一
+	</String>
+	<String id="Tuesday_Simple">
+		二
+	</String>
+	<String id="Wednesday_Simple">
+		三
+	</String>
+	<String id="Thursday_Simple">
+		四
+	</String>
+	<String id="Friday_Simple">
+		五
+	</String>
+	<String id="Saturday_Simple">
+		六
+	</String>
+	<String id="Sunday">
+		星期日
+	</String>
+	<String id="Monday">
+		星期一
+	</String>
+	<String id="Tuesday">
+		星期二
+	</String>
+	<String id="Wednesday">
+		星期三
+	</String>
+	<String id="Thursday">
+		星期四
+	</String>
+	<String id="Friday">
+		星期五
+	</String>
+	<String id="Saturday">
+		星期六
+	</String>
+  <String id="FirstMonth">
+    一月
+  </String>
+  <String id="SecondMonth">
+    二月
+  </String>
+  <String id="ThirdMonth">
+    三月
+  </String>
+  <String id="FourMonth">
+    四月
+  </String>
+  <String id="FiveMonth">
+    五月
+  </String>
+  <String id="SixMonth">
+    六月
+  </String>
+  <String id="SevenMonth">
+    七月
+  </String>
+  <String id="EightMonth">
+    八月
+  </String>
+  <String id="NineMonth">
+    九月
+  </String>
+  <String id="TenMonth">
+    十月
+  </String>
+  <String id="ElevenMonth">
+    十一月
+  </String>
+  <String id="TwelveMonth">
+    十二月
+  </String>
+	<String id="PreYear">
+		上一年(长按连续递减)
+	</String>
+	<String id="NextYear">
+		下一年(长按连续递增)
+	</String>
+	<String id="PreMonth">
+		上一月(长按连续递减)
+	</String>
+	<String id="NextMonth">
+		下一月(长按连续递增)
+	</String>
+	<String id="MonthCalCtrl_Help">
+		帮助
+	</String>
+	<String id="MonthCalCtrl_Close">
+		关闭
+	</String>
+	<String id="LoginPanel_CapslockOpen">
+		大写锁定已打开
+	</String>
+	<String id="UtilInfo_ElmCount">
+		统计数目:$COUNT$个
+	</String>
+	<String id="CloseWindow">
+		关闭
+	</String>
+	<String id="MaxisizeWindow">
+		最大化
+	</String>
+	<String id="RestoreWindow">
+		还原
+	</String>
+	<String id="MinimizeWindow">
+		最小化
+	</String>
+	<String id="LoginPanel_DelAccount_Tips">
+		删除帐号信息
+	</String>
+	<String id="Flash_ErrorText">
+		您的flash播放器版本过低，为了能够正常显示，请您点击下载最新版本。
+	</String>
+	<String id="Flash_DownloadUrl">
+		http://ptlogin2.qq.com/flash_plugin
+	</String>
+	<String id="IE_LoadingText">
+		正在加载页面，请稍候...
+	</String>
+	<String id="IE_ErrText">
+		该页面暂时无法显示
+	</String>
+	<String id="Tips_Backward">
+		向后
+	</String>
+	<String id="Tips_Forward">
+		向前
+	</String>
+	<String id="IE_ScriptErrText">
+		当前页面出现脚本错误。
+	</String>
+	<String id="Edit_NumberOnlyTips">
+		您只能在此处键入数字。
+	</String>
+	<String id="Edit_FontSongTi">
+		宋体
+	</String>
+	<String id="Edit_RButtonMenu_Cancel">
+		撤销(&amp;U)
+	</String>
+	<String id="Edit_RButtonMenu_Cut">
+		剪切(&amp;T)
+	</String>
+	<String id="Edit_RButtonMenu_Copy">
+		复制(&amp;C)
+	</String>
+	<String id="Edit_RButtonMenu_Paste">
+		粘贴(&amp;P)
+	</String>
+	<String id="Edit_RButtonMenu_Delete">
+		删除(&amp;D)
+	</String>
+	<String id="Edit_RButtonMenu_SelectAll">
+		全部选择(&amp;A)
+	</String>
+</StringBundle>

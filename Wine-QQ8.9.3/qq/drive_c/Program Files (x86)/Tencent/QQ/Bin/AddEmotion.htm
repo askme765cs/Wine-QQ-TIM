@@ -1,0 +1,47 @@
+<script language="javascript">
+
+function AddEmotion(strUrl)
+{
+	try
+	{
+		var cpAdder = new ActiveXObject("QQCPHelper.CPAdder");
+	
+		if (strUrl != "")
+		{	
+				cpAdder.AddCustomEmotion(strUrl);
+		}
+	}
+	catch(e)
+	{
+		alert("您未安装QQ或者本地的QQ文件已经被破坏，请重新安装QQ");
+	}
+}
+
+function OnContextMenu()
+{
+	var srcEvent = external.menuArguments.event;
+	var EventElement;
+	
+	if(typeof(srcEvent.clientX) == "undefined")
+	{
+		EventElement = external.menuArguments.document.elementFromPoint ( srcEvent.pointerX, srcEvent.pointerY );
+	}
+	else
+	{
+		EventElement = external.menuArguments.document.elementFromPoint ( srcEvent.clientX, srcEvent.clientY );
+	}
+		
+	if(EventElement != null && EventElement.tagName == "IMG")
+	{
+	     AddEmotion(EventElement.href);
+	  	 return;
+	}
+	else
+	{
+		alert("无法处理的超链接形式");
+	}
+}
+
+OnContextMenu();
+</script>
+

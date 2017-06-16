@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<fontlist version="1">
+  <list listtype="RecommendList" nListSize = "6">
+    <font id="101" name="企鹅字体" level = "0"
+    config_hash="7b3dd0f399f4ca125c9aa41b12007ea4"
+    package_hash="e0bc91c32d433d7cbe855c6c67907139"
+    package_url="http://imgcache.qq.com/club/item/font/1002/1002.zip"
+    preview_hash="e0bc91c32d433d7cbe855c6c67907139"
+    preview_url="http://imgcache.qq.com/club/item/font/1002/1002preview.zip"
+    minVersion="0"
+    maxVersion="-1"
+    />
+    <font id="102" name="七彩字体" level = "1"
+    config_hash="7b3dd0f399f4ca125c9aa41b12007ea4"
+    package_hash="e0bc91c32d433d7cbe855c6c67907139"
+    package_url="http://imgcache.qq.com/club/item/font/1002/1002.zip"
+    preview_hash="e0bc91c32d433d7cbe855c6c67907139"
+    preview_url="http://imgcache.qq.com/club/item/font/1002/1002preview.zip"
+    minVersion="0"
+    maxVersion="-1"
+    />
+    <font id="103" name="卡片字体" level = "1"
+    config_hash="7b3dd0f399f4ca125c9aa41b12007ea4"
+    package_hash="e0bc91c32d433d7cbe855c6c67907139"
+    package_url="http://imgcache.qq.com/club/item/font/1002/1002.zip"
+    preview_hash="e0bc91c32d433d7cbe855c6c67907139"
+    preview_url="http://imgcache.qq.com/club/item/font/1002/1002preview.zip"
+    minVersion="0"
+    maxVersion="-1"
+     />
+    <font id="104" name="小熊字体" level = "1"
+    config_hash="7b3dd0f399f4ca125c9aa41b12007ea4"
+    package_hash="e0bc91c32d433d7cbe855c6c67907139"
+    package_url="http://imgcache.qq.com/club/item/font/1002/1002.zip"
+    preview_hash="e0bc91c32d433d7cbe855c6c67907139"
+    preview_url="http://imgcache.qq.com/club/item/font/1002/1002preview.zip"
+    minVersion="0"
+    maxVersion="-1"
+    />
+  </list>
+</fontlist>

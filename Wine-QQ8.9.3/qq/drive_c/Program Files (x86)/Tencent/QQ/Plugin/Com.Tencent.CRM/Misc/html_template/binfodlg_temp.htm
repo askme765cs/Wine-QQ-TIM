@@ -1,0 +1,310 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=EmulateIE7" />
+<title></title>
+<!-- hummer1.45接口 -->
+<script type="text/javascript">var _time = '';</script>
+<!-- _times说明：用的是js getTime()方法，1970年到现在的毫秒数除以1000，需求是每次刷模块时都更新 -->
+<script type="text/javascript">
+function CRM_getLastTime(){
+    return _time;
+}
+</script>
+<!-- hummer1.45接口 -->
+
+<script type="text/javascript">
+<!--
+var d0 = new Date();
+var timePoints=new Array(1);//不能超过32个
+var imgSendTimePoint;
+function report(){
+	var s = []
+	for(var i=0;i<timePoints.length;i++)
+		if(!!timePoints[i])
+			s.push((i+1)+"="+(timePoints[i]-d0));
+	var url = "http://isdspeed.qq.com/cgi-bin/r.cgi?flag1="+6001+"&flag2="+38+"&flag3="+4+"&"+s.join("&");//上报cgi的地址
+	if(Math.random()<0.1){//做10％抽样上报
+		imgSendTimePoint=new Image();
+		imgSendTimePoint.src=url;
+	}
+}
+//-->
+</script>
+
+<!-- hummer1.70接口 -->
+<script type="text/javascript">
+<!--
+var nameAccountFlag = 0, nameAccount = '', name = '';
+function CRM_getNameAccount(){
+  return nameAccountFlag ? nameAccount : '';
+}
+
+function CRM_getName(){
+	return name;
+}
+//-->
+</script>
+<!-- hummer1.70接口 -->
+<style type="text/css">
+/* 全局属性 */
+html,body { width:100%; height:100%; overflow:hidden; }
+body { text-align:left; font-family:Simsun; font-size:12px; background:#eff4fa url(http://im.b.qq.com/img/090115/14.gif) repeat-x 0 0; color:#000; margin:0; padding:0;}
+div,form,img,ul,ol,li,dl,dt,dd ,p{ margin:0; padding:0; border:0;}
+h1,h2,h3,h4,h5,h6 { margin:0; padding:0;}
+ul,ol { list-style:none;}
+.scrollbar {
+  scrollbar-arrow-color:#aed0ec; /*三角箭头的颜色*/
+  scrollbar-face-color:#deecf9; /*立体滚动条的颜色（包括箭头部分的背景色）*/
+  scrollbar-3dlight-color:#aed0ec; /*立体滚动条亮边的颜色*/
+  scrollbar-highlight-color:#ffffff; /*滚动条的高亮颜色（左阴影？）*/
+  scrollbar-shadow-color:#ffffff; /*立体滚动条阴影的颜色*/
+  scrollbar-darkshadow-color:#c4cdda; /*立体滚动条外阴影的颜色*/
+  scrollbar-track-color:#ffffff; /*立体滚动条背景颜色*/
+  scrollbar-base-color:#deecf9; /*滚动条的基色*/
+}
+/* 链接 */
+a,a:visited { color:#0872bf; text-decoration:none;}
+a:hover,a:active { color:#0084ff; text-decoration:none;}
+/* 其他属性 */
+.clear { clear:both;}
+em { font-style:normal;}
+.fl{ float: left;}
+/* 布局区块 */
+.msg_c { position:relative; height:365px; background-color:#f2fafd; overflow:hidden; }
+.msg_cc { position: absolute; left:130px; top:0px; width:364px; height:365px; padding-left:18px; background-color: #f2fafd; overflow-x:hidden; overflow-y:auto;}
+.msg_sidebar { position: fixed; left:2px; width:128px; height:365px; background-color:#e8f0fb; overflow:hidden;}
+/* 报错提示框 */
+.msg_c .error_box { position:absolute; top:0; left:0; width:100%; display:none;}
+.msg_c h3.error {height:22px; line-height:21px; font-size:12px; background:#c9e4f7 url("http://im.b.qq.com/img/090115/11.gif") no-repeat 6px 4px; color:#003860; font-weight:400; margin:1px; padding-left:23px;}
+.msg_c h3.error span { float:right; margin:-16px 6px 0 0;}
+/* 边栏显示区域 */
+.msg_sidebar_img { width:130px; height:135px;}
+.msg_sidebar_img img { margin: 17px 15px 18px 13px;}
+.msg_sidebar_img .msg_sidebar_face_border { position: absolute; top:17px; left:13px; width:100px; height: 100px; background: url("img/face_border.png") 0 0 no-repeat;}
+.msg_sidebar_tabs li{ margin: 0 0 4px 0;}
+.msg_sidebar_tabs li.selected{ width:126px; margin: 0 0 4px 0;background: url("img/ms_sidebar_tabs_c.png") 0 0 repeat-x;}
+#msg_sidebar_tabs a{ display: block; width:130px ;height:17px; padding: 6px 0 0 38px; color: #000; }
+#msg_sidebar_tabs a:hover { padding: 6px 0 0 38px; color: #2d89d9;}
+.msg_sidebar_tab1,
+.msg_sidebar_tab1_selected{ background: url("img/side_icons.png") 13px 5px no-repeat;}
+.msg_sidebar_tab2,
+.msg_sidebar_tab2_selected{ background: url("img/side_icons.png") 13px -22px no-repeat;}
+.msg_sidebar_tab3,
+.msg_sidebar_tab3_selected{ background: url("img/side_icons.png") 13px -51px no-repeat;}
+.msg_sidebar_tab4,
+.msg_sidebar_tab4_selected{ background: url("img/side_icons.png") 13px -81px no-repeat;}
+#msg_sidebar_tabs .msg_sidebar_tab1_selected,#msg_sidebar_tabs .msg_sidebar_tab2_selected,#msg_sidebar_tabs .msg_sidebar_tab3_selected,
+#msg_sidebar_tabs .msg_sidebar_tab4_selected { color:#fff; }
+#msg_sidebar_tabs .msg_sidebar_tab1_selected:hover,#msg_sidebar_tabs .msg_sidebar_tab2_selected:hover,#msg_sidebar_tabs .msg_sidebar_tab3_selected:hover,
+#msg_sidebar_tabs .msg_sidebar_tab4_selected:hover { color: #fff }
+/*tab内容显示区域*/
+.part1 .part2, .part3, .part4 { width:329px; cursor:default;}
+.part1 .level1 { overflow:hidden;}
+.part1 .level1 ul, .part4 ul{ width:345px; padding-top:17px; overflow:hidden;}
+.part1 .level1 li, .part4 ul li{ padding: 0 0 14px 0;line-height:16px; word-wrap:break-word; word-break:break-all; overflow:hidden; }
+.part1 .level2 { overflow:hidden; }
+.part1 .level2 label { float:left; padding:2px 0 14px 0; width:57px; overflow:hidden;}
+.part1 .level2 p { float:left; width:345px; margin-top:-5px;padding-bottom:14px; overflow:hidden; white-space:normal; word-break:break-all; line-height:22px;}
+.part1_time { text-indent:50px;}
+.cert_badge0,.cert_badge1,.cert_badge2,.cert_badge3,.cert_badge4,.cert_badge5,.cert_badge6,
+.cert_badge7{ display:inline-block; width:17px;height:17px;margin:0 0 -5px 5px;}
+.cert_badge1 {background: url("img/badge_all_level.png") 0 0 no-repeat; }
+.cert_badge2 {background: url("img/badge_all_level.png") 0 -18px no-repeat; }
+.cert_badge3 {background: url("img/badge_all_level.png") 0 -36px no-repeat; }
+.cert_badge4 {background: url("img/badge_all_level.png") 0 -54px no-repeat; }
+.cert_badge5 {background: url("img/badge_all_level.png") 0 -72px no-repeat; }
+.cert_badge6 {background: url("img/badge_all_level.png") 0 -90px no-repeat; }
+.cert_badge7 {background: url("img/badge_all_level.png") 0 -108px no-repeat; }
+.part1_dis { display: none;}
+.part2 .news {  padding: 17px 0 0 0;}
+.part2 .news li { padding:0 0 20px 0; line-height:14px; word-wrap:break-word; word-break:break-all; overflow:hidden;}
+.part2_dis { display: none;}
+.part3 .ablum{  padding:0 0 0 2px;}
+.part3 .ablum li { float:left; margin:16px 10px 0 0; padding-top:2px;}
+.part3 .ablum a { border: 2px solid #f0f5fb;}
+.part3 .ablum a:hover { border: 2px solid #7ec0e0;}
+.part3 .ablum_error,.part2 .news_error { height:360px; }
+.part3 .ablum_error SPAN,.part2 .news_error SPAN { position: relative; top:45%; display:block; height:40px; width:180px; margin:0 0 0 0; padding: 0 0 0 0; MARGIN-LEFT: 95px; PADDING-LEFT: 18px; line-height:40px; text-align: center; BACKGROUND: url(img/error_info.png)  0px 0px no-repeat; background-repeat: no-repeat;}
+.part3_dis { display: none;}
+.part4_dis { display: none;}
+.part4 a {color: #000!important;}
+.msg_link a{ display:block; margin-top: 5px; padding:0 0 8px 19px;background: url("img/crm_logo.png") 0 0 no-repeat;line-height:16px;}
+.part3 { _width: 332px; }
+</style>
+</head>
+<body>
+<div class="msg_box">
+    <div class="msg_c">
+        <!--<div class="error_box" id="error"><h3 class="error">对不起，企业QQ暂时不支持繁体版本。<span><a href="#" onclick="closeError();return false;"><img src="http://im.b.qq.com/img/090115/close.gif" alt="关闭" /></a></span></h3></div>-->
+        <div class="msg_sidebar">
+            <div class="msg_sidebar_img"><img src="img/main.jpg" width="100px" height="100px"/><div class="msg_sidebar_face_border"></div></div>
+            <ul id="msg_sidebar_tabs" class="msg_sidebar_tabs" >
+                <li class="selected"><a id="sidebar_part1" class="msg_sidebar_tab1_selected" href="javascript:;" hidefocus="true">基本资料</a></li>
+                <li><a id="sidebar_part2" class="msg_sidebar_tab2" href="javascript:;" hidefocus="true">企业动态</a></li>
+                <li><a id="sidebar_part3" class="msg_sidebar_tab3" href="javascript:;" hidefocus="true">企业相册</a></li>
+                <li><a id="sidebar_part4" class="msg_sidebar_tab4" href="javascript:;" hidefocus="true">联系方式</a></li>
+            </ul>
+        </div>
+        <div class="msg_cc scrollbar">
+            <div id="tab1" class="part1">
+                <div class="level1">
+                    <ul>
+                        <li>企业名称: <em></em></li>
+                        <li class="fl">认证企业QQ: <em></em><a class="cert_badge0" title="企业营业执照 已认证"></a></li>
+                        <li class="part1_time">注册时间: <em></em></li>
+                        <li>所在地: <em></em></li>
+                    </ul>
+                </div>
+                <div class="level2">
+                    <label>企业简介:</label>
+                    <p><em><a href="javascript:;" onclick="jumpOut2Page(''); return false;"></a></em></p>
+                </div>
+                <div class="level2">
+                    <label>经营范围:</label>
+                    <p><em><a href="javascript:;" onclick="jumpOut2Page(''); return false;"></a></em></p>
+                    <div class="clear"></div>
+                </div>
+                <div class="msg_link"><a href="javascript:;" onclick="jumpOut2Page('http://b.qq.com?utm_source=QQClient&utm_medium=click&utm_campaign=home4'); return false;">点此了解腾讯企业QQ</a></div>
+            </div>
+            <div id="tab2" class="part2_dis">
+            </div>
+            <div id="tab3" class="part3_dis">
+            </div>
+            <div id="tab4" class="part4_dis">
+                <ul>
+                    <li>电&nbsp;&nbsp;&nbsp;&nbsp;话: <em></em></li>
+                    <li>邮&nbsp;&nbsp;&nbsp;&nbsp;箱: <em></em></li>
+                    <li>企业主页: <em></em></li><!--这里不用带登录态-->
+                    <li>联系地址: <em></em></li>
+                </ul>
+            </div>
+   		</div>
+    </div>
+</div>
+<script type="text/javascript">
+    window.onload = function(){
+        timePoints[0]=new Date();
+        setTimeout(report,2000);// 2秒后发送时间点
+        listenTabs();
+    }
+    document.oncontextmenu = function() {event.returnValue = false;}
+    document.onkeydown = function(){
+        if(event.keyCode==116) {
+            event.keyCode=0;
+            event.returnValue = false;
+        }
+    }
+    window.ClearEvent = function(event){
+        var evt= event||window.event,
+                evtTarget = evt.target||evt.srcElement;
+        evt.cancelBubble=false;
+        var sSrcTagName=evtTarget.tagName.toLowerCase();
+        return (sSrcTagName=="em");
+    }
+    with(window.document){onselectstart=ondragstart=window.ClearEvent;}
+    function closeError(){try{document.getElementById("error").style.display = "none";}catch(e){};}
+
+    function ptui_getActivXVer(){
+        try{
+            var obj = new ActiveXObject("TimwpDll.TimwpCheck");
+            var ver = obj.GetHummerQQVersion();
+            return ver;
+        }
+        catch(e){
+            return 0;
+        }
+    }
+    function jumpOut2Page(url){
+        var _href = '', _v=0;
+        try{
+            _href = window.location.href;
+        }catch(e){
+            _href = 'local';
+        }
+        if(_href.indexOf('__v__') != -1){
+            var _arr = _href.split('&');
+            for(var i=0, len=_arr.length; i<len; i++){
+                if(_arr[i].indexOf('__v__') != -1){
+                    _v = _arr[i].substring(6, _arr[i].length);
+                }
+            }
+        }
+
+        if(_href === 'local'){
+            if(ptui_getActivXVer() >= 3301){
+                if( -1 !== url.indexOf('http:') ){
+                    url = url.substring(5, url.length);
+                }
+                window.location = 'crmjumplink:'+url;
+            }
+            else{
+                window.open(url);
+            }
+        }
+        else{
+            if(_v >= 3301){
+                if( -1 !== url.indexOf('http:') ){
+                    url = url.substring(5, url.length);
+                }
+                window.location = 'crmjumplink:'+url;
+            }
+            else{
+                window.open(url);
+            }
+        }
+
+        return false;
+    }
+    function listenTabs(){
+        var tabs=document.getElementById("msg_sidebar_tabs");
+
+        tabs.onmouseup= function(){
+            var lastDisplay='tab1';
+
+            return function(e){
+                var evt= e||window.event,
+                        evtTarget = evt.target||evt.srcElement,
+                        lastDisplayIndex="";
+
+                //边栏样式恢复
+                if(lastDisplay){
+                    lastDisplayIndex=lastDisplay.substring(3,4);
+                    document.getElementById("sidebar_part"+lastDisplayIndex).className="msg_sidebar_tab"+lastDisplayIndex;
+                    document.getElementById("sidebar_part"+lastDisplayIndex).parentNode.className="";
+                    document.getElementById(lastDisplay).className="part"+lastDisplayIndex+"_dis";
+                }
+
+                if(evtTarget.id=="sidebar_part1"){
+                    document.getElementById("tab1").className="part1";
+                    evtTarget.className = "msg_sidebar_tab1_selected";
+                    evtTarget.parentNode.className="selected";
+                    lastDisplay='tab1';
+                }else if(evtTarget.id=="sidebar_part2"){
+                    document.getElementById("tab2").className="part2";
+                    evtTarget.className = "msg_sidebar_tab2_selected";
+                    evtTarget.parentNode.className="selected";
+                    lastDisplay='tab2';
+                }else if(evtTarget.id=="sidebar_part3"){
+                    document.getElementById("tab3").className="part3";
+                    evtTarget.className = "msg_sidebar_tab3_selected";
+                    evtTarget.parentNode.className="selected";
+                    lastDisplay='tab3';
+                }else if(evtTarget.id=="sidebar_part4"){
+                    document.getElementById("tab4").className="part4";
+                    evtTarget.className = "msg_sidebar_tab4_selected";
+                    evtTarget.parentNode.className="selected";
+                    lastDisplay='tab4';
+                }else{
+                    lastDisplayIndex=lastDisplay.substring(3,4);
+                    document.getElementById("tab"+lastDisplayIndex).className="part"+lastDisplayIndex;
+                    document.getElementById("sidebar_part"+lastDisplayIndex).className="msg_sidebar_tab"+lastDisplayIndex+"_selected";
+                    document.getElementById("sidebar_part"+lastDisplayIndex).parentNode.className="selected";
+                }
+            }
+        }()
+    }
+</script>
+</body>
+</html>

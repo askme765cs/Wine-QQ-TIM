@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="gb2312" ?>
+<AvatarStrFaceMap>
+<StrFace>
+<Face str="^^" id="13" />
+<Face str="哈哈" id="13" />
+<Face str="^_^" id="13" />
+<Face str="呵呵" id="13" />
+<Face str="xixi" id="13" />
+<Face str=":)" id="13" />
+<Face str=":-)" id="13" />
+<Face str="hoho" id="13" />
+<Face str="嘻嘻" id="13" />
+<Face str="嘎嘎" id="13" />
+<Face str="嘿嘿" id="13" />
+<Face str="TT" id="5" />
+<Face str="T T" id="5" />
+<Face str="T_T" id="5" />
+<Face str="T.T" id="5" />
+<Face str="555" id="5" />
+<Face str="哇哇" id="5" />
+<Face str="呜呜" id="5" />
+<Face str="love u" id="36" />
+<Face str="喜欢" id="36" />
+<Face str="我爱你" id="36" />
+<Face str="~_~" id="75" />
+<Face str="- -!" id="75" />
+<Face str="O_O" id="55" />
+<Face str="吓死了" id="55" />
+<Face str="怕怕" id="55" />
+<Face str="恐怖" id="55" />
+<Face str="啊啊啊" id="55" />
+<Face str="天哪" id="55" />
+<Face str="气死了" id="11" />
+<Face str="怒" id="11" />
+<Face str="哼" id="11" />
+<Face str="^_-" id="14" />
+<Face str="-_^" id="14" />
+<Face str=";)" id="14" />
+<Face str=";-)" id="14" />
+<Face str="hi" id="14" />
+<Face str="呼呼" id="8" />
+<Face str="zzz" id="8" />
+<Face str="犯困" id="8" />
+<Face str="ZZZ" id="8" />
+
+</StrFace>
+
+</AvatarStrFaceMap>

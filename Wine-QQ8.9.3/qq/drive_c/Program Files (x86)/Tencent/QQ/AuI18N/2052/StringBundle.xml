@@ -1,0 +1,528 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<StringBundle version="1.0">
+	<String id="Error">
+		错误
+	</String>
+	<String id="IDS_UPDATE_CAPTION">
+		在线升级
+	</String>
+	<String id="IDS_PPWELCOME_PromptNext">
+		点击下一步将开始查询可用的更新
+	</String>
+	<String id="IDS_ERR_MULTI_INSTANCE">
+		发现另一个升级程序正在运行，本次升级无法完成。
+	</String>
+	<String id="IDS_ERR_DEEP_PATH">
+		路径名太长，升级失败，请将程序安装在简单路径下再尝试升级。
+	</String>
+	<String id="IDS_ACT_DOWNLOADING_UPDATE">
+		正在更新升级程序
+	</String>
+	<String id="IDS_ACT_CONNECTING_SERVER">
+		正在连接服务器
+	</String>
+	<String id="IDS_ACT_CONNECTED_SERVER">
+		与服务器已建立连接
+	</String>
+	<String id="IDS_ERR_DOWNLOAD_UPDATE_FAILED">
+		升级程序更新失败（原因：网络错误）
+	</String>
+	<String id="IDS_ERR_COPY_FAILED">
+		升级程序更新失败（原因：文件操作错误）
+	</String>
+	<String id="IDS_ACT_STARTING_DOWNLOAD_UPDATE_INFO">
+		正在查询升级程序更新
+	</String>
+	<String id="IDS_ACT_STARTING_DOWNLOAD_UPDATE">
+		正在开始更新升级程序
+	</String>
+	<String id="IDS_ACT_DOWNLOAD_UPDATE_COMPLETE">
+		升级程序下载完成
+	</String>
+	<String id="IDS_ACT_DOWNLOAD_UPDATE_INFO_COMPLETE">
+		正在分析升级程序更新信息
+	</String>
+	<String id="IDS_ACT_QUERYING_UPDATE">
+		正在查询升级程序更新信息
+	</String>
+	<String id="IDS_ARE_YOU_SURE_TO_CANCEL">
+		升级尚未完成，您真的要退出吗？
+	</String>
+	<String id="IDS_ACT_QUERYING_MODULE_LIST">
+		正在查询可用更新
+	</String>
+	<String id="IDS_ACT_DOWNLOADING_MODULE_UPDATE_PACK">
+		正在下载模块升级包
+	</String>
+	<String id="IDS_ACT_STARTING_QUERY_MODULE_LIST">
+		开始查询可用更新
+	</String>
+	<String id="IDS_ACT_STARTING_DOWNLOAD_MODULE_UPDATE_PACK">
+		开始下载模块升级包
+	</String>
+	<String id="IDS_PPModuleSelect_SelectPkg">
+		请选择要安装的更新
+	</String>
+	<String id="IDS_ERR_QUERYING_MODULE_UPDATE_LIST">
+		网络错误，查询可用更新失败。
+	</String>
+	<String id="IDS_PPModuleSelect_Title">
+		更新内容：
+	</String>
+	<String id="IDS_PPModuleSelect_Detail">
+		详细信息：
+	</String>
+	<String id="IDS_PPModuleSelect_DownloadSize">
+		下载大小：
+	</String>
+	<String id="IDS_ERR_UNZIPPING_UPDATE_PACK">
+		升级包错误，升级失败。下次升级会自动尝试修复此问题，如此错误反复出现，请联系客服。
+	</String>
+	<String id="IDS_ERR_UPDATE_PACK_DAMAGED">
+		升级包损坏，升级失败。下次升级会自动尝试修复此问题，如此错误反复出现，请联系客服。
+	</String>
+	<String id="IDS_PPModuleSelect_DownloadTime">
+		估计耗时：
+	</String>
+	<String id="IDS_PPModeSelect_Welcome">
+		欢迎使用在线升级。
+	</String>
+	<String id="IDS_ERR_NETWORK_BUSY">
+		网络繁忙，请稍后再试……
+	</String>
+	<String id="IDS_ERR_SELF_UPDATE_QUERY_NEW_VERSION_FAILED">
+		查询新版本失败（原因：网络错误）
+	</String>
+	<String id="IDS_PPWELCOME_Welcome">
+		欢迎使用在线升级
+	</String>
+	<String id="IDS_PPWELCOME_Prompt">
+		本程序可帮助您升级腾讯公司产品
+	</String>
+	<String id="IDS_PPWELCOME_NetPrompt">
+		使用internet连接进行在线升级操作
+	</String>
+	<String id="IDS_PPWELCOME_BTNNetSetup">
+		高级网络设置
+	</String>
+	<String id="IDS_PPQuery_Prompt">
+		正在为您检查最新的产品及组件，请稍候。&#x0a;&#x0a;该过程可能需要几分钟。
+	</String>
+	<String id="IDS_PPQuery_Activity">
+		当前活动
+	</String>
+	
+	<String id="IDS_PPNoNeedUpdate_Thank">
+		感谢使用在线升级。
+	</String>
+	<String id="IDS_PPNoNeedUpdate_Prompt">
+		目前没有推荐给您的产品更新。&#x0d;&#x0a;&#x0d;&#x0a;如果想了解腾讯产品的最新发布动态，请关注：&#x0d;&#x0a;
+		
+	</String>
+	<String id="IDS_PPNoNeedUpdate_Guide">
+		欢迎以后继续关注我们的产品更新。
+	</String>
+	<String id="IDS_ERR_SELF_UPDATE_PACKAGE_DAMAGED">
+		升级包损坏，升级失败，下次升级会自动尝试修复此问题。
+	</String>
+	<String id="IDS_ACT_SELF_UPDATE_UPGRADING">
+		正在升级升级程序
+	</String>
+	<String id="IDS_ACT_SELF_UPDATE_UPGRADE_COMPLETE">
+		升级程序升级完成
+	</String>
+	<String id="IDS_QUERY_PAGE_DEFAULT_PROMPT">
+		正在为您检查最新的产品及组件，请稍候。&#x0a;&#x0a;该过程可能需要几分钟。
+	</String>
+	<String id="IDS_QUERY_PAGE_DEFAULT_WELCOME">
+		欢迎使用在线升级。
+	</String>
+	<String id="IDS_WARNING">
+		注意
+	</String>
+	<String id="IDS_IMMEDIATE_INSTALL">
+		立即升级
+	</String>
+	<String id="IDS_DOWNLOAD_TEST_OK">
+		网络连接正常
+	</String>
+	<String id="IDS_DOWNLOAD_TEST_FAIL">
+		网络连接错误
+	</String>
+	<String id="IDS_ACT_RECONNECTING_SERVER">
+		正在第$NUM$次重试连接服务器
+	</String>
+	<String id="IDS_FONT_BOLD">
+		宋体
+	</String>
+	<String id="IDS_CONFIRM">
+		确定
+	</String>
+	<String id="IDS_MODULE_QQ">
+		腾讯QQ
+	</String>
+	<String id="IDS_PPModeSelect_Version">
+		现在有3个QQ/TM版本提供给您升级，请进行选择
+	</String>
+	<String id="IDS_PPModeSelect_Total">
+		QQ检测出0个更新，请选择升级方式：
+	</String>
+	<String id="IDS_PPModeSelect_staRapid">
+		轻松安装为您推荐的更新
+	</String>
+	<String id="IDS_PPModeSelect_staPatch">
+		现在有5个补丁或功能更新，请进行选择
+	</String>
+	<String id="IDS_PPModeSelect_radRapid">
+		快速安装(推荐)
+	</String>
+	<String id="IDS_PPModeSelect_radVersion">
+		版本升级
+	</String>
+	<String id="IDS_PPModeSelect_radPatch">
+		补丁和功能更新
+	</String>
+	<String id="IDS_RESTORE_WINDOW">
+		还原
+	</String>
+	<String id="IDS_MINIMIZE_WINDOW">
+		最小化
+	</String>
+	<String id="IDS_PREVSTEP">
+		上一步
+	</String>
+	<String id="IDS_NEXTSTEP">
+		下一步
+	</String>
+	<String id="IDS_CANCEL">
+		取消
+	</String>
+	<String id="IDS_PATCHPKGTITLE">
+		安全、重要补丁更新
+	</String>
+  <String id="IDS_SYSPLUGINTITLE">
+    功能模块更新
+  </String>
+  
+  <String id="IDS_MODEPAGE_TOTAL">
+		$CON$检查出 $NUM$ 个更新，请选择升级方式：
+	</String>
+	<String id="IDS_MODEPAGE_PATCHCOUNT">
+		现在有 $NUM$ 个可用补丁或功能更新，请进行选择
+	</String>
+	<String id="IDS_MODEPAGE_VERSIONCOUNT">
+		现在有 $NUM$ 个$CON$新版本提供给您升级，请进行选择
+	</String>
+	<String id="IDS_MODULEPAGE_DOWNLOADTIME">
+		估计耗时：
+	</String>
+	<String id="IDS_MODULEPAGE_DOWNLOADSIZE">
+		下载大小：$NUM$KB
+	</String>
+	<String id="IDS_TIME_MINUTE">
+		分钟
+	</String>
+	<String id="IDS_TIME_SECOND">
+		秒
+	</String>
+	<String id="IDS_MODULEPAGE_DEPENDINFO">
+		要安装此插件需先安装
+	</String>
+	<String id="IDS_MODULEPAGE_DEPENDTIP1">
+    以下更新须先将您的$CON1$版本升级到$CON2$版本才能安装:
+
+  </String>
+	<String id="IDS_MODULEPAGE_DEPENDTIP2">
+		·
+	</String>
+	<String id="IDS_MODULEPAGE_DEPENDTIP3">
+		点“确定”将立即安装$CON$版本，&#x0d;&#x0a;点“取消”重新选择更新项（以上列出的更新项将自动取消勾选）
+		
+	</String>
+	<String id="IDS_PROMPT_WORD">
+		提示
+	</String>
+	<String id="IDS_INSTALLPAGE_INSTALLTIP">
+    正在安装更新 $NUM1$/$NUM2$
+  </String>
+	<String id="IDS_FINISH">
+		完成
+	</String>
+	<String id="IDS_INSTALLPAGE_EURATIP1">
+		您的更新尚未完成！ 需要接受用户许可协议后，才能继续下载更新进程。
+	</String>
+	<String id="IDS_INSTALLPAGE_EURATIP2">
+		继续更新，请点击“继续”按钮；&#x0d;&#x0a;终止更新，请点击“退出”按钮。
+	</String>
+	<String id="IDS_DOWNLOADPAGE_DOWNLOADBREAKTIP1">
+		您的更新尚未下载完成。&#x0a;&#x0a;
+	</String>
+	<String id="IDS_DOWNLOADPAGE_DOWNLOADBREAKTIP2">
+		请点击“继续”按钮继续下载，如果您想终止下载更新，请点击“退出”按钮。
+	</String>
+	<String id="IDS_DOWNLOADPAGE_TIMENEED">
+		$NUM1$($NUM2$KB/$NUM3$KB)
+	</String>
+	<String id="IDS_DOWNLOADPAGE_DOWNLOADTIP">
+    正在下载更新$NUM1$/$NUM2$
+  </String>
+  <String id="IDS_ACT_FINISH_QUERY_MODULE_LIST">
+		查询成功
+	</String>
+	<String id="IDS_DOWNLOADPAGE_DOWNLOADEURA">
+    下载完成
+  </String>
+	<String id="IDS_DOWNLOADPAGE_DOWNLOADFINISH">
+		下载完成
+	</String>
+	<String id="IDS_DOWNLOADPAGE_DOWNLOADERROR">
+		下载失败
+	</String>
+	<String id="IDS_INSTALLPAGE_INSTALLFINISH">
+		安装更新完成！
+	</String>
+	<String id="IDS_INSTALLPAGE_PLUGIN_INSTALLFINISH">
+		功能更新完成！
+	</String>
+  <String id="IDS_MODULEPAGE_AUFORCETITLE">
+    您的$CON$需要安装以下更新才能继续使用：
+  </String>
+  <String id="IDS_MODULEPAGE_AUPROMPTTITLE">
+    您的$CON$需要安装如下更新吗？
+  </String>
+  <String id="IDS_MODULEPAGE_TITLESTRING">
+    当前有以下可用更新
+  </String>
+  <String id="IDS_MODULEPAGE_TRAYTIPSELECT">
+    检测到您的$CON$有可用更新，单击此处安装
+  </String>
+  <String id="IDS_MODULEPAGE_TRAYTIP">
+    单击此处选择下载$CON$更新
+  </String>
+  <String id="IDS_DOWNLOADPAGE_TRAYBALLOONTIP">
+    正在下载更新，点击此处查看详细进度
+  </String>
+  <String id="IDS_DOWNLOADPAGE_TRAYPRGTIP">
+    正在下载更新：$NUM$%
+  </String>
+  <String id="IDS_INSTALLPAGE_TRAYPRGTIP">
+    正在安装更新：$NUM$%
+  </String>
+  <String id="IDS_INSTALLPAGE_TRAYFINISHTIP">
+    $CON$更新成功，点击此处完成更新
+  </String>
+  <String id="IDS_CLOSE">
+    关闭
+  </String>
+  <String id="IDS_INSTALLPAGE_TRAYFINISHTIP2">
+    自动更新安装完成
+  </String>
+  <String id="IDS_SHUTAPP_TIP1">
+    您需要关闭正在运行的$CON$，才能继续剩下的安装。
+    <!--要完成剩余的安装，需要您关闭正在运行的$CON$。-->
+  </String>
+  <String id="IDS_SHUTAPP_TIP2">
+    请关闭$CON$后点击"重试"，或点击"主动关闭"强行关闭$CON$(可能会因此数据丢失)，点击"退出"将终止本次升级过程。
+    <!--提示:关闭$CON$后点击“重试”，将会继续安装过程，否则点击“退出”终止此次安装并退出更新程序。-->
+  </String>
+  <String id="IDS_ERR_COLLECTMODULEINFOFAILED">
+    升级模块损坏，建议您重新安装$CON$。
+  </String>
+  <String id="IDS_INSTALLPAGE_PKGINSTALLFINISH">
+    安装完成
+  </String>
+  <String id="IDS_INSTALLPAGE_PKGINSTALLFINISH_ERROR">
+    安装出错
+  </String>
+  <String id="IDS_INSTALLPAGE_PKGINSTALLFINISH_PART">
+    部分安装成功
+  </String>
+	<String id="IDS_EURADLG_EURACOUNT">
+		阅读以下协议($NUM$个)：
+	</String>
+	<String id="IDS_MODULEPAGE_INSTALL">
+		安装
+	</String>
+	<String id="IDS_ERR_EXCUTE_UPDATE_PACK">
+		升级失败（原因：未知错误）
+	</String>
+	<String id="IDS_ERR_INSTALLPKG_PROGRAM">
+		安装程序出错，升级失败
+	</String>
+	<String id="IDS_ERR_UPDATEEXE_ABNORMAL">
+		升级失败（原因：未知错误）
+	</String>
+	<String id="IDS_ERR_NOSPACE_FOR_DOWNLOAD">
+		磁盘空间不足，升级包下载失败，请释放部分磁盘空间再试。
+	</String>
+	<String id="IDS_ERR_NETWORKBUSY">
+		升级失败（原因：网络错误）
+	</String>
+	<String id="IDS_FILELIST">
+		qqupdatecenter.exe|qqupdateext.dll|auzipn.dll|ausdln.dll
+	</String>
+	<String id="IDS_PATCHPKGDPINFO">
+		最新补丁更新
+	</String>
+	<String id="IDS_INSTALLPAGE_TRAYTIP">
+		正在安装更新，点击此处查看详细进度
+	</String>
+	<String id="IDS_PPInstall_staTitle">
+		更新内容：
+	</String>
+	<String id="IDS_PPInstall_staPrompt">
+		正在安装更新
+	</String>
+	<String id="IDS_PPInstall_staPrgName">
+		总进度：
+	</String>
+	<String id="IDS_PPError_staPrompt">
+		出错提示
+	</String>
+	<String id="IDS_PPNetworkSetting_NotUseProxy">
+		不使用代理
+	</String>
+	<String id="IDS_PPNetworkSetting_rdUseIeProxy">
+		使用IE连接设置
+	</String>
+	<String id="IDS_PPNetworkSetting_rdSelfDefProxy">
+		使用自定义代理设置
+	</String>
+	<String id="IDS_PPNetworkSetting_UserName">
+		用户名：
+	</String>
+	<String id="IDS_PPNetworkSetting_ProxyPort">
+		端口：
+	</String>
+	<String id="IDS_PPNetworkSetting_ProxyIP">
+		地址：
+	</String>
+	<String id="IDS_PPNetworkSetting_Password">
+		密码：
+	</String>
+	<String id="IDS_PPNetworkSetting_SetDefault">
+		保存为默认值
+	</String>
+	<String id="IDS_PPNetworkSetting_NeedAuth">
+		代理服务器需要身份验证
+	</String>
+	<String id="IDS_PPNetworkSetting_btnTest">
+		测试连接
+	</String>
+	<String id="IDS_PPNetworkSetting_grpBox">
+		网络连接设置
+	</String>
+	<String id="IDS_PPError_staPromptText">
+		您正在安装的更新由于如下原因安装失败，&#x0d;&#x0a;请点击“确定”终止本次安装过程并下次重试。
+	</String>
+	<String id="IDS_PPError_staReason">
+		出错原因：
+	</String>
+	<String id="IDS_PPDownload_staPromptTime">
+		估计剩余：
+	</String>
+	<String id="IDS_PPDownload_staTimeNeed">
+		2分钟14秒 (20343 KB /  43232 KB)
+	</String>
+	<String id="IDS_PPDownload_staTitle">
+		更新内容：
+	</String>
+	<String id="IDS_PPDownload_staPrompt">
+		正在下载更新2/4
+	</String>
+	<String id="IDS_PPDownload_staPrgName">
+		总进度：
+	</String>
+	<String id="IDS_PPShutApp_btnRetry">
+		重试
+	</String>
+	<String id="IDS_PPShutApp_btnCancel">
+		退出
+	</String>
+	<String id="IDS_PPShutApp_btnAutoClose">
+		强制关闭
+	</String>
+	<String id="IDS_PPShutApp_btnDelayInstall">
+		下次启动后生效
+	</String>
+	<String id="IDS_PPShutApp_staPromptText1">
+		要完成剩余的安装，需要您关闭正在运行的QQ
+	</String>
+	<String id="IDS_PPShutApp_staPromptText2">
+		提示：关闭QQ/TM后点击“重试”，将会继续安装过程，&#x0d;&#x0a;否则点击“退出”终止此次安装并退
+		
+	</String>
+	<String id="IDS_PPShutApp_WndTitle">
+    安装更新
+  </String>
+	<String id="IDS_PPPrompt_btnRight">
+		继续
+	</String>
+	<String id="IDS_PPPrompt_btnLeft">
+		退出
+	</String>
+	<String id="IDS_PPPrompt_WndTitle">
+		提示
+	</String>
+	<String id="IDS_PPEura_btnOK">
+		接受
+	</String>
+	<String id="IDS_PPEura_btnCancel">
+		拒绝
+	</String>
+	<String id="IDS_PPEura_staEuraInfo">
+		阅读以下协议(2个)：
+	</String>
+	<String id="IDS_PPEura_staText2">
+		要安装更新，您必须接受最终用户许可协议。
+	</String>
+	<String id="IDS_PPEura_staText3">
+		协议内容：
+	</String>
+	<String id="IDS_PPEura_WndTitle">
+		在线升级
+	</String>
+	<String id="IDS_PPCancel_radPrompt">
+		下次再提醒我安装这些更新
+	</String>
+	<String id="IDS_PPCancel_radNoPrompt">
+		以后不再提醒我安装这些更新
+	</String>
+	<String id="IDS_PPCancel_btnOk">
+		确定
+	</String>
+	<String id="IDS_PPCancel_btnCancel">
+		取消
+	</String>
+	<String id="IDS_PPCancel_grpBox">
+		您取消了此次安装更新，请确认：
+	</String>
+	<String id="IDS_PPCancel_WndTitle">
+		自动更新提示
+	</String>
+  <String id="IDS_ERR_UPDATEEXE_PI_ACCESS">
+    升级失败（对QQ功能插件的访问被拒绝）
+  </String>
+  
+  <String id="P2PDownload_DefaultStateSvr">
+    pdllog01.qq.com:80
+  </String>
+  <String id="P2PDownload_HardcodeStateSvr">
+    padst.qq.com:8000
+  </String>
+  <String id="P2PDownload_HardcodeUDPServer">
+    pdldir0.qq.com:8000
+  </String>
+  <String id="P2PDownload_HardcodeTCPServer">
+    pdldir0.qq.com:80
+  </String>
+  <String id="P2PDownload_HardcodeStunServer">
+    stun-b1.qq.com:8000
+  </String>
+  <String id="IDS_DELAYINSTALL_SHUTAPP_TIP1">
+    您需要重新启动$CON$以使新功能生效。
+  </String>
+  <String id="IDS_DELAYINSTALL_INSTALL">
+    立即重启QQ
+  </String>
+</StringBundle>

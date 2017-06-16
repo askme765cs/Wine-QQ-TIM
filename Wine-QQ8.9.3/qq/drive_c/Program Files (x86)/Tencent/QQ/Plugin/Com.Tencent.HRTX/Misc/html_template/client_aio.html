@@ -1,0 +1,125 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=EmulateIE7" />
+<title>AIO</title>
+<style type="text/css">
+            @charset "utf-8";
+            /* == reset == */
+            html, body { overflow:hidden;}
+            body { font-size:12px; font-family:Tahoma; color:#000000; margin:0; padding:0; color:#3b5984; background:#f7f9fa;}
+            div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,input,textarea,p,blockquote,th,td { margin:0; padding:0;}
+            table { border-collapse:collapse; border-spacing:0;}
+            fieldset,img { border:0;}
+            ul,ol { list-style:none;}
+            a, a:link, a:visited { color:#3e78cb; text-decoration:none;}
+            /* == common_attr == */
+            .dis { display:none !important;} .nodis { display:block;}
+            .aio { position:relative; width:140px; height:420px; min-height:400px; margin:0 auto; overflow:hidden; }
+            .aio .tx { position:relative; height:114px; width:108px; margin:0 auto 8px; background:url(http://static.b.qq.com/account/hrtx/images/client_aio_tx.png) no-repeat center 6px; text-align:center;}
+            .aio .tx img { border:1px solid #ffffff; margin:9px 0 0 0;}
+            .aio .tx .bg { position:absolute; top:0; left:0; display:none; height:108px; width:108px;}
+            .aio .contact ul { padding:0 10px 10px 1px;}
+            .aio .contact ul li { line-height:14px; padding:3px 0 2px 32px; width:100px; overflow:hidden; word-wrap:break-word;}
+            .aio .contact ul li.s1 { background:url(http://static.b.qq.com/account/hrtx/images/client_aio_icon1.png) no-repeat 10px 6px;}
+            .aio .contact ul li.s2 { background:url(http://static.b.qq.com/account/hrtx/images/client_aio_icon2.png) no-repeat 10px 3px;}
+            .aio .contact ul li.s3 { font-size:11px; background:url(http://static.b.qq.com/account/hrtx/images/client_aio_icon3.png) no-repeat 11px 3px;}
+            .aio .contact ul li.s4 { font-size:11px; background:url(http://static.b.qq.com/account/hrtx/images/client_aio_icon4.png) no-repeat 10px 3px;}
+            .aio .contact ul li.s5 { font-size:11px; background:url(http://static.b.qq.com/account/hrtx/images/client_aio_icon5.png) no-repeat 11px 3px;}
+            .aio .contact ul li.s6 { font-size:11px; background:url(http://static.b.qq.com/account/hrtx/images/client_aio_icon6.png) no-repeat 11px 4px;}
+            .aio .intro { border-top:1px dashed #d6dde6; padding:14px 10px 10px 12px;}
+            .aio .intro .s1,
+            .aio .intro .s2 { margin-bottom:6px;}
+            .aio .intro .s2 { line-height:15px;}
+            .aio .intro .s3 { font-size:11px;}
+            .aio .help { position:absolute; bottom:6px; right:6px;}
+        </style>
+</head>
+<body>
+<div class="aio" id="aio">
+	<div class="tx"><img src="http://static.b.qq.com/account/hrtx/images/client_aio_default.png" width="100" height="100" /><span class="bg"></span></div>
+	<div class="contact">
+		<ul>
+			<li class="s1">-</li>
+			<li class="s2">-</li>
+			<li class="s3">-</li>
+			<li class="s4">-</li>
+			<li class="s5">-</li>
+			<li class="s6">-</li>
+		</ul>
+	</div>
+	<div class="intro">
+		<p class="s1"><strong>-</strong></p>
+		<p class="s2">-</p>
+		<p>-</p>
+	</div>
+	<div class="help"><a href="http://b.qq.com" target="_blank">-</a></div>
+</div>
+<!-- hummer1.50接口 -->
+<script type="text/javascript">var mode = '1';</script>
+<script type="text/javascript"> 
+function CRM_getSize(){
+    return mode;
+}
+</script>
+<!-- hummer1.50接口 -->
+<script type="text/javascript">
+window.onload = function(){
+	var _doc = document;
+	var _height = _doc.compatMode == "CSS1Compat" ? _doc.documentElement.clientHeight : _doc.body.clientHeight;
+	document.getElementById('aio').style.height = _height+'px';
+}
+window.onresize = function(){
+	var _doc = document;
+	var _height = _doc.compatMode == "CSS1Compat" ? _doc.documentElement.clientHeight : _doc.body.clientHeight;
+	document.getElementById('aio').style.height = _height+'px';
+}
+document.oncontextmenu = function() {event.returnValue = false;}
+document.onkeydown = function(){
+    if(event.keyCode == 116) {
+        event.keyCode = 0;
+        event.returnValue = false;
+    }
+}
+function closeError(){
+	try{ 
+		document.getElementById("error").style.display = "none";
+	}catch(e){};
+}
+
+function ptui_getActivXVer(){
+    try{
+        var obj = new ActiveXObject("TimwpDll.TimwpCheck");
+        var ver = obj.GetHummerQQVersion();
+		return ver;
+    }
+    catch(e){
+        return 0;
+    } 
+}
+function jumpOut2Page(url){
+	var _href = window.location.href, _v;
+	if(_href.indexOf('__v__') != -1){
+		var _arr = _href.split('&');
+		for(var i=0, len=_arr.length; i<len; i++){
+			if(_arr[i].indexOf('__v__') != -1){
+				_v = _arr[i].substring(6, _arr[i].length);
+			}
+		}
+	}
+	if(_v >= 3301){
+		if( -1 !== url.indexOf('http:') ){
+			url = url.substring(5, url.length);
+		}
+		window.location = 'crmjumplink:'+url;
+	}
+	else{
+		window.open(url);
+	}
+	
+	return false;
+}
+</script>
+</body>
+</html>

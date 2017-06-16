@@ -1,0 +1,1496 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Theme>
+  <TG name="TextColor" comment="文字颜色分类">
+    <TV name="Text" value="0x000000" type="color" comment="正文颜色"/>
+    <TV name="UI" value="0x001c30" type="color" comment="界面文字颜色"/>
+    <TV name="Disable" value="0xBABABA" type="color" comment="disable"/>
+    <TV name="Reverse" value="0xFFFFFF" type="color" comment="反色"/>
+    <TV name="Gray" value="0x808080" type="color" comment="灰度颜色"/>
+    <TV name="LowLink" value="0x002d4d" type="color" comment="低调链接文字颜色"/>
+    <TV name="HighLink" value="0x009bdb" type="color" comment="强调链接文字颜色，普通"/>
+    <TV name="HighLinkTips" value="0xeb2c00" type="color" comment="强调链接文字颜色，红色"/>
+    <TV name="HighLinkVip" value="0xf58a6e" type="color" comment="强调链接文字颜色，粉红色"/>
+    <TV name="HighLinkHighlight" value="0x009bdb" type="color" comment="强调链接文字颜色，高亮"/>
+    <TV name="HighLinkHighlightVip" value="0xf58a6e" type="color" comment="强调链接文字颜色，高亮粉红色"/>
+    <TV name="HighLinkPushed" value="0x009bdb" type="color" comment="强调链接文字颜色，按下"/>
+    <TV name="HighLinkPushedVip" value="0xf58a6e" type="color" comment="强调链接文字颜色，按下粉红色"/>
+    <TV name="NormalLink" value="0x0072C1" type="color" comment="普通链接文字颜色，普通"/>
+    <TV name="NormalLinkHighlight" value="0x1670eb" type="color" comment="普通链接文字颜色，高亮"/>
+    <TV name="NormalLinkPushed" value="0x1670eb" type="color" comment="普通链接文字颜色，按下"/>
+    <TV type="file" name="groupDirect_0" value="appres:BubbleTip\BubbleTip_Bkg_RT.bmp"/>
+    <TV name="Menu" value="0x001524" type="color" comment="菜单文字颜色"/>
+    <TV name="WBlogLink" value="0x0c5e9c" type="color" comment="微博中的链接"/>
+    <TV name="WBlogNick" value="0x000000" type="color" comment="微博中的呢称"/>
+    <TV name="WBlogInvite" value="0xbd0f07" type="color" comment="微博中的呢称"/>
+    <TV name="WBlogWhiteHighlight" value="0xFFFFFF" type="color" comment="微博中的广播大厅导航"/>
+  </TG>
+  <TG name="Color" comment="边框颜色">
+    <TV name="MaskColor" value="0xFF00FF" type="color" comment="图片屏蔽色，透明色"/>
+    <TV name="Background" value="0xFFFFFF" type="color" comment="控件底色"/>
+    <TV name="OuterBorder" value="0x8ab0de" type="color" comment="外框颜色"/>
+    <TV name="CtrlBorderNormal" value="0x6e9ad0" type="color" comment="控件边框色"/>
+    <TV name="CtrlBorderHoverGlow" value="0x98e8ff" type="color" comment="控件移上边框发光色"/>
+    <TV name="CtrlBorderPushedGlow" value="0x98e8ff" type="color" comment="控件按下边框发光色"/>
+    <TV name="CtrlBorderHover" value="0x438ace" type="color" comment="控件移上边框色"/>
+    <TV name="CtrlBorderPushed" value="0x438ace" type="color" comment="控件按下边框色"/>
+    <TV name="SelectedOuterBorder" value="0x0087c5" type="color" comment="选中外框"/>
+    <TV name="SelectedInnerBorder" value="0x81b6e4" type="color" comment="选中内框"/>
+    <TV name="SelectedBackground" value="0x68a7de" type="color" comment="选中底色"/>
+    <TV name="SelectedOuterBorder2" value="0xffd5a7" type="color" comment="选中外框2"/>
+    <TV name="SelectedInnerBorder2" value="0xfffcf7" type="color" comment="选中内框2"/>
+    <TV name="SelectedBackground2" value="0xffefd8" type="color" comment="选中底色2"/>
+    <TV name="IconButtonInnerBorder" value="0xf0f9fe" type="color" comment="图标按钮内边框"/>
+    <TV name="IconButtonOuterBorder" value="0x438ace" type="color" comment="图标按钮外边框"/>
+    <TV name="IconButtonGradualTop" value="0xc6ebfd" type="color" comment="图标渐变上缘"/>
+    <TV name="IconButtonGradualBottom" value="0x8bd3f7" type="color" comment="图标按钮渐变下缘"/>
+    <TV name="ImageOuterBorder" value="0xafcaed" type="color" comment="图片外边框"/>
+    <TV name="ImageInnerBorder" value="0x000000" type="color" comment="图片内边框"/>
+    <TV name="ImageSelectedInnerBorder" value="0x008cff" type="color" comment="图片选中内边框"/>
+    <TV name="ListItemBackground1" value="0xf2f7fd" type="color" comment="列表分隔底色(深)"/>
+    <TV name="ListItemBackground2" value="0xf9fbfe" type="color" comment="列表分隔底色(浅)"/>
+    <TV name="ClientAreaGradualTop" value="0x000000" type="color" comment="界面内底上缘色"/>
+    <TV name="ClientAreaGradualBottom" value="0xf1f8fa" type="color" comment="界面内底下缘色"/>
+    <TV name="MenuInnerBorder" value="0xb4dbff" type="color" comment="菜单内框"/>
+    <TV name="MenuOuterBorder" value="0x4879b8" type="color" comment="菜单外框"/>
+    <TV name="MenuLeftBar" value="0xc6e1fc" type="color" comment="菜单左侧底色"/>
+    <TV name="EditDisableBackground" value="0xF0F0F0" type="color" comment="菜单左侧底色"/>
+  </TG>
+  <TG name="BorderColor">
+    <TV name="Normal" value="0xC3CFE2" type="color" comment="普通状态的边框颜色"/>
+    <TV name="Focus" value="0x8CB5DE" type="color" comment="得到焦点的边框颜色"/>
+    <TV name="Highlight" value="0x5799DC" type="color" comment="高亮边框色"/>
+    <TV name="UI" value="0x90B1D8" type="color" comment="内部边框色"/>
+    <TV name="Tab" value="0x90B1D8" type="color" comment="Tab页的边框色"/>
+  </TG>
+  <TG name="Font">
+    <TV name="Normal" type="rich">
+      <!-- 默认字体 -->
+      <Value>
+        <Font height="9" width="0" weight="400" orientation="0" facename="Tahoma">
+          <fontMap>
+            <fontLink codePage="936" facename="Microsoft YaHei" os="vista"  fontSize="9"  lineSpace="-2"/>
+            <!--os="vista"-->
+            <fontLink codePage="936" facename="Tahoma" fontSize="9" os="vista" />
+            <fontLink codePage="936" facename="SimSun" fontSize="9" lineSpace="3" />
+            <fontLink codePage="936" facename="Gulim" fontSize="9" />
+            <fontLink codePage="1252" facename="Segoeui" os="vista" fontSize="8" />
+            <fontLink codePage="1252" facename="Tahoma" fontSize="8" />
+            <fontLink codePage="-1" facename="Arial Unicode MS"/>
+          </fontMap>
+        </Font>
+      </Value>
+    </TV>
+    <TV name="NormalAutoColor" type="rich">
+      <!-- autoColor的默认字体 -->
+      <Value>
+        <Font height="9" width="0" weight="400" orientation="0" facename="Tahoma" fontEffect="AutoColor">
+          <fontMap>
+            <fontLink codePage="936" facename="Microsoft YaHei" os="vista"  fontSize="9"  lineSpace="-2"/>
+            <!--os="vista"-->
+            <fontLink codePage="936" facename="Tahoma" fontSize="9" os="vista" />
+            <fontLink codePage="936" facename="SimSun" fontSize="9" lineSpace="3" />
+            <fontLink codePage="936" facename="Gulim" fontSize="9" />
+            <fontLink codePage="1252" facename="Segoeui" os="vista" fontSize="8" />
+            <fontLink codePage="1252" facename="Tahoma" fontSize="8" />
+            <fontLink codePage="-1" facename="Arial Unicode MS"/>
+          </fontMap>
+        </Font>
+      </Value>
+    </TV>
+    <TV name="NormalAutoLight" type="rich">
+      <!-- autoLight的默认字体 -->
+      <Value>
+        <Font height="9" width="0" weight="400" orientation="0" facename="Tahoma" fontEffect="AutoLight">
+          <fontMap>
+            <fontLink codePage="936" facename="Microsoft YaHei" os="vista"  fontSize="9"  lineSpace="-2"/>
+            <!--os="vista"-->
+            <fontLink codePage="936" facename="Tahoma" fontSize="9" os="vista" />
+            <fontLink codePage="936" facename="SimSun" fontSize="9" lineSpace="3" />
+            <fontLink codePage="936" facename="Gulim" fontSize="9" />
+            <fontLink codePage="1252" facename="Segoeui" os="vista" fontSize="8" />
+            <fontLink codePage="1252" facename="Tahoma" fontSize="8" />
+            <fontLink codePage="-1" facename="Arial Unicode MS"/>
+          </fontMap>
+        </Font>
+      </Value>
+    </TV>
+    <TV name="InstallBigWording" type="rich">
+      <Value>
+        <Font height="13" weight="400" facename="Tahoma">
+          <fontMap>
+            <fontLink codePage="936" facename="Microsoft YaHei" fontSize="9" os="vista"/>
+            <fontLink codePage="936" facename="STXihei" fontSize="9"/>
+            <fontLink codePage="936" facename="SimSun" fontSize="9"/>
+            <fontLink codePage="1252" facename="Microsoft YaHei" fontSize="8" os="vista"/>
+            <fontLink codePage="1252" facename="STXihei" fontSize="8"/>
+            <fontLink codePage="-1" facename="Tahoma"/>
+          </fontMap>
+        </Font>
+      </Value>
+    </TV>
+    <TV name="NormalAutoLight2" type="rich">
+      <!-- autoLight的默认字体 -->
+      <Value>
+        <Font height="9" width="0" weight="500" orientation="0" facename="Tahoma" fontEffect="Light">
+          <fontMap>
+            <fontLink codePage="936" facename="Microsoft YaHei" os="vista"  fontSize="9"  lineSpace="-2"/>
+            <!--os="vista"-->
+            <fontLink codePage="936" facename="Tahoma" fontSize="9" os="vista" />
+            <fontLink codePage="936" facename="SimSun" fontSize="9" lineSpace="3" />
+            <fontLink codePage="936" facename="Gulim" fontSize="9" />
+            <fontLink codePage="1252" facename="Segoeui" os="vista" fontSize="8" />
+            <fontLink codePage="1252" facename="Tahoma" fontSize="8" />
+            <fontLink codePage="-1" facename="Arial Unicode MS"/>
+          </fontMap>
+        </Font>
+      </Value>
+    </TV>
+    <TV name="NormalAutoLightBold" type="rich">
+      <!-- autoLight的默认字体 -->
+      <Value>
+        <Font height="9" width="0" weight="600" orientation="0" facename="Tahoma" fontEffect="Light">
+          <fontMap>
+            <fontLink codePage="936" facename="SimSun" os="vista"  fontSize="9"  lineSpace="-2"/>
+            <!--os="vista"-->
+            <fontLink codePage="936" facename="Tahoma" fontSize="9" os="vista" />
+            <fontLink codePage="936" facename="SimSun" fontSize="9" lineSpace="3" />
+            <fontLink codePage="936" facename="Gulim" fontSize="9" />
+            <fontLink codePage="1252" facename="Segoeui" os="vista" fontSize="8" />
+            <fontLink codePage="1252" facename="Tahoma" fontSize="8" />
+            <fontLink codePage="-1" facename="Arial Unicode MS"/>
+          </fontMap>
+        </Font>
+      </Value>
+    </TV>
+    <TV name="Logo" type="rich">
+      <!-- 大字体，加粗 -->
+      <Value>
+        <Font height="10.5" width="0" weight="600" orientation="0" facename="Tahoma">
+          <fontMap>
+            <fontLink codePage="936" facename="Microsoft YaHei" os="vista"  fontSize="9"  lineSpace="-2"/>
+            <fontLink codePage="936" facename="Tahoma" fontSize="10.5" os="vista" />
+            <fontLink codePage="936" facename="SimSun" fontSize="10.5" lineSpace="2" />
+            <fontLink codePage="1252" facename="Segoeui" os="vista" fontSize="10" />
+            <fontLink codePage="1252" facename="Tahoma" fontSize="10" />
+            <fontLink codePage="-1" facename="Arial Unicode MS"/>
+          </fontMap>
+        </Font>
+
+      </Value>
+    </TV>
+    <TV name="Title" type="rich">
+      <!-- 界面 Title 字体加粗 -->
+      <Value>
+        <Font height="10" width="0" weight="600" orientation="0" facename="Tahoma" fontEffect="AutoLight">
+          <fontMap>
+            <fontLink codePage="936" facename="Microsoft YaHei" os="vista"  fontSize="10"/>
+            <fontLink codePage="936" facename="SimSun" fontSize="10" lineSpace="3" />
+            <fontLink codePage="936" facename="Gulim" fontSize="10" />
+            <fontLink codePage="1252" facename="Microsoft YaHei" os="vista" fontSize="10" />
+            <fontLink codePage="1252" facename="SimSun" fontSize="10" lineSpace="3" />
+            <fontLink codePage="1252" facename="Gulim" fontSize="10" />
+            <fontLink codePage="-1" facename="Tahoma"/>
+          </fontMap>
+        </Font>
+      </Value>
+    </TV>
+    <TV name="TitleNormal" type="rich">
+      <!-- 界面 Title 字体加粗 -->
+      <Value>
+        <Font height="12" width="0" weight="600" orientation="0" facename="Tahoma" fontEffect="AutoColor">
+          <fontMap>
+            <fontLink codePage="936" facename="Microsoft YaHei" os="vista"  fontSize="10"/>
+            <fontLink codePage="936" facename="SimSun" fontSize="10" lineSpace="3" />
+            <fontLink codePage="936" facename="Gulim" fontSize="10" />
+            <fontLink codePage="1252" facename="Microsoft YaHei" os="vista" fontSize="10" />
+            <fontLink codePage="1252" facename="SimSun" fontSize="10" lineSpace="3" />
+            <fontLink codePage="1252" facename="Gulim" fontSize="10" />
+            <fontLink codePage="-1" facename="Tahoma"/>
+          </fontMap>
+        </Font>
+      </Value>
+    </TV>
+    <TV name="TitleNormalBlue" type="rich">
+      <Value>
+       <Font height="12" width="0" weight="600" orientation="0" facename="Tahoma">
+           <fontMap>
+			<fontLink codePage="936" facename="Microsoft YaHei" os="vista" fontSize="10"/>
+			<fontLink codePage="936" facename="SimSun" fontSize="10" lineSpace="3"/>
+			<fontLink codePage="936" facename="Gulim" fontSize="10"/>
+			<fontLink codePage="1252" facename="Microsoft YaHei" os="vista" fontSize="10"/>
+			<fontLink codePage="1252" facename="SimSun" fontSize="10" lineSpace="3"/>
+			<fontLink codePage="1252" facename="Gulim" fontSize="10"/>
+			<fontLink codePage="-1" facename="Tahoma"/>
+            </fontMap>
+		</Font>
+	  </Value>
+	</TV>
+    <TV name="TitleNew" type="rich">
+      <Value>
+          <Font height="10" width="0" weight="400" orientation="0" facename="Tahoma" fontEffect="AutoColor">
+              <fontMap>
+                  <fontLink codePage="936" facename="Microsoft YaHei" os="vista"  fontSize="10"/>
+                  <fontLink codePage="936" facename="SimSun" fontSize="10" lineSpace="3" />
+                  <fontLink codePage="936" facename="Gulim" fontSize="10" />
+                  <fontLink codePage="1252" facename="Microsoft YaHei" os="vista" fontSize="10" />
+                  <fontLink codePage="1252" facename="SimSun" fontSize="10" lineSpace="3" />
+                  <fontLink codePage="1252" facename="Gulim" fontSize="10" />
+                  <fontLink codePage="-1" facename="Tahoma"/>
+              </fontMap>
+          </Font>
+      </Value>
+    </TV>
+    <TV name="NormalTitle" type="rich">
+      <!-- 界面 Title 字体不加粗 -->
+      <Value>
+        <Font height="10" width="0" orientation="0" facename="Tahoma" fontEffect="AutoLight">
+          <fontMap>
+            <fontLink codePage="936" facename="Microsoft YaHei" os="vista"  fontSize="10"/>
+            <fontLink codePage="936" facename="SimSun" fontSize="10" lineSpace="3" />
+            <fontLink codePage="936" facename="Gulim" fontSize="10" />
+            <fontLink codePage="1252" facename="Microsoft YaHei" os="vista" fontSize="10" />
+            <fontLink codePage="1252" facename="SimSun" fontSize="10" lineSpace="3" />
+            <fontLink codePage="1252" facename="Gulim" fontSize="10" />
+            <fontLink codePage="-1" facename="Tahoma"/>
+          </fontMap>
+        </Font>
+      </Value>
+    </TV>
+    <TV name="Link" type="rich">
+      <!-- 普通链接文字字体 -->
+      <Value>
+        <Font height="9" width="0" weight="400" orientation="0" underline="true" facename="Tahoma">
+          <fontMap>
+            <fontLink codePage="936" facename="Microsoft YaHei" os="vista"  fontSize="9"  lineSpace="-2"/>
+            <fontLink codePage="936" facename="Tahoma" fontSize="10.5" os="vista" />
+            <fontLink codePage="936" facename="SimSun" fontSize="9" lineSpace="3" />
+            <fontLink codePage="936" facename="Gulim" fontSize="9" />
+            <fontLink codePage="1252" facename="Segoeui" os="vista" fontSize="8" />
+            <fontLink codePage="1252" facename="Tahoma" fontSize="8" />
+            <fontLink codePage="-1" facename="Arial Unicode MS"/>
+          </fontMap>
+        </Font>
+      </Value>
+    </TV>
+	  <TV name="BigLink" type="rich">
+		  <!-- 普通链接文字字体 -->
+		  <Value>
+			  <Font height="10" width="0" weight="400" orientation="0" underline="true" facename="Tahoma">
+				  <fontMap>
+					  <fontLink codePage="936" facename="Microsoft YaHei" os="vista"  fontSize="9"  lineSpace="-2"/>
+					  <fontLink codePage="936" facename="Tahoma" fontSize="10" os="vista" />
+					  <fontLink codePage="936" facename="SimSun" fontSize="10" lineSpace="3" />
+					  <fontLink codePage="936" facename="Gulim" fontSize="10" />
+					  <fontLink codePage="1252" facename="Segoeui" os="vista" fontSize="9" />
+					  <fontLink codePage="1252" facename="Tahoma" fontSize="9" />
+					  <fontLink codePage="-1" facename="Arial Unicode MS"/>
+				  </fontMap>
+			  </Font>
+		  </Value>
+	  </TV>
+
+	  <TV name="LinkLight" type="rich">
+      <!-- 普通链接文字字体 -->
+      <Value>
+        <Font height="9" width="0" weight="500" orientation="0" underline="true" facename="Tahoma" fontEffect="Light">
+          <fontMap>
+            <fontLink codePage="936" facename="Microsoft YaHei" os="vista"  fontSize="9"  lineSpace="-2"/>
+            <fontLink codePage="936" facename="Tahoma" fontSize="10.5" os="vista" />
+            <fontLink codePage="936" facename="SimSun" fontSize="9" lineSpace="3" />
+            <fontLink codePage="936" facename="Gulim" fontSize="9" />
+            <fontLink codePage="1252" facename="Segoeui" os="vista" fontSize="8" />
+            <fontLink codePage="1252" facename="Tahoma" fontSize="8" />
+            <fontLink codePage="-1" facename="Arial Unicode MS"/>
+          </fontMap>
+        </Font>
+      </Value>
+    </TV>
+    <TV name="LinkAutoLight" type="rich">
+      <!-- 普通链接文字+发光效果 -->
+      <Value>
+        <Font height="9" width="0" weight="500" orientation="0" underline="true" facename="Tahoma" fontEffect="AutoLight">
+          <fontMap>
+            <fontLink codePage="936" facename="Microsoft YaHei" os="vista"  fontSize="9"  lineSpace="-2"/>
+            <fontLink codePage="936" facename="Tahoma" fontSize="10.5" os="vista" />
+            <fontLink codePage="936" facename="SimSun" fontSize="9" lineSpace="3" />
+            <fontLink codePage="936" facename="Gulim" fontSize="9" />
+            <fontLink codePage="1252" facename="Segoeui" os="vista" fontSize="8" />
+            <fontLink codePage="1252" facename="Tahoma" fontSize="8" />
+            <fontLink codePage="-1" facename="Arial Unicode MS"/>
+          </fontMap>
+        </Font>
+      </Value>
+    </TV>
+    <TV name="Bold" type="rich">
+      <!-- 粗体 -->
+      <Value>
+        <Font height="9" width="0" weight="600" orientation="0" facename="Tahoma">
+          <fontMap>
+            <fontLink codePage="936" facename="Microsoft YaHei" os="vista"  fontSize="9"/>
+            <fontLink codePage="936" facename="Tahoma" fontSize="9" os="vista" />
+            <fontLink codePage="936" facename="SimSun" fontSize="9" lineSpace="3" />
+            <fontLink codePage="936" facename="Gulim" fontSize="9" />
+            <fontLink codePage="1252" facename="Segoeui" os="vista" fontSize="8" />
+            <fontLink codePage="1252" facename="Tahoma" fontSize="8" />
+            <fontLink codePage="-1" facename="Arial Unicode MS"/>
+          </fontMap>
+        </Font>
+      </Value>
+    </TV>
+    <TV name="Big" type="rich">
+      <!-- 大字体 -->
+      <Value>
+        <Font height="10" width="0" weight="400" orientation="0" facename="Tahoma">
+          <fontMap>
+            <fontLink codePage="936" facename="Microsoft YaHei" os="vista"  fontSize="9"/>
+            <fontLink codePage="936" facename="Tahoma" fontSize="10" os="vista" />
+            <fontLink codePage="936" facename="SimSun" fontSize="10" lineSpace="3" />
+            <fontLink codePage="936" facename="Gulim" fontSize="10" />
+            <fontLink codePage="1252" facename="Segoeui" os="vista" fontSize="9" />
+            <fontLink codePage="1252" facename="Tahoma" fontSize="9" />
+            <fontLink codePage="-1" facename="Arial Unicode MS"/>
+          </fontMap>
+        </Font>
+      </Value>
+    </TV>
+    <TV name="YaHei12Bold" type="rich">
+      <!-- 大字体，加粗 -->
+      <Value>
+        <Font height="12" width="0" weight="600" orientation="0" facename="Microsoft YaHei">
+          <fontMap>
+            <fontLink codePage="936" facename="Microsoft YaHei" os="vista"  fontSize="12"/>
+            <fontLink codePage="936" facename="Tahoma" fontSize="11" os="vista" />
+            <fontLink codePage="936" facename="SimSun" fontSize="11" lineSpace="3" />
+            <fontLink codePage="936" facename="Gulim" fontSize="11" />
+            <fontLink codePage="1252" facename="Segoeui" os="vista" fontSize="10" />
+            <fontLink codePage="1252" facename="Tahoma" fontSize="10" />
+            <fontLink codePage="-1" facename="Arial Unicode MS"/>
+          </fontMap>
+        </Font>
+      </Value>
+    </TV>
+		<TV name="VeryVeryBig" type="rich">
+			<!-- 大字体，加粗 -->
+			<Value>
+				<Font height="13" width="0" weight="400" orientation="0" facename="Microsoft YaHei">
+					<fontMap>
+						<fontLink codePage="936" facename="Microsoft YaHei" os="vista"  fontSize="13"/>
+						<fontLink codePage="936" facename="Tahoma" fontSize="11" os="vista" />
+						<fontLink codePage="936" facename="SimSun" fontSize="11" lineSpace="3" />
+						<fontLink codePage="936" facename="Gulim" fontSize="11" />
+						<fontLink codePage="1252" facename="Segoeui" os="vista" fontSize="10" />
+						<fontLink codePage="1252" facename="Tahoma" fontSize="10" />
+						<fontLink codePage="-1" facename="Arial Unicode MS"/>
+					</fontMap>
+				</Font>
+			</Value>
+		</TV>
+    <TV name="VeryBig" type="rich">
+      <!-- 大字体，加粗 -->
+      <Value>
+        <Font height="11" width="0" weight="400" orientation="0" facename="Tahoma">
+          <fontMap>
+            <fontLink codePage="936" facename="Microsoft YaHei" os="vista"  fontSize="11"/>
+            <fontLink codePage="936" facename="Tahoma" fontSize="11" os="vista" />
+            <fontLink codePage="936" facename="SimSun" fontSize="11" lineSpace="3" />
+            <fontLink codePage="936" facename="Gulim" fontSize="11" />
+            <fontLink codePage="1252" facename="Segoeui" os="vista" fontSize="10" />
+            <fontLink codePage="1252" facename="Tahoma" fontSize="10" />
+            <fontLink codePage="-1" facename="Arial Unicode MS"/>
+          </fontMap>
+        </Font>
+      </Value>
+    </TV>
+    <TV name="VeryBigBig" type="rich">
+      <!-- 大字体，加粗 -->
+      <Value>
+        <Font height="12" width="0" weight="400" orientation="0" facename="Tahoma">
+          <fontMap>
+            <fontLink codePage="936" facename="Microsoft YaHei" os="vista"  fontSize="11"/>
+            <fontLink codePage="936" facename="Tahoma" fontSize="11" os="vista" />
+            <fontLink codePage="936" facename="SimSun" fontSize="11" lineSpace="3" />
+            <fontLink codePage="936" facename="Gulim" fontSize="11" />
+            <fontLink codePage="1252" facename="Segoeui" os="vista" fontSize="10" />
+            <fontLink codePage="1252" facename="Tahoma" fontSize="10" />
+            <fontLink codePage="-1" facename="Arial Unicode MS"/>
+          </fontMap>
+        </Font>
+      </Value>
+    </TV>
+    <TV name="Account" type="rich">
+      <!-- 登录帐号字体 -->
+      <Value>
+        <Font height="10" width="0" weight="400" orientation="0" facename="Tahoma">
+          <fontMap>
+            <fontLink codePage="936" facename="Microsoft YaHei" os="vista"  fontSize="10"/>
+            <fontLink codePage="936" facename="Tahoma" fontSize="10" os="vista" />
+            <fontLink codePage="936" facename="SimSun" fontSize="10" lineSpace="3" />
+            <fontLink codePage="936" facename="Gulim" fontSize="10" />
+            <fontLink codePage="1252" facename="Segoeui" os="vista" fontSize="9" />
+            <fontLink codePage="1252" facename="Tahoma" fontSize="9" />
+            <fontLink codePage="-1" facename="Arial Unicode MS"/>
+          </fontMap>
+        </Font>
+      </Value>
+    </TV>
+    <TV name="Password" type="rich">
+      <!-- 密码框的字体，为了纵向居中 -->
+      <Value>
+        <Font height="6">
+        </Font>
+      </Value>
+    </TV>
+    <TV type="rich" name="TitleLink">
+      <Value>
+        <Font height="10" width="0" weight="600" orientation="0" underline="true" facename="Tahoma">
+          <fontMap>
+            <fontLink codePage="936" facename="Microsoft YaHei" os="vista"  fontSize="9"/>
+            <fontLink codePage="936" facename="Tahoma" fontSize="9" />
+            <fontLink codePage="936" facename="SimSun" fontSize="9" lineSpace="3" />
+            <fontLink codePage="936" facename="Gulim" fontSize="9" />
+            <fontLink codePage="1252" facename="Segoeui" os="vista" fontSize="8" />
+            <fontLink codePage="1252" facename="Tahoma" fontSize="8" />
+            <fontLink codePage="-1" facename="Arial Unicode MS"/>
+          </fontMap>
+        </Font>
+
+      </Value>
+    </TV>
+    <TV type="rich" name="BoldLink">
+      <Value>
+        <Font height="9" width="0" weight="600" orientation="0" facename="Tahoma" underline="true">
+          <fontMap>
+            <fontLink codePage="936" facename="Microsoft YaHei" os="vista"  fontSize="9"/>
+            <fontLink codePage="936" facename="Tahoma" fontSize="9" />
+            <fontLink codePage="936" facename="SimSun" fontSize="9" lineSpace="3" />
+            <fontLink codePage="936" facename="Gulim" fontSize="9" />
+            <fontLink codePage="1252" facename="Segoeui" os="vista" fontSize="8" />
+            <fontLink codePage="1252" facename="Tahoma" fontSize="8" />
+            <fontLink codePage="-1" facename="Arial Unicode MS"/>
+          </fontMap>
+        </Font>
+      </Value>
+    </TV>
+    <TV type="rich" name="MailFontBold">
+      <Value>
+        <Font height="11" width="0" weight="600" orientation="0" facename="Tahoma" underline="true">
+          <fontMap>
+            <fontLink codePage="936" facename="Microsoft YaHei" os="vista"  fontSize="11"/>
+            <fontLink codePage="936" facename="Tahoma" fontSize="11" />
+            <fontLink codePage="936" facename="SimSun" fontSize="11" lineSpace="3" />
+            <fontLink codePage="936" facename="Gulim" fontSize="11" />
+            <fontLink codePage="1252" facename="Segoeui" os="vista" fontSize="10" />
+            <fontLink codePage="1252" facename="Tahoma" fontSize="10" />
+            <fontLink codePage="-1" facename="Arial Unicode MS"/>
+          </fontMap>
+        </Font>
+      </Value>
+    </TV>
+    <TV name="BigBold" type="rich">
+      <Value>
+        <Font height="11" width="0" weight="900" orientation="0" facename="Tahoma" underline="false">
+          <fontMap>
+            <fontLink codePage="936" facename="Microsoft YaHei" os="vista"  fontSize="11"/>
+            <fontLink codePage="936" facename="Tahoma" fontSize="11" />
+            <fontLink codePage="936" facename="SimSun" fontSize="11" lineSpace="3" />
+            <fontLink codePage="936" facename="Gulim" fontSize="11" />
+            <fontLink codePage="1252" facename="Segoeui" os="vista" fontSize="10" />
+            <fontLink codePage="1252" facename="Tahoma" fontSize="10" />
+            <fontLink codePage="-1" facename="Arial Unicode MS"/>
+          </fontMap>
+        </Font>
+      </Value>
+    </TV>
+    <TV name="TempFont" type="rich">
+      <Value>
+        <Font height="14" weight="600" facename="Tahoma">
+          <fontMap>
+            <fontLink codePage="936" facename="Microsoft YaHei" os="vista"  fontSize="14"/>
+            <fontLink codePage="936" facename="SimSun" fontSize="14" lineSpace="2"/>
+            <fontLink codePage="936" facename="Tahoma" fontSize="14"/>
+            <fontLink codePage="1252" facename="Segoeui" fontSize="14" lineSpace="-2" os="vista"/>
+            <fontLink codePage="1252" facename="Tahoma" fontSize="14"/>
+            <fontLink codePage="-1" facename="Sylfaen" fontSize="8"/>
+            <fontLink codePage="-1" facename="Arial Unicode MS"/>
+          </fontMap>
+        </Font>
+      </Value>
+    </TV>
+	<TV name="AFABPrmptFont" type="rich">
+		<Value>
+			<Font height="10.5" weight="600" facename="Microsoft YaHei">
+				<fontMap>
+					  <fontLink codePage="936" facename="Microsoft YaHei" os="vista"  fontSize="10.5"/>
+					  <fontLink codePage="936" facename="SimSun" fontSize="10.5" lineSpace="2"/>
+					  <fontLink codePage="936" facename="Tahoma" fontSize="10.5"/>
+					  <fontLink codePage="1252" facename="Segoeui" fontSize="10.5" lineSpace="-2" os="vista"/>
+					  <fontLink codePage="1252" facename="Tahoma" fontSize="10.5"/>
+					  <fontLink codePage="-1" facename="Sylfaen" fontSize="8"/>
+					  <fontLink codePage="-1" facename="Arial Unicode MS"/>
+				</fontMap>
+			</Font>
+		</Value>
+	</TV>
+    <TV name="MailFont" type="rich">
+      <Value>
+        <Font height="9" weight="400" facename="Tahoma">
+          <fontMap>
+            <fontLink codePage="936" facename="Microsoft YaHei" os="vista"  fontSize="9" lineSpace="-2"/>
+            <fontLink codePage="936" facename="SimSun" fontSize="9" lineSpace="2"/>
+            <fontLink codePage="936" facename="Gulim" fontSize="9" lineSpace="-2"/>
+            <fontLink codePage="1252" facename="Segoeui" os="vista" fontSize="8" lineSpace="-2"/>
+            <fontLink codePage="1252" facename="Tahoma" fontSize="8" lineSpace="-2"/>
+            <fontLink codePage="-1" facename="Arial Unicode MS"/>
+          </fontMap>
+        </Font>
+      </Value>
+    </TV>
+    <TV name="MailFontBoldSmall" type="rich">
+      <Value>
+        <Font height="9" weight="600" facename="Tahoma">
+          <fontMap>
+            <fontLink codePage="936" facename="Microsoft YaHei" os="vista"  fontSize="9" lineSpace="-2"/>
+            <fontLink codePage="936" facename="SimSun" fontSize="9" lineSpace="2"/>
+            <fontLink codePage="936" facename="Gulim" fontSize="9" lineSpace="-2"/>
+            <fontLink codePage="1252" facename="Segoeui" os="vista" fontSize="8" lineSpace="-2"/>
+            <fontLink codePage="1252" facename="Tahoma" fontSize="8" lineSpace="-2"/>
+            <fontLink codePage="-1" facename="Arial Unicode MS"/>
+          </fontMap>
+        </Font>
+      </Value>
+    </TV>
+    <TV name="MailFontBold" type="rich">
+      <Value>
+        <Font height="11" weight="600" facename="Tahoma">
+          <fontMap>
+            <fontLink codePage="936" facename="Microsoft YaHei" os="vista"  fontSize="11" lineSpace="-2"/>
+            <fontLink codePage="936" facename="SimSun" fontSize="11" lineSpace="2"/>
+            <fontLink codePage="936" facename="Gulim" fontSize="11" lineSpace="-2"/>
+            <fontLink codePage="1252" facename="Segoeui" os="vista" fontSize="10" lineSpace="-2"/>
+            <fontLink codePage="1252" facename="Tahoma" fontSize="10" lineSpace="-2"/>
+            <fontLink codePage="-1" facename="Arial Unicode MS"/>
+          </fontMap>
+        </Font>
+      </Value>
+    </TV>
+    <TV name="PasswordFont" type="rich">
+      <Value>
+        <Font height="9" weight="400" facename="Tahoma">
+          <fontMap>
+            <fontLink codePage="936" facename="Microsoft YaHei" fontSize="11" os="vista" lineSpace="-2"/>
+            <fontLink codePage="936" facename="SimSun" fontSize="11" lineSpace="2"/>
+            <fontLink codePage="936" facename="Gulim" fontSize="11" lineSpace="-2"/>
+            <fontLink codePage="1252" facename="Segoeui" os="vista" fontSize="10" lineSpace="-2"/>
+            <fontLink codePage="1252" facename="Tahoma" fontSize="10" lineSpace="-2"/>
+            <fontLink codePage="-1" facename="Arial Unicode MS"/>
+          </fontMap>
+        </Font>
+      </Value>
+    </TV>
+    <TV type="rich" name="BoldProfile_NoFontEffect">
+      <Value>
+        <Font height="9" width="0" weight="600" orientation="0" facename="Tahoma">
+          <fontMap>
+            <fontLink codePage="936" facename="Microsoft YaHei" os="vista"  fontSize="9"/>
+            <fontLink codePage="936" facename="Tahoma" fontSize="9" />
+            <fontLink codePage="936" facename="SimSun" fontSize="9" lineSpace="3" />
+            <fontLink codePage="936" facename="Gulim" fontSize="9" />
+            <fontLink codePage="1252" facename="Segoeui" os="vista" fontSize="8" />
+            <fontLink codePage="1252" facename="Tahoma" fontSize="8" />
+            <fontLink codePage="-1" facename="Arial Unicode MS"/>
+          </fontMap>
+        </Font>
+      </Value>
+    </TV>
+	<TV name="QRLoginTips" type="rich">
+      <Value>
+        <Font height="10" width="0" weight="400" orientation="0" facename="Tahoma">
+          <fontMap>
+            <fontLink codePage="936" facename="Microsoft YaHei" os="vista"  fontSize="9"  lineSpace="-2"/>
+            <!--os="vista"-->
+            <fontLink codePage="936" facename="Tahoma" fontSize="9" os="vista" />
+            <fontLink codePage="936" facename="SimSun" fontSize="9" lineSpace="3" />
+            <fontLink codePage="936" facename="Gulim" fontSize="9" />
+            <fontLink codePage="1252" facename="Segoeui" os="vista" fontSize="8" />
+            <fontLink codePage="1252" facename="Tahoma" fontSize="8" />
+            <fontLink codePage="-1" facename="Arial Unicode MS"/>
+          </fontMap>
+        </Font>
+      </Value>
+    </TV>
+    <TV type="rich" name="BoldLinkProfile_NoFontEffect">
+      <Value>
+        <Font height="9" width="0" weight="600" orientation="0" facename="Tahoma" underline="true">
+          <fontMap>
+            <fontLink codePage="936" facename="Microsoft YaHei" os="vista"  fontSize="9"/>
+            <fontLink codePage="936" facename="Tahoma" fontSize="9" />
+            <fontLink codePage="936" facename="SimSun" fontSize="9" lineSpace="3" />
+            <fontLink codePage="936" facename="Gulim" fontSize="9" />
+            <fontLink codePage="1252" facename="Segoeui" os="vista" fontSize="8" />
+            <fontLink codePage="1252" facename="Tahoma" fontSize="8" />
+            <fontLink codePage="-1" facename="Arial Unicode MS"/>
+          </fontMap>
+        </Font>
+      </Value>
+    </TV>
+    <TV type="rich" name="BoldProfile">
+      <Value>
+        <Font height="9" width="0" weight="600" orientation="0" facename="Tahoma" fontEffect="AutoLight">
+          <fontMap>
+            <fontLink codePage="936" facename="Microsoft YaHei" os="vista"  fontSize="9"/>
+            <fontLink codePage="936" facename="Tahoma" fontSize="9" />
+            <fontLink codePage="936" facename="SimSun" fontSize="9" lineSpace="3" />
+            <fontLink codePage="936" facename="Gulim" fontSize="9" />
+            <fontLink codePage="1252" facename="Segoeui" os="vista" fontSize="8" />
+            <fontLink codePage="1252" facename="Tahoma" fontSize="8" />
+            <fontLink codePage="-1" facename="Arial Unicode MS"/>
+          </fontMap>
+        </Font>
+      </Value>
+    </TV>
+    <TV type="rich" name="BoldLinkProfile">
+      <Value>
+        <Font height="9" width="0" weight="600" orientation="0" facename="Tahoma" underline="true" fontEffect="AutoLight">
+          <fontMap>
+            <fontLink codePage="936" facename="Microsoft YaHei" os="vista"  fontSize="9"/>
+            <fontLink codePage="936" facename="Tahoma" fontSize="9" />
+            <fontLink codePage="936" facename="SimSun" fontSize="9" lineSpace="3" />
+            <fontLink codePage="936" facename="Gulim" fontSize="9" />
+            <fontLink codePage="1252" facename="Segoeui" os="vista" fontSize="8" />
+            <fontLink codePage="1252" facename="Tahoma" fontSize="8" />
+            <fontLink codePage="-1" facename="Arial Unicode MS"/>
+          </fontMap>
+        </Font>
+      </Value>
+    </TV>
+    <TV type="rich" name="MsgBoxBoldProfile">
+      <Value>
+        <Font height="9" width="0" weight="600" orientation="0" facename="Tahoma">
+          <fontMap>
+            <fontLink codePage="936" facename="Microsoft YaHei" os="vista"  fontSize="9"/>
+            <fontLink codePage="936" facename="Tahoma" fontSize="9" />
+            <fontLink codePage="936" facename="SimSun" fontSize="9" lineSpace="3" />
+            <fontLink codePage="936" facename="Gulim" fontSize="9" />
+            <fontLink codePage="1252" facename="Segoeui" os="vista" fontSize="8" />
+            <fontLink codePage="1252" facename="Tahoma" fontSize="8" />
+            <fontLink codePage="-1" facename="Arial Unicode MS"/>
+          </fontMap>
+        </Font>
+      </Value>
+    </TV>
+    <TV type="rich" name="MsgBoxBoldLinkProfile">
+      <Value>
+        <Font height="9" width="0" weight="600" orientation="0" facename="Tahoma" underline="true">
+          <fontMap>
+            <fontLink codePage="936" facename="Microsoft YaHei" os="vista"  fontSize="9"/>
+            <fontLink codePage="936" facename="Tahoma" fontSize="9" />
+            <fontLink codePage="936" facename="SimSun" fontSize="9" lineSpace="3" />
+            <fontLink codePage="936" facename="Gulim" fontSize="9" />
+            <fontLink codePage="1252" facename="Segoeui" os="vista" fontSize="8" />
+            <fontLink codePage="1252" facename="Tahoma" fontSize="8" />
+            <fontLink codePage="-1" facename="Arial Unicode MS"/>
+          </fontMap>
+        </Font>
+      </Value>
+    </TV>
+	<TV name="AccProtLink" type="rich">
+      <!-- 普通链接文字字体 -->
+      <Value>
+        <Font height="14" width="0" weight="400" orientation="0" facename="Tahoma">
+          <fontMap>
+            <fontLink codePage="936" facename="Microsoft YaHei" os="vista"  fontSize="9"  lineSpace="-2"/>
+            <fontLink codePage="936" facename="Tahoma" fontSize="10.5" os="vista" />
+            <fontLink codePage="936" facename="SimSun" fontSize="9" lineSpace="3" />
+            <fontLink codePage="936" facename="Gulim" fontSize="9" />
+            <fontLink codePage="1252" facename="Segoeui" os="vista" fontSize="8" />
+            <fontLink codePage="1252" facename="Tahoma" fontSize="8" />
+            <fontLink codePage="-1" facename="Arial Unicode MS"/>
+          </fontMap>
+        </Font>
+      </Value>
+    </TV>
+    <TV name="CollectMFont" type="rich">
+      <!-- 收藏文字字体 -->
+      <Value>
+        <Font height="10.5" width="0" weight="400" orientation="0" facename="Microsoft YaHei">
+          <fontMap>
+            <fontLink codePage="936" facename="Microsoft YaHei" os="vista"  fontSize="10.5" lineSpace="-2"/>
+            <fontLink codePage="936" facename="Tahoma" fontSize="10.5" os="vista" />
+            <fontLink codePage="936" facename="SimSun" fontSize="9" lineSpace="3" />
+            <fontLink codePage="936" facename="Gulim" fontSize="9" />
+            <fontLink codePage="1252" facename="Segoeui" os="vista" fontSize="8" />
+            <fontLink codePage="1252" facename="Tahoma" fontSize="8" />
+            <fontLink codePage="-1" facename="Arial Unicode MS"/>
+          </fontMap>
+        </Font>
+      </Value>
+    </TV>
+    <TV name="CollectVeryBigFont" type="rich">
+      <Value>
+        <Font height="18" weight="400" facename="Tahoma">
+          <fontMap>
+            <fontLink codePage="936" facename="Microsoft YaHei" os="vista" fontSize="18" lineSpace="-2"/>
+            <fontLink codePage="936" facename="SimSun" fontSize="18"/>
+            <fontLink codePage="932" facename="Tahoma" fontSize="18"/>
+            <fontLink codePage="949" facename="Tahoma" fontSize="18"/>
+            <fontLink codePage="1252" facename="Segoeui" os="vista" fontSize="17"/>
+            <fontLink codePage="1252" facename="Tahoma" fontSize="17"/>
+            <fontLink codePage="-1" facename="Arial Unicode MS"/>
+          </fontMap>
+        </Font>
+      </Value>
+    </TV>
+  </TG>
+  <TG name="ContactTipsFont">
+    <TV name="Normal" type="rich">
+      <!--  默认字体  -->
+      <Value>
+        <Font height="9" width="0" weight="400" orientation="0" facename="Tahoma">
+          <fontMap>
+            <fontLink codePage="936" facename="Microsoft YaHei" os="vista"  fontSize="9"/>
+            <fontLink codePage="936" facename="Tahoma" fontSize="9" />
+            <fontLink codePage="936" facename="SimSun" fontSize="9" lineSpace="3" />
+            <fontLink codePage="936" facename="Gulim" fontSize="9" />
+            <fontLink codePage="1252" facename="Segoeui" os="vista" fontSize="8" />
+            <fontLink codePage="1252" facename="Tahoma" fontSize="8" />
+            <fontLink codePage="-1" facename="Arial Unicode MS"/>
+          </fontMap>
+        </Font>
+      </Value>
+    </TV>
+    <TV name="NormalAutoLight" type="rich">
+      <!--  默认AutoLight字体  -->
+      <Value>
+        <Font height="9" weight="400" fontEffect="AutoLight">
+          <fontMap>
+            <fontLink codePage="936" facename="Microsoft YaHei" os="vista" lineSpace="0"/>
+            <fontLink codePage="936" facename="SimSun" lineSpace="2"/>
+            <fontLink codePage="1252" facename="Segoeui" os="vista"/>
+            <fontLink codePage="1252" facename="Tahoma"/>
+            <fontLink codePage="-1" facename="Arial Unicode MS" />
+          </fontMap>
+        </Font>
+      </Value>
+    </TV>
+    <TV name="Title" type="rich">
+      <!--  界面 Title 字体加粗  -->
+      <Value>
+        <Font height="9.5" width="0" weight="600" orientation="0" facename="Tahoma">
+          <fontMap>
+            <fontLink codePage="936" facename="Microsoft YaHei" os="vista"  fontSize="9"/>
+            <fontLink codePage="936" facename="Tahoma" fontSize="9" />
+            <fontLink codePage="936" facename="SimSun" fontSize="9" lineSpace="3" />
+            <fontLink codePage="936" facename="Gulim" fontSize="9" />
+            <fontLink codePage="1252" facename="Segoeui" os="vista" fontSize="8" />
+            <fontLink codePage="1252" facename="Tahoma" fontSize="8" />
+            <fontLink codePage="-1" facename="Arial Unicode MS"/>
+          </fontMap>
+        </Font>
+      </Value>
+    </TV>
+		<TV name="NormalTitle" type="rich">
+			<!-- 界面 Title 字体不加粗 -->
+			<Value>
+              <Font height="12" facename="Tahoma" fontEffect="AutoLight">
+						<fontMap>
+							<fontLink codePage="936" facename="Microsoft YaHei" os="vista" lineSpace="0"/>
+							<fontLink codePage="936" facename="SimSun" lineSpace="2"/>
+							<fontLink codePage="1252" facename="Segoeui" os="vista"/>
+							<fontLink codePage="1252" facename="Verdana"/>
+							<fontLink codePage="-1" facename="Arial Unicode MS" />
+						</fontMap>
+				</Font>
+			</Value>
+		</TV>
+    <TV name="Link" type="rich">
+      <!--  普通链接文字字体   -->
+      <Value>
+        <Font height="9" width="0" weight="400" orientation="0" underline="true" facename="Tahoma">
+          <fontMap>
+            <fontLink codePage="936" facename="Microsoft YaHei" os="vista"  fontSize="9"/>
+            <fontLink codePage="936" facename="Tahoma" fontSize="9" />
+            <fontLink codePage="936" facename="SimSun" fontSize="9" lineSpace="3" />
+            <fontLink codePage="936" facename="Gulim" fontSize="9" />
+            <fontLink codePage="1252" facename="Segoeui" os="vista" fontSize="8" />
+            <fontLink codePage="1252" facename="Tahoma" fontSize="8" />
+            <fontLink codePage="-1" facename="Arial Unicode MS"/>
+          </fontMap>
+        </Font>
+      </Value>
+    </TV>
+    <TV name="Bold" type="rich">
+      <!--  粗体   -->
+      <Value>
+        <Font height="9" width="0" weight="600" orientation="0" facename="Tahoma">
+          <fontMap>
+            <fontLink codePage="936" facename="Microsoft YaHei" os="vista"  fontSize="9"/>
+            <fontLink codePage="936" facename="Tahoma" fontSize="9" />
+            <fontLink codePage="936" facename="SimSun" fontSize="9" lineSpace="3" />
+            <fontLink codePage="936" facename="Gulim" fontSize="9" />
+            <fontLink codePage="1252" facename="Segoeui" os="vista" fontSize="8" />
+            <fontLink codePage="1252" facename="Tahoma" fontSize="8" />
+            <fontLink codePage="-1" facename="Arial Unicode MS"/>
+          </fontMap>
+        </Font>
+      </Value>
+    </TV>
+  </TG>
+  <TG name="WBlogFont">
+    <TV name="WBlogBanerItemBold" type="rich">
+      <Value>
+        <Font height="9">
+          <fontMap>
+            <fontLink codePage="936" facename="Microsoft YaHei" os="vista" lineSpace="0"/>
+            <fontLink codePage="936" facename="SimSun" lineSpace="2"/>
+            <fontLink codePage="1252" facename="Segoeui" os="vista"/>
+            <fontLink codePage="1252" facename="Verdana"/>
+            <fontLink codePage="1252" facename="Tahoma"/>
+            <fontLink codePage="-1" facename="Arial Unicode MS" />
+          </fontMap>
+        </Font>
+      </Value>
+    </TV>
+    <TV name="WBlogLeftCharNumFont" type="rich">
+      <Value>
+        <Font height="12" weight="600" facename="Georgia">
+          <fontMap>
+            <fontLink codePage="936" facename="Georgia" fontSize="12"/>
+            <fontLink codePage="1252" facename="Georgia" fontSize="12"/>
+          </fontMap>
+        </Font>
+      </Value>
+    </TV>
+    <TV name="WBlogGuestInfoFont" type="rich">
+      <Value>
+        <Font height="12" weight="600" facename="Tahoma">
+          <fontMap>
+            <fontLink codePage="936" facename="Microsoft YaHei" os="vista" lineSpace="0"/>
+            <fontLink codePage="936" facename="SimSun" lineSpace="2"/>
+            <fontLink codePage="1252" facename="Segoeui" os="vista"/>
+            <fontLink codePage="1252" facename="Verdana"/>
+            <fontLink codePage="-1" facename="Arial Unicode MS" />
+          </fontMap>
+        </Font>
+      </Value>
+    </TV>
+    <TV name="WBlogGuestInfoSmallFont" type="rich">
+      <Value>
+        <Font height="11" weight="600" facename="Tahoma">
+          <fontMap>
+            <fontLink codePage="936" facename="Microsoft YaHei" os="vista" lineSpace="0"/>
+            <fontLink codePage="936" facename="SimSun" lineSpace="2"/>
+            <fontLink codePage="1252" facename="Segoeui" os="vista"/>
+            <fontLink codePage="1252" facename="Verdana"/>
+            <fontLink codePage="-1" facename="Arial Unicode MS" />
+          </fontMap>
+        </Font>
+      </Value>
+    </TV>
+    <TV name="WBlogGuestInfoCountFont" type="rich">
+      <Value>
+        <Font height="10" weight="600" facename="Tahoma">
+          <fontMap>
+            <fontLink codePage="936" facename="Microsoft YaHei" os="vista" lineSpace="0"/>
+            <fontLink codePage="936" facename="SimSun" lineSpace="2"/>
+            <fontLink codePage="1252" facename="Segoeui" os="vista"/>
+            <fontLink codePage="1252" facename="Verdana"/>
+            <fontLink codePage="-1" facename="Arial Unicode MS" />
+          </fontMap>
+        </Font>
+      </Value>
+    </TV>
+    <TV name="WBlogSendFailureFont" type="rich">
+      <Value>
+        <Font height="9" weight="400" facename="Verdana">
+          <fontMap>
+            <fontLink codePage="936" facename="Microsoft YaHei" os="vista" lineSpace="0"/>
+            <fontLink codePage="936" facename="SimSun" lineSpace="2"/>
+            <fontLink codePage="1252" facename="Segoeui" os="vista"/>
+            <fontLink codePage="1252" facename="Verdana"/>
+            <fontLink codePage="-1" facename="Arial Unicode MS" />
+          </fontMap>
+        </Font>
+      </Value>
+    </TV>
+    <TV name="WBlogNormal" type="rich">
+      <!-- 默认字体 -->
+      <Value>
+        <Font height="9" weight="400">
+          <fontMap>
+            <fontLink codePage="936" facename="Microsoft YaHei" os="vista" lineSpace="0"/>
+            <fontLink codePage="936" facename="SimSun" lineSpace="2"/>
+            <fontLink codePage="1252" facename="Segoeui" os="vista"/>
+            <fontLink codePage="1252" facename="Tahoma"/>
+            <fontLink codePage="-1" facename="Arial Unicode MS" />
+          </fontMap>
+        </Font>
+      </Value>
+    </TV>
+
+    <TV name="WBlogTitle" type="rich">
+      <!-- 界面 Title 字体加粗 -->
+      <Value>
+        <Font height="10" weight="700" fontEffect="AutoLight">
+          <fontMap>
+            <fontLink codePage="936" facename="Microsoft YaHei" os="vista" lineSpace="0"/>
+            <fontLink codePage="936" facename="SimSun" lineSpace="2"/>
+            <fontLink codePage="1252" facename="Segoeui" os="vista"/>
+            <fontLink codePage="1252" facename="Tahoma"/>
+            <fontLink codePage="-1" facename="Arial Unicode MS" />
+          </fontMap>
+        </Font>
+      </Value>
+    </TV>
+    <TV name="WBlogLink" type="rich">
+      <!-- 普通链接文字字体 -->
+      <Value>
+        <Font height="9" underline="true">
+          <fontMap>
+            <fontLink codePage="936" facename="Microsoft YaHei" os="vista" lineSpace="0"/>
+            <fontLink codePage="936" facename="SimSun" lineSpace="2"/>
+            <fontLink codePage="1252" facename="Segoeui" os="vista"/>
+            <fontLink codePage="1252" facename="Tahoma"/>
+            <fontLink codePage="-1" facename="Arial Unicode MS" />
+          </fontMap>
+        </Font>
+      </Value>
+    </TV>
+    <TV name="WBlogBold" type="rich">
+      <!-- 粗体 -->
+      <Value>
+        <Font height="9" weight="700">
+          <fontMap>
+            <fontLink codePage="936" facename="Microsoft YaHei" os="vista" lineSpace="0"/>
+            <fontLink codePage="936" facename="SimSun" lineSpace="2"/>
+            <fontLink codePage="1252" facename="Segoeui" os="vista"/>
+            <fontLink codePage="1252" facename="Tahoma"/>
+            <fontLink codePage="-1" facename="Arial Unicode MS" />
+          </fontMap>
+        </Font>
+      </Value>
+    </TV>
+    <TV name="WBlogBigText" type="rich">
+      <!-- 界面 Title 大字体 -->
+      <Value>
+        <Font height="10" weight="500" fontEffect="AutoLight">
+          <fontMap>
+            <fontLink codePage="936" facename="Microsoft YaHei" os="vista" lineSpace="0"/>
+            <fontLink codePage="936" facename="SimSun" lineSpace="2"/>
+            <fontLink codePage="1252" facename="Segoeui" os="vista"/>
+            <fontLink codePage="1252" facename="Tahoma"/>
+            <fontLink codePage="-1" facename="Arial Unicode MS" />
+          </fontMap>
+        </Font>
+      </Value>
+    </TV>
+    <TV name="WBlogTopicTitle" type="rich">
+      <!-- 粗体 -->
+      <Value>
+        <Font height="10" weight="700">
+          <fontMap>
+            <fontLink codePage="936" facename="Microsoft YaHei" os="vista" lineSpace="0"/>
+            <fontLink codePage="936" facename="SimSun" lineSpace="2"/>
+            <fontLink codePage="1252" facename="Segoeui" os="vista"/>
+            <fontLink codePage="1252" facename="Tahoma"/>
+            <fontLink codePage="-1" facename="Arial Unicode MS" />
+          </fontMap>
+        </Font>
+      </Value>
+    </TV>
+    <TV name="WBlogSafeTitle" type="rich">
+      <!-- 粗体 -->
+      <Value>
+        <Font height="14" weight="1000">
+          <fontMap>
+            <fontLink codePage="936" facename="Microsoft YaHei" os="vista" lineSpace="0"/>
+            <fontLink codePage="936" facename="SimSun" lineSpace="2"/>
+            <fontLink codePage="1252" facename="Segoeui" os="vista"/>
+            <fontLink codePage="1252" facename="Tahoma"/>
+            <fontLink codePage="-1" facename="Arial Unicode MS" />
+          </fontMap>
+        </Font>
+      </Value>
+    </TV>
+    <TV name="WBlogAdPageWording" type="rich">
+      <Value>
+        <Font height="9" weight="400">
+          <fontMap>
+            <fontLink codePage="936" facename="Microsoft YaHei" os="vista" lineSpace="0"/>
+            <fontLink codePage="936" facename="SimSun" lineSpace="2"/>
+            <fontLink codePage="1252" facename="Segoeui" os="vista"/>
+            <fontLink codePage="1252" facename="Tahoma"/>
+            <fontLink codePage="-1" facename="Arial Unicode MS" />
+          </fontMap>
+        </Font>
+      </Value>
+    </TV>
+    <TV name="WBlogNewFansCountFont" type="rich">
+      <Value>
+        <Font height="10" weight="400"  facename="Tahoma" fontEffect="AutoLight">
+          <fontMap>
+            <fontLink codePage="936" facename="Microsoft YaHei" os="vista" lineSpace="0"/>
+            <fontLink codePage="936" facename="SimSun" lineSpace="2"/>
+            <fontLink codePage="1252" facename="Segoeui" os="vista"/>
+            <fontLink codePage="1252" facename="Tahoma"/>
+            <fontLink codePage="-1" facename="Arial Unicode MS" />
+          </fontMap>
+        </Font>
+      </Value>
+    </TV>
+  </TG>
+  <TG name="Finger" comment="查找联系人">
+    <TV name="Times" type="rich">
+      <Value>
+        <Font height="26"  weight="600" facename="Tahoma" >
+          <fontMap>
+            <fontLink codePage="936" facename="Microsoft YaHei" os="vista"  fontSize="26"  lineSpace="-2"/>
+            <!--os="vista"-->
+            <fontLink codePage="936" facename="Tahoma" fontSize="26" os="vista" />
+            <fontLink codePage="936" facename="SimSun" fontSize="26" lineSpace="3" />
+            <fontLink codePage="936" facename="Gulim" fontSize="26" />
+            <fontLink codePage="1252" facename="Segoeui" os="vista" fontSize="26" />
+            <fontLink codePage="1252" facename="Tahoma" fontSize="26" />
+            <fontLink codePage="-1" facename="Arial Unicode MS"/>
+          </fontMap>
+        </Font>
+      </Value>
+    </TV>
+    <TV name="TabMainTitle" type="rich">
+      <Value>
+        <Font height="10" weight="600" facename="Tahoma">
+					<fontMap>
+						<fontLink codePage="936" facename="Microsoft YaHei" os="vista"  fontSize="10"  lineSpace="-2"/>
+						<!--os="vista"-->
+						<fontLink codePage="936" facename="Tahoma" fontSize="10" os="vista" />
+						<fontLink codePage="936" facename="SimSun" fontSize="10" lineSpace="3" />
+						<fontLink codePage="936" facename="Gulim" fontSize="10" />
+						<fontLink codePage="1252" facename="Segoeui" os="vista" fontSize="9" />
+						<fontLink codePage="1252" facename="Tahoma" fontSize="9" />
+						<fontLink codePage="-1" facename="Arial Unicode MS"/>
+					</fontMap>
+				</Font>
+			</Value>
+		</TV>
+		<TV name="TabBigTitle" type="rich">
+			<Value>
+				<Font height="10" width="0" orientation="0" weight="600" facename="Tahoma" fontEffect="AutoLight">
+					<fontMap>
+						<fontLink codePage="936" facename="Microsoft YaHei" os="vista"  fontSize="10"/>
+						<fontLink codePage="936" facename="SimSun" fontSize="10" lineSpace="3" />
+						<fontLink codePage="936" facename="Gulim" fontSize="10" />
+						<fontLink codePage="1252" facename="Segoeui" os="vista" fontSize="9.5" />
+						<fontLink codePage="1252" facename="Tahoma" fontSize="9.5" />
+						<fontLink codePage="-1" facename="Arial Unicode MS"/>
+					</fontMap>
+				</Font>
+			</Value>
+		</TV>
+		<TV name="TabSmallTitle" type="rich">
+			<Value>
+				<Font height="9" width="0" orientation="0" facename="Tahoma" fontEffect="AutoLight">
+					<fontMap>
+						<fontLink codePage="936" facename="Microsoft YaHei" os="vista"  fontSize="10"/>
+						<fontLink codePage="936" facename="SimSun" fontSize="10" lineSpace="3" />
+						<fontLink codePage="936" facename="Gulim" fontSize="10" />
+						<fontLink codePage="1252" facename="Segoeui" os="vista" fontSize="9.5" />
+						<fontLink codePage="1252" facename="Tahoma" fontSize="9.5" />
+						<fontLink codePage="-1" facename="Arial Unicode MS"/>
+					</fontMap>
+				</Font>
+			</Value>
+		</TV>
+  </TG>
+  <TG name="SkinMgrFont" comment="新皮肤">
+    <TV name="SkinTime" type="rich">
+      <Value>
+        <Font height="8" weight="400" facename="Tahoma">
+        </Font>
+      </Value>
+    </TV>
+  </TG>
+  <TG name="ThemeMgr" comment="主题皮肤">
+    <TV name="MainPanelTitle" type="rich">
+      <Value>
+        <Font height="14" weight="200" facename="Tahoma" fontEffect="AutoColor">
+          <fontMap>
+            <fontLink codePage="936" facename="Microsoft YaHei" fontSize="9" os="vista"/>
+            <fontLink codePage="936" facename="STXihei" fontSize="9"/>
+            <fontLink codePage="936" facename="SimSun" fontSize="9"/>
+            <fontLink codePage="1252" facename="Microsoft YaHei" fontSize="8" os="vista"/>
+            <fontLink codePage="1252" facename="STXihei" fontSize="8"/>
+            <fontLink codePage="-1" facename="Tahoma"/>
+          </fontMap>
+        </Font>
+      </Value>
+    </TV>
+    <TV name="AIOProfileTitle" type="rich">
+      <Value>
+        <Font height="13" weight="400" facename="Tahoma" adjustHeight="false">
+          <fontMap>
+            <fontLink codePage="936" facename="Microsoft YaHei" fontSize="20" os="vista"/>
+            <fontLink codePage="936" facename="STXihei" fontSize="20"/>
+            <fontLink codePage="1252" facename="Microsoft YaHei" fontSize="8" os="vista"/>
+            <fontLink codePage="1252" facename="STXihei" fontSize="8"/>
+            <fontLink codePage="-1" facename="Tahoma"/>
+          </fontMap>
+        </Font>
+      </Value>
+    </TV>
+    <TV name="AIOLinkProfileTitle" type="rich">
+      <Value>
+        <Font height="13" weight="400" facename="Tahoma" underline="true" adjustHeight="false">
+          <fontMap>
+            <fontLink codePage="936" facename="Microsoft YaHei" fontSize="9" os="vista"/>
+            <fontLink codePage="936" facename="STXihei" fontSize="9"/>
+            <fontLink codePage="1252" facename="Microsoft YaHei" fontSize="8" os="vista"/>
+            <fontLink codePage="1252" facename="STXihei" fontSize="8"/>
+            <fontLink codePage="-1" facename="Tahoma"/>
+          </fontMap>
+        </Font>
+      </Value>
+    </TV>
+    <TV name="MiniCardTitle" type="rich">
+      <Value>
+        <Font height="15.5" weight="400" facename="Tahoma"  fontEffect="AutoLight">
+          <fontMap>
+            <fontLink codePage="936" facename="Microsoft YaHei" fontSize="24" os="vista"/>
+            <fontLink codePage="936" facename="STXihei" fontSize="24"/>
+            <fontLink codePage="1252" facename="Microsoft YaHei" fontSize="9" os="vista"/>
+            <fontLink codePage="1252" facename="STXihei" fontSize="9"/>
+            <fontLink codePage="-1" facename="Tahoma"/>
+          </fontMap>
+        </Font>
+      </Value>
+    </TV>
+    <TV name="MiniCardLinkTitle" type="rich">
+      <Value>
+        <Font height="15.5" weight="400" facename="Tahoma" underline="true" fontEffect="AutoLight">
+          <fontMap>
+            <fontLink codePage="936" facename="Microsoft YaHei" fontSize="24" os="vista"/>
+            <fontLink codePage="936" facename="STXihei" fontSize="24"/>
+            <fontLink codePage="1252" facename="Microsoft YaHei" fontSize="9" os="vista"/>
+            <fontLink codePage="1252" facename="STXihei" fontSize="9"/>
+            <fontLink codePage="-1" facename="Tahoma"/>
+          </fontMap>
+        </Font>
+      </Value>
+    </TV>
+    <TV name="AIOProfileAlliance" type="rich">
+      <Value>
+        <Font height="9" weight="400" facename="Tahoma">
+          <fontMap>
+            <fontLink codePage="936" facename="Microsoft YaHei" fontSize="5" os="vista"/>
+            <fontLink codePage="936" facename="SimSun" fontSize="5"/>
+            <fontLink codePage="1252" facename="Microsoft YaHei" fontSize="4" os="vista"/>
+            <fontLink codePage="1252" facename="SimSun" fontSize="4"/>
+            <fontLink codePage="-1" facename="Tahoma"/>
+          </fontMap>
+        </Font>
+      </Value>
+    </TV>
+
+    <TV name="AIOLinkProfileAlliance" type="rich">
+      <Value>
+        <Font height="9" weight="400" facename="Tahoma" underline="true">
+          <fontMap>
+            <fontLink codePage="936" facename="Microsoft YaHei" fontSize="5" os="vista"/>
+            <fontLink codePage="936" facename="SimSun" fontSize="5"/>
+            <fontLink codePage="1252" facename="Microsoft YaHei" fontSize="4" os="vista"/>
+            <fontLink codePage="1252" facename="SimSun" fontSize="4"/>
+            <fontLink codePage="-1" facename="Tahoma"/>
+          </fontMap>
+        </Font>
+      </Value>
+    </TV>
+    
+      <TV name="AIOToolBarButton" type="rich">
+          <Value>
+              <Font height="9" width="0" weight="0" facename="Tahoma">
+                  <fontMap>
+				      <fontLink codePage="936" facename="Microsoft YaHei" fontSize="6"/> 
+                      <fontLink codePage="1252" facename="Microsoft YaHei" fontSize="5"/> 
+                      <fontLink codePage="936" facename="Microsoft YaHei" fontSize="6" os="vista"/> 
+                      <fontLink codePage="1252" facename="Microsoft YaHei" fontSize="5" os="vista"/> 
+                  </fontMap>
+              </Font>
+          </Value>
+      </TV>
+  </TG>
+  <TG name="PublicAccControl" comment="公众平台控件">
+    <TV name="Title" type="rich">
+      <Value>
+        <Font height="10" weight="400" facename="Tahoma" >
+          <fontMap>
+            <fontLink codePage="936" facename="Microsoft YaHei" fontSize="9" os="vista"/>
+            <fontLink codePage="936" facename="STXihei" fontSize="9"/>
+            <fontLink codePage="1252" facename="Microsoft YaHei" fontSize="8" os="vista"/>
+            <fontLink codePage="1252" facename="STXihei" fontSize="8"/>
+            <fontLink codePage="-1" facename="Tahoma"/>
+          </fontMap>
+        </Font>
+      </Value>
+    </TV>
+    <TV name="PATitleTwe" type="rich">
+      <Value>
+        <Font height="12" width="0" weight="400" orientation="0" >
+          <fontMap>
+            <fontLink codePage="936" facename="Microsoft YaHei" os="vista"  fontSize="12"/>
+            <fontLink codePage="936" facename="Tahoma" fontSize="12" os="vista" />
+            <fontLink codePage="1252" facename="Segoeui" os="vista" fontSize="11" />
+            <fontLink codePage="1252" facename="Tahoma" fontSize="11" />
+            <fontLink codePage="-1" facename="Arial Unicode MS"/>
+          </fontMap>
+        </Font>
+      </Value>
+    </TV>
+    <TV name="PATitleLinkTwe" type="rich">
+      <Value>
+        <Font height="12" width="0" weight="400" orientation="0" underline="true">
+          <fontMap>
+            <fontLink codePage="936" facename="Microsoft YaHei" os="vista"  fontSize="12"/>
+            <fontLink codePage="936" facename="Tahoma" fontSize="12" os="vista" />
+            <fontLink codePage="1252" facename="Segoeui" os="vista" fontSize="11" />
+            <fontLink codePage="1252" facename="Tahoma" fontSize="11" />
+            <fontLink codePage="-1" facename="Arial Unicode MS"/>
+          </fontMap>
+        </Font>
+      </Value>
+    </TV>
+  </TG>
+
+  <TG name="Rich_TextColor" comment="文本颜色">
+        <TV name="Normal" value="0x333333" type="color" comment="普通文本颜色" />
+        <TV name="Orange" value="0xFF9345" type="color" comment="橘黄色" />
+        <TV name="Yellow" value="0xFF4E00" type="color" comment="浅黄色" />
+        <TV name="Gray"  value="0x9E9E9E" type="color" comment="浅灰色文本颜色" />
+        <TV name="Red" value="0xE70013" type="color" comment="红色文本颜色" />
+
+        <TV name="Title" value="0x333333" type="color" comment="Title颜色" />
+        <TV name="Summary" value="0x9E9E9E" type="color" comment="Summary概要颜色" />
+        <TV name="Price" value="0xE70013" type="color" comment="价格文本颜色" />
+        <TV name="BuddyName" value="0xFF9345" type="color" comment="分享好友昵称颜色" />
+    </TG>
+
+    <TG name="Rich_LinkColor" comment="链接颜色">
+        <TV name="Normal" value="0x333333" type="color" comment="普通链接文本颜色" />
+        <TV name="Heightlight" value="0x1670EB" type="color" comment="Hover链接文本颜色" />
+        <TV name="Pushed" value="0x1670EB" type="color" comment="按下链接文本颜色" />
+    </TG>
+
+    <TG name="Rich_TextFont" comment="文本字体">
+        <TV name="Title" type="rich" comment="Title字体">
+            <Value>
+                <Font height="12">
+                    <fontMap>
+                        <fontLink codepage="936" facename="Microsoft YaHei" fontSize="11" />
+                        <fontLink codepage="936" facename="宋体" fontSize="11" />
+                        <fontLink codepage="1252" facename="Tahoma" fontSize="11" />
+                        <fontLink codepage="-1" facename="Arial Unicode MS" />
+                    </fontMap>
+                </Font>
+            </Value>
+        </TV>
+        <TV name="Summary" type="rich" comment="Summary概要字体">
+            <Value>
+                <Font height="10">
+                    <fontMap>
+                        <fontLink codepage="936" facename="Microsoft YaHei" fontSize="12" />
+                        <fontLink codepage="936" facename="宋体" fontSize="12" />
+                        <fontLink codepage="1252" facename="Tahoma" fontSize="12" />
+                        <fontLink codepage="-1" facename="Arial Unicode MS" />
+                    </fontMap>
+                </Font>
+            </Value>
+        </TV>
+      <TV name="SummaryBig" type="rich" comment="SummaryBig概要字体">
+        <Value>
+          <Font height="12">
+            <fontMap>
+              <fontLink codepage="936" facename="Microsoft YaHei" fontSize="14" />
+              <fontLink codepage="936" facename="宋体" fontSize="14" />
+              <fontLink codepage="1252" facename="Tahoma" fontSize="14" />
+              <fontLink codepage="-1" facename="Arial Unicode MS" />
+            </fontMap>
+          </Font>
+        </Value>
+      </TV>
+        <TV name="Normal" type="rich" comment="普通文本字体">
+            <Value>
+                <Font height="10">
+                    <fontMap>
+                        <fontLink codepage="936" facename="Microsoft YaHei" fontSize="12" />
+                        <fontLink codepage="936" facename="宋体" fontSize="12" />
+                        <fontLink codepage="1252" facename="Tahoma" fontSize="12" />
+                        <fontLink codepage="-1" facename="Arial Unicode MS" />
+                    </fontMap>
+                </Font>
+            </Value>
+        </TV>
+        <TV name="Price" type="rich" comment="价格文本字体">
+            <Value>
+                <Font height="16" weight="500">
+                    <fontMap>
+                        <fontLink codepage="936" facename="Microsoft YaHei" fontSize="14" />
+                        <fontLink codepage="936" facename="宋体" fontSize="14" />
+                        <fontLink codepage="1252" facename="Tahoma" fontSize="14" />
+                        <fontLink codepage="-1" facename="Arial Unicode MS" />
+                    </fontMap>
+                </Font>
+            </Value>
+        </TV>
+        <TV name="Price_Symbol" type="rich" comment="价格符号文本字体">
+            <Value>
+                <Font height="12" weight="700" >
+                    <fontMap>
+                        <fontLink codepage="936" facename="Microsoft YaHei" fontSize="12" />
+                        <fontLink codepage="936" facename="宋体" fontSize="14" />
+                        <fontLink codepage="1252" facename="Tahoma" fontSize="14" />
+                        <fontLink codepage="-1" facename="Arial Unicode MS" />
+                    </fontMap>
+                </Font>
+            </Value>
+        </TV>
+        <TV name="Price_Unite" type="rich" comment="价格单位文本字体">
+            <Value>
+                <Font height="10" weight="600" >
+                    <fontMap>
+                        <fontLink codepage="936" facename="Microsoft YaHei" fontSize="10" />
+                        <fontLink codepage="936" facename="宋体" fontSize="14" />
+                        <fontLink codepage="1252" facename="Tahoma" fontSize="14" />
+                        <fontLink codepage="-1" facename="Arial Unicode MS" />
+                    </fontMap>
+                </Font>
+            </Value>
+        </TV>
+    </TG>
+  <TG name="FaceStore">
+    <TV name="Expire_Big" type="rich">
+      <Value>
+        <Font height="14" weight="400" facename="Microsoft YaHei">
+          <fontMap>
+            <fontLink codePage="936" facename="Microsoft YaHei" fontSize="10" os="vista"/>
+            <fontLink codePage="936" facename="STXihei" fontSize="10"/>
+            <fontLink codePage="936" facename="SimSun" fontSize="10"/>
+            <fontLink codePage="1252" facename="Microsoft YaHei" fontSize="10" os="vista"/>
+            <fontLink codePage="1252" facename="STXihei" fontSize="10"/>
+            <fontLink codePage="-1" facename="Tahoma"/>
+          </fontMap>
+        </Font>
+      </Value>
+    </TV>
+    <TV name="Expire_Small" type="rich">
+      <Value>
+        <Font height="11" weight="400" facename="Microsoft YaHei">
+          <fontMap>
+            <fontLink codePage="936" facename="Microsoft YaHei" fontSize="7" os="vista"/>
+            <fontLink codePage="936" facename="STXihei" fontSize="7"/>
+            <fontLink codePage="936" facename="SimSun" fontSize="7"/>
+            <fontLink codePage="1252" facename="Microsoft YaHei" fontSize="7" os="vista"/>
+            <fontLink codePage="1252" facename="STXihei" fontSize="7"/>
+            <fontLink codePage="-1" facename="Tahoma"/>
+          </fontMap>
+        </Font>
+      </Value>
+    </TV>
+  </TG>
+  <TG name="ToolbarFont">
+    <TV name="Normal" type="rich">
+      <Value>
+        <Font height="9" facename="Microsoft YaHei"/>
+      </Value>
+    </TV>
+  </TG>
+  <TG name="LoginTip" comment="登陆Tips">
+    <TV name="Text" type="rich">
+      <Value>
+        <Font height="11" weight="200" facename="Tahoma">
+          <fontMap>
+            <fontLink codePage="936" facename="Microsoft YaHei" fontSize="9" os="vista"/>
+            <fontLink codePage="936" facename="STXihei" fontSize="9"/>
+            <fontLink codePage="936" facename="SimSun" fontSize="9"/>
+            <fontLink codePage="1252" facename="Microsoft YaHei" fontSize="8" os="vista"/>
+            <fontLink codePage="1252" facename="STXihei" fontSize="8"/>
+            <fontLink codePage="-1" facename="Tahoma"/>
+          </fontMap>
+        </Font>
+      </Value>
+    </TV>
+    <TV name="BigText" type="rich">
+      <Value>
+        <Font height="11" weight="200" facename="Tahoma" >
+          <fontMap>
+            <fontLink codePage="936" facename="Microsoft YaHei" fontSize="9" os="vista"/>
+            <fontLink codePage="936" facename="STXihei" fontSize="9"/>
+            <fontLink codePage="936" facename="SimSun" fontSize="9"/>
+            <fontLink codePage="1252" facename="Microsoft YaHei" fontSize="8" os="vista"/>
+            <fontLink codePage="1252" facename="STXihei" fontSize="8"/>
+            <fontLink codePage="-1" facename="Tahoma"/>
+          </fontMap>
+        </Font>
+      </Value>
+    </TV>
+	<TV name="GreetingText" type="rich">
+      <Value>
+        <Font height="17" weight="200" facename="Tahoma" >
+          <fontMap>
+            <fontLink codePage="936" facename="Microsoft YaHei" fontSize="9" os="vista"/>
+            <fontLink codePage="936" facename="STXihei" fontSize="9"/>
+            <fontLink codePage="936" facename="SimSun" fontSize="9"/>
+            <fontLink codePage="1252" facename="Microsoft YaHei" fontSize="8" os="vista"/>
+            <fontLink codePage="1252" facename="STXihei" fontSize="8"/>
+            <fontLink codePage="-1" facename="Tahoma"/>
+          </fontMap>
+        </Font>
+      </Value>
+    </TV>
+  </TG>
+  <TG name="GBKPopTip_font" comment="GBKPopupTips">
+    <TV name="Title" type="rich">
+      <Value>
+        <Font height="12" weight="500" facename="Tahoma">
+          <fontMap>
+            <fontLink codePage="936" facename="Microsoft YaHei" fontSize="9" os="vista"/>
+            <fontLink codePage="936" facename="STXihei" fontSize="9"/>
+            <fontLink codePage="936" facename="SimSun" fontSize="9"/>
+            <fontLink codePage="1252" facename="Microsoft YaHei" fontSize="8" os="vista"/>
+            <fontLink codePage="1252" facename="STXihei" fontSize="8"/>
+            <fontLink codePage="-1" facename="Tahoma"/>
+          </fontMap>
+        </Font>
+      </Value>
+    </TV>
+    <TV name="Text" type="rich">
+      <Value>
+        <Font height="9" weight="200" facename="Tahoma">
+          <fontMap>
+            <fontLink codePage="936" facename="Microsoft YaHei" fontSize="9" os="vista"/>
+            <fontLink codePage="936" facename="STXihei" fontSize="9"/>
+            <fontLink codePage="936" facename="SimSun" fontSize="9"/>
+            <fontLink codePage="1252" facename="Microsoft YaHei" fontSize="8" os="vista"/>
+            <fontLink codePage="1252" facename="STXihei" fontSize="8"/>
+            <fontLink codePage="-1" facename="Tahoma"/>
+          </fontMap>
+        </Font>
+      </Value>
+    </TV>
+    <TV name="BigText" type="rich">
+      <Value>
+        <Font height="12" weight="500" facename="Tahoma">
+          <fontMap>
+            <fontLink codePage="936" facename="Microsoft YaHei" fontSize="9" os="vista"/>
+            <fontLink codePage="936" facename="STXihei" fontSize="9"/>
+            <fontLink codePage="936" facename="SimSun" fontSize="9"/>
+            <fontLink codePage="1252" facename="Microsoft YaHei" fontSize="8" os="vista"/>
+            <fontLink codePage="1252" facename="STXihei" fontSize="8"/>
+            <fontLink codePage="-1" facename="Tahoma"/>
+          </fontMap>
+        </Font>
+      </Value>
+    </TV>
+  </TG>
+  <TG name="GBKPopTip_color">
+    <TV name="Title" value="0x333333" type="color"/>
+    <TV name="Text" value="0x8c8c8c" type="color"/>
+    <TV name="BigText" value="0xffffff" type="color"/>
+  </TG>
+</Theme>

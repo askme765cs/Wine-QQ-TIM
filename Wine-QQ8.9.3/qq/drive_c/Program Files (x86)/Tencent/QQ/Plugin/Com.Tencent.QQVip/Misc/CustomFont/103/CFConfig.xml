@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>  
+      <CFConfigInfo Ver = "1" UpdateSign = "1" CFID = "9" CFName = "卡片字体" CFPreviewName = "2013_Preview" CF_Cx = "30" CF_Cy = "33" CFType = "Tpye_Normal"/>                                                                 
+      <CFBackgroundList nFrame = "1" nElapse = "700" CycNum = "5">
+          <Frame Pic0 = "01.png" Pic1 = "02.png" Pic2 = "03.png" Pic3 = "04.png" Pic4 = "05.png"/>
+      </CFBackgroundList>
+      <CFList nFrame = "1"  nElapse = "700" CycNum = "1" CycPos = "1">
+          <Frame FontType = "微软雅黑" CFSize = "12" IsBold = "1" CFPostion0 = "7_7" COLORREF0 = "ffffff" />
+      </CFList>
+</root>

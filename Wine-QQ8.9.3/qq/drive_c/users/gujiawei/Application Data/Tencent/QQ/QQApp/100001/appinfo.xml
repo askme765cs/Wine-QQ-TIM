@@ -1,0 +1,8 @@
+﻿<ArkApp>
+  <id>100001</id>
+  <app_text>便签</app_text>
+  <app_tips>QQ桌面便签</app_tips>
+  <app_desc>轻松记录点点滴滴</app_desc>
+  <clk_report_id>0x8001ba7</clk_report_id>
+  <fav_report_id>0x8001ba8</fav_report_id>
+</ArkApp>
