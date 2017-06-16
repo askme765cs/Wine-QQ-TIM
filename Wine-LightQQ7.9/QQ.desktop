@@ -10,7 +10,7 @@ Icon=/opt/QQLight7.9/qq.png
 #指定QQ图标文件
 MimeType=
 Name[zh_CN]=腾讯QQ轻聊版
-Name=QQ
+Name=QQLight
 Path=
 StartupNotify=true
 Terminal=false
