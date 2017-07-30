@@ -1,5 +1,7 @@
 **Wine-QQ**
 --------------------
+
+[![Join the chat at https://gitter.im/Wine-QQ/Lobby](https://badges.gitter.im/Wine-QQ/Lobby.svg)](https://gitter.im/Wine-QQ/Lobby?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 ——*让在linux上运行QQ不再是繁琐，而是享受*
 </br>
 </br>
