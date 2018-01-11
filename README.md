@@ -4,8 +4,6 @@
 
 ### 下载地址
 
-下载密码：gamux
-
 - Wine-QQ:http://yun.tzmm.com.cn/index.php/s/XRbfi6aOIjv5gwj
 - Wine-TIM:http://yun.tzmm.com.cn/index.php/s/5hJNzt2VR9aIEF2
 
@@ -54,8 +52,6 @@ Appimage的中文版开发文档也已完成翻译上线，欢迎有兴趣的开
 Just download it, click to use now!
 
 ## Download it here!
-
-password:gamux
 
 - Wine-QQ:http://yun.tzmm.com.cn/index.php/s/XRbfi6aOIjv5gwj
 - Wine-TIM:http://yun.tzmm.com.cn/index.php/s/5hJNzt2VR9aIEF2
