@@ -46,6 +46,7 @@ Appimage的中文版开发文档也已完成翻译上线，欢迎有兴趣的开
 - Appimage中文论坛 https://bbs.appimage.cn/
 - Gamux官方QQ群 274328087
 - 邮箱 askme765cs@yahoo.com
+- Gitter讨论组 https://gitter.im/Wine-QQ/Lobby
 
 ## We are proud to release the Appimage version of wine-QQ and wine-TIM
 
@@ -94,3 +95,4 @@ Appimage Chinese version of the development document has also been completed tra
 - Appimage Chinese Forum https://bbs.appimage.cn/
 - Gamux official QQ group 274328087
 - E-mail askme765cs@yahoo.com
+- Gitter https://gitter.im/Wine-QQ/Lobby
