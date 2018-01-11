@@ -30,7 +30,7 @@ Gamux="Game"+"Linux",一个关于Linux游戏的社区。社区的理念是通过
 
 Appimage是由probonopd先生开发与发布的新一代应用分发格式。Appimage的发布为linux下软件分发提供一个绝佳的新思路，下载一个应用程序，给予运行权限，双击运行！无需安装！不需要改变依赖或系统配置。
 
-号召大家去为Appimage的官方项目https://github.com/AppImage/AppImageKit加星以支持这个开创性的项目以及表示对项目开发者@probonopd的支持！
+号召大家去为Appimage的官方项目https://github.com/AppImage/AppImageKit 加星以支持这个开创性的项目以及表示对项目开发者@probonopd的支持！
 
 ### 欢迎加入Appimage本地化工作
 
@@ -53,8 +53,8 @@ Just download it, click to use now!
 
 ## Download it here!
 
-- Wine-QQ:http://yun.tzmm.com.cn/index.php/s/XRbfi6aOIjv5gwj
-- Wine-TIM:http://yun.tzmm.com.cn/index.php/s/5hJNzt2VR9aIEF2
+- Wine-QQ: http://yun.tzmm.com.cn/index.php/s/XRbfi6aOIjv5gwj
+- Wine-TIM: http://yun.tzmm.com.cn/index.php/s/5hJNzt2VR9aIEF2
 
 ### Advantages:
 
