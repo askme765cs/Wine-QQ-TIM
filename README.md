@@ -2,6 +2,14 @@
 
 现在您只需下载完成，点击即刻使用！
 
+### 下载地址
+
+下载密码：gamux
+
+- Wine-QQ:http://yun.tzmm.com.cn/index.php/s/XRbfi6aOIjv5gwj
+- Wine-TIM:http://yun.tzmm.com.cn/index.php/s/5hJNzt2VR9aIEF2
+
+
 ### 相比与以前的版本，它有如下优点：
 
 1. 点击即用，无需多余步骤。自带wine配置文件与中文字体，您甚至不需要在系统中安装wine或多余的中文字体即可运行
@@ -44,6 +52,13 @@ Appimage的中文版开发文档也已完成翻译上线，欢迎有兴趣的开
 ## We are proud to release the Appimage version of wine-QQ and wine-TIM
 
 Just download it, click to use now!
+
+## Download it here!
+
+password:gamux
+
+- Wine-QQ:http://yun.tzmm.com.cn/index.php/s/XRbfi6aOIjv5gwj
+- Wine-TIM:http://yun.tzmm.com.cn/index.php/s/5hJNzt2VR9aIEF2
 
 ### Advantages:
 
