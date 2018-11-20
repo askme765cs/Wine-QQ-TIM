@@ -13,6 +13,8 @@
 1. 点击即用，无需多余步骤。自带wine配置文件与中文字体，您甚至不需要在系统中安装wine或多余的中文字体即可运行
 2. 更小的体积。得益于Appimage的高压缩率与运行时挂载的独特技术优势，现在软件的大小可以缩小到200兆左右（即便是在现在自带运行环境的情况下）
 3. 更好的兼容性。一个Appimage文件包含了wine的应用程式与所需的所有系统lib库，真正地剥离了对系统环境的依赖，您不用再担心wine版本与配置的影响
+  
+  **注意:** 很遗憾，目前AppImage-QQ和TIM并不支持32位Linux操作系统。如果需要的话，您可以在Github上寻找其他支持源。  
 
 ### 欢迎反馈与建议
 
@@ -65,6 +67,7 @@ Just download it, click to use now!
 2. Smaller size Thanks to Appimage's high compression ratio and the unique technical advantages of runtime mounting, the size of software can now be reduced to around 200M (even in today's version with needed wine environments)
 3. Better compatibility. An Appimage file contains the wine application and all the required system lib libraries that really strip the dependencies on the system environment and you no longer have to worry about the effects of the wine version and system configuration
 
+**Warning:** Wine-QQ and TIM DO NOT support 32-bit Linux.Please search for other package providers if need.
 ### Welcome feedback and suggestions
 
 Running such a complex but widely-used windows program under linux is not an easy task, a lot of time is devoted to getting rid of so many problems, so it's not perfect now and needs you to come to us Feedback, and work together to find solutions to improve it. You are welcome to use the timely feedback on the problems appear, if you have to solve the problem of the program or program to improve the proposal, welcome to contact us.
