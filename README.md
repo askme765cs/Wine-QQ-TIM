@@ -24,7 +24,7 @@
 
 probonopd先生完成了开创性的工作——完成了Wine-QQ的第一个Appimage版本，并且解决了将QQ使用Appimage发布所要解决的核心问题，搭建了基本框架（我们之后的工作包括Wine-TIM的诞生都是基于这一个框架)。
 
-Gamux="Game"+"Linux",一个关于Linux游戏的社区。社区的理念是通过推出更多的游戏来在中国传播Linux和开源。 他们已经探索了四年多，积攒了许多的经验。 AppImage给Linux下应用发布带来的变革与他们的理念不谋而合，所以积极地投入到Appimage的本地化的工作中。Gamux社区完成了Wine-TIM appimage的制作，并将完成WIne-QQ与Wine-TIM后续支持工作。
+Gamux="Game"+"Linux",一个关于Linux游戏的社区。社区的理念是通过推出更多的游戏来在中国传播Linux和开源。 他们已经探索了四年多，积攒了许多的经验。 AppImage给Linux下应用发布带来的变革与他们的理念不谋而合，所以积极地投入到Appimage的本地化的工作中。Gamux社区完成了Wine-TIM appimage的制作，并将完成Wine-QQ与Wine-TIM后续支持工作。
 
 在开发过程中，我们向deepin的开发者咨询了一些技术问题，他们的建议也为我们提供了不少开发灵感。感谢深度社区与开发者提供的帮助。
 
@@ -75,7 +75,7 @@ Special thanks to @probonopd, the creator of Appimage who have been very active 
 
 Mr. Probonopd completed his groundbreaking work - completing the first Appimage version of Wine-QQ and resolving the core issues to be addressed when using Appimage for QQ and building a basic framework (our later work includes Wine-TIM Birth are based on this framework).
 
-Gamux = "Game" + "Linux", a community about Linux games. The community's philosophy is to spread Linux and open source in China by introducing more games. They have explored more than four years and accumulated a lot of experience. AppImage to Linux under the application of the changes brought about coincide with their philosophy, so actively involved in the localization of Appimage's work. The Gamux community has completed the production of Wine-TIM appimage and will complete follow-up support for WIne-QQ and Wine-TIM.
+Gamux = "Game" + "Linux", a community about Linux games. The community's philosophy is to spread Linux and open source in China by introducing more games. They have explored more than four years and accumulated a lot of experience. AppImage to Linux under the application of the changes brought about coincide with their philosophy, so actively involved in the localization of Appimage's work. The Gamux community has completed the production of Wine-TIM appimage and will complete follow-up support for Wine-QQ and Wine-TIM.
 
 During development, we consulted with deepin (https://www.deepin.org/) developers for some technical issues, and their suggestions provided us with a lot of inspiration for development. Thanks to the help of deepin communities and developers.
 
